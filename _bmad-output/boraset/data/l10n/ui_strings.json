@@ -1,0 +1,116 @@
+{
+  "$schema": "boraset.ui_strings.v1",
+  "notes": [
+    "Rótulos de seção do popup de ajuda. Uma vez por idioma — nunca repetidos por tópico."
+  ],
+  "help_section_labels": {
+    "pt-BR": {
+      "what": "O que é",
+      "how": "Como executar",
+      "when": "Quando usar",
+      "mistake": "Erro comum"
+    },
+    "en": {
+      "what": "What it is",
+      "how": "How to do it",
+      "when": "When to use it",
+      "mistake": "Common mistake"
+    },
+    "es": {
+      "what": "Qué es",
+      "how": "Cómo ejecutarlo",
+      "when": "Cuándo usarlo",
+      "mistake": "Error común"
+    },
+    "fr": {
+      "what": "Ce que c'est",
+      "how": "Comment l'exécuter",
+      "when": "Quand l'utiliser",
+      "mistake": "Erreur fréquente"
+    },
+    "de": {
+      "what": "Was es ist",
+      "how": "So führst du es aus",
+      "when": "Wann einsetzen",
+      "mistake": "Häufiger Fehler"
+    },
+    "it": {
+      "what": "Che cos'è",
+      "how": "Come eseguirlo",
+      "when": "Quando usarlo",
+      "mistake": "Errore comune"
+    },
+    "nl": {
+      "what": "Wat het is",
+      "how": "Zo voer je het uit",
+      "when": "Wanneer gebruiken",
+      "mistake": "Veelgemaakte fout"
+    },
+    "pl": {
+      "what": "Co to jest",
+      "how": "Jak wykonać",
+      "when": "Kiedy stosować",
+      "mistake": "Częsty błąd"
+    },
+    "tr": {
+      "what": "Nedir",
+      "how": "Nasıl yapılır",
+      "when": "Ne zaman kullanılır",
+      "mistake": "Sık yapılan hata"
+    },
+    "id": {
+      "what": "Apa itu",
+      "how": "Cara melakukan",
+      "when": "Kapan dipakai",
+      "mistake": "Kesalahan umum"
+    },
+    "vi": {
+      "what": "Là gì",
+      "how": "Cách thực hiện",
+      "when": "Khi nào dùng",
+      "mistake": "Lỗi thường gặp"
+    },
+    "ru": {
+      "what": "Что это",
+      "how": "Как выполнять",
+      "when": "Когда применять",
+      "mistake": "Частая ошибка"
+    },
+    "ja": {
+      "what": "どんな技術か",
+      "how": "やり方",
+      "when": "使いどころ",
+      "mistake": "よくあるミス"
+    },
+    "ko": {
+      "what": "무엇인가",
+      "how": "실행 방법",
+      "when": "언제 사용하나",
+      "mistake": "흔한 실수"
+    },
+    "zh-Hans": {
+      "what": "这是什么",
+      "how": "如何执行",
+      "when": "何时使用",
+      "mistake": "常见错误"
+    },
+    "hi": {
+      "what": "यह क्या है",
+      "how": "कैसे करें",
+      "when": "कब इस्तेमाल करें",
+      "mistake": "आम गलती"
+    },
+    "ar": {
+      "what": "ما هي",
+      "how": "كيف تُنفَّذ",
+      "when": "متى تُستخدم",
+      "mistake": "خطأ شائع"
+    },
+    "th": {
+      "what": "คืออะไร",
+      "how": "ทำอย่างไร",
+      "when": "ใช้เมื่อไร",
+      "mistake": "ข้อผิดพลาดที่พบบ่อย"
+    }
+  }
+}

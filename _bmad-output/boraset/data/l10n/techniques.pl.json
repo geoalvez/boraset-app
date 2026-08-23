@@ -10,241 +10,428 @@
       "name": "Szczytowy Skurcz",
       "aliases": [],
       "summary": "Zatrzymaj się na 1-2s w punkcie największego skurczu każdego powtórzenia, napinając mięsień.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Krótka, aktywna pauza w punkcie największego skrócenia mięśnia.",
+        "how": "Podnieś normalnie, zatrzymaj się na 1-2 sekundy napinając mięsień docelowy, potem opuść pod kontrolą.",
+        "when": "Ćwiczenia izolowane i maszyny, gdzie wyraźnie czuć mięsień docelowy.",
+        "mistake": "Robienie pauzy ciałem zamiast mięśniem. Jeśli blokujesz staw i odpoczywasz, technika przepadła.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Piramida Rosnąca",
       "aliases": [],
       "summary": "W każdej serii większy ciężar i mniej powtórzeń. Zaczynasz lekko, kończysz ciężko.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ciężar rośnie seria po serii, a powtórzenia spadają.",
+        "how": "Przykład: 15 → 12 → 10 → 8 powtórzeń, dokładając ciężar przy każdej zmianie. Ostatnia seria jest najcięższa.",
+        "when": "W pierwszym ćwiczeniu na daną partię, żeby bezpiecznie dojść do ciężkiego.",
+        "mistake": "Dokładanie ciężaru zbyt wcześnie i dotarcie pustym do serii, która naprawdę się liczyła.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Upadek Koncentryczny",
       "aliases": [],
       "summary": "Powtarzaj, aż nie zdołasz sam podnieść ciężaru. Kończysz, gdy faza unoszenia zawodzi.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Moment, w którym nie kończysz już powtórzenia z dobrą techniką.",
+        "how": "Idź do powtórzenia, które zablokuje się przy wypychaniu. Tam seria się kończy — nie forsuj zamachem.",
+        "when": "W ostatniej serii ćwiczenia albo gdy plan wyraźnie tego wymaga.",
+        "mistake": "Mylenie upadku z dyskomfortem. Upadek jest mechaniczny: ciężar przestaje się ruszać.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "Bez Ustalonych Powtórzeń",
       "aliases": [],
       "summary": "Brak sztywnej liczby powtórzeń. Zrób tyle, ile dasz radę technicznie, w zadanym wysiłku.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Plan podaje serie i przerwę, ale zostawia liczbę powtórzeń otwartą.",
+        "how": "Pracuj do wymaganego poziomu wysiłku, zwykle blisko upadku, bez liczenia celu.",
+        "when": "Kiedy chodzi o wysiłek, a nie o dokładną objętość.",
+        "mistake": "Traktowanie tego jak \"rób ile chcesz\". Kryterium zakończenia nadal istnieje, po prostu nie jest liczbą.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop Set",
       "aliases": [],
       "summary": "Dojdź do upadku, natychmiast zdejmij 20-30% ciężaru i kontynuuj bez przerwy.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Przedłużenie serii: zdejmujesz ciężar i lecisz dalej, bez przerwy.",
+        "how": "Upadek? Zdejmij 20-30% ciężaru w kilka sekund i kontynuuj aż do kolejnego upadku.",
+        "when": "W ostatniej serii ćwiczenia. Maszyny i wyciągi są najwygodniejsze.",
+        "mistake": "Zbyt długa zmiana ciężaru — powyżej ~10 sekund to już nowa seria, nie drop.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "Rest-pause w jednej rundzie: upadek, ~15s przerwy, jeszcze jeden blok z tym samym ciężarem.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "To rest-pause wykonany jeden raz zamiast standardowych trzech rund.",
+        "how": "Idź do upadku. Odpocznij około 15 sekund nie wychodząc z pozycji. Zrób jeszcze jeden blok tym samym ciężarem.",
+        "when": "Kiedy plan chce intensywności rest-pause bez kosztu regeneracji trzech rund.",
+        "mistake": "Rozciąganie przerwy. Powyżej ~20 sekund to już nowa seria.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Powtórzenia w Zapasie",
       "aliases": [],
       "summary": "Kończ, gdy zostaje jeszcze 1-3 powtórzenia w zapasie. Nie idź do upadku.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Świadomy hamulec: kończysz serię przed upadkiem.",
+        "how": "Jeśli na koniec czułeś, że dałbyś jeszcze dwa, zostawiłeś dwa w zapasie. To jest cel.",
+        "when": "W większości serii sesji objętościowej, żeby zbierać pracę bez wypalania się.",
+        "mistake": "Przecenianie zapasu. Większość ludzi jest bliżej upadku, niż im się wydaje.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster",
       "aliases": [],
       "summary": "Podziel serię na krótkie bloki z 10-20s przerwy między nimi, przy dużym ciężarze.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Seria pocięta na mini-bloki z zaplanowanymi mikroprzerwami.",
+        "how": "Przykład: 3 powtórzenia, 15s pauzy, 3, 15s, 3. Liczy się jako jedna seria.",
+        "when": "Kiedy chcesz objętości przy dużym ciężarze bez utraty techniki.",
+        "mistake": "Rozciąganie przerw, aż zrobią się z tego trzy zwykłe serie.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
       "aliases": [],
       "summary": "Bez pauzy między powtórzeniami i bez przerwy do końca serii. Ruch ciągły.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ciągłe napięcie: mięsień nie odpoczywa w żadnym punkcie ruchu.",
+        "how": "Nie blokuj u góry i nie rozluźniaj na dole. W górę i w dół bez zatrzymania.",
+        "when": "Izolacja, maszyny i wykończenia. Bardzo częste na pośladkach, łydkach i brzuchu.",
+        "mistake": "Skracanie zakresu ruchu, żeby utrzymać tempo.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Idź do upadku, odpocznij 10-20s, wróć z tym samym ciężarem. Powtórz 2 lub 3 razy.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kilka rund upadku rozdzielonych bardzo krótkimi przerwami, bez zmiany ciężaru.",
+        "how": "Upadek → 10-20s → kolejne powtórzenia do upadku → 10-20s → ostatnia runda.",
+        "when": "Ostatnia seria ćwiczenia, gdy chcesz intensywności bez dokładania ciężaru.",
+        "mistake": "Zamiana krótkiej przerwy w pełny odpoczynek, co robi z tego po prostu trzy osobne serie.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Progresywne Napięcie",
       "aliases": [],
       "summary": "Zwiększaj wymagania w każdej serii - ciężar, czas napięcia lub zakres - bez utraty techniki.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Progresja wewnątrz samej sesji: każda seria wymaga trochę więcej niż poprzednia.",
+        "how": "Rosnąć może ciężar, tempo lub zakres. Decyduje plan albo trener.",
+        "when": "Kiedy chcesz rosnącego bodźca bez upadku już w pierwszej serii.",
+        "mistake": "Podniesienie wymagań i upuszczenie techniki razem z nimi.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "Metoda 3/7",
       "aliases": [],
       "summary": "Pięć bloków po 3, 4, 5, 6 i 7 powtórzeń z ~15s przerwy, ten sam ciężar od początku do końca.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Metoda rosnących bloków z bardzo krótkimi przerwami, liczona jako jedno ćwiczenie.",
+        "how": "3 → 15s → 4 → 15s → 5 → 15s → 6 → 15s → 7. Ten sam ciężar od początku do końca.",
+        "when": "Kiedy szukasz dużej kumulacji zmęczenia przy umiarkowanym ciężarze.",
+        "mistake": "Wybór zbyt ciężkiego obciążenia i niedokończenie ostatnich bloków.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Wolna Faza Ekscentryczna",
       "aliases": [],
       "summary": "Opuszczaj ciężar powoli (3-5s) i unoś w normalnym tempie. Liczy się opuszczanie.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nacisk na fazę, w której mięsień wydłuża się pod obciążeniem.",
+        "how": "Licz 3 do 5 sekund w dół. W górę normalnie i pod kontrolą.",
+        "when": "Kiedy chcesz mocnego bodźca bez dużego ciężaru albo poprawiasz kontrolę ruchu.",
+        "mistake": "Liczenie zbyt szybko. Zmierz to stoperem pierwsze kilka razy.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip Set",
       "aliases": [],
       "summary": "Kilka dropów pod rząd: upadek, zdejmij, znów upadek, znów zdejmij, aż zabraknie ciężaru.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Połączony drop set, z trzema lub więcej redukcjami pod rząd.",
+        "how": "Upadek, zdejmujesz ciężar, jedziesz dalej. Powtarzaj aż zostanie minimum. Bez przerw między zmianami.",
+        "when": "Jako wykończenie partii mięśniowej. Najlepiej na wyciągu, maszynie lub z hantlami na stojaku.",
+        "mistake": "Wybór ćwiczenia, w którym nie da się szybko zmienić ciężaru.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Trening Okluzyjny",
       "aliases": [],
       "summary": "Trening z częściowym ograniczeniem przepływu krwi, mały ciężar i dużo powtórzeń.",
-      "full": null,
       "caution": "Wymaga osobistego nadzoru specjalisty przy ustawieniu ciśnienia i czasu. Nie improwizuj zwykłymi gumami.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Użycie opaski lub mankietu wysoko na kończynie, by częściowo ograniczyć odpływ żylny.",
+        "how": "Mały ciężar (zwykle 20-30% maksimum), dużo powtórzeń, krótka przerwa, opaska założona zgodnie z instrukcją.",
+        "when": "Kiedy szukasz bodźca przy bardzo małym obciążeniu.",
+        "mistake": "Zbyt mocne zaciśnięcie opaski albo trzymanie jej zbyt długo.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Superseria",
       "aliases": [],
       "summary": "Dwa ćwiczenia pod rząd, bez przerwy między nimi. Przerwa dopiero po parze.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Para ćwiczeń traktowana jak jedna jednostka treningowa.",
+        "how": "Skończ pierwsze i przejdź od razu do drugiego. Przerwa zaczyna się dopiero po obu.",
+        "when": "Żeby oszczędzić czas, podnieść gęstość albo połączyć mięśnie, które sobie nie przeszkadzają.",
+        "mistake": "Wybór dwóch odległych stanowisk — przejście staje się przerwą, której nie miało być.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Szybkie Powtórzenia",
       "aliases": [],
       "summary": "Wykonanie w szybkim tempie, z kontrolą. Nacisk na prędkość, nie na maksymalny ciężar.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Szybkie tempo przy zachowaniu zakresu i kontroli.",
+        "how": "Podnoś z zamiarem przyspieszenia i opuszczaj bez rzucania się. Pełny zakres nadal obowiązuje.",
+        "when": "Wykończenia i praca nad mocą przy lekkim lub umiarkowanym ciężarze.",
+        "mistake": "Zamiana szybkości na zamach — jeśli ciało pomaga, mięsień już nie pracuje.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "Wydłużony czas pod napięciem: każde powtórzenie wolne w obu fazach, bez blokowania na górze.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Maksymalizacja całkowitego czasu, przez jaki mięsień pozostaje pod obciążeniem w serii.",
+        "how": "Góra i dół kontrolowane i powolne, bez pauzy na górze ani na dole.",
+        "when": "Izolacja i maszyny, gdzie ciągłe napięcie da się bezpiecznie utrzymać.",
+        "mistake": "Blokowanie na górze, co przerzuca ciężar na staw i kończy napięcie.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Całkowity Upadek",
       "aliases": [],
       "summary": "Idź, aż nie poruszysz ciężarem w żadnym kierunku, nawet nie skontrolujesz opuszczania.",
-      "full": null,
       "caution": "Nie stosuj przy ćwiczeniach z wolnym ciężarem nad ciałem lub głową bez asekuracji i bez bolców zabezpieczających.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Punkt za upadkiem koncentrycznym, gdzie nawet kontrolowane opuszczanie jest niemożliwe.",
+        "how": "Tylko w ćwiczeniach, gdzie puszczenie ciężaru jest bezpieczne — maszyna, wyciąg lub z partnerem.",
+        "when": "Rzadko i tylko w ostatniej serii. Kosztuje bardzo dużo regeneracji.",
+        "mistake": "Stosowanie tego w ćwiczeniu z wolnym ciężarem nad ciałem.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "Siedem serii ostatniego ćwiczenia na daną partię, 30-45s przerwy, dla maksymalnej pompy.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Wykończenie złożone z siedmiu serii ćwiczenia izolowanego zamykającego partię.",
+        "how": "7 serii, 8-12 powtórzeń, 30-45 sekund przerwy, umiarkowany ciężar.",
+        "when": "Jako ostatnie ćwiczenie na partię, nigdy na początku.",
+        "mistake": "Wybór zbyt dużego ciężaru i niewytrzymanie siedmiu serii.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Czysta Siła",
       "aliases": [],
       "summary": "Duże ciężary i mało powtórzeń, z długą przerwą. Cel to siła, nie objętość.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ciężki zakres pracy, zwykle 1 do 5 powtórzeń, z długą przerwą.",
+        "how": "Rozgrzej się wcześniej progresywnie. Odpoczywaj tyle, by kolejna seria była tak dobra jak poprzednia.",
+        "when": "W ćwiczeniach złożonych otwierających trening.",
+        "mistake": "Skracanie przerwy i robienie z tego wytrzymałości z dużym ciężarem.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Wstrzymanie Oddechu",
       "aliases": [],
       "summary": "Wstrzymaj oddech na krótkim odcinku ruchu, by zwiększyć ciśnienie wewnątrzbrzuszne.",
-      "full": null,
       "caution": "Może powodować zawroty głowy i podnosić ciśnienie. Przy chorobach sercowo-naczyniowych, nadciśnieniu lub w ciąży skonsultuj się wcześniej ze specjalistą.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Wstrzymanie powietrza w najtrudniejszym fragmencie powtórzenia, co stabilizuje tułów.",
+        "how": "Wdech przed, wstrzymaj na najcięższym odcinku, wydech po zakończeniu. Tylko krótkie odcinki.",
+        "when": "Ćwiczenia wymagające sztywnego tułowia i celowa praca nad korpusem.",
+        "mistake": "Wstrzymywanie oddechu przez całe serie pod rząd.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
       "aliases": [],
       "summary": "Wolny ruch w obu fazach, bez zamachu i bez pauzy, z ciągłym napięciem.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Obniżone tempo od początku do końca powtórzenia.",
+        "how": "Bez zamachu, bez blokowania. Ciężar musi być mniejszy niż zwykle.",
+        "when": "Nauka ruchu albo sytuacja, gdy nie ma wystarczającego obciążenia.",
+        "mistake": "Przyspieszanie, gdy przychodzi zmęczenie, co po cichu zamienia to z powrotem w zwykłą serię.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Rozgrzewka",
       "aliases": [],
       "summary": "Lekkie serie przed seriami roboczymi, by przygotować staw i wzorzec ruchowy.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Konkretne przygotowanie do ćwiczenia, które zaraz nastąpi.",
+        "how": "1 do 3 serii mocno poniżej ciężaru roboczego, nigdy w stronę wysiłku.",
+        "when": "Przed pierwszym ciężkim ruchem na każdą partię mięśniową.",
+        "mistake": "Robienie tego tak ciężko, że liczy się jako seria robocza i podjada te prawdziwe.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Eksplozja Koncentryczna",
       "aliases": [],
       "summary": "Unoś ciężar z maksymalnym zamiarem przyspieszenia i opuszczaj pod kontrolą.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nacisk na zamiar przyspieszenia w fazie unoszenia.",
+        "how": "Pchaj albo ciągnij tak szybko jak potrafisz; opuszczaj w normalnym, kontrolowanym tempie.",
+        "when": "Ćwiczenia złożone przy umiarkowanym ciężarze.",
+        "mistake": "Pozwolenie, by opuszczanie stało się swobodnym spadkiem — szybka jest tylko faza unoszenia.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Piramida Malejąca",
       "aliases": [],
       "summary": "W każdej serii mniejszy ciężar i więcej powtórzeń. Zaczynasz ciężko.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Odwrotność piramidy rosnącej: najcięższa seria jest pierwsza.",
+        "how": "Przykład: 6 → 8 → 10 → 12 powtórzeń, zdejmując ciężar przy każdej zmianie.",
+        "when": "Kiedy chcesz zaatakować ciężkie na świeżo, z rozgrzewką zrobioną osobno.",
+        "mistake": "Pominięcie rozgrzewki i wejście od razu w najcięższe.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Piramida",
       "aliases": [],
       "summary": "Ciężar i powtórzenia zmieniają się między seriami zamiast być stałe. Rosnąca lub malejąca.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Termin ogólny. Plan mówi piramida, nie podając kierunku.",
+        "how": "Jeśli nie określono, najczęstszy schemat to rosnący: więcej ciężaru, mniej powtórzeń w każdej serii.",
+        "when": "Za każdym razem, gdy plan nazywa technikę bez podania kierunku.",
+        "mistake": "Zakładanie kierunku zamiast sprawdzenia. Rosnąca i malejąca trenują co innego.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
       "aliases": [],
       "summary": "Trzy ćwiczenia pod rząd, bez przerwy między nimi. Przerwa dopiero po wszystkich trzech.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Jak bi-set, ale z trzema ćwiczeniami w bloku.",
+        "how": "Połącz wszystkie trzy i odpocznij dopiero po ostatnim.",
+        "when": "Wysoka gęstość i oszczędność czasu. Zwykle zamyka partię mięśniową.",
+        "mistake": "Budowanie go z trzech odległych albo zwykle zajętych stanowisk.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Progresja Obciążenia",
       "aliases": [],
       "summary": "Zwiększaj ciężar w kolejnych tygodniach, gdy osiągniesz górną granicę zakresu powtórzeń.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Zasada progresji między sesjami, a nie wewnątrz jednej.",
+        "how": "Zamknąłeś wszystkie serie na górnej granicy zakresu z dobrą techniką? Podnieś ciężar na następnym treningu.",
+        "when": "To standard każdego planu siłowego i hipertroficznego.",
+        "mistake": "Podnoszenie ciężaru zanim powtórzenia są naprawdę czyste.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "Izometria",
       "aliases": [],
       "summary": "Utrzymaj pozycję nieruchomo, bez unoszenia i opuszczania, przez wskazany czas.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Skurcz bez ruchu w stawie.",
+        "how": "Przyjmij pozycję i utrzymaj ją przez zadany czas, oddychając normalnie.",
+        "when": "Korpus, stabilizatory i jako zakończenie ćwiczenia dynamicznego.",
+        "mistake": "Wstrzymywanie oddechu przez cały czas.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

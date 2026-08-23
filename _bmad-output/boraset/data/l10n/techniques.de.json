@@ -10,241 +10,428 @@
       "name": "Maximalkontraktion",
       "aliases": [],
       "summary": "Halte 1-2s im Punkt der stärksten Kontraktion jeder Wiederholung und spanne an, bevor du zurückgehst.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Eine kurze, aktive Pause im Punkt der stärksten Muskelverkürzung.",
+        "how": "Hebe normal an, halte 1-2 Sekunden und spanne den Zielmuskel an, dann kontrolliert ablassen.",
+        "when": "Isolationsübungen und Maschinen, wo der Zielmuskel klar zu spüren ist.",
+        "mistake": "Die Pause mit dem Körper statt mit dem Muskel machen. Wer das Gelenk sperrt und ruht, hat die Technik verloren.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Aufsteigende Pyramide",
       "aliases": [],
       "summary": "Mit jedem Satz mehr Gewicht und weniger Wiederholungen. Leicht anfangen, schwer aufhören.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Das Gewicht steigt Satz für Satz, während die Wiederholungen fallen.",
+        "how": "Beispiel: 15 → 12 → 10 → 8 Wiederholungen, mit jedem Wechsel mehr Gewicht. Der letzte Satz ist der schwerste.",
+        "when": "Bei der ersten Übung einer Muskelgruppe, um sicher ins Schwere zu kommen.",
+        "mistake": "Zu früh Gewicht auflegen und leer im Satz ankommen, auf den es ankam.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Konzentrisches Muskelversagen",
       "aliases": [],
       "summary": "Wiederhole, bis du das Gewicht nicht mehr allein bewegen kannst. Stopp, wenn die Aufwärtsphase versagt.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Der Punkt, an dem keine saubere Wiederholung mehr nach oben geht.",
+        "how": "Geh bis zur Wiederholung, die beim Hochdrücken hängen bleibt. Dort ist Schluss — nicht mit Schwung erzwingen.",
+        "when": "Im letzten Satz einer Übung, oder wenn der Plan es ausdrücklich verlangt.",
+        "mistake": "Versagen mit Unbehagen verwechseln. Versagen ist mechanisch: das Gewicht bewegt sich nicht mehr.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "Ohne Wiederholungsvorgabe",
       "aliases": [],
       "summary": "Keine feste Wiederholungszahl. Mach so viel wie sauber möglich, im vorgegebenen Anstrengungsgrad.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Der Plan gibt Sätze und Pause vor, lässt die Wiederholungszahl aber offen.",
+        "how": "Arbeite bis zum geforderten Anstrengungsgrad, meist nahe am Versagen, ohne Zielzahl.",
+        "when": "Wenn es um Anstrengung geht und nicht um exaktes Volumen.",
+        "mistake": "Es als \"mach was du willst\" verstehen. Das Abbruchkriterium bleibt — es ist nur keine Zahl.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop-Satz",
       "aliases": [],
       "summary": "Bis zum Versagen gehen, sofort 20-30% Gewicht abnehmen und ohne Pause weitermachen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Eine Verlängerung des Satzes: du nimmst Last ab und machst ohne Pause weiter.",
+        "how": "Versagen erreicht? Nimm binnen Sekunden 20-30 % ab und mach weiter bis zum nächsten Versagen.",
+        "when": "Im letzten Satz der Übung. Maschinen und Kabelzüge sind am praktischsten.",
+        "mistake": "Zu lange fürs Umstecken brauchen — über ~10 Sekunden ist es ein neuer Satz, kein Drop.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "Rest-Pause mit nur einer Runde: Versagen, ~15s Pause, ein weiterer Block mit gleichem Gewicht.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Rest-Pause, einmal ausgeführt statt der üblichen drei Runden.",
+        "how": "Geh bis zum Versagen. Ruhe etwa 15 Sekunden, ohne die Position zu verlassen. Dann ein Block mehr mit demselben Gewicht.",
+        "when": "Wenn der Plan die Rest-Pause-Intensität will, ohne den Erholungspreis von drei Runden.",
+        "mistake": "Die Pause dehnen. Ab ~20 Sekunden ist es ein neuer Satz.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Wiederholungen in Reserve",
       "aliases": [],
       "summary": "Höre auf, wenn noch 1-3 Wiederholungen möglich wären. Nicht bis zum Versagen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Eine bewusste Bremse: du beendest den Satz vor dem Versagen.",
+        "how": "Hattest du am Ende das Gefühl, noch zwei zu schaffen, waren zwei in Reserve. Genau das ist das Ziel.",
+        "when": "In den meisten Sätzen einer Volumeneinheit, um Arbeit zu sammeln ohne auszubrennen.",
+        "mistake": "Die Reserve überschätzen. Die meisten sind näher am Versagen als sie denken.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster-Satz",
       "aliases": [],
       "summary": "Teile den Satz in kurze Blöcke mit 10-20s Pause dazwischen, bei hoher Last.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ein Satz, zerlegt in Mini-Blöcke mit geplanten Mikropausen.",
+        "how": "Beispiel: 3 Wdh., 15 s Pause, 3 Wdh., 15 s, 3 Wdh. Das zählt als ein Satz.",
+        "when": "Wenn du Volumen bei hoher Last willst, ohne die Ausführung zu verlieren.",
+        "mistake": "Die Pausen ausdehnen, bis daraus drei normale Sätze werden.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
       "aliases": [],
       "summary": "Keine Pause zwischen den Wiederholungen und keine Pause bis zum Satzende. Durchgehende Bewegung.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Durchgehende Spannung: der Muskel ruht an keinem Punkt der Bewegung.",
+        "how": "Oben nicht durchstrecken, unten nicht entspannen. Auf und ab ohne Halt.",
+        "when": "Isolation, Maschinen und Finisher. Sehr häufig bei Gesäß, Waden und Bauch.",
+        "mistake": "Den Bewegungsumfang verkürzen, um das Tempo halten zu können.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Bis zum Versagen, 10-20s Pause, dann mit gleichem Gewicht weiter. 2 bis 3 Runden.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Mehrere Versagensrunden, getrennt durch sehr kurze Pausen, ohne Gewichtswechsel.",
+        "how": "Versagen → 10-20 s → weitere Wiederholungen bis zum Versagen → 10-20 s → letzte Runde.",
+        "when": "Letzter Satz einer Übung, wenn du Intensität ohne mehr Gewicht willst.",
+        "mistake": "Aus der kurzen Pause eine volle Pause machen — dann sind es einfach drei getrennte Sätze.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Progressive Spannung",
       "aliases": [],
       "summary": "Steigere die Anforderung pro Satz - Last, Spannungsdauer oder Bewegungsumfang - ohne Technikverlust.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Progression innerhalb der Einheit: jeder Satz fordert etwas mehr als der vorige.",
+        "how": "Steigen kann Gewicht, Tempo oder Bewegungsumfang. Der Plan oder die Fachkraft legt fest, was.",
+        "when": "Wenn du einen steigenden Reiz willst, ohne schon im ersten Satz zu versagen.",
+        "mistake": "Die Anforderung erhöhen und die Technik gleich mit fallen lassen.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "3/7-Methode",
       "aliases": [],
       "summary": "Fünf Blöcke mit 3, 4, 5, 6 und 7 Wiederholungen, ~15s Pause, durchgehend gleiches Gewicht.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Eine Leiter aufsteigender Blöcke mit sehr kurzen Pausen, gezählt als eine Übung.",
+        "how": "3 Wdh. → 15 s → 4 → 15 s → 5 → 15 s → 6 → 15 s → 7. Dasselbe Gewicht von Anfang bis Ende.",
+        "when": "Wenn hohe Ermüdungsakkumulation bei moderater Last gefragt ist.",
+        "mistake": "Ein zu schweres Gewicht wählen und die letzten Blöcke nicht schaffen.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Langsam Exzentrisch",
       "aliases": [],
       "summary": "Senke das Gewicht langsam ab (3-5s) und hebe in normalem Tempo. Die Absenkphase zählt.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Betonung der Phase, in der der Muskel unter Last länger wird.",
+        "how": "Zähle 3 bis 5 Sekunden beim Ablassen. Das Anheben erfolgt in normalem, kontrolliertem Tempo.",
+        "when": "Wenn du starken Reiz ohne hohe Last willst, oder die Bewegungskontrolle verbessern möchtest.",
+        "mistake": "Zu schnell zählen. Nimm die ersten Male die Uhr.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip-Satz",
       "aliases": [],
       "summary": "Mehrere Drops hintereinander: Versagen, abnehmen, wieder Versagen, wieder abnehmen, bis nichts bleibt.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ein verketteter Drop-Satz mit drei oder mehr Reduktionen hintereinander.",
+        "how": "Versagt, Gewicht runter, weiter. Wiederholen, bis die Last minimal ist. Keine Pause zwischen den Wechseln.",
+        "when": "Als Finisher einer Muskelgruppe. Am besten am Kabel, an der Maschine oder mit Kurzhanteln am Ständer.",
+        "mistake": "Eine Übung wählen, bei der sich das Gewicht nicht schnell wechseln lässt.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Okklusionstraining",
       "aliases": [],
       "summary": "Training mit teilweiser Blutflussrestriktion, leichter Last und vielen Wiederholungen.",
-      "full": null,
       "caution": "Erfordert persönliche Anleitung durch eine Fachkraft für Manschettendruck und Dauer. Nicht mit Standardbändern improvisieren.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Einsatz einer Manschette oder eines Bands hoch am Glied, um den venösen Rückfluss teilweise zu drosseln.",
+        "how": "Leichte Last (typisch 20-30 % des Maximums), viele Wiederholungen, kurze Pausen, Manschette nach Anleitung.",
+        "when": "Wenn ein Reiz mit sehr wenig Last erzeugt werden soll.",
+        "mistake": "Die Manschette zu fest anlegen oder zu lange tragen.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Supersatz",
       "aliases": [],
       "summary": "Zwei Übungen direkt hintereinander, ohne Pause. Die Pause kommt erst nach dem Paar.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ein Übungspaar, das als eine Trainingseinheit behandelt wird.",
+        "how": "Beende die erste und gehe direkt in die zweite. Die Pause beginnt erst nach beiden.",
+        "when": "Um Zeit zu sparen, die Dichte zu erhöhen oder Muskeln zu kombinieren, die sich nicht stören.",
+        "mistake": "Zwei weit entfernte Stationen wählen — der Weg wird zur Pause, die es nicht geben sollte.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Schnelle Wiederholungen",
       "aliases": [],
       "summary": "Zügiges Tempo mit Kontrolle. Der Fokus liegt auf Geschwindigkeit, nicht auf Maximallast.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Zügige Kadenz bei erhaltenem Bewegungsumfang und Kontrolle.",
+        "how": "Heb mit der Absicht zu beschleunigen und senke ohne dich fallen zu lassen. Volle Amplitude bleibt Pflicht.",
+        "when": "Finisher und Schnellkraftarbeit mit leichter bis mittlerer Last.",
+        "mistake": "Tempo gegen Schwung tauschen — hilft der Körper mit, arbeitet der Muskel nicht mehr.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "Verlängerte Spannungsdauer: jede Wiederholung langsam in beiden Phasen, ohne Ausruhen im Endpunkt.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Die Gesamtzeit maximieren, die der Muskel innerhalb des Satzes unter Last steht.",
+        "how": "Heben und Senken kontrolliert und langsam, ohne Pause oben oder unten.",
+        "when": "Isolation und Maschinen, wo durchgehende Spannung sicher zu halten ist.",
+        "mistake": "Oben ausrasten, was die Last aufs Gelenk gibt und die Spannung beendet.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Totales Versagen",
       "aliases": [],
       "summary": "Bis das Gewicht sich in keine Richtung mehr bewegen lässt, nicht einmal kontrolliert absenken.",
-      "full": null,
       "caution": "Nicht bei freien Übungen mit der Last über Körper oder Kopf ohne Spotter und Sicherheitsablagen einsetzen.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Der Punkt jenseits des konzentrischen Versagens, an dem selbst kontrolliertes Ablassen unmöglich ist.",
+        "how": "Nur bei Übungen, bei denen Loslassen sicher ist — Maschine, Kabel oder mit Partner.",
+        "when": "Selten, und nur im letzten Satz. Der Erholungspreis ist sehr hoch.",
+        "mistake": "Es bei freien Übungen mit der Stange über dem Körper einsetzen.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "Sieben Sätze der letzten Übung einer Muskelgruppe, 30-45s Pause, für maximalen Pump.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ein Finisher aus sieben Sätzen an der Isolationsübung, die eine Muskelgruppe abschließt.",
+        "how": "7 Sätze, 8-12 Wiederholungen, 30-45 Sekunden Pause, moderate Last.",
+        "when": "Als letzte Übung einer Muskelgruppe, nie am Anfang.",
+        "mistake": "Zu schwer wählen und die sieben Sätze nicht durchhalten.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Reine Kraft",
       "aliases": [],
       "summary": "Hohe Lasten und wenige Wiederholungen mit langen Pausen. Ziel ist Kraft, nicht Volumen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ein schwerer Arbeitsbereich, typisch 1 bis 5 Wiederholungen, mit großzügiger Pause.",
+        "how": "Vorher progressiv aufwärmen. Ruhe so lange, dass der nächste Satz so gut wird wie der letzte.",
+        "when": "Bei den Grundübungen, die die Einheit eröffnen.",
+        "mistake": "Die Pause kürzen und daraus Ausdauerarbeit mit schwerem Gewicht machen.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Atemanhalten",
       "aliases": [],
       "summary": "Halte die Luft in einem kurzen Abschnitt der Bewegung an, um den Bauchinnendruck zu erhöhen.",
-      "full": null,
       "caution": "Kann Schwindel verursachen und den Blutdruck erhöhen. Bei Herz-Kreislauf-Erkrankungen, Bluthochdruck oder Schwangerschaft vorher ärztlich abklären.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Die Luft im anstrengendsten Teil der Wiederholung anhalten und so den Rumpf stabilisieren.",
+        "how": "Vorher einatmen, im schwersten Abschnitt halten, beim Abschluss ausatmen. Nur kurze Abschnitte.",
+        "when": "Übungen, die einen festen Rumpf verlangen, und gezielte Rumpfarbeit.",
+        "mistake": "Über ganze Sätze hinweg die Luft anhalten.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
       "aliases": [],
       "summary": "Langsame Bewegung in beiden Phasen, ohne Schwung und ohne Pause, mit konstanter Spannung.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Reduzierte Kadenz vom Anfang bis zum Ende der Wiederholung.",
+        "how": "Kein Schwung, kein Ausrasten. Die Last muss leichter sein als gewohnt.",
+        "when": "Bewegungslernen, oder wenn nicht genug Gewicht verfügbar ist.",
+        "mistake": "Bei einsetzender Ermüdung schneller werden — dann ist es wieder ein normaler Satz.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Aufwärmen",
       "aliases": [],
       "summary": "Leichte Sätze vor den Arbeitssätzen, um Gelenk und Bewegungsmuster vorzubereiten.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Spezifische Vorbereitung auf die folgende Übung.",
+        "how": "1 bis 3 Sätze deutlich unter Arbeitsgewicht, nie in die Anstrengung hinein.",
+        "when": "Vor der ersten schweren Bewegung jeder Muskelgruppe.",
+        "mistake": "Es so hart machen, dass es als Arbeitssatz zählt und den echten Sätzen etwas wegnimmt.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Konzentrische Explosion",
       "aliases": [],
       "summary": "Hebe das Gewicht mit maximaler Beschleunigungsabsicht und senke es kontrolliert ab.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Betonung der Absicht zu beschleunigen während der Hubphase.",
+        "how": "Drücke oder ziehe so schnell du kannst; senke in normalem, kontrolliertem Tempo.",
+        "when": "Grundübungen bei moderater Last.",
+        "mistake": "Das Ablassen zum freien Fall werden lassen — nur das Anheben ist schnell.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Absteigende Pyramide",
       "aliases": [],
       "summary": "Mit jedem Satz weniger Gewicht und mehr Wiederholungen. Schwer anfangen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Die Umkehrung der aufsteigenden Pyramide: der schwerste Satz kommt zuerst.",
+        "how": "Beispiel: 6 → 8 → 10 → 12 Wiederholungen, mit jedem Wechsel weniger Gewicht.",
+        "when": "Wenn du das Schwere ausgeruht angehen willst, mit separatem Aufwärmen.",
+        "mistake": "Das Aufwärmen überspringen und direkt ins Schwerste einsteigen.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Pyramide",
       "aliases": [],
       "summary": "Last und Wiederholungen ändern sich von Satz zu Satz, statt fix zu bleiben. Auf- oder absteigend.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Der Oberbegriff. Der Plan nennt Pyramide, ohne die Richtung anzugeben.",
+        "how": "Ohne Angabe ist aufsteigend das übliche Muster: mehr Gewicht, weniger Wiederholungen je Satz.",
+        "when": "Immer wenn der Plan die Technik ohne Richtung nennt.",
+        "mistake": "Die Richtung annehmen statt nachfragen. Auf- und absteigend trainieren nicht dasselbe.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Satz",
       "aliases": [],
       "summary": "Drei Übungen direkt hintereinander, ohne Pause. Die Pause kommt erst nach allen dreien.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Wie der Bi-Satz, aber mit drei Übungen im Block.",
+        "how": "Verkette alle drei und ruhe erst nach der letzten.",
+        "when": "Hohe Dichte und Zeitersparnis. Schließt meist eine Muskelgruppe ab.",
+        "mistake": "Ihn aus drei weit auseinanderliegenden oder meist belegten Stationen bauen.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Progressive Überlastung",
       "aliases": [],
       "summary": "Steigere die Last über die Wochen, sobald du das obere Ende des Wiederholungsbereichs erreichst.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Das Prinzip der Progression zwischen den Einheiten, nicht innerhalb einer.",
+        "how": "Alle Sätze am oberen Ende des Wiederholungsbereichs sauber geschafft? Nächstes Mal Gewicht erhöhen.",
+        "when": "Es ist der Standard jedes Kraft- oder Hypertrophieplans.",
+        "mistake": "Das Gewicht erhöhen, bevor die Wiederholungen wirklich sauber sind.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "Isometrie",
       "aliases": [],
       "summary": "Halte die Position still, ohne zu heben oder zu senken, für die vorgegebene Zeit.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kontraktion ohne Gelenkbewegung.",
+        "how": "Nimm die Position ein und halte sie die vorgegebene Zeit, mit normaler Atmung.",
+        "when": "Rumpf, Stabilisatoren, und als Abschluss einer dynamischen Übung.",
+        "mistake": "Die ganze Zeit über die Luft anhalten.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

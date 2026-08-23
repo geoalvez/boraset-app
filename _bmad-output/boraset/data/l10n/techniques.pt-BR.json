@@ -8,9 +8,15 @@
         "Pico de Contração"
       ],
       "summary": "Segure 1–2s no ponto de maior contração de cada repetição, apertando o músculo antes de voltar.",
-      "full": "**O que é.** Uma pausa curta e ativa no ponto em que o músculo está mais encurtado.\n\n**Como executar.** Suba o peso normalmente, pare 1–2 segundos apertando o músculo alvo, depois desça com controle.\n\n**Quando usar.** Exercícios de isolamento e máquinas, onde dá pra sentir o alvo com clareza.\n\n**Erro comum.** Fazer a pausa com o corpo e não com o músculo — se você trava a articulação e descansa, perdeu a técnica.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Uma pausa curta e ativa no ponto em que o músculo está mais encurtado.",
+        "how": "Suba o peso normalmente, pare 1–2 segundos apertando o músculo alvo, depois desça com controle.",
+        "when": "Exercícios de isolamento e máquinas, onde dá pra sentir o alvo com clareza.",
+        "mistake": "Fazer a pausa com o corpo e não com o músculo — se você trava a articulação e descansa, perdeu a técnica.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Pirâmide Crescente",
@@ -19,17 +25,39 @@
         "Piramidal Crescente"
       ],
       "summary": "A cada série você aumenta a carga e reduz as repetições. Começa leve, termina pesado.",
-      "full": "**O que é.** A carga sobe série a série enquanto as repetições caem.\n\n**Como executar.** Exemplo: 15 reps → 12 → 10 → 8, aumentando o peso a cada troca. A última série é a mais pesada.\n\n**Quando usar.** No primeiro exercício do grupo, quando você quer aquecer e chegar ao pesado sem risco.\n\n**Erro comum.** Subir carga cedo demais e chegar sem energia na série que realmente contava.\n\n**Nota do app.** Esta técnica implica carga diferente por série — o BoraSet registra cada série com a sua própria carga.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "A carga sobe série a série enquanto as repetições caem.",
+        "how": "Exemplo: 15 reps → 12 → 10 → 8, aumentando o peso a cada troca. A última série é a mais pesada.",
+        "when": "No primeiro exercício do grupo, quando você quer aquecer e chegar ao pesado sem risco.",
+        "mistake": "Subir carga cedo demais e chegar sem energia na série que realmente contava.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Esta técnica implica carga diferente por série — o BoraSet registra cada série com a sua própria carga."
+          }
+        ]
+      }
     },
     "falha-concentrica": {
       "name": "Falha Concêntrica",
       "aliases": [],
       "summary": "Repita até não conseguir mais subir o peso sozinho. Para quando a fase de subida falha.",
-      "full": "**O que é.** O ponto em que você não consegue completar mais nenhuma subida com boa execução.\n\n**Como executar.** Siga até a repetição em que o peso trava na subida. Ali a série acabou — não force com impulso.\n\n**Quando usar.** Na última série de um exercício, ou quando a ficha marca a técnica explicitamente.\n\n**Erro comum.** Confundir falha com desconforto. Falha é mecânica: o peso não sobe.\n\n**Segurança.** Em exercícios livres com barra sobre o corpo, tenha alguém por perto ou use os pinos de segurança.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "O ponto em que você não consegue completar mais nenhuma subida com boa execução.",
+        "how": "Siga até a repetição em que o peso trava na subida. Ali a série acabou — não force com impulso.",
+        "when": "Na última série de um exercício, ou quando a ficha marca a técnica explicitamente.",
+        "mistake": "Confundir falha com desconforto. Falha é mecânica: o peso não sobe.",
+        "extra": [
+          {
+            "label": "Segurança",
+            "text": "Em exercícios livres com barra sobre o corpo, tenha alguém por perto ou use os pinos de segurança."
+          }
+        ]
+      }
     },
     "no-reps": {
       "name": "NO REPS",
@@ -37,17 +65,39 @@
         "Sem repetições definidas"
       ],
       "summary": "Sem número fixo de repetições. Faça o que der com boa execução, dentro do esforço combinado.",
-      "full": "**O que é.** A ficha define séries e descanso, mas deixa a repetição em aberto.\n\n**Como executar.** Vá até o critério de esforço que a série pede (normalmente próximo da falha), sem contar meta.\n\n**Quando usar.** Quando o objetivo é esforço, não volume exato.\n\n**Erro comum.** Tratar como 'faz o quanto quiser'. O critério de parada continua existindo — só não é um número.\n\n**Nota do app.** O BoraSet registra o que você fez de verdade, e usa isso para estimar sua duração real de série.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "A ficha define séries e descanso, mas deixa a repetição em aberto.",
+        "how": "Vá até o critério de esforço que a série pede (normalmente próximo da falha), sem contar meta.",
+        "when": "Quando o objetivo é esforço, não volume exato.",
+        "mistake": "Tratar como 'faz o quanto quiser'. O critério de parada continua existindo — só não é um número.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "O BoraSet registra o que você fez de verdade, e usa isso para estimar sua duração real de série."
+          }
+        ]
+      }
     },
     "drop-set": {
       "name": "Drop-Set",
       "aliases": [],
       "summary": "Chegue à falha, reduza o peso na hora (20–30%) e continue sem descansar.",
-      "full": "**O que é.** Uma extensão da série: você tira carga e segue, sem pausa.\n\n**Como executar.** Falhou? Reduza cerca de 20–30% do peso em poucos segundos e continue até falhar de novo.\n\n**Quando usar.** Na última série do exercício. Máquinas e polias são as mais práticas.\n\n**Erro comum.** Demorar para trocar o peso — acima de ~10 segundos vira outra série, não um drop.\n\n**Nota do app.** Cada drop é registrado como uma série própria, com a sua carga.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Uma extensão da série: você tira carga e segue, sem pausa.",
+        "how": "Falhou? Reduza cerca de 20–30% do peso em poucos segundos e continue até falhar de novo.",
+        "when": "Na última série do exercício. Máquinas e polias são as mais práticas.",
+        "mistake": "Demorar para trocar o peso — acima de ~10 segundos vira outra série, não um drop.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Cada drop é registrado como uma série própria, com a sua carga."
+          }
+        ]
+      }
     },
     "1-rest": {
       "name": "1 Rest",
@@ -55,9 +105,20 @@
         "Uma pausa"
       ],
       "summary": "Rest-pause com uma rodada só: falhou, descansa ~15s, faz mais um bloco com a mesma carga. Acabou.",
-      "full": "**O que é.** É o Rest-Pause executado **uma única vez**, em vez das 3 rodadas do formato completo.\n\n**Como executar.** Vá até a falha. Descanse cerca de 15 segundos sem sair da posição. Faça mais um bloco de repetições com a mesma carga. Pronto — a série acabou.\n\n**Quando usar.** Quando a ficha quer a intensidade do rest-pause sem o custo de recuperação das três rodadas.\n\n**Diferença para Rest-Pause.** É a mesma técnica; muda a contagem. **1 Rest = 1 rodada. Rest-Pause = 3.**\n\n**Erro comum.** Esticar a pausa. Passou de ~20 segundos, virou série nova.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "É o Rest-Pause executado **uma única vez**, em vez das 3 rodadas do formato completo.",
+        "how": "Vá até a falha. Descanse cerca de 15 segundos sem sair da posição. Faça mais um bloco de repetições com a mesma carga. Pronto — a série acabou.",
+        "when": "Quando a ficha quer a intensidade do rest-pause sem o custo de recuperação das três rodadas.",
+        "mistake": "Esticar a pausa. Passou de ~20 segundos, virou série nova.",
+        "extra": [
+          {
+            "label": "Diferença para Rest-Pause",
+            "text": "É a mesma técnica; muda a contagem. **1 Rest = 1 rodada. Rest-Pause = 3.**"
+          }
+        ]
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Repetições de Reserva",
@@ -66,9 +127,20 @@
         "Reps em reserva"
       ],
       "summary": "Pare com 1–3 repetições ainda possíveis no tanque. Não vá até a falha.",
-      "full": "**O que é.** Um freio proposital: você encerra a série antes da falha.\n\n**Como executar.** Se ao terminar você sentia que daria mais 2, você deixou 2 em reserva. É esse o alvo.\n\n**Quando usar.** Na maior parte das séries de um treino de volume, para acumular trabalho sem esgotar.\n\n**Erro comum.** Superestimar a reserva. A maioria das pessoas está mais perto da falha do que imagina.\n\n**Por que importa.** Permite treinar mais séries por sessão com boa qualidade.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Um freio proposital: você encerra a série antes da falha.",
+        "how": "Se ao terminar você sentia que daria mais 2, você deixou 2 em reserva. É esse o alvo.",
+        "when": "Na maior parte das séries de um treino de volume, para acumular trabalho sem esgotar.",
+        "mistake": "Superestimar a reserva. A maioria das pessoas está mais perto da falha do que imagina.",
+        "extra": [
+          {
+            "label": "Por que importa",
+            "text": "Permite treinar mais séries por sessão com boa qualidade."
+          }
+        ]
+      }
     },
     "cluster": {
       "name": "Cluster",
@@ -76,9 +148,20 @@
         "Cluster Set"
       ],
       "summary": "Divida a série em blocos curtos com 10–20s de pausa entre eles, mantendo a carga alta.",
-      "full": "**O que é.** Uma série quebrada em mini-blocos, com micro-descansos planejados.\n\n**Como executar.** Exemplo: 3 reps, 15s de pausa, 3 reps, 15s, 3 reps. Conta como uma série só.\n\n**Quando usar.** Quando você quer volume com carga pesada sem perder execução.\n\n**Erro comum.** Alongar as pausas até virar três séries normais.\n\n**Nota do app.** O cluster entra na estimativa de duração como uma série longa, não como três.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Uma série quebrada em mini-blocos, com micro-descansos planejados.",
+        "how": "Exemplo: 3 reps, 15s de pausa, 3 reps, 15s, 3 reps. Conta como uma série só.",
+        "when": "Quando você quer volume com carga pesada sem perder execução.",
+        "mistake": "Alongar as pausas até virar três séries normais.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "O cluster entra na estimativa de duração como uma série longa, não como três."
+          }
+        ]
+      }
     },
     "no-stop": {
       "name": "No-Stop",
@@ -86,25 +169,62 @@
         "Non-Stop"
       ],
       "summary": "Sem pausa entre as repetições e sem descanso até terminar a série. Movimento contínuo.",
-      "full": "**O que é.** Tensão contínua: o músculo não descansa em nenhum ponto do movimento.\n\n**Como executar.** Não trave a articulação no topo nem relaxe embaixo. Vai e volta sem parar.\n\n**Quando usar.** Isolamento, máquinas e finalizações. Muito comum em glúteo, panturrilha e abdômen.\n\n**Erro comum.** Encurtar demais a amplitude para conseguir manter o ritmo.\n\n**Nota do app.** Nas planilhas, No-Stop costuma vir com descanso 0 — o exercício seguinte emenda direto.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Tensão contínua: o músculo não descansa em nenhum ponto do movimento.",
+        "how": "Não trave a articulação no topo nem relaxe embaixo. Vai e volta sem parar.",
+        "when": "Isolamento, máquinas e finalizações. Muito comum em glúteo, panturrilha e abdômen.",
+        "mistake": "Encurtar demais a amplitude para conseguir manter o ritmo.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Nas planilhas, No-Stop costuma vir com descanso 0 — o exercício seguinte emenda direto."
+          }
+        ]
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Vá à falha, descanse 10–20s, volte com a mesma carga. Repita 2 ou 3 vezes.",
-      "full": "**O que é.** Múltiplas rodadas de falha separadas por pausas muito curtas, sem trocar o peso.\n\n**Como executar.** Falhou → 10–20s → mais repetições até falhar → 10–20s → última rodada.\n\n**Quando usar.** Última série do exercício, quando você quer intensidade sem aumentar carga.\n\n**Diferença para Drop-Set.** No drop você tira peso. Aqui a carga é a mesma; o que muda é a pausa.\n\n**Diferença para 1 Rest.** É a mesma técnica com contagem diferente: **Rest-Pause = 3 rodadas. 1 Rest = 1.**",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Múltiplas rodadas de falha separadas por pausas muito curtas, sem trocar o peso.",
+        "how": "Falhou → 10–20s → mais repetições até falhar → 10–20s → última rodada.",
+        "when": "Última série do exercício, quando você quer intensidade sem aumentar carga.",
+        "mistake": "Transformar a pausa curta em descanso completo, o que só faz três séries separadas.",
+        "extra": [
+          {
+            "label": "Diferença para Drop-Set",
+            "text": "No drop você tira peso. Aqui a carga é a mesma; o que muda é a pausa."
+          },
+          {
+            "label": "Diferença para 1 Rest",
+            "text": "É a mesma técnica com contagem diferente: **Rest-Pause = 3 rodadas. 1 Rest = 1.**"
+          }
+        ]
+      }
     },
     "tensao-progressiva": {
       "name": "Tensão Progressiva",
       "aliases": [],
       "summary": "Aumente a exigência a cada série — carga, tempo sob tensão ou amplitude — sem perder execução.",
-      "full": "**O que é.** Progressão dentro da própria sessão: cada série exige um pouco mais que a anterior.\n\n**Como executar.** A variável que sobe pode ser peso, lentidão ou amplitude. A ficha ou o profissional definem qual.\n\n**Quando usar.** Quando o objetivo é acumular estímulo crescente sem chegar à falha logo na primeira série.\n\n**Erro comum.** Subir a exigência e derrubar a técnica junto.\n\n**⚠️ Verificar.** A variável que progride varia entre materiais. Confirme antes de publicar.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Progressão dentro da própria sessão: cada série exige um pouco mais que a anterior.",
+        "how": "A variável que sobe pode ser peso, lentidão ou amplitude. A ficha ou o profissional definem qual.",
+        "when": "Quando o objetivo é acumular estímulo crescente sem chegar à falha logo na primeira série.",
+        "mistake": "Subir a exigência e derrubar a técnica junto.",
+        "extra": [
+          {
+            "label": "⚠️ Verificar",
+            "text": "A variável que progride varia entre materiais. Confirme antes de publicar."
+          }
+        ]
+      }
     },
     "3-a-7": {
       "name": "3 a 7",
@@ -112,9 +232,20 @@
         "Método 3/7"
       ],
       "summary": "Cinco blocos de 3, 4, 5, 6 e 7 repetições, com ~15s de descanso entre eles e a mesma carga.",
-      "full": "**O que é.** Um método de séries crescentes com descanso muito curto, contado como um exercício só.\n\n**Como executar.** 3 reps → 15s → 4 reps → 15s → 5 reps → 15s → 6 reps → 15s → 7 reps. Mesma carga do início ao fim.\n\n**Quando usar.** Quando se quer alto acúmulo de fadiga com carga moderada.\n\n**Erro comum.** Escolher carga pesada demais e não fechar os últimos blocos.\n\n**Nota do app.** É uma técnica, não uma faixa de repetições — não confunda com '3 a 7 reps'.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Um método de séries crescentes com descanso muito curto, contado como um exercício só.",
+        "how": "3 reps → 15s → 4 reps → 15s → 5 reps → 15s → 6 reps → 15s → 7 reps. Mesma carga do início ao fim.",
+        "when": "Quando se quer alto acúmulo de fadiga com carga moderada.",
+        "mistake": "Escolher carga pesada demais e não fechar os últimos blocos.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "É uma técnica, não uma faixa de repetições — não confunda com '3 a 7 reps'."
+          }
+        ]
+      }
     },
     "excentrica-lenta": {
       "name": "Excêntrica Lenta",
@@ -122,9 +253,20 @@
         "Negativa lenta"
       ],
       "summary": "Desça o peso devagar (3–5s) e suba em ritmo normal. A descida é a parte que importa.",
-      "full": "**O que é.** Ênfase na fase em que o músculo alonga sob carga.\n\n**Como executar.** Conte 3 a 5 segundos na descida. A subida é normal e controlada.\n\n**Quando usar.** Quando se quer estímulo alto sem carga alta, ou para melhorar controle do movimento.\n\n**Erro comum.** Contar rápido demais. Cronometre nas primeiras vezes.\n\n**Aviso prático.** Gera bastante dor muscular tardia nas primeiras sessões. É esperado.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Ênfase na fase em que o músculo alonga sob carga.",
+        "how": "Conte 3 a 5 segundos na descida. A subida é normal e controlada.",
+        "when": "Quando se quer estímulo alto sem carga alta, ou para melhorar controle do movimento.",
+        "mistake": "Contar rápido demais. Cronometre nas primeiras vezes.",
+        "extra": [
+          {
+            "label": "Aviso prático",
+            "text": "Gera bastante dor muscular tardia nas primeiras sessões. É esperado."
+          }
+        ]
+      }
     },
     "strip-set": {
       "name": "Strip-Set",
@@ -132,9 +274,20 @@
         "Série descendente"
       ],
       "summary": "Vários drops seguidos: falha, tira peso, falha de novo, tira de novo, até acabar a carga.",
-      "full": "**O que é.** Um drop-set encadeado, com três ou mais reduções seguidas.\n\n**Como executar.** Falhou, tira peso, continua. Repete até a carga ficar mínima. Sem descanso entre as trocas.\n\n**Quando usar.** Finalização de grupo muscular. Funciona melhor em polia, máquina ou halteres na rack.\n\n**Erro comum.** Escolher um exercício que não permite trocar peso rápido.\n\n**Nota do app.** Cada strip é uma série com carga própria no registro.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Um drop-set encadeado, com três ou mais reduções seguidas.",
+        "how": "Falhou, tira peso, continua. Repete até a carga ficar mínima. Sem descanso entre as trocas.",
+        "when": "Finalização de grupo muscular. Funciona melhor em polia, máquina ou halteres na rack.",
+        "mistake": "Escolher um exercício que não permite trocar peso rápido.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Cada strip é uma série com carga própria no registro."
+          }
+        ]
+      }
     },
     "oclusao": {
       "name": "Oclusão",
@@ -143,9 +296,15 @@
         "Restrição de fluxo"
       ],
       "summary": "Treino com restrição parcial de fluxo sanguíneo, carga baixa e muitas repetições.",
-      "full": "**O que é.** Uso de faixa ou manguito no topo do membro para restringir parcialmente o retorno venoso durante séries leves.\n\n**Como executar.** Carga baixa (tipicamente 20–30% do máximo), muitas repetições, descanso curto, faixa aplicada conforme orientação.\n\n**Quando usar.** Quando se quer estímulo com pouca carga.\n\n**Erro comum.** Apertar demais a faixa ou manter aplicada por tempo excessivo.",
       "caution": "Técnica que exige orientação presencial de um profissional para definir pressão e tempo de aplicação. Não improvise com material genérico.",
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Uso de faixa ou manguito no topo do membro para restringir parcialmente o retorno venoso durante séries leves.",
+        "how": "Carga baixa (tipicamente 20–30% do máximo), muitas repetições, descanso curto, faixa aplicada conforme orientação.",
+        "when": "Quando se quer estímulo com pouca carga.",
+        "mistake": "Apertar demais a faixa ou manter aplicada por tempo excessivo.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Bi-Set",
@@ -154,17 +313,34 @@
         "Bi Set"
       ],
       "summary": "Dois exercícios feitos em sequência, sem descanso entre eles. O descanso vem só depois do par.",
-      "full": "**O que é.** Um par de exercícios tratado como uma unidade de treino.\n\n**Como executar.** Termine o primeiro e vá direto para o segundo. Só depois dos dois é que o descanso começa.\n\n**Quando usar.** Para economizar tempo, aumentar densidade, ou combinar músculos que não competem entre si.\n\n**Erro comum.** Escolher dois aparelhos distantes — o deslocamento vira o descanso que não deveria existir.\n\n**Nota do app.** O BoraSet trata o bi-set como um bloco: se um dos dois estiver ocupado, o bloco inteiro é reavaliado.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Um par de exercícios tratado como uma unidade de treino.",
+        "how": "Termine o primeiro e vá direto para o segundo. Só depois dos dois é que o descanso começa.",
+        "when": "Para economizar tempo, aumentar densidade, ou combinar músculos que não competem entre si.",
+        "mistake": "Escolher dois aparelhos distantes — o deslocamento vira o descanso que não deveria existir.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "O BoraSet trata o bi-set como um bloco: se um dos dois estiver ocupado, o bloco inteiro é reavaliado."
+          }
+        ]
+      }
     },
     "repeticoes-rapidas": {
       "name": "Repetições Rápidas",
       "aliases": [],
       "summary": "Execução em ritmo acelerado, com controle. Foco em velocidade, não em carga máxima.",
-      "full": "**O que é.** Cadência rápida mantendo amplitude e controle.\n\n**Como executar.** Suba com intenção de velocidade e desça sem se jogar. Amplitude completa continua valendo.\n\n**Quando usar.** Finalizações e trabalho de potência com carga leve a moderada.\n\n**Erro comum.** Trocar velocidade por balanço — se o corpo ajuda, não é mais o músculo trabalhando.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Cadência rápida mantendo amplitude e controle.",
+        "how": "Suba com intenção de velocidade e desça sem se jogar. Amplitude completa continua valendo.",
+        "when": "Finalizações e trabalho de potência com carga leve a moderada.",
+        "mistake": "Trocar velocidade por balanço — se o corpo ajuda, não é mais o músculo trabalhando.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
@@ -173,17 +349,38 @@
         "Tempo sob tensão máximo"
       ],
       "summary": "Tempo sob tensão prolongado: cada repetição é lenta nas duas fases, sem travar no fim.",
-      "full": "**O que é.** Maximizar o tempo total que o músculo passa sob carga dentro da série.\n\n**Como executar.** Subida e descida controladas e lentas, sem pausa no topo nem embaixo.\n\n**Quando usar.** Isolamento e máquinas, onde a tensão contínua é segura de manter.\n\n**Diferença para Excêntrica Lenta.** Ali só a descida é lenta. Aqui as duas fases são.\n\n**⚠️ Verificar.** Aparece como dois slugs distintos na fonte (`m-tut` e `mtut`) e sem tempo definido. Confirme a cadência exata.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Maximizar o tempo total que o músculo passa sob carga dentro da série.",
+        "how": "Subida e descida controladas e lentas, sem pausa no topo nem embaixo.",
+        "when": "Isolamento e máquinas, onde a tensão contínua é segura de manter.",
+        "mistake": "Travar a articulação no topo, o que joga a carga no osso e encerra a tensão.",
+        "extra": [
+          {
+            "label": "Diferença para Excêntrica Lenta",
+            "text": "Ali só a descida é lenta. Aqui as duas fases são."
+          },
+          {
+            "label": "⚠️ Verificar",
+            "text": "Aparece como dois slugs distintos na fonte (`m-tut` e `mtut`) e sem tempo definido. Confirme a cadência exata."
+          }
+        ]
+      }
     },
     "falha-total": {
       "name": "Falha Total",
       "aliases": [],
       "summary": "Vá até não conseguir mover o peso em nenhuma direção, nem segurar a descida.",
-      "full": "**O que é.** O ponto além da falha concêntrica, em que nem a descida controlada é possível.\n\n**Como executar.** Só em exercícios onde soltar o peso é seguro — máquina, polia, ou com parceiro.\n\n**Quando usar.** Raramente, e na última série. É muito custoso em recuperação.\n\n**Erro comum.** Usar em exercício livre com barra sobre o corpo.",
       "caution": "Não use em exercícios livres com o peso sobre o corpo ou a cabeça sem parceiro e sem pinos de segurança.",
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "O ponto além da falha concêntrica, em que nem a descida controlada é possível.",
+        "how": "Só em exercícios onde soltar o peso é seguro — máquina, polia, ou com parceiro.",
+        "when": "Raramente, e na última série. É muito custoso em recuperação.",
+        "mistake": "Usar em exercício livre com barra sobre o corpo.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
@@ -191,25 +388,53 @@
         "Fascial Stretch Training"
       ],
       "summary": "Sete séries do último exercício do grupo, 30–45s de descanso, buscando congestão máxima.",
-      "full": "**O que é.** Um finalizador de sete séries no exercício de isolamento que fecha o grupo muscular.\n\n**Como executar.** 7 séries, 8–12 repetições, 30–45 segundos de descanso, carga moderada.\n\n**Quando usar.** Como último exercício de um grupo, nunca no começo.\n\n**Erro comum.** Escolher carga pesada demais e não sustentar as sete séries.\n\n**Nota do app.** Sete séries impactam bastante a estimativa de duração — o BoraSet conta isso.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Um finalizador de sete séries no exercício de isolamento que fecha o grupo muscular.",
+        "how": "7 séries, 8–12 repetições, 30–45 segundos de descanso, carga moderada.",
+        "when": "Como último exercício de um grupo, nunca no começo.",
+        "mistake": "Escolher carga pesada demais e não sustentar as sete séries.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Sete séries impactam bastante a estimativa de duração — o BoraSet conta isso."
+          }
+        ]
+      }
     },
     "forca-pura": {
       "name": "Força Pura",
       "aliases": [],
       "summary": "Cargas altas e poucas repetições, com descanso longo. Foco em força, não em volume.",
-      "full": "**O que é.** Faixa de trabalho pesada, tipicamente 1 a 5 repetições, com descanso amplo entre séries.\n\n**Como executar.** Aqueça progressivamente antes. Descanse o suficiente para a próxima série ser tão boa quanto a anterior.\n\n**Quando usar.** Nos exercícios compostos que abrem o treino.\n\n**Erro comum.** Encurtar o descanso e transformar em treino de resistência com peso alto.\n\n**⚠️ Verificar.** As planilhas não definem faixa exata. Confirme antes de publicar.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Faixa de trabalho pesada, tipicamente 1 a 5 repetições, com descanso amplo entre séries.",
+        "how": "Aqueça progressivamente antes. Descanse o suficiente para a próxima série ser tão boa quanto a anterior.",
+        "when": "Nos exercícios compostos que abrem o treino.",
+        "mistake": "Encurtar o descanso e transformar em treino de resistência com peso alto.",
+        "extra": [
+          {
+            "label": "⚠️ Verificar",
+            "text": "As planilhas não definem faixa exata. Confirme antes de publicar."
+          }
+        ]
+      }
     },
     "apneia": {
       "name": "Apneia",
       "aliases": [],
       "summary": "Prende a respiração num trecho curto do movimento para aumentar a pressão intra-abdominal.",
-      "full": "**O que é.** Segurar o ar durante a parte mais exigente da repetição, estabilizando o tronco.\n\n**Como executar.** Inspire antes, segure durante o trecho de maior esforço, solte ao concluir. Trechos curtos.\n\n**Quando usar.** Exercícios que exigem tronco firme, e trabalho específico de core.\n\n**Erro comum.** Prender por repetições inteiras seguidas.",
       "caution": "Pode causar tontura e elevar a pressão arterial. Quem tem condição cardiovascular, hipertensão ou está gestante deve consultar um profissional antes de usar.",
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Segurar o ar durante a parte mais exigente da repetição, estabilizando o tronco.",
+        "how": "Inspire antes, segure durante o trecho de maior esforço, solte ao concluir. Trechos curtos.",
+        "when": "Exercícios que exigem tronco firme, e trabalho específico de core.",
+        "mistake": "Prender por repetições inteiras seguidas.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
@@ -217,25 +442,53 @@
         "Lento"
       ],
       "summary": "Movimento lento nas duas fases, sem impulso e sem pausa, mantendo tensão constante.",
-      "full": "**O que é.** Cadência reduzida do início ao fim da repetição.\n\n**Como executar.** Sem balanço, sem travar. A carga precisa ser menor do que a habitual.\n\n**Quando usar.** Aprendizado de movimento, ou quando não há carga disponível suficiente.\n\n**Diferença para M-TUT.** Na prática se sobrepõem; a fonte usa os dois termos sem distinção clara.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Cadência reduzida do início ao fim da repetição.",
+        "how": "Sem balanço, sem travar. A carga precisa ser menor do que a habitual.",
+        "when": "Aprendizado de movimento, ou quando não há carga disponível suficiente.",
+        "mistake": "Acelerar quando a fadiga chega, o que devolve o exercício a uma série comum.",
+        "extra": [
+          {
+            "label": "Diferença para M-TUT",
+            "text": "Na prática se sobrepõem; a fonte usa os dois termos sem distinção clara."
+          }
+        ]
+      }
     },
     "aquecimento": {
       "name": "Aquecimento",
       "aliases": [],
       "summary": "Séries leves antes das séries valendo, para preparar articulação e padrão de movimento.",
-      "full": "**O que é.** Preparação específica para o exercício que vem a seguir.\n\n**Como executar.** 1 a 3 séries com carga bem abaixo da de trabalho, sem levar ao esforço.\n\n**Quando usar.** Antes do primeiro exercício pesado de cada grupo muscular.\n\n**Nota do app.** Séries de aquecimento entram na estimativa de duração mas não contam como volume de trabalho.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Preparação específica para o exercício que vem a seguir.",
+        "how": "1 a 3 séries com carga bem abaixo da de trabalho, sem levar ao esforço.",
+        "when": "Antes do primeiro exercício pesado de cada grupo muscular.",
+        "mistake": "Fazer pesado o bastante para contar como série valendo, e roubar das séries de verdade.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Séries de aquecimento entram na estimativa de duração mas não contam como volume de trabalho."
+          }
+        ]
+      }
     },
     "explosao-concentrica": {
       "name": "Explosão Concêntrica",
       "aliases": [],
       "summary": "Suba o peso com intenção máxima de velocidade e desça controlado.",
-      "full": "**O que é.** Ênfase na intenção de acelerar durante a fase de subida.\n\n**Como executar.** Empurre ou puxe o mais rápido que conseguir; desça em ritmo normal e controlado.\n\n**Quando usar.** Exercícios compostos com carga moderada.\n\n**Erro comum.** Deixar a descida virar queda livre — só a subida é rápida.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Ênfase na intenção de acelerar durante a fase de subida.",
+        "how": "Empurre ou puxe o mais rápido que conseguir; desça em ritmo normal e controlado.",
+        "when": "Exercícios compostos com carga moderada.",
+        "mistake": "Deixar a descida virar queda livre — só a subida é rápida.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Pirâmide Decrescente",
@@ -243,9 +496,20 @@
         "Piramidal Decrescente"
       ],
       "summary": "A cada série você reduz a carga e aumenta as repetições. Começa pesado.",
-      "full": "**O que é.** O inverso da pirâmide crescente: a série mais pesada é a primeira.\n\n**Como executar.** Exemplo: 6 reps → 8 → 10 → 12, tirando peso a cada troca.\n\n**Quando usar.** Quando você quer atacar o pesado descansado, com aquecimento feito à parte.\n\n**Erro comum.** Pular o aquecimento e entrar direto no mais pesado.\n\n**Nota do app.** Como na crescente, cada série tem sua própria carga registrada.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "O inverso da pirâmide crescente: a série mais pesada é a primeira.",
+        "how": "Exemplo: 6 reps → 8 → 10 → 12, tirando peso a cada troca.",
+        "when": "Quando você quer atacar o pesado descansado, com aquecimento feito à parte.",
+        "mistake": "Pular o aquecimento e entrar direto no mais pesado.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Como na crescente, cada série tem sua própria carga registrada."
+          }
+        ]
+      }
     },
     "piramidal": {
       "name": "Piramidal",
@@ -253,9 +517,20 @@
         "Pirâmide"
       ],
       "summary": "Carga e repetições variam entre as séries em vez de ficarem fixas. Pode ser crescente ou decrescente.",
-      "full": "**O que é.** O termo genérico. A ficha indica pirâmide sem dizer a direção.\n\n**Como executar.** Se não estiver especificado, o padrão mais comum é crescente: mais peso, menos repetição a cada série.\n\n**Veja também.** Pirâmide Crescente e Pirâmide Decrescente para o detalhe de cada direção.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "O termo genérico. A ficha indica pirâmide sem dizer a direção.",
+        "how": "Se não estiver especificado, o padrão mais comum é crescente: mais peso, menos repetição a cada série.",
+        "when": "Sempre que a ficha nomear a técnica sem indicar a direção.",
+        "mistake": "Supor a direção em vez de confirmar. Crescente e decrescente treinam coisas diferentes.",
+        "extra": [
+          {
+            "label": "Veja também",
+            "text": "Pirâmide Crescente e Pirâmide Decrescente para o detalhe de cada direção."
+          }
+        ]
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
@@ -264,9 +539,20 @@
         "Tri Set"
       ],
       "summary": "Três exercícios em sequência, sem descanso entre eles. O descanso vem só ao fim dos três.",
-      "full": "**O que é.** Como o bi-set, mas com três exercícios no bloco.\n\n**Como executar.** Emende os três e descanse apenas depois do último.\n\n**Quando usar.** Densidade alta e economia de tempo. Costuma fechar um grupo muscular.\n\n**Erro comum.** Montar com três aparelhos que ficam longe um do outro, ou que costumam estar ocupados.\n\n**Nota do app.** Ocupar um dos três invalida o bloco — o BoraSet reavalia os três juntos, não só o ocupado.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Como o bi-set, mas com três exercícios no bloco.",
+        "how": "Emende os três e descanse apenas depois do último.",
+        "when": "Densidade alta e economia de tempo. Costuma fechar um grupo muscular.",
+        "mistake": "Montar com três aparelhos que ficam longe um do outro, ou que costumam estar ocupados.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Ocupar um dos três invalida o bloco — o BoraSet reavalia os três juntos, não só o ocupado."
+          }
+        ]
+      }
     },
     "carga-progressiva": {
       "name": "Carga Progressiva",
@@ -274,9 +560,24 @@
         "Progressão de carga"
       ],
       "summary": "Aumente a carga ao longo das semanas conforme você atinge o topo da faixa de repetições.",
-      "full": "**O que é.** O princípio de progressão entre sessões, não dentro de uma sessão.\n\n**Como executar.** Fechou todas as séries no topo da faixa com boa execução? Suba a carga no próximo treino.\n\n**Quando usar.** É o padrão de qualquer treino com objetivo de força ou hipertrofia.\n\n**Nota do app.** É exatamente isso que o BoraSet detecta no seu histórico para sugerir aumento de carga.\n\n**⚠️ Verificar.** Slug malformado na fonte (`carga-progressiva1805216764`); pode haver variação de nome.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "O princípio de progressão entre sessões, não dentro de uma sessão.",
+        "how": "Fechou todas as séries no topo da faixa com boa execução? Suba a carga no próximo treino.",
+        "when": "É o padrão de qualquer treino com objetivo de força ou hipertrofia.",
+        "mistake": "Subir a carga antes das repetições estarem realmente limpas.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "É exatamente isso que o BoraSet detecta no seu histórico para sugerir aumento de carga."
+          },
+          {
+            "label": "⚠️ Verificar",
+            "text": "Slug malformado na fonte (`carga-progressiva1805216764`); pode haver variação de nome."
+          }
+        ]
+      }
     },
     "isometria": {
       "name": "Isometria",
@@ -284,9 +585,27 @@
         "Isométrico"
       ],
       "summary": "Segure a posição parado, sem subir nem descer, pelo tempo indicado.",
-      "full": "**O que é.** Contração sem movimento articular.\n\n**Como executar.** Assuma a posição e sustente pelo tempo prescrito, respirando normalmente.\n\n**Quando usar.** Core, estabilizadores, e como finalização de um exercício dinâmico.\n\n**Erro comum.** Prender a respiração o tempo todo.\n\n**Nota do app.** Isometria é medida em segundos, não em repetições — o registro de série aceita duração.",
       "caution": null,
-      "status": "final"
+      "status": "final",
+      "sections": {
+        "what": "Contração sem movimento articular.",
+        "how": "Assuma a posição e sustente pelo tempo prescrito, respirando normalmente.",
+        "when": "Core, estabilizadores, e como finalização de um exercício dinâmico.",
+        "mistake": "Prender a respiração o tempo todo.",
+        "extra": [
+          {
+            "label": "Nota do app",
+            "text": "Isometria é medida em segundos, não em repetições — o registro de série aceita duração."
+          }
+        ]
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

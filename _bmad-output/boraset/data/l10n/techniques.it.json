@@ -10,241 +10,428 @@
       "name": "Contrazione di Picco",
       "aliases": [],
       "summary": "Tieni 1-2s nel punto di massima contrazione di ogni ripetizione, stringendo prima di tornare giù.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Una pausa breve e attiva nel punto in cui il muscolo è più accorciato.",
+        "how": "Sali normalmente, tieni 1-2 secondi stringendo il muscolo bersaglio, poi scendi controllato.",
+        "when": "Esercizi di isolamento e macchine, dove il bersaglio si sente con chiarezza.",
+        "mistake": "Fare la pausa con il corpo e non con il muscolo. Se blocchi l'articolazione e riposi, hai perso la tecnica.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Piramide Crescente",
       "aliases": [],
       "summary": "Aumenti il carico e cali le ripetizioni a ogni serie. Si inizia leggeri e si finisce pesanti.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Il carico sale serie dopo serie mentre le ripetizioni scendono.",
+        "how": "Esempio: 15 rip → 12 → 10 → 8, aggiungendo peso a ogni cambio. L'ultima serie è la più pesante.",
+        "when": "Sul primo esercizio del gruppo, per arrivare al pesante in sicurezza.",
+        "mistake": "Aggiungere carico troppo presto e arrivare vuoti alla serie che contava davvero.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Cedimento Concentrico",
       "aliases": [],
       "summary": "Ripeti finché non riesci più a sollevare da solo. Ci si ferma quando la salita cede.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Il punto in cui non riesci più a completare una salita con buona esecuzione.",
+        "how": "Vai fino alla ripetizione che si blocca in salita. Lì la serie è finita: non forzarla con lo slancio.",
+        "when": "Nell'ultima serie di un esercizio, o quando la scheda lo richiede esplicitamente.",
+        "mistake": "Confondere il cedimento con il fastidio. Il cedimento è meccanico: il peso non sale.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "Senza Ripetizioni Fisse",
       "aliases": [],
       "summary": "Nessun numero fisso di ripetizioni. Fai quel che riesci con buona tecnica, nello sforzo richiesto.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "La scheda fissa serie e recupero ma lascia aperte le ripetizioni.",
+        "how": "Lavora fino allo sforzo richiesto dalla serie, di solito vicino al cedimento, senza contare un obiettivo.",
+        "when": "Quando l'obiettivo è lo sforzo e non un volume esatto.",
+        "mistake": "Trattarlo come \"fai quello che ti pare\". Il criterio di stop resta, semplicemente non è un numero.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop Set",
       "aliases": [],
       "summary": "Arriva al cedimento, togli subito il 20-30% del carico e continua senza riposo.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Un prolungamento della serie: togli carico e continui, senza pausa.",
+        "how": "Ceduto? Riduci il 20-30% del peso in pochi secondi e prosegui fino a cedere di nuovo.",
+        "when": "Nell'ultima serie dell'esercizio. Macchine e cavi sono i più pratici.",
+        "mistake": "Metterci troppo a cambiare il peso: oltre ~10 secondi diventa una serie nuova, non un drop.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "Rest-pause con un solo giro: cedimento, ~15s di pausa, un altro blocco con lo stesso carico.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "È il rest-pause eseguito una volta sola, invece delle tre tornate del formato completo.",
+        "how": "Vai a cedimento. Riposa circa 15 secondi senza uscire dalla posizione. Fai un altro blocco con lo stesso carico.",
+        "when": "Quando la scheda vuole l'intensità del rest-pause senza il costo di recupero delle tre tornate.",
+        "mistake": "Allungare la pausa. Oltre ~20 secondi è una serie nuova.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Ripetizioni di Riserva",
       "aliases": [],
       "summary": "Fermati lasciando 1-3 ripetizioni nel serbatoio. Non andare a cedimento.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Un freno voluto: chiudi la serie prima del cedimento.",
+        "how": "Se alla fine sentivi di averne altre due, ne hai lasciate due in riserva. È questo l'obiettivo.",
+        "when": "Nella maggior parte delle serie di una sessione di volume, per accumulare lavoro senza svuotarti.",
+        "mistake": "Sovrastimare la riserva. Quasi tutti sono più vicini al cedimento di quanto credano.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster",
       "aliases": [],
       "summary": "Dividi la serie in blocchi brevi con 10-20s di pausa, mantenendo il carico alto.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Una serie spezzata in mini-blocchi, con micro-recuperi programmati.",
+        "how": "Esempio: 3 rip, 15s di pausa, 3 rip, 15s, 3 rip. Conta come una serie sola.",
+        "when": "Quando vuoi volume con carico pesante senza perdere l'esecuzione.",
+        "mistake": "Allungare le pause fino a farne tre serie normali.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
       "aliases": [],
       "summary": "Nessuna pausa tra le ripetizioni e nessun riposo fino a fine serie. Movimento continuo.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tensione continua: il muscolo non riposa in nessun punto del movimento.",
+        "how": "Non bloccare in alto né rilassare in basso. Su e giù senza fermarsi.",
+        "when": "Isolamento, macchine e finisher. Molto comune su glutei, polpacci e addome.",
+        "mistake": "Accorciare il range per riuscire a tenere il ritmo.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Vai a cedimento, riposa 10-20s, riprendi con lo stesso carico. Ripeti 2 o 3 volte.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Più tornate di cedimento separate da pause molto brevi, senza cambiare il carico.",
+        "how": "Cedimento → 10-20s → altre ripetizioni fino a cedere → 10-20s → ultima tornata.",
+        "when": "Ultima serie dell'esercizio, quando vuoi intensità senza aumentare il carico.",
+        "mistake": "Trasformare la pausa breve in un recupero pieno, che ne fa solo tre serie separate.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Tensione Progressiva",
       "aliases": [],
       "summary": "Aumenta la richiesta a ogni serie - carico, tempo sotto tensione o ampiezza - senza perdere tecnica.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Progressione dentro la sessione stessa: ogni serie chiede un po' più della precedente.",
+        "how": "La variabile che sale può essere peso, lentezza o ampiezza. Lo definisce la scheda o il professionista.",
+        "when": "Quando vuoi uno stimolo crescente senza cedere già alla prima serie.",
+        "mistake": "Alzare la richiesta e far cadere la tecnica insieme a lei.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "Metodo 3/7",
       "aliases": [],
       "summary": "Cinque blocchi da 3, 4, 5, 6 e 7 ripetizioni con ~15s di riposo, stesso carico dall'inizio alla fine.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Un metodo a serie crescenti con recuperi molto brevi, contato come un unico esercizio.",
+        "how": "3 rip → 15s → 4 → 15s → 5 → 15s → 6 → 15s → 7. Stesso carico dall'inizio alla fine.",
+        "when": "Quando si cerca alto accumulo di fatica con carico moderato.",
+        "mistake": "Scegliere un carico troppo pesante e non chiudere gli ultimi blocchi.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Eccentrica Lenta",
       "aliases": [],
       "summary": "Scendi lentamente (3-5s) e sali a ritmo normale. È la discesa quella che conta.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Enfasi sulla fase in cui il muscolo si allunga sotto carico.",
+        "how": "Conta 3-5 secondi in discesa. La salita è normale e controllata.",
+        "when": "Quando vuoi stimolo alto senza carico alto, o per migliorare il controllo del movimento.",
+        "mistake": "Contare troppo in fretta. Cronometra le prime volte.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip Set",
       "aliases": [],
       "summary": "Più drop di fila: cedimento, togli, cedimento di nuovo, togli ancora, fino a esaurire il carico.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Un drop set concatenato, con tre o più riduzioni di fila.",
+        "how": "Ceduto, togli peso, continua. Ripeti finché il carico è minimo. Nessun recupero tra i cambi.",
+        "when": "Come finisher di un gruppo muscolare. Meglio ai cavi, alle macchine o con manubri sulla rastrelliera.",
+        "mistake": "Scegliere un esercizio in cui non si può cambiare peso in fretta.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Occlusione",
       "aliases": [],
       "summary": "Allenamento con restrizione parziale del flusso sanguigno, carico basso e molte ripetizioni.",
-      "full": null,
       "caution": "Richiede la guida in presenza di un professionista per pressione e durata. Non improvvisare con materiale generico.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Uso di una fascia o bracciale in alto sull'arto per limitare parzialmente il ritorno venoso.",
+        "how": "Carico basso (tipicamente 20-30% del massimale), molte ripetizioni, recupero breve, fascia secondo indicazione.",
+        "when": "Quando si cerca uno stimolo con pochissimo carico.",
+        "mistake": "Stringere troppo la fascia o tenerla applicata troppo a lungo.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Superserie",
       "aliases": [],
       "summary": "Due esercizi di fila, senza riposo tra loro. Il riposo arriva solo dopo la coppia.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Una coppia di esercizi trattata come una sola unità di allenamento.",
+        "how": "Finisci il primo e passa dritto al secondo. Il recupero inizia solo dopo entrambi.",
+        "when": "Per risparmiare tempo, aumentare la densità o abbinare muscoli che non competono tra loro.",
+        "mistake": "Scegliere due postazioni lontane: lo spostamento diventa il recupero che non doveva esistere.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Ripetizioni Veloci",
       "aliases": [],
       "summary": "Esecuzione a ritmo accelerato, con controllo. Focus sulla velocità, non sul carico massimo.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Cadenza rapida mantenendo ampiezza e controllo.",
+        "how": "Sali con l'intenzione di andare veloce e scendi senza buttarti. L'ampiezza completa resta valida.",
+        "when": "Finisher e lavoro di potenza con carichi leggeri o moderati.",
+        "mistake": "Scambiare velocità con slancio: se il corpo aiuta, il muscolo non lavora più.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "Tempo sotto tensione prolungato: ogni ripetizione lenta in entrambe le fasi, senza bloccare in cima.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Massimizzare il tempo totale che il muscolo passa sotto carico dentro la serie.",
+        "how": "Salita e discesa controllate e lente, senza pausa in alto né in basso.",
+        "when": "Isolamento e macchine, dove la tensione continua è sicura da mantenere.",
+        "mistake": "Bloccare in alto, cosa che scarica il peso sull'articolazione e chiude la tensione.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Cedimento Totale",
       "aliases": [],
       "summary": "Vai fino a non riuscire più a muovere il carico in nessuna direzione, nemmeno a controllare la discesa.",
-      "full": null,
       "caution": "Non usarla su esercizi liberi con il carico sopra il corpo o la testa senza spotter e senza fermi di sicurezza.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Il punto oltre il cedimento concentrico, dove nemmeno la discesa controllata è possibile.",
+        "how": "Solo su esercizi dove mollare il peso è sicuro: macchina, cavo o con un compagno.",
+        "when": "Raramente, e nell'ultima serie. Costa moltissimo in termini di recupero.",
+        "mistake": "Usarlo su un esercizio libero con il bilanciere sopra il corpo.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "Sette serie sull'ultimo esercizio del gruppo, 30-45s di riposo, per la massima congestione.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Un finisher di sette serie sull'esercizio di isolamento che chiude un gruppo muscolare.",
+        "how": "7 serie, 8-12 ripetizioni, 30-45 secondi di recupero, carico moderato.",
+        "when": "Come ultimo esercizio di un gruppo, mai all'inizio.",
+        "mistake": "Scegliere un carico troppo pesante e non reggere tutte e sette le serie.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Forza Pura",
       "aliases": [],
       "summary": "Carichi alti e poche ripetizioni, con riposo lungo. L'obiettivo è la forza, non il volume.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Una fascia di lavoro pesante, tipicamente 1-5 ripetizioni, con recupero ampio.",
+        "how": "Riscaldati progressivamente prima. Recupera abbastanza perché la serie dopo valga quanto la precedente.",
+        "when": "Sui multiarticolari che aprono la seduta.",
+        "mistake": "Accorciare il recupero e trasformarlo in resistenza con un peso alto.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Apnea",
       "aliases": [],
       "summary": "Trattieni il respiro in un tratto breve del movimento per aumentare la pressione intra-addominale.",
-      "full": null,
       "caution": "Può causare capogiri e alzare la pressione. Chi ha problemi cardiovascolari, ipertensione o è in gravidanza consulti prima un professionista.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Trattenere l'aria nel tratto più impegnativo della ripetizione, stabilizzando il tronco.",
+        "how": "Inspira prima, trattieni nel tratto più duro, espira a fine ripetizione. Solo tratti brevi.",
+        "when": "Esercizi che richiedono tronco rigido, e lavoro specifico di core.",
+        "mistake": "Trattenere il respiro per serie intere di fila.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
       "aliases": [],
       "summary": "Movimento lento in entrambe le fasi, senza slancio e senza pausa, con tensione costante.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Cadenza ridotta dall'inizio alla fine della ripetizione.",
+        "how": "Senza slancio, senza bloccare. Il carico dev'essere più leggero del solito.",
+        "when": "Apprendimento del movimento, o quando non c'è abbastanza carico disponibile.",
+        "mistake": "Accelerare quando arriva la fatica, cosa che lo riporta a essere una serie normale.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Riscaldamento",
       "aliases": [],
       "summary": "Serie leggere prima di quelle allenanti, per preparare l'articolazione e lo schema motorio.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Preparazione specifica per l'esercizio che segue.",
+        "how": "1-3 serie ben sotto il carico di lavoro, senza mai arrivare allo sforzo.",
+        "when": "Prima del primo esercizio pesante di ogni gruppo muscolare.",
+        "mistake": "Renderlo così duro da contare come serie allenante, togliendo così a quelle vere.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Esplosione Concentrica",
       "aliases": [],
       "summary": "Solleva il carico con la massima intenzione di velocità e scendi controllato.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Enfasi sull'intenzione di accelerare durante la fase di salita.",
+        "how": "Spingi o tira il più veloce possibile; scendi a ritmo normale e controllato.",
+        "when": "Esercizi multiarticolari con carico moderato.",
+        "mistake": "Lasciare che la discesa diventi caduta libera: solo la salita è veloce.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Piramide Decrescente",
       "aliases": [],
       "summary": "Cali il carico e aumenti le ripetizioni a ogni serie. Si inizia pesanti.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "L'inverso della piramide crescente: la serie più pesante è la prima.",
+        "how": "Esempio: 6 rip → 8 → 10 → 12, togliendo peso a ogni cambio.",
+        "when": "Quando vuoi attaccare il pesante da fresco, con il riscaldamento fatto a parte.",
+        "mistake": "Saltare il riscaldamento ed entrare dritto nel più pesante.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Piramidale",
       "aliases": [],
       "summary": "Carico e ripetizioni variano tra le serie invece di restare fissi. Crescente o decrescente.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Il termine generico. La scheda indica piramide senza dire la direzione.",
+        "how": "Se non è specificato, lo schema più comune è crescente: più peso, meno ripetizioni a ogni serie.",
+        "when": "Ogni volta che la scheda nomina la tecnica senza indicare la direzione.",
+        "mistake": "Dare per scontata la direzione invece di verificarla. Crescente e decrescente allenano cose diverse.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
       "aliases": [],
       "summary": "Tre esercizi di fila, senza riposo tra loro. Il riposo arriva solo alla fine dei tre.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Come il bi-set, ma con tre esercizi nel blocco.",
+        "how": "Concatena i tre e recupera solo dopo l'ultimo.",
+        "when": "Densità alta e risparmio di tempo. Di solito chiude un gruppo muscolare.",
+        "mistake": "Costruirlo con tre postazioni lontane tra loro, o spesso occupate.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Sovraccarico Progressivo",
       "aliases": [],
       "summary": "Aumenta il carico nelle settimane quando raggiungi il limite alto del range di ripetizioni.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Il principio di progressione tra le sedute, non dentro una singola.",
+        "how": "Chiuse tutte le serie al limite alto del range con buona esecuzione? Alza il carico la volta dopo.",
+        "when": "È lo standard di qualunque programma di forza o ipertrofia.",
+        "mistake": "Alzare il carico prima che le ripetizioni siano davvero pulite.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "Isometria",
       "aliases": [],
       "summary": "Tieni la posizione ferma, senza salire né scendere, per il tempo indicato.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Contrazione senza movimento articolare.",
+        "how": "Assumi la posizione e tienila per il tempo previsto, respirando normalmente.",
+        "when": "Core, stabilizzatori, e come chiusura di un esercizio dinamico.",
+        "mistake": "Trattenere il respiro per tutto il tempo.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

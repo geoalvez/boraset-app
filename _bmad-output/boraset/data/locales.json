@@ -55,10 +55,10 @@
     },
     "en": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": false,
       "exercises": 100.0
     },
@@ -73,28 +73,28 @@
     },
     "de": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "es": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "fr": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
@@ -118,10 +118,10 @@
     },
     "it": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
@@ -145,19 +145,19 @@
     },
     "nl": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "pl": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
@@ -206,5 +206,6 @@
       "needs_native_review": true,
       "exercises": 100.0
     }
-  }
+  },
+  "ship_rule": "Um idioma só é oferecido quando technique_summary == 100. As seções da biblioteca são desejáveis, não bloqueantes."
 }

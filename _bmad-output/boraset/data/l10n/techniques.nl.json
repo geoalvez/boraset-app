@@ -10,241 +10,428 @@
       "name": "Piekcontractie",
       "aliases": [],
       "summary": "Houd 1-2s vast op het punt van maximale samentrekking van elke herhaling, knijp aan voor je terugkeert.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een korte, actieve pauze op het punt waar de spier het kortst is.",
+        "how": "Til normaal, houd 1-2 seconden vast terwijl je de doelspier aanspant, en laat gecontroleerd zakken.",
+        "when": "Isolatiewerk en machines, waar je de doelspier duidelijk voelt.",
+        "mistake": "De pauze met je lichaam maken in plaats van met de spier. Wie het gewricht op slot zet en rust, is de techniek kwijt.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Oplopende Piramide",
       "aliases": [],
       "summary": "Elke set meer gewicht en minder herhalingen. Licht beginnen, zwaar eindigen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Het gewicht loopt per set op terwijl de herhalingen dalen.",
+        "how": "Bijvoorbeeld: 15 → 12 → 10 → 8 herhalingen, elke keer zwaarder. De laatste set is de zwaarste.",
+        "when": "Bij de eerste oefening van een spiergroep, om veilig naar zwaar toe te werken.",
+        "mistake": "Te vroeg gewicht toevoegen en leeg aankomen bij de set die er echt toe deed.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Concentrisch Falen",
       "aliases": [],
       "summary": "Herhaal tot je het gewicht niet meer zelf omhoog krijgt. Stop zodra de opwaartse fase faalt.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Het punt waarop je geen herhaling meer met goede techniek omhoog krijgt.",
+        "how": "Ga door tot de herhaling blijft steken op de weg omhoog. Daar stopt de set — forceer niet met zwaai.",
+        "when": "In de laatste set van een oefening, of wanneer het schema erom vraagt.",
+        "mistake": "Falen verwarren met ongemak. Falen is mechanisch: het gewicht komt niet meer omhoog.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "Geen Vaste Herhalingen",
       "aliases": [],
       "summary": "Geen vast aantal herhalingen. Doe wat lukt met goede techniek, binnen de gevraagde inspanning.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Het schema bepaalt sets en rust, maar laat het aantal herhalingen open.",
+        "how": "Werk tot de gevraagde inspanning, meestal dicht bij falen, zonder een doelaantal te tellen.",
+        "when": "Wanneer het om inspanning gaat en niet om exact volume.",
+        "mistake": "Het opvatten als \"doe maar wat\". Het stopcriterium bestaat nog steeds, het is alleen geen getal.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop Set",
       "aliases": [],
       "summary": "Ga tot falen, haal direct 20-30% gewicht eraf en ga door zonder rust.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een verlenging van de set: je haalt gewicht eraf en gaat door, zonder pauze.",
+        "how": "Gefaald? Haal er binnen enkele seconden 20-30% af en ga door tot je opnieuw faalt.",
+        "when": "In de laatste set van de oefening. Machines en kabels zijn het handigst.",
+        "mistake": "Te lang doen over het wisselen — boven ~10 seconden is het een nieuwe set, geen drop.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "Rest-pause met één ronde: falen, ~15s rust, nog één blok met hetzelfde gewicht.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Rest-pause, één keer uitgevoerd in plaats van de gebruikelijke drie ronden.",
+        "how": "Ga tot falen. Rust ongeveer 15 seconden zonder de positie te verlaten. Doe nog één blok met hetzelfde gewicht.",
+        "when": "Wanneer het schema de intensiteit van rest-pause wil zonder de herstelkosten van drie ronden.",
+        "mistake": "De pauze oprekken. Na ~20 seconden is het gewoon een nieuwe set.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Herhalingen in Reserve",
       "aliases": [],
       "summary": "Stop met nog 1-3 herhalingen in de tank. Ga niet tot falen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een bewuste rem: je sluit de set af vóór het falen.",
+        "how": "Had je aan het eind het gevoel dat er nog twee in zaten, dan liet je er twee in reserve. Dat is het doel.",
+        "when": "In de meeste sets van een volumesessie, om werk te stapelen zonder leeg te lopen.",
+        "mistake": "De reserve overschatten. De meeste mensen zitten dichter bij falen dan ze denken.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster",
       "aliases": [],
       "summary": "Splits de set in korte blokken met 10-20s pauze ertussen, met zwaar gewicht.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een set opgeknipt in miniblokken, met geplande micropauzes.",
+        "how": "Bijvoorbeeld: 3 herhalingen, 15s pauze, 3, 15s, 3. Het telt als één set.",
+        "when": "Wanneer je volume wilt bij een zwaar gewicht zonder de uitvoering te verliezen.",
+        "mistake": "De pauzes laten oplopen tot het drie gewone sets worden.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
       "aliases": [],
       "summary": "Geen pauze tussen de herhalingen en geen rust tot de set klaar is. Doorlopende beweging.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Doorlopende spanning: de spier rust op geen enkel punt van de beweging.",
+        "how": "Zet bovenin niet op slot en ontspan onderin niet. Op en neer zonder stilstand.",
+        "when": "Isolatie, machines en afsluiters. Erg gebruikelijk bij bilspieren, kuiten en buik.",
+        "mistake": "De bewegingsuitslag inkorten om het tempo vol te houden.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Ga tot falen, rust 10-20s, ga verder met hetzelfde gewicht. Herhaal 2 tot 3 keer.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Meerdere faalronden gescheiden door zeer korte pauzes, zonder het gewicht te wisselen.",
+        "how": "Falen → 10-20s → meer herhalingen tot falen → 10-20s → laatste ronde.",
+        "when": "Laatste set van een oefening, als je intensiteit wilt zonder meer gewicht.",
+        "mistake": "Van de korte pauze een volle rust maken — dan zijn het gewoon drie losse sets.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Progressieve Spanning",
       "aliases": [],
       "summary": "Verhoog de eis per set - gewicht, spanningstijd of bereik - zonder techniek te verliezen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Progressie binnen de sessie zelf: elke set vraagt iets meer dan de vorige.",
+        "how": "Wat oploopt kan gewicht, traagheid of bereik zijn. Het schema of de begeleider bepaalt wat.",
+        "when": "Wanneer je een oplopende prikkel wilt zonder al in de eerste set te falen.",
+        "mistake": "De eis verhogen en de techniek er meteen bij laten vallen.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "3/7-Methode",
       "aliases": [],
       "summary": "Vijf blokken van 3, 4, 5, 6 en 7 herhalingen met ~15s rust, hetzelfde gewicht van begin tot eind.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een ladder van oplopende blokken met zeer korte rust, geteld als één oefening.",
+        "how": "3 → 15s → 4 → 15s → 5 → 15s → 6 → 15s → 7. Hetzelfde gewicht van begin tot eind.",
+        "when": "Wanneer je veel vermoeidheidsopbouw wilt bij een matig gewicht.",
+        "mistake": "Een te zwaar gewicht kiezen en de laatste blokken niet afmaken.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Langzaam Excentrisch",
       "aliases": [],
       "summary": "Laat het gewicht langzaam zakken (3-5s) en til op normaal tempo. De zakfase telt.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nadruk op de fase waarin de spier onder belasting langer wordt.",
+        "how": "Tel 3 tot 5 seconden bij het zakken. Omhoog gaat in normaal, gecontroleerd tempo.",
+        "when": "Als je een sterke prikkel wilt zonder zwaar gewicht, of om bewegingscontrole te verbeteren.",
+        "mistake": "Te snel tellen. Klok het de eerste keren.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip Set",
       "aliases": [],
       "summary": "Meerdere drops achter elkaar: falen, gewicht eraf, weer falen, weer eraf, tot het op is.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een geketende drop set, met drie of meer verlagingen achter elkaar.",
+        "how": "Gefaald, gewicht eraf, door. Herhaal tot de belasting minimaal is. Geen rust tussen de wissels.",
+        "when": "Als afsluiter van een spiergroep. Werkt het best aan kabel, machine of met dumbbells op het rek.",
+        "mistake": "Een oefening kiezen waarbij je het gewicht niet snel kunt wisselen.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Occlusietraining",
       "aliases": [],
       "summary": "Trainen met gedeeltelijke bloedstroombeperking, licht gewicht en veel herhalingen.",
-      "full": null,
       "caution": "Vereist begeleiding ter plaatse door een professional voor manchetdruk en duur. Improviseer niet met generieke banden.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Gebruik van een band of manchet hoog op de ledemaat om de veneuze terugvloed deels te beperken.",
+        "how": "Licht gewicht (meestal 20-30% van het maximum), veel herhalingen, korte rust, band volgens instructie.",
+        "when": "Wanneer je een prikkel wilt met heel weinig belasting.",
+        "mistake": "De band te strak aanleggen of te lang laten zitten.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Superset",
       "aliases": [],
       "summary": "Twee oefeningen achter elkaar, zonder rust ertussen. Rust komt pas na het paar.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een paar oefeningen dat als één trainingseenheid wordt behandeld.",
+        "how": "Maak de eerste af en ga meteen door naar de tweede. De rust begint pas na allebei.",
+        "when": "Om tijd te winnen, dichtheid te verhogen, of spieren te combineren die elkaar niet in de weg zitten.",
+        "mistake": "Twee ver uit elkaar liggende toestellen kiezen — de loop wordt de rust die er niet had mogen zijn.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Snelle Herhalingen",
       "aliases": [],
       "summary": "Uitvoering in hoog tempo, met controle. Focus op snelheid, niet op maximaal gewicht.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een vlot tempo met behoud van bereik en controle.",
+        "how": "Til met de intentie om snel te zijn en laat zakken zonder je te laten vallen. Volledig bereik blijft gelden.",
+        "when": "Afsluiters en krachtsnelheidswerk met licht tot matig gewicht.",
+        "mistake": "Snelheid inruilen voor zwaai — als het lichaam meehelpt, werkt de spier niet meer.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "Verlengde spanningstijd: elke herhaling langzaam in beide fases, zonder rusten bovenaan.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "De totale tijd maximaliseren die de spier binnen de set onder belasting staat.",
+        "how": "Omhoog en omlaag gecontroleerd en langzaam, zonder pauze boven of onder.",
+        "when": "Isolatie en machines, waar doorlopende spanning veilig vol te houden is.",
+        "mistake": "Bovenin op slot zetten, waardoor de belasting naar het gewricht gaat en de spanning wegvalt.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Volledig Falen",
       "aliases": [],
       "summary": "Ga door tot je het gewicht in geen enkele richting meer beweegt, ook niet gecontroleerd laat zakken.",
-      "full": null,
       "caution": "Niet gebruiken bij vrije oefeningen met het gewicht boven lichaam of hoofd zonder spotter en veiligheidspennen.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Het punt voorbij concentrisch falen, waar zelfs gecontroleerd zakken niet meer lukt.",
+        "how": "Alleen bij oefeningen waar het gewicht loslaten veilig is — machine, kabel of met een partner.",
+        "when": "Zelden, en in de laatste set. Het kost enorm veel herstel.",
+        "mistake": "Het gebruiken bij een vrije oefening met de stang boven je lichaam.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "Zeven sets van de laatste oefening van de spiergroep, 30-45s rust, voor maximale pomp.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een afsluiter van zeven sets op de isolatieoefening die een spiergroep afsluit.",
+        "how": "7 sets, 8-12 herhalingen, 30-45 seconden rust, matig gewicht.",
+        "when": "Als laatste oefening van een spiergroep, nooit aan het begin.",
+        "mistake": "Te zwaar kiezen en de zeven sets niet volhouden.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Pure Kracht",
       "aliases": [],
       "summary": "Zware gewichten en weinig herhalingen, met lange rust. Doel is kracht, niet volume.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een zwaar werkbereik, meestal 1 tot 5 herhalingen, met ruime rust.",
+        "how": "Warm eerst progressief op. Rust lang genoeg zodat de volgende set net zo goed is als de vorige.",
+        "when": "Bij de samengestelde oefeningen die de sessie openen.",
+        "mistake": "De rust inkorten en er uithoudingswerk met zwaar gewicht van maken.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Adem Inhouden",
       "aliases": [],
       "summary": "Houd je adem in tijdens een kort deel van de beweging om de buikdruk te verhogen.",
-      "full": null,
       "caution": "Kan duizeligheid veroorzaken en de bloeddruk verhogen. Bij hart- en vaatproblemen, hoge bloeddruk of zwangerschap eerst een professional raadplegen.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "De adem vasthouden tijdens het zwaarste stuk van de herhaling, om de romp te stabiliseren.",
+        "how": "Adem vooraf in, houd vast tijdens het zwaarste stuk, adem uit bij afronding. Alleen korte stukken.",
+        "when": "Oefeningen die een stevige romp vragen, en gericht rompwerk.",
+        "mistake": "Hele sets achter elkaar je adem vasthouden.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
       "aliases": [],
       "summary": "Langzame beweging in beide fases, zonder zwaai en zonder pauze, met constante spanning.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Een verlaagd tempo van begin tot eind van de herhaling.",
+        "how": "Geen zwaai, niet op slot. De belasting moet lichter zijn dan gewoonlijk.",
+        "when": "Een beweging aanleren, of wanneer er niet genoeg gewicht beschikbaar is.",
+        "mistake": "Versnellen zodra de vermoeidheid komt, waardoor het stilletjes weer een gewone set wordt.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Warming-up",
       "aliases": [],
       "summary": "Lichte sets voor de werksets, om gewricht en bewegingspatroon voor te bereiden.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Specifieke voorbereiding op de oefening die volgt.",
+        "how": "1 tot 3 sets ruim onder het werkgewicht, nooit tot inspanning.",
+        "when": "Vóór de eerste zware beweging van elke spiergroep.",
+        "mistake": "Het zo zwaar maken dat het als werkset telt en de echte sets aanvreet.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Concentrische Explosie",
       "aliases": [],
       "summary": "Til het gewicht met maximale versnellingsintentie en laat gecontroleerd zakken.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nadruk op de intentie te versnellen tijdens de tilfase.",
+        "how": "Duw of trek zo snel je kunt; laat zakken in normaal, gecontroleerd tempo.",
+        "when": "Samengestelde oefeningen bij matig gewicht.",
+        "mistake": "Het zakken een vrije val laten worden — alleen omhoog is snel.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Aflopende Piramide",
       "aliases": [],
       "summary": "Elke set minder gewicht en meer herhalingen. Zwaar beginnen.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Het omgekeerde van de oplopende piramide: de zwaarste set komt eerst.",
+        "how": "Bijvoorbeeld: 6 → 8 → 10 → 12 herhalingen, elke keer gewicht eraf.",
+        "when": "Wanneer je het zware fris wilt aanpakken, met de warming-up apart gedaan.",
+        "mistake": "De warming-up overslaan en direct in het zwaarste beginnen.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Piramide",
       "aliases": [],
       "summary": "Gewicht en herhalingen wisselen per set in plaats van vast te blijven. Op- of aflopend.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "De algemene term. Het schema zegt piramide zonder een richting te noemen.",
+        "how": "Staat er niets bij, dan is oplopend het gebruikelijke patroon: meer gewicht, minder herhalingen per set.",
+        "when": "Telkens als het schema de techniek noemt zonder richting.",
+        "mistake": "De richting aannemen in plaats van hem te controleren. Op- en aflopend trainen niet hetzelfde.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
       "aliases": [],
       "summary": "Drie oefeningen achter elkaar, zonder rust ertussen. Rust komt pas na alle drie.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Zoals de bi-set, maar met drie oefeningen in het blok.",
+        "how": "Ketting alle drie aan elkaar en rust pas na de laatste.",
+        "when": "Hoge dichtheid en tijdwinst. Sluit meestal een spiergroep af.",
+        "mistake": "Hem bouwen uit drie toestellen die ver uit elkaar staan, of vaak bezet zijn.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Progressieve Overbelasting",
       "aliases": [],
       "summary": "Verhoog het gewicht over de weken zodra je de bovenkant van het herhalingsbereik haalt.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Het principe van progressie tussen sessies, niet binnen één sessie.",
+        "how": "Alle sets aan de bovenkant van het herhalingsbereik met goede techniek gehaald? Volgende keer gewicht erbij.",
+        "when": "Het is de standaard voor elk kracht- of hypertrofieprogramma.",
+        "mistake": "Het gewicht verhogen voordat de herhalingen echt schoon zijn.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "Isometrie",
       "aliases": [],
       "summary": "Houd de positie stil, zonder omhoog of omlaag te gaan, voor de aangegeven tijd.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Contractie zonder gewrichtsbeweging.",
+        "how": "Neem de positie in en houd hem de voorgeschreven tijd vast, met normale ademhaling.",
+        "when": "Romp, stabilisatoren, en als afsluiting van een dynamische oefening.",
+        "mistake": "De hele tijd je adem vasthouden.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

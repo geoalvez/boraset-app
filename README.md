@@ -26,12 +26,14 @@ packages/boraset_domain/lib/src/
   engine.dart       contrato do WorkoutDecisionEngine
   strategies.dart   os seis degraus da escada de adaptação
   progression.dart  progressão de carga + matemática de anilha por país
+  presentation.dart o que a tela mostra: tom, aviso, e quando calar
 
 _bmad-output/boraset/data/
   catalog/exercises.core.json     193 exercícios · 13 eixos · 1.980 equivalências
   catalog/techniques.core.json     30 técnicas · categoria e frequência
   l10n/exercises.<locale>.json     nomes por idioma (18 idiomas)
   l10n/techniques.<locale>.json    ajuda por idioma (18 idiomas)
+  l10n/ui_strings.json             rótulos de UI — uma vez por idioma
   locales.json                     manifesto de cobertura de tradução
 ```
 
@@ -88,6 +90,16 @@ equipamento — barra sobe de par em par, halter pula de denominação em denomi
 stack de máquina anda de placa em placa. Três matemáticas diferentes, e o `+100%`
 que um stack de 5 kg impõe vira aviso, não sugestão.
 
+**A tela não decide sozinha o que é perigoso.** "Sugerir +100% de carga" é regra de
+treino, não de layout. Por isso `presentation.dart` — pure Dart, com teste — decide o
+tom (`suggest` / `suggestWithCaution` / `withhold`) e a tela só renderiza. Numa polia
+de 5 kg o menor aumento possível é dobrar a carga: o app não sugere número ali, explica
+e manda progredir por repetição.
+
+**Rótulo de seção mora uma vez por idioma.** O texto da biblioteca é `sections.{what,
+how, when, mistake}`; os títulos vivem em `ui_strings.json`. Traduzir markdown com
+títulos embutidos traduziria "O que é" 510 vezes.
+
 **Identidade e idioma vivem separados.** O núcleo do catálogo não tem uma palavra traduzível;
 nomes e textos moram em pacotes por locale. Um idioma novo custa ~41 KB em vez de ~376 KB.
 
@@ -124,11 +136,10 @@ incorporado aos artefatos.
 treino) e os três avisos de segurança obrigatórios em todos eles.
 
 ```
-                      exercícios   técnicas (resumo)   técnicas (texto longo)
-pt-BR                     100%           100%                  100%
-en es fr de it nl pl
-tr id vi ru ja ko
-zh-Hans hi ar th          100%           100%                    0%
+                            exercícios   resumo   biblioteca
+pt-BR en es fr de it nl pl     100%       100%       100%
+tr id vi ru ja ko zh-Hans
+hi ar th                       100%       100%         0%
 ```
 
 3.281 nomes de exercício traduzidos, 193 por idioma, sem lacuna e sem colisão
@@ -145,7 +156,7 @@ pior que deixar em branco.
 
 ## O que falta
 
-- Texto longo das técnicas fora do pt-BR (o resumo curto já está em todos)
+- Seções da biblioteca em 10 idiomas (tr id vi ru ja ko zh-Hans hi ar th) — o resumo do popup já está em todos os 18
 - Revisão nativa dos 17 idiomas gerados (`needs_native_review: true`)
 - `aliases` por idioma — apelido é gíria local de academia, não tradução
 - App Flutter: telas, persistência local, sincronização

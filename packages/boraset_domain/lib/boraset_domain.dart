@@ -15,6 +15,9 @@
 ///                     da lista é a política.
 ///   progression.dart  quanto peso sugerir da próxima vez, arredondado para a
 ///                     anilha que existe naquele país.
+///   presentation.dart o que a tela deve MOSTRAR — tom, aviso, e quando calar.
+///                     "sugerir +100% é perigoso" é regra de treino, não de
+///                     layout; por isso mora aqui e tem teste.
 ///
 /// Nenhum texto voltado ao usuário mora aqui. `Rationale` carrega código e
 /// fatos; a frase é montada na UI, no idioma dela.
@@ -25,3 +28,4 @@ export 'src/session.dart';
 export 'src/engine.dart';
 export 'src/strategies.dart';
 export 'src/progression.dart';
+export 'src/presentation.dart';

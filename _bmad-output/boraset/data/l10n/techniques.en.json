@@ -8,9 +8,15 @@
         "Squeeze"
       ],
       "summary": "Hold 1-2s at the point of peak contraction on every rep, squeezing before you release.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A short, active pause at the point where the muscle is most shortened.",
+        "how": "Lift normally, hold 1-2 seconds squeezing the target muscle, then lower under control.",
+        "when": "Isolation work and machines, where you can clearly feel the target.",
+        "mistake": "Pausing with your body instead of the muscle. If you lock the joint and rest, the technique is gone.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Ascending Pyramid",
@@ -18,17 +24,29 @@
         "Pyramid"
       ],
       "summary": "Add weight and drop reps on every set. Start light, finish heavy.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Load climbs set by set while reps come down.",
+        "how": "Example: 15 reps → 12 → 10 → 8, adding weight each time. The last set is the heaviest.",
+        "when": "On the first exercise of a muscle group, to warm into heavy work safely.",
+        "mistake": "Adding weight too early and arriving empty on the set that actually mattered.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Concentric Failure",
       "aliases": [],
       "summary": "Rep out until you can no longer lift the weight on your own. Stop when the lift fails.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "The point where you cannot complete another lift with good form.",
+        "how": "Go until the rep stalls on the way up. That is the end of the set — do not force it with momentum.",
+        "when": "On the last set of an exercise, or when the plan calls for it explicitly.",
+        "mistake": "Confusing failure with discomfort. Failure is mechanical: the weight stops moving.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "No Reps",
@@ -36,17 +54,29 @@
         "Open reps"
       ],
       "summary": "No fixed rep target. Do what you can with good form, within the prescribed effort.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "The plan sets sides and rest but leaves the rep count open.",
+        "how": "Work to the effort the set asks for, usually close to failure, without counting a target.",
+        "when": "When the goal is effort rather than an exact volume.",
+        "mistake": "Treating it as \"do whatever you feel like\". The stopping rule still exists — it just is not a number.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop Set",
       "aliases": [],
       "summary": "Reach failure, strip 20-30% of the weight immediately, and keep going with no rest.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "An extension of the set: you shed load and keep going, with no pause.",
+        "how": "Hit failure, cut roughly 20-30% of the weight within seconds, and keep going until you fail again.",
+        "when": "On the last set of an exercise. Machines and cables are the most practical.",
+        "mistake": "Taking too long to change the weight — over ~10 seconds it becomes a new set, not a drop.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
@@ -54,9 +84,15 @@
         "Single rest-pause"
       ],
       "summary": "Rest-pause with a single round: hit failure, rest ~15s, do one more block at the same weight.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Rest-pause run once instead of the usual three rounds.",
+        "how": "Go to failure. Rest about 15 seconds without leaving position. Do one more block at the same weight.",
+        "when": "When the plan wants rest-pause intensity without the recovery cost of three rounds.",
+        "mistake": "Stretching the pause. Past ~20 seconds it stopped being a rest-pause and became a new set.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Reps in Reserve",
@@ -64,17 +100,29 @@
         "RIR"
       ],
       "summary": "Stop with 1-3 reps still in the tank. Do not go to failure.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A deliberate brake: you end the set before failure.",
+        "how": "If you finished feeling you had two more in you, you left two in reserve. That is the target.",
+        "when": "On most sets of a volume session, to accumulate work without emptying the tank.",
+        "mistake": "Overestimating the reserve. Most people are closer to failure than they think.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster Set",
       "aliases": [],
       "summary": "Break the set into short blocks with 10-20s pauses between them, keeping the load heavy.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A set broken into mini-blocks with planned micro-rests.",
+        "how": "Example: 3 reps, 15s pause, 3 reps, 15s, 3 reps. It counts as a single set.",
+        "when": "When you want volume at heavy loads without losing execution.",
+        "mistake": "Letting the pauses stretch until it becomes three ordinary sets.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
@@ -82,25 +130,43 @@
         "Non-Stop"
       ],
       "summary": "No pause between reps and no rest until the set is done. Continuous movement.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Continuous tension: the muscle never rests at any point of the movement.",
+        "how": "Do not lock out at the top or relax at the bottom. Up and down without stopping.",
+        "when": "Isolation, machines and finishers. Very common on glutes, calves and abs.",
+        "mistake": "Cutting the range short to keep the rhythm going.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Go to failure, rest 10-20s, resume at the same weight. Repeat 2-3 times.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Several rounds of failure separated by very short pauses, without changing the weight.",
+        "how": "Failure → 10-20s → more reps to failure → 10-20s → final round.",
+        "when": "Last set of an exercise, when you want intensity without adding load.",
+        "mistake": "Turning the short pause into a full rest, which just makes it three separate sets.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Progressive Tension",
       "aliases": [],
       "summary": "Raise the demand each set - load, time under tension, or range - without losing form.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Progression inside the session itself: each set demands slightly more than the last.",
+        "how": "The rising variable can be weight, tempo or range. The plan or your coach decides which.",
+        "when": "When you want a rising stimulus without hitting failure on the very first set.",
+        "mistake": "Raising the demand and dropping technique along with it.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "3/7 Method",
@@ -108,9 +174,15 @@
         "3 to 7"
       ],
       "summary": "Five blocks of 3, 4, 5, 6 and 7 reps with ~15s rest between them, same weight throughout.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A ladder of ascending blocks with very short rests, counted as one exercise.",
+        "how": "3 reps → 15s → 4 → 15s → 5 → 15s → 6 → 15s → 7. Same weight from start to finish.",
+        "when": "When you want high fatigue accumulation with a moderate load.",
+        "mistake": "Picking a weight that is too heavy and failing to finish the last blocks.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Slow Eccentric",
@@ -118,9 +190,15 @@
         "Slow negative"
       ],
       "summary": "Lower the weight slowly (3-5s) and lift at normal speed. The descent is what counts.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Emphasis on the phase where the muscle lengthens under load.",
+        "how": "Count 3 to 5 seconds on the way down. The lift back up is normal and controlled.",
+        "when": "When you want a strong stimulus without heavy load, or to clean up movement control.",
+        "mistake": "Counting too fast. Time it for the first few sessions.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip Set",
@@ -128,9 +206,15 @@
         "Descending set"
       ],
       "summary": "Several drops back to back: fail, strip, fail again, strip again, until the weight runs out.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A chained drop set, with three or more reductions back to back.",
+        "how": "Failed? Strip weight, keep going. Repeat until the load is minimal. No rest between changes.",
+        "when": "As a finisher for a muscle group. Works best on cables, machines or dumbbells on a rack.",
+        "mistake": "Choosing an exercise where you cannot change the weight quickly.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Blood Flow Restriction",
@@ -139,9 +223,15 @@
         "Occlusion"
       ],
       "summary": "Training with partial blood flow restriction, light load and high reps.",
-      "full": null,
       "caution": "Requires in-person guidance from a professional to set cuff pressure and duration. Do not improvise with generic bands.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Using a cuff or band high on the limb to partially restrict venous return during light sets.",
+        "how": "Light load (typically 20-30% of max), high reps, short rest, cuff applied as instructed.",
+        "when": "When you want a stimulus with very little load.",
+        "mistake": "Over-tightening the cuff or leaving it on for too long.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Superset",
@@ -149,9 +239,15 @@
         "Bi-Set"
       ],
       "summary": "Two exercises back to back with no rest between them. Rest comes only after the pair.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A pair of exercises treated as one unit of training.",
+        "how": "Finish the first and move straight into the second. Rest starts only after both.",
+        "when": "To save time, raise density, or pair muscles that do not compete with each other.",
+        "mistake": "Picking two stations far apart — the walk becomes the rest that was not supposed to exist.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Fast Reps",
@@ -159,9 +255,15 @@
         "Speed reps"
       ],
       "summary": "Accelerated tempo with control. Focus on speed, not maximum load.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A fast cadence while keeping range and control.",
+        "how": "Lift with the intent to move fast and lower without throwing the weight. Full range still applies.",
+        "when": "Finishers and power work with light to moderate loads.",
+        "mistake": "Trading speed for swing — if the body helps, the muscle is no longer working.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
@@ -169,9 +271,15 @@
         "Max Time Under Tension"
       ],
       "summary": "Extended time under tension: every rep is slow in both phases, with no lockout.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Maximizing the total time the muscle spends under load within the set.",
+        "how": "Controlled, slow on the way up and on the way down, with no pause at the top or bottom.",
+        "when": "Isolation and machines, where continuous tension is safe to hold.",
+        "mistake": "Locking out at the top, which hands the load to the joint and ends the tension.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Total Failure",
@@ -179,9 +287,15 @@
         "Absolute failure"
       ],
       "summary": "Go until you cannot move the weight in any direction, not even control the descent.",
-      "full": null,
       "caution": "Do not use on free-weight movements with the load over your body or head without a spotter and safety pins.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "The point beyond concentric failure, where even a controlled descent is impossible.",
+        "how": "Only on exercises where dropping the weight is safe — machine, cable, or with a partner.",
+        "when": "Rarely, and on the last set. It is very expensive in recovery terms.",
+        "mistake": "Using it on a free-weight lift with the bar over your body.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
@@ -189,9 +303,15 @@
         "Fascial Stretch Training"
       ],
       "summary": "Seven sets of the last exercise for the muscle, 30-45s rest, chasing maximum pump.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A seven-set finisher on the isolation movement that closes a muscle group.",
+        "how": "7 sets, 8-12 reps, 30-45 seconds rest, moderate load.",
+        "when": "As the last exercise for a muscle group, never at the start.",
+        "mistake": "Picking a load that is too heavy and failing to hold up across all seven sets.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Pure Strength",
@@ -199,9 +319,15 @@
         "Max strength"
       ],
       "summary": "Heavy loads and low reps with long rest. Focus on strength, not volume.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A heavy working range, typically 1 to 5 reps, with generous rest between sets.",
+        "how": "Warm up progressively first. Rest long enough that the next set is as good as the last.",
+        "when": "On the compound lifts that open the session.",
+        "mistake": "Cutting the rest short and turning it into endurance work with a heavy weight.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Breath Hold",
@@ -210,9 +336,15 @@
         "Valsalva"
       ],
       "summary": "Hold your breath through a short stretch of the movement to raise intra-abdominal pressure.",
-      "full": null,
       "caution": "Can cause dizziness and raise blood pressure. Anyone with a cardiovascular condition, hypertension, or who is pregnant should consult a professional first.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Holding air through the hardest part of the rep, stabilising the trunk.",
+        "how": "Breathe in before, hold through the demanding stretch, exhale on completion. Short stretches only.",
+        "when": "Lifts that need a rigid trunk, and specific core work.",
+        "mistake": "Holding your breath across entire sets in a row.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
@@ -220,17 +352,29 @@
         "Slow tempo"
       ],
       "summary": "Slow movement in both phases, no momentum and no pause, holding constant tension.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "A reduced cadence from the beginning to the end of the repetition.",
+        "how": "No swing, no lockout. The load has to be lighter than usual.",
+        "when": "Learning a movement, or when there is not enough load available.",
+        "mistake": "Speeding up as fatigue sets in, which quietly turns it back into a normal set.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Warm-Up",
       "aliases": [],
       "summary": "Light sets before the working sets, to prepare the joint and the movement pattern.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Specific preparation for the exercise that follows.",
+        "how": "1 to 3 sets well below working weight, never taken near effort.",
+        "when": "Before the first heavy movement of each muscle group.",
+        "mistake": "Making it hard enough to count as a working set, which just eats into the real ones.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Concentric Explosion",
@@ -238,9 +382,15 @@
         "Explosive concentric"
       ],
       "summary": "Lift with maximum intent to accelerate and lower under control.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Emphasis on the intent to accelerate during the lifting phase.",
+        "how": "Push or pull as fast as you can; lower at a normal, controlled speed.",
+        "when": "Compound movements at moderate loads.",
+        "mistake": "Letting the descent become a free fall — only the lift is fast.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Descending Pyramid",
@@ -248,17 +398,29 @@
         "Reverse pyramid"
       ],
       "summary": "Drop weight and add reps on every set. Start heavy.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "The reverse of the ascending pyramid: the heaviest set comes first.",
+        "how": "Example: 6 reps → 8 → 10 → 12, stripping weight each time.",
+        "when": "When you want to attack the heavy set fresh, with warm-up done separately.",
+        "mistake": "Skipping the warm-up and going straight into the heaviest set.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Pyramid",
       "aliases": [],
       "summary": "Load and reps vary across sets instead of staying fixed. Can be ascending or descending.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "The generic term. The plan says pyramid without naming a direction.",
+        "how": "If it is not specified, the common default is ascending: more weight, fewer reps each set.",
+        "when": "Whenever the plan names the technique without a direction.",
+        "mistake": "Assuming the direction rather than checking. Ascending and descending train different things.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
@@ -266,9 +428,15 @@
         "Triset"
       ],
       "summary": "Three exercises back to back with no rest. Rest comes only after all three.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Like a bi-set, but with three exercises in the block.",
+        "how": "Chain all three and rest only after the last one.",
+        "when": "High density and time savings. Usually closes a muscle group.",
+        "mistake": "Building it from three stations that are far apart, or usually occupied.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Progressive Overload",
@@ -276,9 +444,15 @@
         "Progressive loading"
       ],
       "summary": "Increase the load across weeks as you reach the top of the rep range.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "The principle of progression between sessions, not within one.",
+        "how": "Hit every set at the top of the rep range with good form? Raise the load next session.",
+        "when": "It is the default for any strength or hypertrophy plan.",
+        "mistake": "Raising the load before the reps are actually clean.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "Isometric Hold",
@@ -286,9 +460,22 @@
         "Isometrics"
       ],
       "summary": "Hold the position still, neither lifting nor lowering, for the prescribed time.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Contraction with no joint movement.",
+        "how": "Take the position and hold it for the prescribed time, breathing normally.",
+        "when": "Core, stabilisers, and as a finisher after a dynamic exercise.",
+        "mistake": "Holding your breath the whole time.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }
