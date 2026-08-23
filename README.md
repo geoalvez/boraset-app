@@ -24,6 +24,8 @@ app/                              Flutter (Android + iOS)
   lib/main.dart                   boot: catálogo + banco, locale, RTL
   lib/src/data/repository.dart    carrega catálogo + pacote de idioma
   lib/src/data/store.dart         SQLite local — histórico, cargas, perfil
+  lib/src/ui/theme.dart           cor, tipografia, escala de espaçamento
+  lib/src/ui/widgets.dart         componentes próprios (nav, chip, card, linha)
   lib/src/ui/app_shell.dart       Treino · Programa · Biblioteca · Histórico
   lib/src/ui/workout_screen.dart  a tela de treino
   lib/src/ui/program_screen.dart  divisão, objetivo, nível, equipamento + prévia
@@ -137,6 +139,15 @@ Aquele recuo é um deload — e é o que separa uma periodização de "somar sé
 
 Isso é regularidade de como se estrutura um treino. As fichas específicas, que são
 produto pago de terceiro, não estão neste repositório e não vão para o app.
+
+**A interface não usa componente de estoque.** `NavigationBar` com pílula,
+`SegmentedButton`, `FilterChip`, `ListTile`, `ExpansionTile`, `AppBar` — todos têm
+assinatura visual reconhecível, e juntos fazem qualquer app parecer o mesmo app.
+`widgets.dart` traz substitutos próprios: barra inferior com traço em vez de pílula,
+controle segmentado com indicador que desliza num trilho único, etiqueta retangular
+em vez de cápsula, linha de lista sem métrica fixa, expansível sem o chevron do
+Material. Números usam `FontFeature.tabularFigures()` — sem isso o cronômetro "pula"
+a cada segundo, porque os dígitos têm larguras diferentes.
 
 **A tela não decide sozinha o que é perigoso.** "Sugerir +100% de carga" é regra de
 treino, não de layout. Por isso `presentation.dart` — pure Dart, com teste — decide o

@@ -17,6 +17,7 @@ import '../data/repository.dart';
 import '../data/store.dart';
 import 'help_sheet.dart';
 import 'theme.dart';
+import 'widgets.dart';
 
 class WorkoutScreen extends StatefulWidget {
   final BorasetData data;
@@ -33,13 +34,12 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   BusyRegistry _busy = BusyRegistry();
   UserProfile _profile = const UserProfile();
 
-  /// Relógio da sessão. Ler o relógio é responsabilidade DA UI — o motor
-  /// recebe o valor pronto e nunca chama DateTime.now(). É essa fronteira
-  /// que mantém `decide()` puro e testável.
+  /// Ler o relógio é responsabilidade DA UI — o motor recebe o valor pronto e
+  /// nunca chama DateTime.now(). É essa fronteira que mantém `decide()` puro.
   ///
   /// E ele não dispara rebuild: o tempo restante muda em minutos, não em
-  /// segundos. Um Timer.periodic aqui reconstruiria a tela inteira 60 vezes
-  /// por minuto para mudar nada.
+  /// segundos. Um Timer.periodic aqui reconstruiria a tela 60 vezes por
+  /// minuto para não mudar nada.
   final DateTime _startedAt = DateTime.now();
   Duration get _elapsed => DateTime.now().difference(_startedAt);
 
@@ -49,8 +49,7 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   /// Cargas da última vez que cada exercício foi feito, por índice de série.
   Map<String, Map<int, double>> _previousLoads = const {};
 
-  final String _sessionId =
-      'sess-${DateTime.now().millisecondsSinceEpoch}';
+  final String _sessionId = 'sess-${DateTime.now().millisecondsSinceEpoch}';
 
   /// Quando a série atual começou — vira `seconds` no banco e alimenta a
   /// estimativa personalizada. Sem isso o app nunca sai do modo "faixa".
@@ -72,7 +71,7 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
     _restore();
   }
 
-  /// Carrega perfil e cargas do banco, e abre a sessão.
+  /// Carrega configuração, perfil e cargas do banco, e abre a sessão.
   ///
   /// É aqui que o histórico volta para dentro do motor: `observedSetSeconds`
   /// tira a estimativa do modo "faixa", e `avoided` reaplica os "quero trocar"
@@ -82,11 +81,6 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
     if (store == null) return;
     final setup = await store.setup();
     final profile = await store.profile(level: setup.level);
-    final loads = <String, Map<int, double>>{};
-    for (final slug in _session.allSlots.map((s) => s.exerciseSlug).toSet()) {
-      final l = await store.lastLoadsFor(slug);
-      if (l.isNotEmpty) loads[slug] = l;
-    }
     // Rotaciona o dia e avança a semana conforme o histórico cresce: a cada
     // volta completa da divisão, a semana avança e o volume acompanha a curva.
     final done = (await store.recentSessions(limit: 400)).length;
@@ -94,6 +88,12 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
     final session = _sessionFor(widget.data,
         dayIndex: done % n, week: (done ~/ n) + 1,
         profile: profile, setup: setup);
+
+    final loads = <String, Map<int, double>>{};
+    for (final slug in session.allSlots.map((s) => s.exerciseSlug).toSet()) {
+      final l = await store.lastLoadsFor(slug);
+      if (l.isNotEmpty) loads[slug] = l;
+    }
     if (!mounted) return;
     setState(() {
       _profile = profile;
@@ -186,8 +186,8 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
       default:
         break;
     }
-    _recompute(action.toEvent(slot.id,
-        record: SetRecord(index: slot.completed.length)));
+    _recompute(
+        action.toEvent(slot.id, record: SetRecord(index: slot.completed.length)));
   }
 
   // --- build ---------------------------------------------------------------
@@ -196,81 +196,99 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   Widget build(BuildContext context) {
     final d = _decision;
     final slot = d?.next;
-    final text = Theme.of(context).textTheme;
 
     return Scaffold(
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 16),
-          child: slot == null
-              ? _Finished(
-                  onClose: () => widget.store?.finishSession(_sessionId),
-                  style: text.displaySmall)
-              : Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    _Header(session: _session, onBudget: _askBudget),
-                    const SizedBox(height: 14),
-                    _TimeCard(
-                      cue: const TimePresenter().present(d!.estimate),
-                      onTap: () => showDecisionHelp(context, widget.data, d.rationale),
-                    ),
-                    const SizedBox(height: 18),
-                    Expanded(
-                      child: SingleChildScrollView(
-                        child: _ExerciseCard(
+        bottom: false,
+        child: slot == null
+            ? _Finished(onClose: () => widget.store?.finishSession(_sessionId))
+            : Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  BsHeader(
+                    _session.name,
+                    action: _TimeBudgetButton(budget: _budget, onTap: _askBudget),
+                  ),
+                  Expanded(
+                    child: ListView(
+                      padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 8),
+                      children: [
+                        _TimeCard(
+                          cue: const TimePresenter().present(d!.estimate),
+                          onTap: () =>
+                              showDecisionHelp(context, widget.data, d.rationale),
+                        ),
+                        const SizedBox(height: 20),
+                        _ExerciseCard(
                           data: widget.data,
                           slot: slot,
                           alternatives: d.alternatives,
+                          previous: _previousLoads[slot.exerciseSlug],
                         ),
-                      ),
+                      ],
                     ),
-                    if (_restFrom != null)
-                      _RestBar(
-                        total: _restFrom!,
-                        onDone: () => setState(() => _restFrom = null),
-                      ),
-                    const SizedBox(height: 10),
-                    _Actions(
-                      onDone: () => _logSet(slot),
-                      onProblem: () => _showProblems(slot),
+                  ),
+                  Padding(
+                    padding: const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 4),
+                    child: Column(
+                      children: [
+                        if (_restFrom != null) ...[
+                          _RestBar(
+                            total: _restFrom!,
+                            onDone: () => setState(() => _restFrom = null),
+                          ),
+                          const SizedBox(height: 12),
+                        ],
+                        BsButton('CONCLUÍDA', onPressed: () => _logSet(slot)),
+                        BsQuiet('Algo deu errado',
+                            onPressed: () => _showProblems(slot)),
+                      ],
                     ),
-                  ],
-                ),
-        ),
+                  ),
+                ],
+              ),
       ),
     );
   }
 
   Future<void> _askBudget() async {
-    final minutes = await showModalBottomSheet<int>(
-      context: context,
-      backgroundColor: kSurface,
-      showDragHandle: true,
-      builder: (_) => Padding(
-        padding: const EdgeInsets.fromLTRB(20, 4, 20, 28),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            const Caption('Quanto tempo você tem?'),
-            const SizedBox(height: 14),
-            Wrap(
-              spacing: 10,
-              runSpacing: 10,
-              children: [
-                for (final m in [15, 20, 30, 45, 60])
-                  ActionChip(
-                    label: Text('$m min'),
-                    onPressed: () => Navigator.pop(context, m),
+    final minutes = await bsSheet<int>(
+      context,
+      SafeArea(
+        top: false,
+        child: Padding(
+          padding: const EdgeInsetsDirectional.fromSTEB(20, 10, 20, 28),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Caption('Quanto tempo você tem?'),
+              const SizedBox(height: 8),
+              const Text(
+                'O treino se reorganiza para caber. Os exercícios principais '
+                'ficam; o que sai são acessórios.',
+                style: TextStyle(color: kMuted, fontSize: 13.5, height: 1.45),
+              ),
+              const SizedBox(height: 18),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  for (final m in [15, 20, 30, 45, 60])
+                    BsChip(
+                      label: '$m min',
+                      selected: _budget?.inMinutes == m,
+                      onTap: () => Navigator.pop(context, m),
+                    ),
+                  BsChip(
+                    label: 'Sem limite',
+                    selected: _budget == null,
+                    onTap: () => Navigator.pop(context, 0),
                   ),
-                ActionChip(
-                  label: const Text('Treino normal'),
-                  onPressed: () => Navigator.pop(context, 0),
-                ),
-              ],
-            ),
-          ],
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -281,18 +299,15 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   }
 
   Future<void> _logSet(ExerciseSlot slot) async {
-    final prev = _previousLoad(slot);
-    final result = await showModalBottomSheet<(double?, int?)>(
-      context: context,
-      backgroundColor: kSurface,
-      isScrollControlled: true,
-      showDragHandle: true,
-      builder: (_) => _SetLogger(
+    final result = await bsSheet<(double?, int?)>(
+      context,
+      _SetLogger(
         data: widget.data,
         slot: slot,
-        previousLoad: prev,
+        previousLoad: _previousLoad(slot),
         exercise: widget.data.catalog[slot.exerciseSlug],
       ),
+      tall: true,
     );
     if (result == null) return;
     _completeSet(slot, result.$1, result.$2);
@@ -302,34 +317,51 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   /// da última vez. Nunca "a carga do exercício" — Pirâmide não permite.
   double? _previousLoad(ExerciseSlot slot) {
     if (slot.completed.isNotEmpty) return slot.completed.last.loadKg;
-    return _previousLoads[slot.exerciseSlug]?[0];
+    return _previousLoads[slot.exerciseSlug]?[slot.completed.length];
   }
 
   Future<void> _showProblems(ExerciseSlot slot) async {
-    final action = await showModalBottomSheet<WorkoutAction>(
-      context: context,
-      backgroundColor: kSurface,
-      showDragHandle: true,
-      builder: (_) => SafeArea(
+    final action = await bsSheet<WorkoutAction>(
+      context,
+      SafeArea(
+        top: false,
         child: Column(
           mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const Padding(
+              padding: EdgeInsetsDirectional.fromSTEB(20, 10, 20, 12),
+              child: Caption('O que aconteceu'),
+            ),
             for (final a in WorkoutAction.values.where((a) => !a.isPrimary))
-              ListTile(
-                leading: Icon(switch (a) {
-                  WorkoutAction.equipmentBusy => Icons.hourglass_top_rounded,
-                  WorkoutAction.wantToSwap => Icons.swap_horiz_rounded,
-                  WorkoutAction.dontKnowHow => Icons.help_outline_rounded,
-                  _ => Icons.skip_next_rounded,
-                }),
-                title: Text(switch (a) {
+              BsRow(
+                divider: a != WorkoutAction.skip,
+                leading: Icon(
+                  switch (a) {
+                    WorkoutAction.equipmentBusy => Icons.hourglass_top_rounded,
+                    WorkoutAction.wantToSwap => Icons.swap_horiz_rounded,
+                    WorkoutAction.dontKnowHow => Icons.help_outline_rounded,
+                    _ => Icons.skip_next_rounded,
+                  },
+                  size: 19,
+                  color: kMuted,
+                ),
+                title: switch (a) {
                   WorkoutAction.equipmentBusy => 'Aparelho ocupado',
                   WorkoutAction.wantToSwap => 'Quero trocar',
                   WorkoutAction.dontKnowHow => 'Não sei fazer',
                   _ => 'Pular',
-                }),
+                },
+                subtitle: switch (a) {
+                  WorkoutAction.equipmentBusy =>
+                    'Volto a sugerir daqui a alguns minutos',
+                  WorkoutAction.wantToSwap => 'Não sugiro mais nas próximas vezes',
+                  WorkoutAction.dontKnowHow => 'Troco por algo mais simples',
+                  _ => 'Segue para o próximo',
+                },
                 onTap: () => Navigator.pop(context, a),
               ),
+            const SizedBox(height: 12),
           ],
         ),
       ),
@@ -340,21 +372,17 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
 
 // --- pedaços da tela --------------------------------------------------------
 
-class _Header extends StatelessWidget {
-  final WorkoutSession session;
-  final VoidCallback onBudget;
-  const _Header({required this.session, required this.onBudget});
+class _TimeBudgetButton extends StatelessWidget {
+  final Duration? budget;
+  final VoidCallback onTap;
+  const _TimeBudgetButton({required this.budget, required this.onTap});
 
   @override
-  Widget build(BuildContext context) => Row(
-        children: [
-          Expanded(child: Caption(session.name)),
-          IconButton(
-            onPressed: onBudget,
-            icon: const Icon(Icons.timer_outlined),
-            tooltip: 'Só tenho X minutos',
-          ),
-        ],
+  Widget build(BuildContext context) => BsChip(
+        label: budget == null ? 'Sem limite' : '${budget!.inMinutes} min',
+        icon: Icons.timer_outlined,
+        selected: budget != null,
+        onTap: onTap,
       );
 }
 
@@ -367,49 +395,55 @@ class _TimeCard extends StatelessWidget {
   String get _value {
     int m(Duration d) => d.inMinutes;
     return switch (cue.mode) {
-      TimeDisplayMode.range => '${m(cue.low)}–${m(cue.high)} min',
-      TimeDisplayMode.approximate => '~${m(cue.remaining)} min',
-      TimeDisplayMode.exact => '${m(cue.remaining)} min',
+      TimeDisplayMode.range => '${m(cue.low)}–${m(cue.high)}',
+      TimeDisplayMode.approximate => '~${m(cue.remaining)}',
+      TimeDisplayMode.exact => '${m(cue.remaining)}',
     };
   }
 
   @override
-  Widget build(BuildContext context) => InkWell(
+  Widget build(BuildContext context) => BsCard(
         onTap: cue.explainable ? onTap : null,
-        borderRadius: BorderRadius.circular(16),
-        child: Container(
-          width: double.infinity,
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: kSurface,
-            borderRadius: BorderRadius.circular(16),
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  const Caption('Tempo restante'),
-                  const Spacer(),
-                  if (cue.confidence != EstimateConfidence.personalized)
-                    const Icon(Icons.info_outline_rounded, size: 15, color: kMuted),
-                ],
-              ),
-              const SizedBox(height: 4),
-              Text(_value, style: Theme.of(context).textTheme.headlineLarge),
-              if (cue.confidence == EstimateConfidence.coldStart)
-                Padding(
-                  padding: const EdgeInsets.only(top: 4),
-                  child: Text(
-                    'Ainda estou aprendendo o seu ritmo. Toque para ver como calculei.',
-                    style: Theme.of(context)
-                        .textTheme
-                        .bodyMedium
-                        ?.copyWith(fontSize: 13, color: kMuted),
-                  ),
+        padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Row(
+              children: [
+                Caption('Tempo restante'),
+                Spacer(),
+                Text('por quê', style: TextStyle(color: kFaint, fontSize: 11.5)),
+                SizedBox(width: 3),
+                Icon(Icons.chevron_right_rounded, size: 15, color: kFaint),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.baseline,
+              textBaseline: TextBaseline.alphabetic,
+              children: [
+                Text(_value, style: Theme.of(context).textTheme.headlineLarge),
+                const SizedBox(width: 6),
+                const Padding(
+                  padding: EdgeInsets.only(bottom: 6),
+                  child: Text('min',
+                      style: TextStyle(
+                          color: kMuted,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w600)),
                 ),
+              ],
+            ),
+            if (cue.confidence != EstimateConfidence.personalized) ...[
+              const SizedBox(height: 8),
+              Text(
+                cue.confidence == EstimateConfidence.coldStart
+                    ? 'Ainda estou aprendendo o seu ritmo — por isso a faixa.'
+                    : 'Estimativa em calibração.',
+                style: const TextStyle(color: kFaint, fontSize: 12.5, height: 1.4),
+              ),
             ],
-          ),
+          ],
         ),
       );
 }
@@ -418,83 +452,131 @@ class _ExerciseCard extends StatelessWidget {
   final BorasetData data;
   final ExerciseSlot slot;
   final List<Alternative> alternatives;
+  final Map<int, double>? previous;
+
   const _ExerciseCard({
     required this.data,
     required this.slot,
     required this.alternatives,
+    this.previous,
   });
 
   String get _reps => switch (slot.reps) {
-        RepRange(:final min, :final max) => '$min–$max repetições',
-        RepPerSet(:final reps) => reps.map((r) => r?.toString() ?? 'Falha').join(' / '),
-        RepToFailure() => 'Até a falha',
-        RepOpen() => 'Sem repetições definidas',
+        RepRange(:final min, :final max) => '$min–$max',
+        RepPerSet(:final reps) => reps.map((r) => r?.toString() ?? 'F').join('/'),
+        RepToFailure() => 'falha',
+        RepOpen() => 'livre',
         RepByDuration(:final duration) => '${duration.inMinutes} min',
       };
 
   @override
   Widget build(BuildContext context) {
-    final text = Theme.of(context).textTheme;
     final done = slot.completed.length;
-    final prev = slot.completed.isEmpty ? null : slot.completed.last.loadKg;
+    final unit = data.unit == WeightUnit.lb ? 'lb' : 'kg';
+    final last = previous?[done];
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Caption('Próximo exercício'),
-        const SizedBox(height: 6),
-        Text(data.nameOf(slot.exerciseSlug), style: text.displaySmall),
-        const SizedBox(height: 14),
+        const Caption('Agora'),
+        const SizedBox(height: 8),
+        Text(data.nameOf(slot.exerciseSlug),
+            style: Theme.of(context).textTheme.displaySmall),
+        const SizedBox(height: 18),
+
         Row(
           children: [
-            _Stat(label: 'Série', value: '${done + 1}/${slot.plannedSets}'),
-            const SizedBox(width: 12),
-            _Stat(label: 'Alvo', value: _reps, wide: true),
+            _Metric(
+                label: 'Série',
+                value: '${done + 1}',
+                hint: 'de ${slot.plannedSets}'),
+            const SizedBox(width: 10),
+            _Metric(label: 'Repetições', value: _reps),
+            const SizedBox(width: 10),
+            _Metric(
+              label: 'Última carga',
+              value: last == null ? '—' : _fmt(last),
+              hint: last == null ? null : unit,
+            ),
           ],
         ),
-        if (prev != null) ...[
-          const SizedBox(height: 12),
-          _Stat(
-            label: 'Carga da série anterior',
-            value: '${_fmt(prev)} ${data.unit == WeightUnit.lb ? "lb" : "kg"}',
-          ),
-        ],
+
+        // Progresso das séries: as barras cheias contam o que já foi.
+        const SizedBox(height: 16),
+        Row(
+          children: [
+            for (var i = 0; i < slot.plannedSets; i++)
+              Container(
+                width: 24,
+                height: 4,
+                margin: const EdgeInsetsDirectional.only(end: 5),
+                decoration: BoxDecoration(
+                  color: i < done ? kGo : kSurfaceHi,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            const Spacer(),
+            Text('${slot.rest.nominal.inSeconds}s de descanso',
+                style: const TextStyle(color: kFaint, fontSize: 12)),
+          ],
+        ),
 
         // Técnicas: cada chip abre o popup. É o que aparece 2.684 vezes.
         if (slot.techniqueSlugs.isNotEmpty) ...[
-          const SizedBox(height: 16),
+          const SizedBox(height: 22),
           const Caption('Técnica'),
-          const SizedBox(height: 8),
+          const SizedBox(height: 9),
           Wrap(
             spacing: 8,
             runSpacing: 8,
             children: [
               for (final s in slot.techniqueSlugs)
                 if (data.techniques[s] != null)
-                  ActionChip(
-                    avatar: data.techniques[s]!.hasCaution
-                        ? const Icon(Icons.warning_amber_rounded, size: 16, color: kWarn)
-                        : const Icon(Icons.info_outline_rounded, size: 16),
-                    label: Text(data.techniques[s]!.name),
-                    onPressed: () => showTechniqueHelp(context, data, s),
+                  BsChip(
+                    key: ValueKey('tech-$s'),
+                    label: data.techniques[s]!.name,
+                    icon: data.techniques[s]!.hasCaution
+                        ? Icons.warning_amber_rounded
+                        : Icons.info_outline_rounded,
+                    tone: data.techniques[s]!.hasCaution ? kWarn : kGo,
+                    selected: true,
+                    onTap: () => showTechniqueHelp(context, data, s),
                   ),
             ],
           ),
         ],
 
         if (alternatives.isNotEmpty) ...[
-          const SizedBox(height: 18),
+          const SizedBox(height: 22),
           const Caption('Se precisar trocar'),
-          const SizedBox(height: 6),
-          for (final a in alternatives.take(3))
-            Padding(
-              padding: const EdgeInsets.only(bottom: 3),
-              child: Text(
-                '${data.nameOf(a.slug)}  ·  ${a.compatibility.round()}%',
-                style: text.bodyMedium?.copyWith(color: kMuted, fontSize: 14),
-              ),
+          const SizedBox(height: 9),
+          BsCard(
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+            child: Column(
+              children: [
+                for (final a in alternatives.take(3))
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 9),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Text(data.nameOf(a.slug),
+                              style: const TextStyle(
+                                  fontSize: 13.5, color: kMuted)),
+                        ),
+                        Text('${a.compatibility.round()}%',
+                            style: const TextStyle(
+                                color: kFaint,
+                                fontSize: 12.5,
+                                fontFeatures: kTabular)),
+                      ],
+                    ),
+                  ),
+              ],
             ),
+          ),
         ],
+        const SizedBox(height: 8),
       ],
     );
   }
@@ -503,30 +585,51 @@ class _ExerciseCard extends StatelessWidget {
       v == v.roundToDouble() ? v.toStringAsFixed(0) : v.toStringAsFixed(1);
 }
 
-class _Stat extends StatelessWidget {
+class _Metric extends StatelessWidget {
   final String label, value;
-  final bool wide;
-  const _Stat({required this.label, required this.value, this.wide = false});
+  final String? hint;
+  const _Metric({required this.label, required this.value, this.hint});
 
   @override
-  Widget build(BuildContext context) {
-    final box = Container(
-      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
-      decoration: BoxDecoration(
-        color: kSurfaceHi,
-        borderRadius: BorderRadius.circular(12),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Caption(label),
-          const SizedBox(height: 3),
-          Text(value, style: Theme.of(context).textTheme.titleMedium),
-        ],
-      ),
-    );
-    return wide ? Expanded(child: box) : box;
-  }
+  Widget build(BuildContext context) => Expanded(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
+          decoration: BoxDecoration(
+            color: kSurface,
+            borderRadius: BorderRadius.circular(kRadiusSm),
+            border: Border.all(color: kLine),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Caption(label),
+              const SizedBox(height: 6),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.baseline,
+                textBaseline: TextBaseline.alphabetic,
+                children: [
+                  Flexible(
+                    child: Text(value,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          fontSize: 19,
+                          fontWeight: FontWeight.w700,
+                          letterSpacing: -0.4,
+                          fontFeatures: kTabular,
+                        )),
+                  ),
+                  if (hint != null) ...[
+                    const SizedBox(width: 3),
+                    Text(hint!,
+                        style: const TextStyle(color: kFaint, fontSize: 11.5)),
+                  ],
+                ],
+              ),
+            ],
+          ),
+        ),
+      );
 }
 
 /// O cronômetro de descanso é o ÚNICO widget que tica.
@@ -570,27 +673,55 @@ class _RestBarState extends State<_RestBar> {
   Widget build(BuildContext context) {
     final left = _left;
     final almost = left.inSeconds <= 10;
+    final tone = almost ? kWarn : kGo;
+    final progress = 1 - (left.inSeconds / widget.total.inSeconds);
+
     return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      padding: const EdgeInsets.fromLTRB(15, 12, 15, 12),
       decoration: BoxDecoration(
-        color: (almost ? kWarn : kGo).withValues(alpha: .14),
-        borderRadius: BorderRadius.circular(14),
+        color: tone.withValues(alpha: .09),
+        borderRadius: BorderRadius.circular(kRadiusSm),
+        border: Border.all(color: tone.withValues(alpha: .28)),
       ),
-      child: Row(
+      child: Column(
         children: [
-          Icon(almost ? Icons.notifications_active_rounded : Icons.pause_rounded,
-              size: 18, color: almost ? kWarn : kGo),
-          const SizedBox(width: 10),
-          Text(
-            almost
-                ? 'Prepare-se para a próxima série'
-                : 'Descanso  ${left.inMinutes.toString().padLeft(2, '0')}:'
-                    '${(left.inSeconds % 60).toString().padLeft(2, '0')}',
-            style: Theme.of(context)
-                .textTheme
-                .titleMedium
-                ?.copyWith(color: almost ? kWarn : kGo),
+          Row(
+            children: [
+              Icon(
+                  almost
+                      ? Icons.notifications_active_rounded
+                      : Icons.pause_rounded,
+                  size: 17,
+                  color: tone),
+              const SizedBox(width: 9),
+              Expanded(
+                child: Text(
+                  almost ? 'Prepare-se para a próxima série' : 'Descanso',
+                  style: TextStyle(
+                      color: tone, fontSize: 14, fontWeight: FontWeight.w600),
+                ),
+              ),
+              Text(
+                '${left.inMinutes.toString().padLeft(2, '0')}:'
+                '${(left.inSeconds % 60).toString().padLeft(2, '0')}',
+                style: TextStyle(
+                  color: tone,
+                  fontSize: 17,
+                  fontWeight: FontWeight.w700,
+                  fontFeatures: kTabular,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 9),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(2),
+            child: LinearProgressIndicator(
+              value: progress.clamp(0, 1),
+              minHeight: 3,
+              backgroundColor: tone.withValues(alpha: .16),
+              valueColor: AlwaysStoppedAnimation(tone),
+            ),
           ),
         ],
       ),
@@ -598,35 +729,44 @@ class _RestBarState extends State<_RestBar> {
   }
 }
 
-/// Um botão grande e um discreto. Não cinco iguais.
-class _Actions extends StatelessWidget {
-  final VoidCallback onDone, onProblem;
-  const _Actions({required this.onDone, required this.onProblem});
+class _Finished extends StatefulWidget {
+  final VoidCallback onClose;
+  const _Finished({required this.onClose});
 
   @override
-  Widget build(BuildContext context) => Column(
-        children: [
-          SizedBox(
-            width: double.infinity,
-            height: 62,
-            child: FilledButton(
-              onPressed: onDone,
-              style: FilledButton.styleFrom(
-                backgroundColor: kGo,
-                foregroundColor: kInk,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16),
-                ),
+  State<_Finished> createState() => _FinishedState();
+}
+
+class _FinishedState extends State<_Finished> {
+  @override
+  void initState() {
+    super.initState();
+    widget.onClose(); // carimba o fim da sessão no banco, uma vez só
+  }
+
+  @override
+  Widget build(BuildContext context) => Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              width: 62,
+              height: 62,
+              decoration: BoxDecoration(
+                color: kGo.withValues(alpha: .12),
+                shape: BoxShape.circle,
+                border: Border.all(color: kGo.withValues(alpha: .4)),
               ),
-              child: const Text('CONCLUÍDA',
-                  style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, letterSpacing: .6)),
+              child: const Icon(Icons.check_rounded, color: kGo, size: 30),
             ),
-          ),
-          TextButton(
-            onPressed: onProblem,
-            child: const Text('Algo deu errado', style: TextStyle(color: kMuted)),
-          ),
-        ],
+            const SizedBox(height: 20),
+            Text('Treino concluído',
+                style: Theme.of(context).textTheme.displaySmall),
+            const SizedBox(height: 8),
+            const Text('As séries foram registradas.',
+                style: TextStyle(color: kMuted, fontSize: 14)),
+          ],
+        ),
       );
 }
 
@@ -668,51 +808,66 @@ class _SetLoggerState extends State<_SetLogger> {
   Widget build(BuildContext context) {
     final cue = _cue;
     final unit = widget.data.unit == WeightUnit.lb ? 'lb' : 'kg';
-    return Padding(
-      padding: EdgeInsets.only(
-        left: 20,
-        right: 20,
-        top: 4,
-        bottom: MediaQuery.viewInsetsOf(context).bottom + 24,
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          if (cue != null) _LoadCueCard(cue: cue, unit: unit),
-          const SizedBox(height: 14),
-          Row(
-            children: [
-              Expanded(
-                child: TextField(
-                  controller: _load,
-                  keyboardType: const TextInputType.numberWithOptions(decimal: true),
-                  decoration: InputDecoration(labelText: 'Carga ($unit)'),
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: TextField(
-                  controller: _reps,
-                  keyboardType: TextInputType.number,
-                  decoration: const InputDecoration(labelText: 'Repetições'),
-                ),
-              ),
+    return SingleChildScrollView(
+      child: Padding(
+        padding: EdgeInsets.only(
+          left: 20,
+          right: 20,
+          top: 10,
+          bottom: MediaQuery.viewInsetsOf(context).bottom + 26,
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Caption('Série ${widget.slot.completed.length + 1} de '
+                '${widget.slot.plannedSets}'),
+            const SizedBox(height: 8),
+            Text(widget.data.nameOf(widget.slot.exerciseSlug),
+                style:
+                    Theme.of(context).textTheme.displaySmall?.copyWith(fontSize: 21)),
+            const SizedBox(height: 18),
+            if (cue != null) ...[
+              _LoadCueCard(cue: cue, unit: unit),
+              const SizedBox(height: 16),
             ],
-          ),
-          const SizedBox(height: 18),
-          SizedBox(
-            width: double.infinity,
-            height: 52,
-            child: FilledButton(
-              onPressed: () => Navigator.pop(context, (
-                double.tryParse(_load.text.replaceAll(',', '.')),
-                int.tryParse(_reps.text),
-              )),
-              child: const Text('Registrar série'),
+            Row(
+              children: [
+                Expanded(
+                  child: TextField(
+                    controller: _load,
+                    autofocus: true,
+                    keyboardType:
+                        const TextInputType.numberWithOptions(decimal: true),
+                    style: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                        fontFeatures: kTabular),
+                    decoration: InputDecoration(labelText: 'Carga ($unit)'),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: TextField(
+                    controller: _reps,
+                    keyboardType: TextInputType.number,
+                    style: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                        fontFeatures: kTabular),
+                    decoration: const InputDecoration(labelText: 'Repetições'),
+                  ),
+                ),
+              ],
             ),
-          ),
-        ],
+            const SizedBox(height: 20),
+            BsButton('Registrar série',
+                onPressed: () => Navigator.pop(context, (
+                      double.tryParse(_load.text.replaceAll(',', '.')),
+                      int.tryParse(_reps.text),
+                    ))),
+          ],
+        ),
       ),
     );
   }
@@ -759,54 +914,11 @@ class _LoadCueCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final (color, icon, message) = _look;
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: color.withValues(alpha: .12),
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: color.withValues(alpha: .4)),
-      ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Icon(icon, color: color, size: 20),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Text(message,
-                style: Theme.of(context)
-                    .textTheme
-                    .bodyMedium
-                    ?.copyWith(color: color, fontSize: 14.5)),
-          ),
-        ],
-      ),
-    );
+    return BsBanner(text: message, icon: icon, tone: color);
   }
 
   static String _fmt(double v) =>
       v == v.roundToDouble() ? v.toStringAsFixed(0) : v.toStringAsFixed(1);
-}
-
-class _Finished extends StatefulWidget {
-  final VoidCallback onClose;
-  final TextStyle? style;
-  const _Finished({required this.onClose, this.style});
-
-  @override
-  State<_Finished> createState() => _FinishedState();
-}
-
-class _FinishedState extends State<_Finished> {
-  @override
-  void initState() {
-    super.initState();
-    widget.onClose(); // carimba o fim da sessão no banco, uma vez só
-  }
-
-  @override
-  Widget build(BuildContext context) =>
-      Center(child: Text('Treino concluído', style: widget.style));
 }
 
 // --- o treino do dia --------------------------------------------------------

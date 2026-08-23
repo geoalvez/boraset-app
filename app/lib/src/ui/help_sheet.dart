@@ -13,6 +13,7 @@ import 'package:flutter/material.dart';
 
 import '../data/repository.dart';
 import 'theme.dart';
+import 'widgets.dart';
 
 Future<void> showTechniqueHelp(
   BuildContext context,
@@ -22,15 +23,10 @@ Future<void> showTechniqueHelp(
 }) {
   final t = data.techniques[slug];
   if (t == null) return Future.value();
-  return showModalBottomSheet(
-    context: context,
-    backgroundColor: kSurface,
-    isScrollControlled: true,
-    showDragHandle: true,
-    shape: const RoundedRectangleBorder(
-      borderRadius: BorderRadius.vertical(top: Radius.circular(22)),
-    ),
-    builder: (_) => _TechniqueSheet(data: data, topic: t, startExpanded: expanded),
+  return bsSheet(
+    context,
+    _TechniqueSheet(data: data, topic: t, startExpanded: expanded),
+    tall: expanded,
   );
 }
 
@@ -39,15 +35,7 @@ Future<void> showDecisionHelp(
   BorasetData data,
   List<Rationale> rationale,
 ) =>
-    showModalBottomSheet(
-      context: context,
-      backgroundColor: kSurface,
-      showDragHandle: true,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(22)),
-      ),
-      builder: (_) => _DecisionSheet(data: data, rationale: rationale),
-    );
+    bsSheet(context, _DecisionSheet(data: data, rationale: rationale));
 
 class _TechniqueSheet extends StatefulWidget {
   final BorasetData data;
@@ -69,107 +57,96 @@ class _TechniqueSheetState extends State<_TechniqueSheet> {
   @override
   Widget build(BuildContext context) {
     final t = widget.topic;
-    final text = Theme.of(context).textTheme;
-
     return SafeArea(
-      child: ConstrainedBox(
-        constraints: BoxConstraints(
-          maxHeight: MediaQuery.sizeOf(context).height * .82,
-        ),
-        child: SingleChildScrollView(
-          padding: const EdgeInsetsDirectional.fromSTEB(20, 4, 20, 24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(t.name, style: text.titleMedium?.copyWith(fontSize: 21)),
-              const SizedBox(height: 12),
-
-              // Aviso de segurança: nunca dispensável, sempre acima do resumo.
-              if (t.hasCaution) _CautionBanner(text: t.caution!),
-
-              // Camada 1 — o que o usuário lê no meio da série.
-              Text(t.summary, style: text.bodyMedium?.copyWith(fontSize: 16.5)),
-
-              if (!_open && t.sections.isNotEmpty) ...[
-                const SizedBox(height: 8),
-                TextButton(
-                  onPressed: () => setState(() => _open = true),
-                  style: TextButton.styleFrom(padding: EdgeInsets.zero),
-                  child: const Text('Ver mais'),
+      top: false,
+      child: SingleChildScrollView(
+        padding: const EdgeInsetsDirectional.fromSTEB(20, 10, 20, 26),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Text(t.name,
+                      style: Theme.of(context)
+                          .textTheme
+                          .displaySmall
+                          ?.copyWith(fontSize: 22)),
                 ),
+                _Freq(t.occurrences),
               ],
+            ),
+            const SizedBox(height: 14),
 
-              // Camada 2 — biblioteca.
-              if (_open) ...[
-                const SizedBox(height: 4),
-                for (final key in widget.data.sectionOrder)
-                  if (t.sections[key] != null && t.sections[key]!.isNotEmpty)
-                    _Section(
-                      // O rótulo vem de ui_strings.json: uma vez por idioma.
-                      label: widget.data.sectionLabels[key] ?? key,
-                      body: t.sections[key]!,
-                      // "Erro comum" é a parte que as pessoas realmente leem.
-                      initiallyOpen: key == 'mistake',
-                    ),
-              ],
+            // Aviso de segurança: nunca dispensável, sempre acima do resumo.
+            if (t.hasCaution) ...[
+              BsBanner(text: t.caution!),
+              const SizedBox(height: 14),
             ],
-          ),
+
+            // Camada 1 — o que o usuário lê no meio da série.
+            Text(t.summary,
+                style: const TextStyle(fontSize: 16, height: 1.5, color: kText)),
+
+            if (!_open && t.sections.isNotEmpty) ...[
+              const SizedBox(height: 14),
+              GestureDetector(
+                onTap: () => setState(() => _open = true),
+                behavior: HitTestBehavior.opaque,
+                child: const Row(
+                  children: [
+                    Text('Ver mais',
+                        style: TextStyle(
+                            color: kGo, fontSize: 13.5, fontWeight: FontWeight.w600)),
+                    SizedBox(width: 4),
+                    Icon(Icons.arrow_forward_rounded, size: 14, color: kGo),
+                  ],
+                ),
+              ),
+            ],
+
+            // Camada 2 — biblioteca.
+            if (_open) ...[
+              const SizedBox(height: 6),
+              const Divider(),
+              for (final key in widget.data.sectionOrder)
+                if ((t.sections[key] ?? '').isNotEmpty)
+                  BsExpand(
+                    // O rótulo vem de ui_strings.json: uma vez por idioma.
+                    label: widget.data.sectionLabels[key] ?? key,
+                    // "Erro comum" é a parte que as pessoas realmente leem.
+                    initiallyOpen: key == 'mistake',
+                    child: Text(t.sections[key]!,
+                        style: const TextStyle(
+                            fontSize: 14.5, height: 1.55, color: kMuted)),
+                  ),
+            ],
+          ],
         ),
       ),
     );
   }
 }
 
-class _CautionBanner extends StatelessWidget {
-  final String text;
-  const _CautionBanner({required this.text});
+/// Quantas vezes a técnica aparece no material de origem. Dá noção de o quão
+/// central ela é, sem precisar explicar.
+class _Freq extends StatelessWidget {
+  final int n;
+  const _Freq(this.n);
 
   @override
   Widget build(BuildContext context) => Container(
-        width: double.infinity,
-        margin: const EdgeInsets.only(bottom: 14),
-        padding: const EdgeInsets.all(13),
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
         decoration: BoxDecoration(
-          color: kWarn.withValues(alpha: .12),
-          borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: kWarn.withValues(alpha: .45)),
+          color: kSurfaceHi,
+          borderRadius: BorderRadius.circular(6),
+          border: Border.all(color: kLine),
         ),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Icon(Icons.warning_amber_rounded, color: kWarn, size: 20),
-            const SizedBox(width: 10),
-            Expanded(
-              child: Text(text,
-                  style: Theme.of(context)
-                      .textTheme
-                      .bodyMedium
-                      ?.copyWith(fontSize: 14, color: kWarn)),
-            ),
-          ],
-        ),
-      );
-}
-
-class _Section extends StatelessWidget {
-  final String label, body;
-  final bool initiallyOpen;
-  const _Section({required this.label, required this.body, this.initiallyOpen = false});
-
-  @override
-  Widget build(BuildContext context) => Theme(
-        data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
-        child: ExpansionTile(
-          initiallyExpanded: initiallyOpen,
-          tilePadding: EdgeInsets.zero,
-          childrenPadding: const EdgeInsetsDirectional.only(bottom: 10),
-          expandedCrossAxisAlignment: CrossAxisAlignment.start,
-          title: Caption(label),
-          children: [
-            Text(body, style: Theme.of(context).textTheme.bodyMedium),
-          ],
-        ),
+        child: Text('$n×',
+            style: const TextStyle(
+                color: kFaint, fontSize: 11.5, fontFeatures: kTabular)),
       );
 }
 
@@ -222,19 +199,38 @@ class _DecisionSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => SafeArea(
-        child: Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(20, 4, 20, 26),
+        top: false,
+        child: SingleChildScrollView(
+          padding: const EdgeInsetsDirectional.fromSTEB(20, 10, 20, 28),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
             children: [
               const Caption('Por que mudou'),
-              const SizedBox(height: 12),
-              for (final r in rationale) ...[
-                Text(_sentence(r),
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(fontSize: 16)),
-                const SizedBox(height: 12),
-              ],
+              const SizedBox(height: 14),
+              for (final r in rationale)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 14),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 3,
+                        height: 34,
+                        margin: const EdgeInsetsDirectional.only(end: 13, top: 3),
+                        decoration: BoxDecoration(
+                          color: kGo.withValues(alpha: .55),
+                          borderRadius: BorderRadius.circular(2),
+                        ),
+                      ),
+                      Expanded(
+                        child: Text(_sentence(r),
+                            style: const TextStyle(
+                                fontSize: 15, height: 1.5, color: kText)),
+                      ),
+                    ],
+                  ),
+                ),
             ],
           ),
         ),

@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 
 import '../data/store.dart';
 import 'theme.dart';
+import 'widgets.dart';
 
 class HistoryScreen extends StatefulWidget {
   final WorkoutStore store;
@@ -26,37 +27,105 @@ class _HistoryScreenState extends State<HistoryScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: const Text('Histórico')),
-        body: RefreshIndicator(
-          onRefresh: () async => setState(() => _future = _load()),
+        body: SafeArea(
+          bottom: false,
           child: FutureBuilder<(List<SessionSummary>, int)>(
             future: _future,
             builder: (context, snap) {
               if (!snap.hasData) {
-                return const Center(child: CircularProgressIndicator());
+                return const Center(
+                    child: SizedBox(
+                        width: 22,
+                        height: 22,
+                        child: CircularProgressIndicator(strokeWidth: 2)));
               }
               final (sessions, timedSets) = snap.data!;
-              return ListView(
-                padding: const EdgeInsets.all(16),
-                children: [
-                  _Calibration(timedSets: timedSets),
-                  const SizedBox(height: 22),
-                  if (sessions.isEmpty)
-                    const Padding(
-                      padding: EdgeInsets.only(top: 40),
-                      child: Center(
-                        child: Text('Nenhum treino registrado ainda',
-                            style: TextStyle(color: kMuted)),
+              final volume =
+                  sessions.fold<double>(0, (a, s) => a + s.volumeKg);
+              return RefreshIndicator(
+                color: kGo,
+                backgroundColor: kSurfaceHi,
+                onRefresh: () async => setState(() => _future = _load()),
+                child: ListView(
+                  padding: const EdgeInsets.only(bottom: 28),
+                  children: [
+                    const BsHeader('Histórico'),
+                    if (sessions.isNotEmpty)
+                      Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 18),
+                        child: Row(
+                          children: [
+                            _Stat('${sessions.length}', 'treinos'),
+                            const SizedBox(width: 10),
+                            _Stat(
+                                '${sessions.fold<int>(0, (a, s) => a + s.setCount)}',
+                                'séries'),
+                            const SizedBox(width: 10),
+                            _Stat(
+                                volume >= 1000
+                                    ? '${(volume / 1000).toStringAsFixed(1)}t'
+                                    : '${volume.round()}kg',
+                                'volume'),
+                          ],
+                        ),
                       ),
-                    )
-                  else ...[
-                    const Caption('Treinos'),
-                    const SizedBox(height: 8),
-                    for (final s in sessions) _SessionTile(s),
+                    Padding(
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(20, 0, 20, 22),
+                      child: _Calibration(timedSets: timedSets),
+                    ),
+                    if (sessions.isEmpty)
+                      const Padding(
+                        padding: EdgeInsets.only(top: 30),
+                        child: Center(
+                          child: Text('Nenhum treino registrado ainda',
+                              style: TextStyle(color: kFaint, fontSize: 14)),
+                        ),
+                      )
+                    else ...[
+                      const Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 10),
+                        child: Caption('Treinos'),
+                      ),
+                      const Divider(),
+                      for (final s in sessions) _SessionRow(s),
+                    ],
                   ],
-                ],
+                ),
               );
             },
+          ),
+        ),
+      );
+}
+
+class _Stat extends StatelessWidget {
+  final String value, label;
+  const _Stat(this.value, this.label);
+
+  @override
+  Widget build(BuildContext context) => Expanded(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+          decoration: BoxDecoration(
+            color: kSurface,
+            borderRadius: BorderRadius.circular(kRadiusSm),
+            border: Border.all(color: kLine),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(value,
+                  style: const TextStyle(
+                    fontSize: 21,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: -0.5,
+                    fontFeatures: kTabular,
+                  )),
+              const SizedBox(height: 2),
+              Caption(label),
+            ],
           ),
         ),
       );
@@ -102,80 +171,73 @@ class _Calibration extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final (title, body, progress, color) = _state;
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: kSurface,
-        borderRadius: BorderRadius.circular(16),
-      ),
+    return BsCard(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style: Theme.of(context).textTheme.titleMedium),
-          const SizedBox(height: 10),
+          Row(
+            children: [
+              Container(
+                width: 7,
+                height: 7,
+                decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+              ),
+              const SizedBox(width: 9),
+              Expanded(
+                child: Text(title,
+                    style: Theme.of(context).textTheme.titleMedium),
+              ),
+              Text('$timedSets',
+                  style: const TextStyle(
+                      color: kFaint, fontSize: 13, fontFeatures: kTabular)),
+            ],
+          ),
+          const SizedBox(height: 12),
           ClipRRect(
-            borderRadius: BorderRadius.circular(6),
+            borderRadius: BorderRadius.circular(3),
             child: LinearProgressIndicator(
               value: progress.clamp(0, 1),
-              minHeight: 7,
+              minHeight: 5,
               backgroundColor: kSurfaceHi,
               valueColor: AlwaysStoppedAnimation(color),
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 11),
           Text(body,
-              style: Theme.of(context)
-                  .textTheme
-                  .bodyMedium
-                  ?.copyWith(fontSize: 13.5, color: kMuted)),
+              style: const TextStyle(color: kFaint, fontSize: 12.5, height: 1.45)),
         ],
       ),
     );
   }
 }
 
-class _SessionTile extends StatelessWidget {
+class _SessionRow extends StatelessWidget {
   final SessionSummary s;
-  const _SessionTile(this.s);
+  const _SessionRow(this.s);
 
+  static const _months = [
+    'jan', 'fev', 'mar', 'abr', 'mai', 'jun',
+    'jul', 'ago', 'set', 'out', 'nov', 'dez',
+  ];
   static String _date(DateTime d) =>
-      '${d.day.toString().padLeft(2, '0')}/${d.month.toString().padLeft(2, '0')}';
+      '${d.day.toString().padLeft(2, '0')} ${_months[d.month - 1]}';
 
   @override
-  Widget build(BuildContext context) => Container(
-        margin: const EdgeInsets.only(bottom: 8),
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-        decoration: BoxDecoration(
-          color: kSurfaceHi,
-          borderRadius: BorderRadius.circular(12),
-        ),
-        child: Row(
+  Widget build(BuildContext context) => BsRow(
+        title: s.name,
+        subtitle: '${_date(s.startedAt)}'
+            '${s.duration != null ? " · ${s.duration!.inMinutes} min" : " · em andamento"}',
+        trailing: Column(
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(s.name, style: Theme.of(context).textTheme.titleMedium),
-                  const SizedBox(height: 3),
-                  Text(
-                    '${_date(s.startedAt)}'
-                    '${s.duration != null ? " · ${s.duration!.inMinutes} min" : " · em andamento"}',
-                    style: const TextStyle(color: kMuted, fontSize: 12.5),
-                  ),
-                ],
-              ),
-            ),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Text('${s.setCount} séries',
-                    style: const TextStyle(fontSize: 13.5)),
-                if (s.volumeKg > 0)
-                  Text('${s.volumeKg.round()} kg de volume',
-                      style: const TextStyle(color: kMuted, fontSize: 12)),
-              ],
-            ),
+            Text('${s.setCount} séries',
+                style: const TextStyle(fontSize: 13, fontFeatures: kTabular)),
+            if (s.volumeKg > 0) ...[
+              const SizedBox(height: 2),
+              Text('${s.volumeKg.round()} kg',
+                  style: const TextStyle(
+                      color: kFaint, fontSize: 11.5, fontFeatures: kTabular)),
+            ],
           ],
         ),
       );

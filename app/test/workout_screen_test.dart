@@ -5,6 +5,7 @@
 library;
 
 import 'package:boraset/src/data/repository.dart';
+import 'package:boraset/src/ui/widgets.dart';
 import 'package:boraset/src/ui/workout_screen.dart';
 import 'package:boraset_domain/boraset_domain.dart';
 import 'package:flutter/material.dart';
@@ -19,6 +20,11 @@ final _loaded = <String, BorasetData>{};
 
 Widget _app(String lang) =>
     MaterialApp(home: WorkoutScreen(data: _loaded[lang]!));
+
+/// Os chips de técnica levam chave própria; casar por tipo pegaria também o
+/// chip de tempo disponível que vive no cabeçalho.
+Finder _techniqueChip() => find.byWidgetPredicate(
+    (w) => w is BsChip && '${w.key}'.contains('tech-'));
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -131,8 +137,12 @@ void main() {
       await tester.pumpWidget(_app('pt'));
       await tester.pumpAndSettle();
 
-      final chip = find.byType(ActionChip);
+      final chip = _techniqueChip();
       expect(chip, findsWidgets, reason: 'o dia gerado deve prescrever técnica');
+      // O card do exercício rola: sem trazer o chip para a viewport o toque
+      // cai no vazio.
+      await tester.ensureVisible(chip.first);
+      await tester.pumpAndSettle();
       await tester.tap(chip.first);
       await tester.pumpAndSettle();
 
@@ -145,7 +155,9 @@ void main() {
       await tester.pumpWidget(_app('pt'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byType(ActionChip).first);
+      await tester.ensureVisible(_techniqueChip().first);
+      await tester.pumpAndSettle();
+      await tester.tap(_techniqueChip().first);
       await tester.pumpAndSettle();
       await tester.tap(find.text('Ver mais'));
       await tester.pumpAndSettle();

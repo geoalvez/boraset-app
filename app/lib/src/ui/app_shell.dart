@@ -1,10 +1,11 @@
-/// Casca do app: Treino · Biblioteca · Histórico.
+/// Casca do app: Treino · Programa · Biblioteca · Histórico.
 ///
-/// As três telas ficam vivas (IndexedStack) porque sair do treino para
+/// As quatro telas ficam vivas (IndexedStack) porque sair do treino para
 /// consultar a biblioteca e voltar não pode perder a sessão em andamento.
 library;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../data/repository.dart';
 import '../data/store.dart';
@@ -12,6 +13,7 @@ import 'history_screen.dart';
 import 'library_screen.dart';
 import 'program_screen.dart';
 import 'theme.dart';
+import 'widgets.dart';
 import 'workout_screen.dart';
 
 class AppShell extends StatefulWidget {
@@ -31,51 +33,37 @@ class _AppShellState extends State<AppShell> {
   int _programVersion = 0;
 
   @override
-  Widget build(BuildContext context) => Scaffold(
-        body: IndexedStack(
-          index: _tab,
-          children: [
-            WorkoutScreen(
-              key: ValueKey('workout-$_programVersion'),
-              data: widget.data,
-              store: widget.store,
-            ),
-            ProgramScreen(
-              data: widget.data,
-              store: widget.store,
-              onChanged: () => setState(() => _programVersion++),
-            ),
-            LibraryScreen(data: widget.data),
-            // key força recarregar o histórico ao voltar para a aba.
-            HistoryScreen(key: ValueKey(_tab), store: widget.store),
-          ],
-        ),
-        bottomNavigationBar: NavigationBar(
-          selectedIndex: _tab,
-          onDestinationSelected: (i) => setState(() => _tab = i),
-          backgroundColor: kSurface,
-          destinations: const [
-            NavigationDestination(
-              icon: Icon(Icons.fitness_center_outlined),
-              selectedIcon: Icon(Icons.fitness_center),
-              label: 'Treino',
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.tune_outlined),
-              selectedIcon: Icon(Icons.tune),
-              label: 'Programa',
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.menu_book_outlined),
-              selectedIcon: Icon(Icons.menu_book),
-              label: 'Biblioteca',
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.timeline_outlined),
-              selectedIcon: Icon(Icons.timeline),
-              label: 'Histórico',
-            ),
-          ],
+  Widget build(BuildContext context) => AnnotatedRegion<SystemUiOverlayStyle>(
+        value: kSystemChrome,
+        child: Scaffold(
+          body: IndexedStack(
+            index: _tab,
+            children: [
+              WorkoutScreen(
+                key: ValueKey('workout-$_programVersion'),
+                data: widget.data,
+                store: widget.store,
+              ),
+              ProgramScreen(
+                data: widget.data,
+                store: widget.store,
+                onChanged: () => setState(() => _programVersion++),
+              ),
+              LibraryScreen(data: widget.data),
+              // key força recarregar o histórico ao voltar para a aba.
+              HistoryScreen(key: ValueKey('hist-$_tab'), store: widget.store),
+            ],
+          ),
+          bottomNavigationBar: BsNav(
+            index: _tab,
+            onChanged: (i) => setState(() => _tab = i),
+            items: const [
+              (Icons.bolt_outlined, Icons.bolt, 'Treino'),
+              (Icons.tune_outlined, Icons.tune, 'Programa'),
+              (Icons.menu_book_outlined, Icons.menu_book, 'Biblioteca'),
+              (Icons.show_chart_outlined, Icons.show_chart, 'Histórico'),
+            ],
+          ),
         ),
       );
 }
