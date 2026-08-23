@@ -10,241 +10,428 @@
       "name": "Kontraksi Puncak",
       "aliases": [],
       "summary": "Tahan 1-2 detik di titik kontraksi tertinggi setiap repetisi, remas otot sebelum turun.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Jeda singkat dan aktif di titik ketika otot paling memendek.",
+        "how": "Angkat seperti biasa, tahan 1-2 detik sambil meremas otot target, lalu turunkan terkendali.",
+        "when": "Latihan isolasi dan mesin, di mana otot target terasa jelas.",
+        "mistake": "Menahan dengan tubuh, bukan dengan otot. Kalau sendi dikunci dan kamu istirahat, tekniknya hilang.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Piramida Naik",
       "aliases": [],
       "summary": "Setiap set beban naik dan repetisi turun. Mulai ringan, selesai berat.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Beban naik tiap set sementara repetisi turun.",
+        "how": "Contoh: 15 → 12 → 10 → 8 repetisi, menambah beban tiap pergantian. Set terakhir paling berat.",
+        "when": "Di gerakan pertama satu kelompok otot, untuk naik ke berat dengan aman.",
+        "mistake": "Menambah beban terlalu cepat dan sampai kosong di set yang benar-benar penting.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Gagal Konsentrik",
       "aliases": [],
       "summary": "Ulangi sampai kamu tidak sanggup mengangkat sendiri. Berhenti saat fase naik gagal.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Titik ketika kamu tak sanggup lagi menyelesaikan satu angkatan dengan bentuk baik.",
+        "how": "Lanjut sampai repetisi macet saat naik. Di situ set berakhir — jangan dipaksa dengan ayunan.",
+        "when": "Di set terakhir sebuah gerakan, atau ketika program memintanya secara eksplisit.",
+        "mistake": "Mengira gagal itu rasa tidak nyaman. Gagal itu mekanis: beban berhenti bergerak.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "Tanpa Repetisi Tetap",
       "aliases": [],
       "summary": "Tidak ada jumlah repetisi tetap. Lakukan semampunya dengan teknik baik, sesuai tingkat usaha.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Program menetapkan set dan istirahat tapi membiarkan jumlah repetisi terbuka.",
+        "how": "Kerjakan sampai tingkat usaha yang diminta, biasanya dekat gagal, tanpa menghitung target.",
+        "when": "Ketika tujuannya usaha, bukan volume yang persis.",
+        "mistake": "Menganggapnya \"terserah kamu\". Kriteria berhenti tetap ada, hanya bukan berupa angka.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop Set",
       "aliases": [],
       "summary": "Sampai gagal, langsung turunkan 20-30% beban, lalu lanjut tanpa istirahat.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Perpanjangan set: kamu kurangi beban dan lanjut, tanpa jeda.",
+        "how": "Gagal? Turunkan 20-30% beban dalam hitungan detik dan lanjut sampai gagal lagi.",
+        "when": "Di set terakhir gerakan. Mesin dan kabel paling praktis.",
+        "mistake": "Terlalu lama mengganti beban — lewat ~10 detik itu jadi set baru, bukan drop.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "Rest-pause satu putaran saja: gagal, istirahat ~15 detik, satu blok lagi dengan beban sama.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Rest-pause yang dijalankan satu putaran saja, bukan tiga seperti versi lengkap.",
+        "how": "Pergi sampai gagal. Istirahat sekitar 15 detik tanpa keluar posisi. Lakukan satu blok lagi dengan beban sama.",
+        "when": "Ketika program ingin intensitas rest-pause tanpa biaya pemulihan tiga putaran.",
+        "mistake": "Memperpanjang jedanya. Lewat ~20 detik itu sudah set baru.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Repetisi Cadangan",
       "aliases": [],
       "summary": "Berhenti saat masih tersisa 1-3 repetisi. Jangan sampai gagal.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Rem yang disengaja: kamu menutup set sebelum gagal.",
+        "how": "Kalau di akhir kamu merasa masih bisa dua lagi, kamu menyisakan dua. Itulah targetnya.",
+        "when": "Di sebagian besar set sesi volume, untuk menumpuk kerja tanpa menguras diri.",
+        "mistake": "Menaksir cadangan terlalu tinggi. Kebanyakan orang lebih dekat ke gagal daripada yang mereka kira.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster",
       "aliases": [],
       "summary": "Bagi set jadi blok pendek dengan jeda 10-20 detik, beban tetap berat.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Satu set yang dipecah jadi blok pendek, dengan jeda mikro yang direncanakan.",
+        "how": "Contoh: 3 repetisi, jeda 15 detik, 3, 15 detik, 3. Dihitung sebagai satu set.",
+        "when": "Ketika kamu mau volume dengan beban berat tanpa kehilangan eksekusi.",
+        "mistake": "Membiarkan jeda memanjang sampai jadi tiga set biasa.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
       "aliases": [],
       "summary": "Tanpa jeda antar repetisi dan tanpa istirahat sampai set selesai. Gerakan terus-menerus.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tegangan terus-menerus: otot tak beristirahat di titik mana pun gerakan.",
+        "how": "Jangan mengunci di atas dan jangan mengendur di bawah. Naik turun tanpa berhenti.",
+        "when": "Isolasi, mesin, dan penutup. Sangat umum di glute, betis, dan perut.",
+        "mistake": "Memendekkan rentang gerak demi menjaga irama.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Sampai gagal, istirahat 10-20 detik, lanjut dengan beban sama. Ulangi 2-3 kali.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Beberapa putaran gagal yang dipisahkan jeda sangat singkat, tanpa mengganti beban.",
+        "how": "Gagal → 10-20 detik → repetisi lagi sampai gagal → 10-20 detik → putaran terakhir.",
+        "when": "Set terakhir gerakan, ketika kamu mau intensitas tanpa menambah beban.",
+        "mistake": "Mengubah jeda singkat jadi istirahat penuh — itu cuma membuatnya tiga set terpisah.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Tegangan Progresif",
       "aliases": [],
       "summary": "Naikkan tuntutan tiap set - beban, waktu tegangan, atau rentang gerak - tanpa merusak teknik.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Progresi di dalam sesi itu sendiri: tiap set menuntut sedikit lebih dari sebelumnya.",
+        "how": "Variabel yang naik bisa beban, kelambatan, atau rentang gerak. Program atau pelatih yang menentukan.",
+        "when": "Ketika kamu mau rangsangan yang menaik tanpa gagal sejak set pertama.",
+        "mistake": "Menaikkan tuntutan dan menjatuhkan teknik bersamanya.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "Metode 3/7",
       "aliases": [],
       "summary": "Lima blok berisi 3, 4, 5, 6, dan 7 repetisi dengan jeda ~15 detik, beban sama sepanjang set.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Metode blok menaik dengan istirahat sangat singkat, dihitung sebagai satu gerakan.",
+        "how": "3 repetisi → 15 detik → 4 → 15 detik → 5 → 15 detik → 6 → 15 detik → 7. Beban sama dari awal sampai akhir.",
+        "when": "Ketika dicari penumpukan lelah tinggi dengan beban sedang.",
+        "mistake": "Memilih beban terlalu berat dan tak sanggup menutup blok terakhir.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Eksentrik Lambat",
       "aliases": [],
       "summary": "Turunkan beban perlahan (3-5 detik) dan angkat dengan tempo normal. Fase turun yang penting.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Penekanan pada fase ketika otot memanjang di bawah beban.",
+        "how": "Hitung 3 sampai 5 detik saat turun. Naiknya normal dan terkendali.",
+        "when": "Ketika kamu mau rangsangan kuat tanpa beban berat, atau memperbaiki kontrol gerak.",
+        "mistake": "Menghitung terlalu cepat. Pakai stopwatch beberapa sesi pertama.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip Set",
       "aliases": [],
       "summary": "Beberapa drop berturut-turut: gagal, kurangi beban, gagal lagi, kurangi lagi, sampai habis.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Drop set berantai, dengan tiga atau lebih pengurangan berturut-turut.",
+        "how": "Gagal, kurangi beban, lanjut. Ulangi sampai beban minimal. Tanpa istirahat antar pergantian.",
+        "when": "Sebagai penutup kelompok otot. Paling cocok di kabel, mesin, atau dumbbell di rak.",
+        "mistake": "Memilih gerakan yang bebannya tak bisa diganti cepat.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Oklusi",
       "aliases": [],
       "summary": "Latihan dengan pembatasan aliran darah sebagian, beban ringan dan repetisi banyak.",
-      "full": null,
       "caution": "Butuh pendampingan langsung dari profesional untuk menentukan tekanan dan durasi. Jangan improvisasi dengan alat seadanya.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Memakai band atau manset di bagian atas anggota gerak untuk membatasi sebagian aliran balik vena.",
+        "how": "Beban ringan (biasanya 20-30% maksimum), repetisi banyak, istirahat pendek, band dipasang sesuai arahan.",
+        "when": "Ketika dicari rangsangan dengan beban sangat kecil.",
+        "mistake": "Mengencangkan band berlebihan atau membiarkannya terpasang terlalu lama.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Superset",
       "aliases": [],
       "summary": "Dua gerakan berurutan tanpa istirahat di antaranya. Istirahat baru setelah pasangan selesai.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Sepasang gerakan yang diperlakukan sebagai satu unit latihan.",
+        "how": "Selesaikan yang pertama dan langsung ke kedua. Istirahat baru mulai setelah keduanya.",
+        "when": "Untuk hemat waktu, menaikkan densitas, atau memasangkan otot yang tak saling mengganggu.",
+        "mistake": "Memilih dua alat yang berjauhan — perjalanannya jadi istirahat yang seharusnya tak ada.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Repetisi Cepat",
       "aliases": [],
       "summary": "Tempo cepat tapi terkendali. Fokus pada kecepatan, bukan beban maksimal.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Irama cepat sambil menjaga rentang gerak dan kendali.",
+        "how": "Angkat dengan niat cepat dan turunkan tanpa menjatuhkan diri. Rentang penuh tetap berlaku.",
+        "when": "Penutup dan latihan power dengan beban ringan sampai sedang.",
+        "mistake": "Menukar kecepatan dengan ayunan — kalau tubuh ikut membantu, otot sudah tidak bekerja.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "Waktu di bawah tegangan diperpanjang: setiap repetisi lambat di dua fase, tanpa mengunci di atas.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Memaksimalkan total waktu otot berada di bawah beban dalam satu set.",
+        "how": "Naik dan turun terkendali dan lambat, tanpa jeda di atas maupun di bawah.",
+        "when": "Isolasi dan mesin, di mana tegangan terus-menerus aman dipertahankan.",
+        "mistake": "Mengunci di atas, yang melempar beban ke sendi dan mengakhiri tegangan.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Gagal Total",
       "aliases": [],
       "summary": "Lanjut sampai beban tidak bisa digerakkan ke arah mana pun, bahkan menahan turunnya pun tidak.",
-      "full": null,
       "caution": "Jangan dipakai pada gerakan beban bebas dengan beban di atas badan atau kepala tanpa spotter dan pin pengaman.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Titik di luar gagal konsentrik, di mana menurunkan beban secara terkendali pun mustahil.",
+        "how": "Hanya pada gerakan di mana melepas beban itu aman — mesin, kabel, atau dengan partner.",
+        "when": "Jarang, dan di set terakhir. Biaya pemulihannya sangat mahal.",
+        "mistake": "Memakainya pada gerakan beban bebas dengan beban di atas tubuh.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "Tujuh set pada gerakan terakhir kelompok otot, istirahat 30-45 detik, mengejar pump maksimal.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Penutup tujuh set pada gerakan isolasi yang menutup satu kelompok otot.",
+        "how": "7 set, 8-12 repetisi, istirahat 30-45 detik, beban sedang.",
+        "when": "Sebagai gerakan terakhir kelompok otot, jangan di awal.",
+        "mistake": "Memilih beban terlalu berat dan tak sanggup menahan tujuh set.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Kekuatan Murni",
       "aliases": [],
       "summary": "Beban berat dan repetisi sedikit, dengan istirahat panjang. Fokus kekuatan, bukan volume.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Rentang kerja berat, biasanya 1 sampai 5 repetisi, dengan istirahat panjang.",
+        "how": "Pemanasan bertahap dulu. Istirahat cukup lama agar set berikutnya sebaik yang sebelumnya.",
+        "when": "Pada gerakan majemuk yang membuka sesi.",
+        "mistake": "Memendekkan istirahat dan mengubahnya jadi latihan daya tahan dengan beban berat.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Tahan Napas",
       "aliases": [],
       "summary": "Tahan napas di bagian singkat gerakan untuk menaikkan tekanan dalam perut.",
-      "full": null,
       "caution": "Bisa menyebabkan pusing dan menaikkan tekanan darah. Penderita gangguan kardiovaskular, hipertensi, atau yang sedang hamil harus konsultasi dulu.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Menahan napas di bagian tersulit repetisi, untuk menstabilkan batang tubuh.",
+        "how": "Tarik napas sebelumnya, tahan di bagian paling berat, buang saat selesai. Hanya bagian singkat.",
+        "when": "Gerakan yang butuh batang tubuh kaku, dan latihan core spesifik.",
+        "mistake": "Menahan napas sepanjang set berturut-turut.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
       "aliases": [],
       "summary": "Gerakan lambat di dua fase, tanpa ayunan dan tanpa jeda, tegangan dijaga tetap.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Irama yang diperlambat dari awal sampai akhir repetisi.",
+        "how": "Tanpa ayunan, tanpa mengunci. Bebannya harus lebih ringan dari biasanya.",
+        "when": "Belajar gerakan, atau ketika beban yang tersedia tidak cukup.",
+        "mistake": "Mempercepat saat lelah datang, yang diam-diam mengembalikannya jadi set biasa.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Pemanasan",
       "aliases": [],
       "summary": "Set ringan sebelum set utama, untuk menyiapkan sendi dan pola gerak.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Persiapan khusus untuk gerakan yang akan datang.",
+        "how": "1 sampai 3 set jauh di bawah beban kerja, jangan sampai ke tingkat usaha.",
+        "when": "Sebelum gerakan berat pertama di tiap kelompok otot.",
+        "mistake": "Membuatnya cukup berat sampai terhitung set kerja, dan menggerogoti set yang sebenarnya.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Ledakan Konsentrik",
       "aliases": [],
       "summary": "Angkat beban dengan niat kecepatan maksimal, lalu turunkan terkendali.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Penekanan pada niat berakselerasi selama fase angkat.",
+        "how": "Dorong atau tarik secepat mungkin; turunkan dengan irama normal dan terkendali.",
+        "when": "Gerakan majemuk dengan beban sedang.",
+        "mistake": "Membiarkan turunnya jadi jatuh bebas — hanya fase angkat yang cepat.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Piramida Turun",
       "aliases": [],
       "summary": "Setiap set beban turun dan repetisi naik. Mulai dari yang berat.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kebalikan piramida naik: set terberat datang paling awal.",
+        "how": "Contoh: 6 → 8 → 10 → 12 repetisi, mengurangi beban tiap pergantian.",
+        "when": "Ketika kamu mau menyerang yang berat dalam kondisi segar, dengan pemanasan dilakukan terpisah.",
+        "mistake": "Melewatkan pemanasan dan langsung masuk ke yang paling berat.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Piramida",
       "aliases": [],
       "summary": "Beban dan repetisi berubah antar set, bukan tetap. Bisa naik atau turun.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Istilah umumnya. Program menyebut piramida tanpa menyebut arah.",
+        "how": "Kalau tidak disebutkan, pola paling umum adalah naik: beban bertambah, repetisi berkurang tiap set.",
+        "when": "Setiap kali program menyebut teknik tanpa arah.",
+        "mistake": "Mengasumsikan arah alih-alih memastikan. Naik dan turun melatih hal yang berbeda.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
       "aliases": [],
       "summary": "Tiga gerakan berurutan tanpa istirahat. Istirahat baru setelah ketiganya selesai.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Seperti bi-set, tapi dengan tiga gerakan dalam satu blok.",
+        "how": "Rangkai ketiganya dan istirahat baru setelah yang terakhir.",
+        "when": "Densitas tinggi dan hemat waktu. Biasanya menutup satu kelompok otot.",
+        "mistake": "Menyusunnya dari tiga alat yang berjauhan, atau yang biasanya terpakai.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Beban Progresif",
       "aliases": [],
       "summary": "Naikkan beban dari minggu ke minggu begitu kamu mencapai batas atas rentang repetisi.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Prinsip progresi antar sesi, bukan di dalam satu sesi.",
+        "how": "Semua set tertutup di batas atas rentang repetisi dengan bentuk baik? Naikkan beban di latihan berikutnya.",
+        "when": "Ini standar setiap program kekuatan atau hipertrofi.",
+        "mistake": "Menaikkan beban sebelum repetisinya benar-benar bersih.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "Isometrik",
       "aliases": [],
       "summary": "Tahan posisi diam, tanpa naik atau turun, selama waktu yang ditentukan.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kontraksi tanpa gerakan sendi.",
+        "how": "Ambil posisinya dan tahan selama waktu yang ditentukan, bernapas normal.",
+        "when": "Core, otot penstabil, dan sebagai penutup gerakan dinamis.",
+        "mistake": "Menahan napas sepanjang waktu.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

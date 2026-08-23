@@ -10,241 +10,428 @@
       "name": "顶峰收缩",
       "aliases": [],
       "summary": "每次动作在收缩最强的位置停留1至2秒，夹紧目标肌肉后再返回。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "在肌肉收缩到最短的位置做一次短暂而主动的停顿。",
+        "how": "正常推起，夹紧目标肌肉停留1到2秒，然后有控制地放下。",
+        "when": "孤立动作和器械，也就是能清楚感受到目标肌肉的地方。",
+        "mistake": "用身体停顿而不是用肌肉。一旦锁死关节休息，这个技术就失效了。",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "递增金字塔",
       "aliases": [],
       "summary": "每组增加重量、减少次数。从轻开始，以重结束。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "重量逐组上升，次数逐组下降。",
+        "how": "例如：15次 → 12 → 10 → 8，每次更换都加重量。最后一组最重。",
+        "when": "放在一个部位的第一个动作，用来安全地过渡到大重量。",
+        "mistake": "加重量太早，等到真正重要的那一组时已经没力气了。",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "向心力竭",
       "aliases": [],
       "summary": "重复到自己再也推不起来为止。上举阶段失败时这组就结束。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "再也无法用标准动作完成一次推起的那个点。",
+        "how": "一直做到某一次在上推阶段卡住为止。那组就结束了，不要靠借力硬顶。",
+        "when": "一个动作的最后一组，或者计划里明确要求的时候。",
+        "mistake": "把力竭和难受混为一谈。力竭是力学上的：重量不再移动。",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "不限次数",
       "aliases": [],
       "summary": "没有固定次数。在规定的强度内，用标准动作尽可能多做。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "计划规定了组数和休息，但不规定次数。",
+        "how": "做到这一组要求的用力程度，通常接近力竭，不去数一个目标数字。",
+        "when": "当目标是用力程度而不是精确训练量的时候。",
+        "mistake": "理解成\"想做多少就做多少\"。停止的标准依然存在，只是它不是一个数字。",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "递减组",
       "aliases": [],
       "summary": "做到力竭后立刻减重20%至30%，不休息继续做。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "一组动作的延长：你减掉重量，不休息继续做。",
+        "how": "力竭了？在几秒内减掉20%到30%的重量，继续做到再次力竭。",
+        "when": "放在一个动作的最后一组。器械和绳索最方便。",
+        "mistake": "换重量太慢。超过大约10秒就变成新的一组，而不是递减了。",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "只做一轮的休息暂停：力竭后休息约15秒，用同样重量再做一组。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "就是休息暂停，只做一轮，而不是完整版的三轮。",
+        "how": "做到力竭。保持姿势休息约15秒。用同样的重量再做一段。",
+        "when": "当计划想要休息暂停的强度，但不想付出三轮的恢复代价时。",
+        "mistake": "把休息拖长。超过大约20秒，那就已经是新的一组了。",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "储备次数",
       "aliases": [],
       "summary": "在还能再做1至3次时停下。不要做到力竭。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "一种有意的刹车：在力竭之前结束这一组。",
+        "how": "如果结束时你觉得还能再做两次，那就是留了两次储备。这正是目标。",
+        "when": "在训练量为主的课表里的大多数组，用来累积工作量而不掏空自己。",
+        "mistake": "高估自己的储备。多数人比自己以为的更接近力竭。",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "集群组",
       "aliases": [],
       "summary": "把一组拆成几个小段，中间休息10至20秒，保持大重量。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "把一组拆成几个短段，中间安排好的极短休息。",
+        "how": "例如：3次，休息15秒，3次，15秒，3次。这样算作一组。",
+        "when": "当你想在大重量下积累训练量，又不想丢掉动作质量时。",
+        "mistake": "让休息越拖越长，最后变成三组普通训练。",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "不停顿",
       "aliases": [],
       "summary": "次与次之间不停顿，整组做完前不休息。动作持续不断。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "持续张力：肌肉在动作的任何位置都不休息。",
+        "how": "上面不要锁死，下面不要放松。不停顿地上下往返。",
+        "when": "孤立动作、器械和收尾动作。臀部、小腿和腹部尤其常用。",
+        "mistake": "为了维持节奏而缩短动作幅度。",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "休息暂停",
       "aliases": [],
       "summary": "做到力竭，休息10至20秒，用同样重量继续。重复2到3轮。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "用极短的休息隔开的数轮力竭，中间不换重量。",
+        "how": "力竭 → 10到20秒 → 继续做到力竭 → 10到20秒 → 最后一轮。",
+        "when": "一个动作的最后一组，当你想提高强度但不想加重量时。",
+        "mistake": "把短暂停顿变成完整休息，那样就只是三个独立的组而已。",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "渐进张力",
       "aliases": [],
       "summary": "每组提高要求——重量、张力时间或幅度——但不能牺牲动作质量。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "在同一次训练内部的递进：每一组都比上一组多要求一点。",
+        "how": "上升的变量可以是重量、速度或幅度。由计划或教练决定是哪一个。",
+        "when": "当你想要递增的刺激，又不想第一组就力竭时。",
+        "mistake": "提高了要求，却让动作质量跟着一起掉下来。",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "3/7法",
       "aliases": [],
       "summary": "3、4、5、6、7次共五段，每段之间休息约15秒，全程使用同一重量。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "用极短休息串起递增段落的方法，整体算作一个动作。",
+        "how": "3次 → 15秒 → 4 → 15秒 → 5 → 15秒 → 6 → 15秒 → 7。全程使用同一个重量。",
+        "when": "当需要在中等重量下累积高疲劳时。",
+        "mistake": "选了太重的重量，结果最后几段做不完。",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "慢速离心",
       "aliases": [],
       "summary": "用3至5秒缓慢下放，以正常速度举起。下放阶段才是重点。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "强调肌肉在负重下被拉长的那个阶段。",
+        "how": "下放时数3到5秒。推起用正常速度并保持控制。",
+        "when": "当你想要强刺激但不用大重量，或者需要改善动作控制时。",
+        "mistake": "数得太快。前几次训练用秒表实测一下。",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "剥离组",
       "aliases": [],
       "summary": "连续多次递减：力竭、减重、再力竭、再减重，直到重量用尽。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "连续三次以上减重的递减组串联。",
+        "how": "力竭，减重，继续。重复到重量降到最低。更换之间不休息。",
+        "when": "作为一个部位的收尾。在绳索、器械或架上哑铃最合适。",
+        "mistake": "选了一个无法快速更换重量的动作。",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "加压训练",
       "aliases": [],
       "summary": "在部分限制血流的状态下，用小重量和高次数训练。",
-      "full": null,
       "caution": "需要专业人员现场指导来确定压力和时长。不要用普通弹力带自行尝试。",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "在肢体上端使用绑带或压力带，部分限制静脉回流的状态下训练。",
+        "how": "轻重量（通常是最大重量的20%到30%），高次数，短休息，绑带按指导佩戴。",
+        "when": "当你想用极小的负荷获得刺激时。",
+        "mistake": "绑带勒得太紧，或者佩戴时间过长。",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "超级组",
       "aliases": [],
       "summary": "两个动作连续做完，中间不休息。休息安排在这一对之后。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "把两个动作当作一个训练单位来处理。",
+        "how": "做完第一个直接进入第二个。休息只在两个都做完之后才开始。",
+        "when": "为了节省时间、提高密度，或者搭配互不干扰的肌群。",
+        "mistake": "挑了两台距离很远的器械——走路本身变成了本不该存在的休息。",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "快速次数",
       "aliases": [],
       "summary": "在可控的前提下加快节奏。重点是速度，不是最大重量。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "在保持幅度和控制的前提下加快节奏。",
+        "how": "带着加速的意图推起，下放时不要把自己摔下去。完整幅度依然要保证。",
+        "when": "轻到中等重量的收尾动作和爆发力训练。",
+        "mistake": "用摆动换速度。身体一旦帮忙，肌肉就不再工作了。",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "延长张力时间：每次动作上下两个阶段都放慢，顶端不锁定。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "把肌肉在一组内承受负荷的总时间拉到最长。",
+        "how": "上推和下放都放慢并保持控制，顶端和底端都不停顿。",
+        "when": "孤立动作和器械，也就是持续张力可以安全维持的地方。",
+        "mistake": "在顶端锁死，把负荷交给了关节，张力也就断在那里。",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "完全力竭",
       "aliases": [],
       "summary": "做到重量朝任何方向都推不动，连下放都控制不住为止。",
-      "full": null,
       "caution": "不要在重量位于身体或头部上方的自由重量动作上使用，除非有保护者和安全销。",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "超过向心力竭的那个点，连有控制地放下都做不到了。",
+        "how": "只在放开重量是安全的动作上使用：器械、绳索，或者有人保护时。",
+        "when": "很少用，而且只用在最后一组。它的恢复代价非常高。",
+        "mistake": "在自由重量、杠铃位于身体上方的动作上使用。",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "该肌群最后一个动作做七组，组间休息30至45秒，追求最大充血。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "在收尾一个部位的孤立动作上做七组的收尾方法。",
+        "how": "7组，8到12次，休息30到45秒，中等重量。",
+        "when": "作为一个部位的最后一个动作，绝不要放在开头。",
+        "mistake": "选了太重的重量，撑不完七组。",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "纯力量",
       "aliases": [],
       "summary": "大重量、低次数、长休息。目标是力量，不是训练量。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "大重量工作区间，通常1到5次，配合充分的休息。",
+        "how": "事先做渐进热身。休息到足以让下一组和上一组一样好。",
+        "when": "用在开启训练的多关节动作上。",
+        "mistake": "缩短休息，把它变成用大重量做的耐力训练。",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "屏气",
       "aliases": [],
       "summary": "在动作最吃力的一小段屏住呼吸，提高腹内压。",
-      "full": null,
       "caution": "可能引起头晕并升高血压。有心血管疾病、高血压或处于孕期的人应先咨询专业人员。",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "在一次动作最吃力的一小段屏住呼吸，以稳定躯干。",
+        "how": "事先吸气，在最难的一段屏住，完成时呼出。只在很短的一段内使用。",
+        "when": "需要躯干刚性的动作，以及有针对性的核心训练。",
+        "mistake": "连续几组自始至终都屏住呼吸。",
+        "extra": []
+      }
     },
     "slow": {
       "name": "慢速",
       "aliases": [],
       "summary": "上下两个阶段都放慢，不借力不停顿，保持张力恒定。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "从一次动作的开始到结束都放慢节奏。",
+        "how": "不借力，不锁死。重量必须比平时更轻。",
+        "when": "学习动作时，或者可用重量不够时。",
+        "mistake": "疲劳一来就加快速度，那样它就悄悄变回了普通的一组。",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "热身",
       "aliases": [],
       "summary": "正式组之前的轻重量组，用来准备关节和动作模式。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "为紧接着要做的那个动作所做的专门准备。",
+        "how": "1到3组，远低于正式组重量，绝不推进到吃力区间。",
+        "when": "放在每个部位的第一个大重量动作之前。",
+        "mistake": "做得太重以至于算成了正式组，反而挤占了真正的正式组。",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "爆发向心",
       "aliases": [],
       "summary": "以最快加速的意图举起重量，下放时保持控制。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "强调在推起阶段加速的意图。",
+        "how": "尽可能快地推或拉；下放时用正常速度并保持控制。",
+        "when": "中等重量的多关节动作。",
+        "mistake": "让下放变成自由落体——只有推起阶段是快的。",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "递减金字塔",
       "aliases": [],
       "summary": "每组降低重量、增加次数。从重的开始。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "递增金字塔的反面：最重的一组排在最前面。",
+        "how": "例如：6次 → 8 → 10 → 12，每次更换都减重量。",
+        "when": "当你想在体力充沛时攻大重量，而热身另外单独完成的时候。",
+        "mistake": "跳过热身，直接进入最重的一组。",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "金字塔",
       "aliases": [],
       "summary": "重量和次数在各组之间变化，而不是保持固定。可以递增也可以递减。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "这是统称。计划只写了金字塔，没有说方向。",
+        "how": "如果没有注明，最常见的形式是递增：每组重量增加、次数减少。",
+        "when": "每当计划提到这个技术却没有说明方向时。",
+        "mistake": "凭猜测认定方向而不去确认。递增和递减练的不是同一回事。",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "三合组",
       "aliases": [],
       "summary": "三个动作连续做完，中间不休息。休息安排在三个动作全部完成之后。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "和超级组一样，只是一个组块里有三个动作。",
+        "how": "把三个连起来做，做完最后一个才休息。",
+        "when": "为了高密度和节省时间。通常放在收尾一个部位的位置。",
+        "mistake": "用三台彼此距离很远、或者经常被占用的器械来组合。",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "渐进超负荷",
       "aliases": [],
       "summary": "当你达到次数区间的上限时，在接下来的几周里增加重量。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "这是训练与训练之间的递进原则，不是一次训练内部的事。",
+        "how": "所有组都在次数区间的上限用标准动作完成了吗？那就在下次训练加重量。",
+        "when": "它是任何力量或增肌计划的基本原则。",
+        "mistake": "在次数还没有真正做干净之前就加重量。",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "等长收缩",
       "aliases": [],
       "summary": "在规定时间内保持姿势不动，既不上举也不下放。",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "没有关节运动的肌肉收缩。",
+        "how": "摆好姿势，按规定时间保持不动，正常呼吸。",
+        "when": "核心、稳定肌群，以及作为动态动作之后的收尾。",
+        "mistake": "整个过程都屏住呼吸。",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

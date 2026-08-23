@@ -10,241 +10,428 @@
       "name": "Zirve Kasılma",
       "aliases": [],
       "summary": "Her tekrarın en çok kasıldığı noktada 1-2 saniye bekle, geri dönmeden önce kası sık.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kasın en çok kısaldığı noktada yapılan kısa ve aktif bir bekleme.",
+        "how": "Ağırlığı normal kaldır, hedef kası sıkarak 1-2 saniye bekle, sonra kontrollü indir.",
+        "when": "İzolasyon hareketleri ve makinelerde, hedef kasın net hissedildiği yerlerde.",
+        "mistake": "Beklemeyi kasla değil vücutla yapmak. Eklemi kilitleyip dinlenirsen teknik kaybolur.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Artan Piramit",
       "aliases": [],
       "summary": "Her sette ağırlığı artırır, tekrarı azaltırsın. Hafif başlar, ağır bitirirsin.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Set başına ağırlık artar, tekrar sayısı düşer.",
+        "how": "Örnek: 15 → 12 → 10 → 8 tekrar, her geçişte ağırlık ekleyerek. Son set en ağırıdır.",
+        "when": "Kas grubunun ilk hareketinde, ağıra güvenle çıkmak için.",
+        "mistake": "Ağırlığı çok erken artırıp asıl önemli sete boşalmış gelmek.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Konsantrik Tükeniş",
       "aliases": [],
       "summary": "Ağırlığı kendi başına kaldıramayana kadar tekrarla. Kaldırma fazı yetmediğinde dur.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Artık düzgün formla bir tekrar daha kaldıramadığın nokta.",
+        "how": "Kaldırma fazında takılan tekrara kadar devam et. Set orada biter — savurarak zorlama.",
+        "when": "Bir hareketin son setinde ya da program açıkça istediğinde.",
+        "mistake": "Tükenişi rahatsızlıkla karıştırmak. Tükeniş mekaniktir: ağırlık artık hareket etmez.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "Sabit Tekrar Yok",
       "aliases": [],
       "summary": "Sabit tekrar sayısı yok. İstenen zorlanma içinde, tekniği bozmadan yapabildiğin kadar yap.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Program set ve dinlenmeyi verir ama tekrar sayısını açık bırakır.",
+        "how": "İstenen zorlanma düzeyine kadar çalış, genelde tükenişe yakın, hedef sayı saymadan.",
+        "when": "Amaç kesin hacim değil, zorlanma olduğunda.",
+        "mistake": "\"Canın ne isterse yap\" sanmak. Bitirme ölçütü hâlâ var, sadece bir sayı değil.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop Set",
       "aliases": [],
       "summary": "Tükenişe git, ağırlığın %20-30'unu anında düşür ve dinlenmeden devam et.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Setin uzatılması: ağırlık düşürüp ara vermeden devam edersin.",
+        "how": "Tükendin mi? Birkaç saniye içinde %20-30 ağırlık düşür ve yeniden tükenene kadar sürdür.",
+        "when": "Hareketin son setinde. Makine ve kablolar en pratik olanlar.",
+        "mistake": "Ağırlık değişimini uzatmak — ~10 saniyeyi geçerse bu bir drop değil, yeni bir settir.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "Tek turluk rest-pause: tükeniş, ~15 saniye ara, aynı ağırlıkla bir blok daha.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Rest-pause'un üç tur yerine tek turda yapılmış hali.",
+        "how": "Tükenişe git. Pozisyondan çıkmadan yaklaşık 15 saniye dinlen. Aynı ağırlıkla bir blok daha yap.",
+        "when": "Program rest-pause şiddetini isterken üç turun toparlanma maliyetini istemediğinde.",
+        "mistake": "Arayı uzatmak. ~20 saniyeyi geçtiyse artık yeni bir settir.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Yedekte Tekrar",
       "aliases": [],
       "summary": "Hâlâ 1-3 tekrar yapabilecekken bırak. Tükenişe gitme.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Bilinçli bir fren: seti tükenişten önce bitirirsin.",
+        "how": "Bitirdiğinde iki tekrar daha yapabilecek gibi hissettiysen iki yedek bıraktın. Hedef budur.",
+        "when": "Hacim antrenmanının çoğu setinde, kendini boşaltmadan iş biriktirmek için.",
+        "mistake": "Yedeği fazla tahmin etmek. Çoğu kişi sandığından daha yakındır tükenişe.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster",
       "aliases": [],
       "summary": "Seti kısa bloklara böl, aralarında 10-20 saniye mola ver, ağırlığı yüksek tut.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Planlı mikro molalarla kısa bloklara bölünmüş bir set.",
+        "how": "Örnek: 3 tekrar, 15 sn mola, 3 tekrar, 15 sn, 3 tekrar. Tek set sayılır.",
+        "when": "Ağır yükte hacim isterken tekniği kaybetmemek için.",
+        "mistake": "Molaları uzatıp bunu üç normal sete dönüştürmek.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
       "aliases": [],
       "summary": "Tekrarlar arasında duraklama yok, set bitene kadar dinlenme yok. Kesintisiz hareket.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kesintisiz gerilim: kas hareketin hiçbir noktasında dinlenmez.",
+        "how": "Üstte kilitleme, altta gevşeme. Durmadan gidip gel.",
+        "when": "İzolasyon, makineler ve bitiriciler. Kalça, baldır ve karında çok yaygın.",
+        "mistake": "Tempoyu tutturmak için hareket açıklığını kısaltmak.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Tükenişe git, 10-20 saniye dinlen, aynı ağırlıkla devam et. 2-3 kez tekrarla.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ağırlık değiştirmeden, çok kısa molalarla ayrılmış birkaç tükeniş turu.",
+        "how": "Tükeniş → 10-20 sn → tükenene kadar tekrar → 10-20 sn → son tur.",
+        "when": "Hareketin son setinde, ağırlık artırmadan şiddet istediğinde.",
+        "mistake": "Kısa molayı tam dinlenmeye çevirmek — o zaman sadece üç ayrı set olur.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Artan Gerilim",
       "aliases": [],
       "summary": "Her sette zorluğu artır - ağırlık, gerilim süresi ya da hareket açıklığı - tekniği bozmadan.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Seansın kendi içinde ilerleme: her set bir öncekinden biraz fazlasını ister.",
+        "how": "Artan değişken ağırlık, tempo ya da hareket açıklığı olabilir. Programa ya da uzmana bağlı.",
+        "when": "İlk sette tükenmeden artan bir uyaran istediğinde.",
+        "mistake": "Zorluğu artırıp tekniği de onunla birlikte düşürmek.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "3/7 Yöntemi",
       "aliases": [],
       "summary": "3, 4, 5, 6 ve 7 tekrarlık beş blok, aralarında ~15 saniye mola, baştan sona aynı ağırlık.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Çok kısa molalarla artan bloklardan oluşan, tek hareket sayılan bir yöntem.",
+        "how": "3 tekrar → 15 sn → 4 → 15 sn → 5 → 15 sn → 6 → 15 sn → 7. Baştan sona aynı ağırlık.",
+        "when": "Orta ağırlıkta yüksek yorgunluk birikimi arandığında.",
+        "mistake": "Fazla ağır seçip son blokları tamamlayamamak.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Yavaş Eksantrik",
       "aliases": [],
       "summary": "Ağırlığı yavaşça indir (3-5 saniye), normal hızda kaldır. Önemli olan iniş fazı.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kasın yük altında uzadığı faza vurgu.",
+        "how": "İnişte 3-5 saniye say. Kaldırma normal hızda ve kontrollü.",
+        "when": "Ağır yük olmadan güçlü uyaran istediğinde ya da hareket kontrolünü düzeltirken.",
+        "mistake": "Çok hızlı saymak. İlk seanslarda kronometre kullan.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip Set",
       "aliases": [],
       "summary": "Arka arkaya birkaç drop: tükeniş, ağırlık düşür, yine tükeniş, yine düşür, ağırlık bitene kadar.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Arka arkaya üç veya daha fazla düşüşten oluşan zincirlenmiş drop set.",
+        "how": "Tükeniş, ağırlık düşür, devam. Ağırlık minimuma inene kadar tekrarla. Değişimler arası dinlenme yok.",
+        "when": "Bir kas grubunun bitiricisi olarak. Kablo, makine veya sehpadaki dumbbell'larda en iyi çalışır.",
+        "mistake": "Ağırlığın hızlı değişemeyeceği bir hareket seçmek.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Oklüzyon",
       "aliases": [],
       "summary": "Kan akışının kısmen kısıtlandığı, düşük ağırlık ve yüksek tekrarlı antrenman.",
-      "full": null,
       "caution": "Basınç ve süre ayarı için uzman eşliğinde uygulanmalıdır. Sıradan bantlarla doğaçlama yapmayın.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Uzvun üst kısmına bant veya manşet takarak venöz dönüşü kısmen kısıtlamak.",
+        "how": "Düşük ağırlık (genelde maksimumun %20-30'u), yüksek tekrar, kısa mola, bant talimata göre.",
+        "when": "Çok az yükle uyaran arandığında.",
+        "mistake": "Bandı fazla sıkmak ya da çok uzun süre takılı bırakmak.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Süper Set",
       "aliases": [],
       "summary": "İki hareket arka arkaya, aralarında dinlenme yok. Dinlenme çiftten sonra gelir.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tek bir antrenman birimi gibi ele alınan iki hareketlik çift.",
+        "how": "İlkini bitir ve doğrudan ikinciye geç. Dinlenme ancak ikisinden sonra başlar.",
+        "when": "Zaman kazanmak, yoğunluğu artırmak ya da birbirini engellemeyen kasları eşleştirmek için.",
+        "mistake": "Birbirinden uzak iki istasyon seçmek — yürüyüş, olmaması gereken dinlenmeye dönüşür.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Hızlı Tekrarlar",
       "aliases": [],
       "summary": "Kontrollü ama hızlı tempo. Odak hızda, maksimum ağırlıkta değil.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Hareket açıklığı ve kontrol korunarak hızlı tempo.",
+        "how": "Hızlanma niyetiyle kaldır, kendini bırakmadan indir. Tam açıklık hâlâ geçerli.",
+        "when": "Hafif ve orta yüklerde bitiriciler ve kuvvet-hız çalışmaları.",
+        "mistake": "Hızı savurmayla takas etmek — vücut yardım ediyorsa kas artık çalışmıyordur.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "Uzatılmış gerilim süresi: her tekrar iki fazda da yavaş, tepede kilitlenmeden.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Set içinde kasın yük altında geçirdiği toplam süreyi en üst düzeye çıkarmak.",
+        "how": "Kaldırma ve indirme kontrollü ve yavaş, üstte ve altta duraklama yok.",
+        "when": "İzolasyon ve makineler; kesintisiz gerilimin güvenle korunabildiği yerler.",
+        "mistake": "Üstte kilitlemek; bu yükü ekleme atar ve gerilimi bitirir.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Tam Tükeniş",
       "aliases": [],
       "summary": "Ağırlığı hiçbir yöne hareket ettiremeyene, inişi bile kontrol edemeyene kadar devam et.",
-      "full": null,
       "caution": "Ağırlığın vücudun ya da başın üzerinde olduğu serbest hareketlerde, spotter ve güvenlik pimi olmadan kullanmayın.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Konsantrik tükenişin ötesindeki nokta; kontrollü iniş bile artık mümkün değildir.",
+        "how": "Sadece ağırlığı bırakmanın güvenli olduğu hareketlerde — makine, kablo veya partnerle.",
+        "when": "Nadiren ve son sette. Toparlanma açısından maliyeti çok yüksektir.",
+        "mistake": "Ağırlığın vücudun üzerinde olduğu serbest hareketlerde kullanmak.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "Kas grubunun son hareketinde yedi set, 30-45 saniye mola, maksimum pompa için.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Bir kas grubunu kapatan izolasyon hareketinde yedi setlik bitirici.",
+        "how": "7 set, 8-12 tekrar, 30-45 saniye mola, orta ağırlık.",
+        "when": "Bir grubun son hareketi olarak, asla başında değil.",
+        "mistake": "Fazla ağır seçip yedi seti taşıyamamak.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Saf Kuvvet",
       "aliases": [],
       "summary": "Ağır yükler, az tekrar, uzun dinlenme. Hedef kuvvet, hacim değil.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ağır çalışma aralığı, genelde 1-5 tekrar, bol dinlenmeyle.",
+        "how": "Önce kademeli ısın. Sonraki setin öncekiyle aynı kalitede olmasına yetecek kadar dinlen.",
+        "when": "Seansı açan çok eklemli hareketlerde.",
+        "mistake": "Molayı kısaltıp bunu ağır yükle dayanıklılık çalışmasına dönüştürmek.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Nefes Tutma",
       "aliases": [],
       "summary": "Hareketin kısa bir bölümünde nefesini tut, karın içi basıncı artırmak için.",
-      "full": null,
       "caution": "Baş dönmesine ve tansiyon yükselmesine yol açabilir. Kalp-damar rahatsızlığı, hipertansiyon veya gebelik durumunda önce uzmana danışın.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tekrarın en zor bölümünde nefesi tutarak gövdeyi sabitlemek.",
+        "how": "Öncesinde nefes al, en zorlu bölümde tut, bitirince ver. Sadece kısa bölümlerde.",
+        "when": "Sert gövde gerektiren hareketler ve hedefli core çalışması.",
+        "mistake": "Arka arkaya set boyunca nefes tutmak.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
       "aliases": [],
       "summary": "İki fazda da yavaş hareket, savurma yok, duraklama yok, gerilim sabit.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tekrarın başından sonuna kadar düşürülmüş tempo.",
+        "how": "Savurma yok, kilitleme yok. Ağırlık normalden hafif olmalı.",
+        "when": "Hareket öğrenirken ya da yeterli ağırlık yokken.",
+        "mistake": "Yorgunluk gelince hızlanmak; bu, sessizce onu normal bir sete geri çevirir.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Isınma",
       "aliases": [],
       "summary": "Asıl setlerden önce hafif setler; eklemi ve hareket kalıbını hazırlamak için.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Hemen ardından gelecek harekete özel hazırlık.",
+        "how": "Çalışma ağırlığının epey altında 1-3 set, asla zorlanmaya gitmeden.",
+        "when": "Her kas grubunun ilk ağır hareketinden önce.",
+        "mistake": "Onu çalışma seti sayılacak kadar zorlaştırıp gerçek setlerden çalmak.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Konsantrik Patlama",
       "aliases": [],
       "summary": "Ağırlığı maksimum hızlanma niyetiyle kaldır, kontrollü indir.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Kaldırma fazında hızlanma niyetine yapılan vurgu.",
+        "how": "Olabildiğince hızlı it ya da çek; indirmeyi normal ve kontrollü tempoda yap.",
+        "when": "Orta yükte çok eklemli hareketlerde.",
+        "mistake": "İnişin serbest düşüşe dönmesine izin vermek — sadece kaldırma hızlıdır.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Azalan Piramit",
       "aliases": [],
       "summary": "Her sette ağırlığı düşürür, tekrarı artırırsın. Ağır başlarsın.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Artan piramidin tersi: en ağır set en başta gelir.",
+        "how": "Örnek: 6 → 8 → 10 → 12 tekrar, her geçişte ağırlık düşürerek.",
+        "when": "Ağırı dinlenmiş halde karşılamak istediğinde, ısınma ayrı yapılmışken.",
+        "mistake": "Isınmayı atlayıp doğrudan en ağıra girmek.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Piramit",
       "aliases": [],
       "summary": "Ağırlık ve tekrar setler arasında sabit kalmaz, değişir. Artan ya da azalan olabilir.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Genel terim. Program piramit der ama yönünü söylemez.",
+        "how": "Belirtilmemişse en yaygın kalıp artandır: her sette daha çok ağırlık, daha az tekrar.",
+        "when": "Program tekniği yön belirtmeden andığı her seferde.",
+        "mistake": "Yönü doğrulamak yerine varsaymak. Artan ve azalan farklı şeyler çalıştırır.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
       "aliases": [],
       "summary": "Üç hareket arka arkaya, aralarında dinlenme yok. Dinlenme üçünden sonra gelir.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Bi-set gibi, ama blokta üç hareket var.",
+        "how": "Üçünü zincirle ve ancak sonuncudan sonra dinlen.",
+        "when": "Yüksek yoğunluk ve zaman tasarrufu. Genellikle bir kas grubunu kapatır.",
+        "mistake": "Onu birbirinden uzak ya da genelde dolu üç istasyondan kurmak.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Artan Yüklenme",
       "aliases": [],
       "summary": "Tekrar aralığının üst sınırına ulaştıkça haftalar içinde ağırlığı artır.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Seanslar arası ilerleme ilkesi; tek bir seansın içi değil.",
+        "how": "Tüm setleri tekrar aralığının üst sınırında düzgün formla kapattın mı? Sonraki antrenmanda ağırlığı artır.",
+        "when": "Her kuvvet ya da hipertrofi programının standardıdır.",
+        "mistake": "Tekrarlar gerçekten temiz olmadan ağırlığı artırmak.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "İzometrik",
       "aliases": [],
       "summary": "Pozisyonu sabit tut, ne kaldır ne indir, belirtilen süre boyunca.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Eklem hareketi olmadan kasılma.",
+        "how": "Pozisyonu al ve belirtilen süre boyunca sabit tut, normal nefes alarak.",
+        "when": "Core, sabitleyiciler ve dinamik bir hareketin bitiricisi olarak.",
+        "mistake": "Süre boyunca nefesi tutmak.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }

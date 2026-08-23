@@ -136,14 +136,14 @@ incorporado aos artefatos.
 treino) e os três avisos de segurança obrigatórios em todos eles.
 
 ```
-                            exercícios   resumo   biblioteca
-pt-BR en es fr de it nl pl     100%       100%       100%
-tr id vi ru ja ko zh-Hans
-hi ar th                       100%       100%         0%
+                            exercícios   resumo   biblioteca   avisos
+os 18 idiomas                  100%       100%       100%       3/3
 ```
 
-3.281 nomes de exercício traduzidos, 193 por idioma, sem lacuna e sem colisão
-de nome dentro de um mesmo idioma.
+pt-BR · en · es · fr · de · it · nl · pl · tr · id · vi · ru · ja · ko · zh-Hans · hi · ar · th
+
+3.281 nomes de exercício e 2.160 seções de biblioteca, sem lacuna, sem colisão de
+nome dentro de um idioma, e sem contaminação de alfabeto entre pacotes.
 
 Regra do manifesto: **o app não oferece um idioma cuja cobertura de técnica não esteja em 100%.**
 Explicação faltando no meio do treino é pior que idioma faltando.
@@ -156,7 +156,6 @@ pior que deixar em branco.
 
 ## O que falta
 
-- Seções da biblioteca em 10 idiomas (tr id vi ru ja ko zh-Hans hi ar th) — o resumo do popup já está em todos os 18
 - Revisão nativa dos 17 idiomas gerados (`needs_native_review: true`)
 - `aliases` por idioma — apelido é gíria local de academia, não tradução
 - App Flutter: telas, persistência local, sincronização

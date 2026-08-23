@@ -64,10 +64,10 @@
     },
     "ar": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
@@ -100,19 +100,19 @@
     },
     "hi": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "id": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
@@ -127,19 +127,19 @@
     },
     "ja": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "ko": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
@@ -163,46 +163,46 @@
     },
     "ru": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "th": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "tr": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "vi": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     },
     "zh-Hans": {
       "technique_summary": 100.0,
-      "technique_full": 0.0,
+      "technique_full": 100.0,
       "missing": [],
       "missing_caution": [],
-      "status": "summary_only",
+      "status": "complete",
       "needs_native_review": true,
       "exercises": 100.0
     }

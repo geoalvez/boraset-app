@@ -10,241 +10,428 @@
       "name": "Co Cơ Đỉnh",
       "aliases": [],
       "summary": "Giữ 1-2 giây tại điểm co cơ mạnh nhất của mỗi lần lặp, siết cơ trước khi hạ xuống.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Một khoảng dừng ngắn và chủ động ở điểm cơ co ngắn nhất.",
+        "how": "Nâng bình thường, giữ 1-2 giây trong khi siết cơ mục tiêu, rồi hạ có kiểm soát.",
+        "when": "Bài cô lập và máy, nơi cảm nhận cơ mục tiêu rõ ràng.",
+        "mistake": "Dừng bằng thân người thay vì bằng cơ. Nếu khóa khớp và nghỉ, kỹ thuật đã mất.",
+        "extra": []
+      }
     },
     "piramide-crescente": {
       "name": "Kim Tự Tháp Tăng",
       "aliases": [],
       "summary": "Mỗi hiệp tăng tạ và giảm số lần. Bắt đầu nhẹ, kết thúc nặng.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tạ tăng qua từng hiệp trong khi số lần giảm.",
+        "how": "Ví dụ: 15 → 12 → 10 → 8 lần, thêm tạ mỗi lần đổi. Hiệp cuối là nặng nhất.",
+        "when": "Ở bài đầu tiên của nhóm cơ, để lên mức nặng một cách an toàn.",
+        "mistake": "Thêm tạ quá sớm và cạn sức đúng vào hiệp thực sự quan trọng.",
+        "extra": []
+      }
     },
     "falha-concentrica": {
       "name": "Lực Kiệt Hướng Tâm",
       "aliases": [],
       "summary": "Lặp đến khi không tự nâng nổi tạ nữa. Dừng khi pha nâng lên thất bại.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Điểm mà bạn không hoàn thành thêm lần nâng nào với kỹ thuật tốt.",
+        "how": "Đi đến lần lặp bị kẹt ở pha nâng lên. Hiệp kết thúc ở đó — đừng lấy đà để ép.",
+        "when": "Ở hiệp cuối của một bài, hoặc khi giáo án yêu cầu rõ ràng.",
+        "mistake": "Nhầm kiệt sức với khó chịu. Kiệt sức mang tính cơ học: tạ không còn dịch chuyển.",
+        "extra": []
+      }
     },
     "no-reps": {
       "name": "Không Cố Định Số Lần",
       "aliases": [],
       "summary": "Không có số lần cố định. Làm hết mức với kỹ thuật tốt, trong mức gắng sức được giao.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Giáo án ấn định số hiệp và thời gian nghỉ nhưng để mở số lần lặp.",
+        "how": "Tập đến mức gắng sức mà hiệp yêu cầu, thường gần ngưỡng kiệt, không đếm mục tiêu.",
+        "when": "Khi mục tiêu là gắng sức chứ không phải khối lượng chính xác.",
+        "mistake": "Coi đó là \"muốn làm gì thì làm\". Tiêu chí dừng vẫn tồn tại, chỉ là không phải một con số.",
+        "extra": []
+      }
     },
     "drop-set": {
       "name": "Drop Set",
       "aliases": [],
       "summary": "Đến ngưỡng kiệt, hạ ngay 20-30% tạ và tiếp tục không nghỉ.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Phần kéo dài của hiệp: bạn bớt tạ và tiếp tục, không nghỉ.",
+        "how": "Kiệt rồi? Giảm 20-30% mức tạ trong vài giây và tiếp tục cho đến khi kiệt lần nữa.",
+        "when": "Ở hiệp cuối của bài. Máy và cáp là tiện nhất.",
+        "mistake": "Đổi tạ quá chậm — quá ~10 giây thì đó là hiệp mới, không phải drop.",
+        "extra": []
+      }
     },
     "1-rest": {
       "name": "1 Rest",
       "aliases": [],
       "summary": "Rest-pause chỉ một vòng: kiệt sức, nghỉ ~15 giây, làm thêm một khối với cùng mức tạ.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Chính là rest-pause nhưng làm một vòng thay vì ba vòng như bản đầy đủ.",
+        "how": "Đi đến kiệt sức. Nghỉ khoảng 15 giây mà không rời tư thế. Làm thêm một khối với cùng mức tạ.",
+        "when": "Khi giáo án muốn cường độ của rest-pause mà không muốn cái giá hồi phục của ba vòng.",
+        "mistake": "Kéo dài khoảng nghỉ. Quá ~20 giây thì đó đã là hiệp mới.",
+        "extra": []
+      }
     },
     "repeticoes-de-reserva": {
       "name": "Số Lần Dự Trữ",
       "aliases": [],
       "summary": "Dừng khi vẫn còn 1-3 lần trong khả năng. Không đẩy đến kiệt sức.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Một cái phanh có chủ ý: bạn kết thúc hiệp trước khi kiệt.",
+        "how": "Nếu lúc xong bạn thấy còn làm được hai lần nữa, bạn đã để dành hai. Đó chính là mục tiêu.",
+        "when": "Ở hầu hết các hiệp của buổi tập khối lượng, để tích lũy công việc mà không cạn kiệt.",
+        "mistake": "Đánh giá quá cao phần dự trữ. Đa số gần ngưỡng kiệt hơn họ tưởng.",
+        "extra": []
+      }
     },
     "cluster": {
       "name": "Cluster",
       "aliases": [],
       "summary": "Chia hiệp thành các khối ngắn, nghỉ 10-20 giây giữa các khối, giữ tạ nặng.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Một hiệp được cắt thành các khối ngắn, với những quãng nghỉ siêu ngắn có chủ đích.",
+        "how": "Ví dụ: 3 lần, nghỉ 15 giây, 3 lần, 15 giây, 3 lần. Vẫn tính là một hiệp.",
+        "when": "Khi bạn muốn khối lượng ở mức tạ nặng mà không mất kỹ thuật.",
+        "mistake": "Để khoảng nghỉ dài ra cho đến khi nó thành ba hiệp bình thường.",
+        "extra": []
+      }
     },
     "no-stop": {
       "name": "No-Stop",
       "aliases": [],
       "summary": "Không dừng giữa các lần lặp và không nghỉ cho đến hết hiệp. Chuyển động liên tục.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Căng cơ liên tục: cơ không nghỉ ở bất kỳ điểm nào của động tác.",
+        "how": "Đừng khóa khớp ở trên và đừng buông lỏng ở dưới. Lên xuống không ngừng.",
+        "when": "Bài cô lập, máy và bài kết thúc. Rất phổ biến ở mông, bắp chân và bụng.",
+        "mistake": "Rút ngắn biên độ để giữ được nhịp.",
+        "extra": []
+      }
     },
     "rest-pause": {
       "name": "Rest-Pause",
       "aliases": [],
       "summary": "Đẩy đến kiệt, nghỉ 10-20 giây, quay lại với cùng mức tạ. Lặp 2 đến 3 vòng.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nhiều vòng kiệt sức cách nhau bởi các quãng nghỉ rất ngắn, không đổi mức tạ.",
+        "how": "Kiệt → 10-20 giây → thêm lần lặp đến kiệt → 10-20 giây → vòng cuối.",
+        "when": "Hiệp cuối của bài, khi bạn muốn cường độ mà không tăng tạ.",
+        "mistake": "Biến quãng nghỉ ngắn thành nghỉ đủ — như vậy chỉ còn là ba hiệp riêng lẻ.",
+        "extra": []
+      }
     },
     "tensao-progressiva": {
       "name": "Căng Cơ Tăng Dần",
       "aliases": [],
       "summary": "Tăng yêu cầu mỗi hiệp - tạ, thời gian căng cơ hoặc biên độ - mà không hỏng kỹ thuật.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tiến bộ ngay trong buổi tập: mỗi hiệp đòi hỏi nhiều hơn hiệp trước một chút.",
+        "how": "Biến số tăng có thể là tạ, độ chậm hoặc biên độ. Giáo án hoặc huấn luyện viên quyết định.",
+        "when": "Khi bạn muốn kích thích tăng dần mà không kiệt ngay từ hiệp đầu.",
+        "mistake": "Tăng yêu cầu rồi đánh rơi kỹ thuật theo.",
+        "extra": []
+      }
     },
     "3-a-7": {
       "name": "Phương Pháp 3/7",
       "aliases": [],
       "summary": "Năm khối gồm 3, 4, 5, 6 và 7 lần, nghỉ ~15 giây giữa các khối, giữ nguyên mức tạ.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Phương pháp gồm các khối tăng dần với quãng nghỉ rất ngắn, tính là một bài.",
+        "how": "3 lần → 15 giây → 4 → 15 giây → 5 → 15 giây → 6 → 15 giây → 7. Cùng một mức tạ từ đầu đến cuối.",
+        "when": "Khi cần tích lũy mệt mỏi cao với mức tạ vừa phải.",
+        "mistake": "Chọn tạ quá nặng và không hoàn thành nổi các khối cuối.",
+        "extra": []
+      }
     },
     "excentrica-lenta": {
       "name": "Hạ Chậm",
       "aliases": [],
       "summary": "Hạ tạ thật chậm (3-5 giây) và nâng ở tốc độ bình thường. Pha hạ mới là phần quan trọng.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nhấn mạnh vào pha cơ dài ra dưới tải.",
+        "how": "Đếm 3 đến 5 giây khi hạ. Nâng lên ở tốc độ bình thường và có kiểm soát.",
+        "when": "Khi muốn kích thích mạnh mà không cần tạ nặng, hoặc để cải thiện kiểm soát động tác.",
+        "mistake": "Đếm quá nhanh. Hãy bấm giờ trong vài buổi đầu.",
+        "extra": []
+      }
     },
     "strip-set": {
       "name": "Strip Set",
       "aliases": [],
       "summary": "Nhiều lần giảm tạ liên tiếp: kiệt, bớt tạ, lại kiệt, lại bớt, cho đến khi hết tạ.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Một chuỗi drop set nối tiếp, với ba lần giảm tạ trở lên liên tiếp.",
+        "how": "Kiệt, bớt tạ, tiếp tục. Lặp lại đến khi tạ còn tối thiểu. Không nghỉ giữa các lần đổi.",
+        "when": "Làm bài kết thúc cho một nhóm cơ. Hợp nhất với cáp, máy hoặc tạ đơn trên giá.",
+        "mistake": "Chọn bài mà không thể đổi tạ nhanh.",
+        "extra": []
+      }
     },
     "oclusao": {
       "name": "Hạn Chế Máu",
       "aliases": [],
       "summary": "Tập với hạn chế một phần lưu lượng máu, tạ nhẹ và số lần cao.",
-      "full": null,
       "caution": "Cần có hướng dẫn trực tiếp từ chuyên gia để đặt áp lực và thời gian. Đừng tự làm với dây thông thường.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Dùng dây hoặc băng quấn cao trên chi để hạn chế một phần máu về tim.",
+        "how": "Tạ nhẹ (thường 20-30% mức tối đa), nhiều lần lặp, nghỉ ngắn, dây quấn theo hướng dẫn.",
+        "when": "Khi muốn tạo kích thích với rất ít tải.",
+        "mistake": "Siết dây quá chặt hoặc để quá lâu.",
+        "extra": []
+      }
     },
     "bi-set": {
       "name": "Superset",
       "aliases": [],
       "summary": "Hai bài liên tiếp, không nghỉ giữa hai bài. Chỉ nghỉ sau khi xong cả cặp.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Một cặp bài tập được coi như một đơn vị tập luyện duy nhất.",
+        "how": "Xong bài thứ nhất là chuyển thẳng sang bài thứ hai. Nghỉ chỉ bắt đầu sau cả hai.",
+        "when": "Để tiết kiệm thời gian, tăng mật độ, hoặc ghép các cơ không cạnh tranh nhau.",
+        "mistake": "Chọn hai máy ở xa nhau — quãng đi bộ trở thành quãng nghỉ lẽ ra không nên có.",
+        "extra": []
+      }
     },
     "repeticoes-rapidas": {
       "name": "Lặp Nhanh",
       "aliases": [],
       "summary": "Thực hiện với nhịp nhanh nhưng có kiểm soát. Trọng tâm là tốc độ, không phải tạ nặng.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nhịp nhanh nhưng vẫn giữ biên độ và kiểm soát.",
+        "how": "Nâng với ý định tăng tốc và hạ xuống mà không buông rơi. Biên độ đầy đủ vẫn phải giữ.",
+        "when": "Bài kết thúc và bài sức mạnh tốc độ với tạ nhẹ đến vừa.",
+        "mistake": "Đánh đổi tốc độ lấy đà — nếu thân người phụ giúp thì cơ không còn làm việc.",
+        "extra": []
+      }
     },
     "m-tut": {
       "name": "M-TUT",
       "aliases": [],
       "summary": "Kéo dài thời gian căng cơ: mỗi lần lặp đều chậm ở cả hai pha, không khóa khớp ở đỉnh.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Tối đa hóa tổng thời gian cơ chịu tải trong một hiệp.",
+        "how": "Nâng và hạ đều chậm và có kiểm soát, không dừng ở trên hay dưới.",
+        "when": "Bài cô lập và máy, nơi giữ căng liên tục là an toàn.",
+        "mistake": "Khóa khớp ở đỉnh, khiến tải dồn sang khớp và chấm dứt sự căng cơ.",
+        "extra": []
+      }
     },
     "falha-total": {
       "name": "Kiệt Sức Hoàn Toàn",
       "aliases": [],
       "summary": "Tiếp tục đến khi không đẩy nổi tạ theo bất kỳ hướng nào, kể cả giữ cho tạ hạ chậm.",
-      "full": null,
       "caution": "Không dùng cho các bài tạ tự do khi tạ ở trên người hoặc trên đầu mà không có người hỗ trợ và chốt an toàn.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Điểm vượt qua ngưỡng kiệt hướng tâm, khi ngay cả hạ tạ có kiểm soát cũng không nổi.",
+        "how": "Chỉ dùng ở bài mà buông tạ là an toàn — máy, cáp, hoặc có người hỗ trợ.",
+        "when": "Hiếm khi, và chỉ ở hiệp cuối. Cái giá hồi phục rất đắt.",
+        "mistake": "Dùng nó ở bài tạ tự do khi tạ đang ở trên người.",
+        "extra": []
+      }
     },
     "fst-7": {
       "name": "FST-7",
       "aliases": [],
       "summary": "Bảy hiệp ở bài cuối của nhóm cơ, nghỉ 30-45 giây, nhắm tới độ căng tối đa.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Bài kết thúc gồm bảy hiệp trên động tác cô lập khép lại một nhóm cơ.",
+        "how": "7 hiệp, 8-12 lần, nghỉ 30-45 giây, tạ vừa phải.",
+        "when": "Là bài cuối của một nhóm cơ, không bao giờ đặt ở đầu.",
+        "mistake": "Chọn tạ quá nặng và không trụ nổi bảy hiệp.",
+        "extra": []
+      }
     },
     "forca-pura": {
       "name": "Sức Mạnh Thuần",
       "aliases": [],
       "summary": "Tạ nặng, ít lần lặp, nghỉ dài. Mục tiêu là sức mạnh, không phải khối lượng.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Vùng tập nặng, thường 1 đến 5 lần lặp, với quãng nghỉ dài.",
+        "how": "Khởi động tăng dần trước. Nghỉ đủ lâu để hiệp sau tốt ngang hiệp trước.",
+        "when": "Ở các bài đa khớp mở đầu buổi tập.",
+        "mistake": "Rút ngắn quãng nghỉ và biến nó thành bài sức bền với tạ nặng.",
+        "extra": []
+      }
     },
     "apneia": {
       "name": "Nín Thở",
       "aliases": [],
       "summary": "Nín thở trong một đoạn ngắn của động tác để tăng áp lực trong ổ bụng.",
-      "full": null,
       "caution": "Có thể gây chóng mặt và tăng huyết áp. Người có bệnh tim mạch, cao huyết áp hoặc đang mang thai cần hỏi ý kiến chuyên gia trước.",
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nín thở ở đoạn khó nhất của lần lặp để giữ vững thân người.",
+        "how": "Hít vào trước, nín trong đoạn nặng nhất, thở ra khi hoàn tất. Chỉ những đoạn ngắn.",
+        "when": "Các bài cần thân người cứng, và bài tập lõi chuyên biệt.",
+        "mistake": "Nín thở suốt cả hiệp, hết hiệp này sang hiệp khác.",
+        "extra": []
+      }
     },
     "slow": {
       "name": "Slow",
       "aliases": [],
       "summary": "Chuyển động chậm ở cả hai pha, không lấy đà và không dừng, giữ căng cơ liên tục.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nhịp chậm từ đầu đến cuối mỗi lần lặp.",
+        "how": "Không lấy đà, không khóa khớp. Mức tạ phải nhẹ hơn bình thường.",
+        "when": "Học động tác, hoặc khi không có đủ tạ.",
+        "mistake": "Tăng tốc khi mệt mỏi ập đến, khiến nó âm thầm trở lại thành hiệp bình thường.",
+        "extra": []
+      }
     },
     "aquecimento": {
       "name": "Khởi Động",
       "aliases": [],
       "summary": "Vài hiệp nhẹ trước các hiệp chính, để chuẩn bị khớp và mẫu chuyển động.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Chuẩn bị riêng cho bài tập ngay sau đó.",
+        "how": "1 đến 3 hiệp với mức tạ thấp hơn hẳn mức làm việc, không bao giờ đẩy tới gắng sức.",
+        "when": "Trước động tác nặng đầu tiên của mỗi nhóm cơ.",
+        "mistake": "Làm nó nặng đến mức tính như hiệp chính, và ăn mất phần của các hiệp thật.",
+        "extra": []
+      }
     },
     "explosao-concentrica": {
       "name": "Bùng Nổ Hướng Tâm",
       "aliases": [],
       "summary": "Nâng tạ với ý định tăng tốc tối đa và hạ xuống có kiểm soát.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nhấn mạnh vào ý định tăng tốc trong pha nâng.",
+        "how": "Đẩy hoặc kéo nhanh hết mức có thể; hạ xuống ở tốc độ bình thường, có kiểm soát.",
+        "when": "Các bài đa khớp với tạ vừa phải.",
+        "mistake": "Để pha hạ thành rơi tự do — chỉ pha nâng mới nhanh.",
+        "extra": []
+      }
     },
     "piramide-decrescente": {
       "name": "Kim Tự Tháp Giảm",
       "aliases": [],
       "summary": "Mỗi hiệp giảm tạ và tăng số lần. Bắt đầu từ mức nặng.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Ngược với kim tự tháp tăng: hiệp nặng nhất đứng đầu tiên.",
+        "how": "Ví dụ: 6 → 8 → 10 → 12 lần, bớt tạ mỗi lần đổi.",
+        "when": "Khi bạn muốn đánh vào mức nặng lúc còn sung, với phần khởi động làm riêng.",
+        "mistake": "Bỏ qua khởi động và lao thẳng vào mức nặng nhất.",
+        "extra": []
+      }
     },
     "piramidal": {
       "name": "Kim Tự Tháp",
       "aliases": [],
       "summary": "Tạ và số lần thay đổi giữa các hiệp thay vì cố định. Có thể tăng hoặc giảm.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Thuật ngữ chung. Giáo án ghi kim tự tháp mà không nói chiều.",
+        "how": "Nếu không ghi rõ, mẫu phổ biến nhất là tăng: thêm tạ, bớt số lần qua từng hiệp.",
+        "when": "Mỗi khi giáo án gọi tên kỹ thuật mà không nêu chiều.",
+        "mistake": "Đoán chiều thay vì kiểm chứng. Tăng và giảm rèn hai thứ khác nhau.",
+        "extra": []
+      }
     },
     "tri-set": {
       "name": "Tri-Set",
       "aliases": [],
       "summary": "Ba bài liên tiếp, không nghỉ giữa các bài. Chỉ nghỉ sau khi xong cả ba.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Giống bi-set, nhưng có ba bài trong một khối.",
+        "how": "Nối cả ba lại và chỉ nghỉ sau bài cuối cùng.",
+        "when": "Mật độ cao và tiết kiệm thời gian. Thường dùng để khép một nhóm cơ.",
+        "mistake": "Dựng nó từ ba máy ở xa nhau, hoặc những máy thường có người dùng.",
+        "extra": []
+      }
     },
     "carga-progressiva": {
       "name": "Tăng Tải Dần",
       "aliases": [],
       "summary": "Tăng tạ qua từng tuần khi bạn đạt tới mốc trên của khoảng số lần lặp.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Nguyên tắc tiến bộ giữa các buổi tập, không phải trong một buổi.",
+        "how": "Đã đạt mốc trên của khoảng số lần ở mọi hiệp với kỹ thuật tốt? Tăng tạ ở buổi sau.",
+        "when": "Đây là chuẩn mực của mọi giáo án sức mạnh hay phì đại cơ.",
+        "mistake": "Tăng tạ trước khi các lần lặp thực sự sạch kỹ thuật.",
+        "extra": []
+      }
     },
     "isometria": {
       "name": "Đẳng Trường",
       "aliases": [],
       "summary": "Giữ nguyên tư thế, không nâng cũng không hạ, trong khoảng thời gian chỉ định.",
-      "full": null,
       "caution": null,
-      "status": "summary_only"
+      "status": "final",
+      "sections": {
+        "what": "Sự co cơ mà không có chuyển động khớp.",
+        "how": "Vào tư thế và giữ nguyên trong khoảng thời gian quy định, thở bình thường.",
+        "when": "Cơ lõi, nhóm giữ ổn định, và làm phần kết cho một bài động.",
+        "mistake": "Nín thở suốt toàn bộ thời gian giữ.",
+        "extra": []
+      }
     }
-  }
+  },
+  "section_order": [
+    "what",
+    "how",
+    "when",
+    "mistake",
+    "extra"
+  ]
 }
