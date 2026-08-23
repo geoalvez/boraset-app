@@ -29,3 +29,11 @@ app/android/.gradle/
 app/android/local.properties
 app/**/GeneratedPluginRegistrant.*
 packages/**/.dart_tool/
+
+# Assinatura Android — NUNCA versionar.
+# Perder este keystore significa não conseguir mais publicar atualizações
+# do app na Play Store sob o mesmo pacote. Guarde uma cópia em local seguro.
+app/android/key.properties
+app/android/*.jks
+app/android/*.keystore
+dist/

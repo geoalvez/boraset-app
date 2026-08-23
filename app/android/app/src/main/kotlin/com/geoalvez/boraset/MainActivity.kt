@@ -1,4 +1,4 @@
-package com.example.boraset
+package com.geoalvez.boraset
 
 import io.flutter.embedding.android.FlutterActivity
 

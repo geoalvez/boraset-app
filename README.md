@@ -58,6 +58,21 @@ app/assets/data/
 cd packages/boraset_domain && dart test      # 28 testes — motor, escada, anilha
 cd app && flutter test                       # 48 testes — dados, banco, gerador e telas
 cd app && flutter run                        # Android / iOS / web
+cd app && flutter build apk --release --split-per-abi   # ~14–17 MB por ABI
+```
+
+## Assinatura Android
+
+O keystore de release (`app/android/boraset-release.jks`) e a senha
+(`app/android/key.properties`) **não estão neste repositório** e nunca devem estar.
+
+> Perder esse keystore significa não conseguir mais publicar atualizações do app
+> na Play Store sob o mesmo `applicationId`. Guarde uma cópia fora da máquina.
+
+Sem o arquivo, a build de release cai para as chaves de debug: o APK instala num
+aparelho, mas não serve para a loja.
+
+```bash
 ```
 
 ---
