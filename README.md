@@ -37,6 +37,7 @@ packages/boraset_domain/lib/src/
   engine.dart       contrato do WorkoutDecisionEngine
   strategies.dart   os seis degraus da escada de adaptação
   progression.dart  progressão de carga + matemática de anilha por país
+  program.dart      monta a ficha a partir do catálogo (divisões, volume, deload)
   presentation.dart o que a tela mostra: tom, aviso, e quando calar
 
 app/assets/data/
@@ -52,7 +53,7 @@ app/assets/data/
 
 ```bash
 cd packages/boraset_domain && dart test      # 28 testes — motor, escada, anilha
-cd app && flutter test                       # 26 testes — dados, banco e telas
+cd app && flutter test                       # 42 testes — dados, banco, gerador e telas
 cd app && flutter run                        # Android / iOS / web
 ```
 
@@ -60,7 +61,7 @@ cd app && flutter run                        # Android / iOS / web
 
 ## Decisões de arquitetura
 
-**54 testes, e cada um corresponde a uma afirmação sobre o produto.** Se a afirmação
+**70 testes, e cada um corresponde a uma afirmação sobre o produto.** Se a afirmação
 estiver errada, o teste quebra. Foi assim que apareceram um `Timer.periodic` que
 reconstruía a tela 60 vezes por minuto para não mudar nada, uma colisão de nome em
 polonês entre dois exercícios de músculos diferentes, e um `ORDER BY logged_at` sem
@@ -121,6 +122,20 @@ anilha que não existe na parede de lá. O arredondamento depende do país *e* d
 equipamento — barra sobe de par em par, halter pula de denominação em denominação,
 stack de máquina anda de placa em placa. Três matemáticas diferentes, e o `+100%`
 que um stack de 5 kg impõe vira aviso, não sugestão.
+
+**As fichas são geradas, não embarcadas.** O app não traz o programa de ninguém: monta
+o dia na hora, a partir do catálogo, escolhendo cada exercício por padrão de movimento,
+grupo alvo, equipamento disponível e nível — com a familiaridade como desempate.
+
+As divisões (Full Body 3x, Upper/Lower 4x, ABC 3x, Push/Pull/Legs 6x) são estrutura
+pública de treinamento. Os parâmetros vieram da mineração estatística das 60 planilhas:
+mediana de 7 exercícios por dia, ~3,3 séries por exercício, faixa 10–15 nos acessórios
+e 6–12 nas âncoras, descanso concentrado em 40/60/75 s, técnica em ~65% das vagas, e uma
+curva de volume que sobe nas semanas 4–6, **recua nas 7–9** e vai ao pico nas 10–12.
+Aquele recuo é um deload — e é o que separa uma periodização de "somar série até quebrar".
+
+Isso é regularidade de como se estrutura um treino. As fichas específicas, que são
+produto pago de terceiro, não estão neste repositório e não vão para o app.
 
 **A tela não decide sozinha o que é perigoso.** "Sugerir +100% de carga" é regra de
 treino, não de layout. Por isso `presentation.dart` — pure Dart, com teste — decide o
@@ -191,7 +206,7 @@ pior que deixar em branco.
 - Revisão nativa dos 17 idiomas gerados (`needs_native_review: true`)
 - `aliases` por idioma — apelido é gíria local de academia, não tradução
 - Sincronização com backend (o schema já tem `synced_at`, mas nada sincroniza)
-- Montagem de ficha: hoje o Treino A é fixo no código, não há como criar a sua
+- Escolha da divisão pela interface: hoje o app assume ABC 3x e roda o ciclo sozinho
 - Tela de perfil: nível, objetivo e equipamentos da academia ainda não são editáveis
 - iOS não foi gerado (precisa de macOS); web compila mas o SQLite local não roda lá
 - Ingestão automatizada de novas planilhas para o catálogo

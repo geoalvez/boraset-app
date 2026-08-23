@@ -15,6 +15,8 @@
 ///                     da lista é a política.
 ///   progression.dart  quanto peso sugerir da próxima vez, arredondado para a
 ///                     anilha que existe naquele país.
+///   program.dart      monta a ficha a partir do catálogo, com parâmetros
+///                     minerados do corpus (divisão, volume, faixas, deload).
 ///   presentation.dart o que a tela deve MOSTRAR — tom, aviso, e quando calar.
 ///                     "sugerir +100% é perigoso" é regra de treino, não de
 ///                     layout; por isso mora aqui e tem teste.
@@ -28,4 +30,5 @@ export 'src/session.dart';
 export 'src/engine.dart';
 export 'src/strategies.dart';
 export 'src/progression.dart';
+export 'src/program.dart';
 export 'src/presentation.dart';

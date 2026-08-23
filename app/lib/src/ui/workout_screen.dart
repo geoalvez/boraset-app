@@ -61,7 +61,7 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   @override
   void initState() {
     super.initState();
-    _session = _demoSession(widget.data);
+    _session = _sessionFor(widget.data, dayIndex: 0, week: 1);
     late WorkoutDecisionEngine e;
     e = WorkoutDecisionEngine(
       ladder: defaultLadder(() => e),
@@ -87,10 +87,15 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
       final l = await store.lastLoadsFor(slug);
       if (l.isNotEmpty) loads[slug] = l;
     }
+    // Rotaciona o dia e avança a semana conforme o histórico cresce: a cada
+    // 3 sessões o ciclo dá uma volta, e a cada volta a semana avança.
+    final done = (await store.recentSessions(limit: 400)).length;
     if (!mounted) return;
     setState(() {
       _profile = profile;
       _previousLoads = loads;
+      _session = _sessionFor(widget.data,
+          dayIndex: done % 3, week: (done ~/ 3) + 1, profile: profile);
     });
     _recompute(const WhatNow());
   }
@@ -800,32 +805,25 @@ class _FinishedState extends State<_Finished> {
       Center(child: Text('Treino concluído', style: widget.style));
 }
 
-// --- sessão de demonstração -------------------------------------------------
-// Sem persistência ainda: monta um TREINO A a partir do catálogo real.
+// --- o treino do dia --------------------------------------------------------
 
-WorkoutSession _demoSession(BorasetData data) {
-  ExerciseSlot slot(String id, String slug, int sets, int priority, List<String> tech,
-          {int rest = 60}) =>
-      ExerciseSlot(
-        id: id,
-        exerciseSlug: slug,
-        plannedSets: sets,
-        reps: const RepRange(8, 12),
-        rest: RestFixed(Duration(seconds: rest)),
-        techniqueSlugs: tech,
-        priority: priority,
-      );
-
-  return WorkoutSession(
-    id: 'A',
-    name: 'Treino A — Peito e Tríceps',
-    focus: const {MuscleGroup.peito, MuscleGroup.triceps},
-    blocks: [
-      SessionBlock(id: 'b1', slots: [slot('s1', 'supino-reto', 3, 1, ['piramide-crescente'])]),
-      SessionBlock(id: 'b2', slots: [slot('s2', 'halter-press-inclinado', 3, 2, ['contracao-de-pico'])]),
-      SessionBlock(id: 'b3', slots: [slot('s3', 'crossover', 3, 3, ['no-stop'], rest: 0)]),
-      SessionBlock(id: 'b4', slots: [slot('s4', 'triceps-pulley', 3, 4, ['drop-set'])]),
-      SessionBlock(id: 'b5', slots: [slot('s5', 'triceps-testa', 2, 5, ['1-rest'])]),
-    ],
+/// Monta a sessão a partir do catálogo, na hora.
+///
+/// Nada de ficha embarcada: a divisão, o volume e as faixas vêm do
+/// `ProgramBuilder`, e a escolha de cada exercício sai do catálogo do próprio
+/// usuário — filtrada pelo equipamento da academia e pelo que ele evita.
+WorkoutSession _sessionFor(
+  BorasetData data, {
+  required int dayIndex,
+  required int week,
+  UserProfile profile = const UserProfile(),
+}) {
+  final req = ProgramRequest(
+    split: abc3,
+    goal: Goal.hipertrofia,
+    level: profile.level,
+    avoided: profile.avoided,
+    week: week,
   );
+  return ProgramBuilder(data.catalog).buildDay(req, dayIndex);
 }

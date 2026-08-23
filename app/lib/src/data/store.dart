@@ -148,7 +148,10 @@ class WorkoutStore {
       FROM sessions s
       LEFT JOIN set_records r ON r.session_id = s.id AND r.warmup = 0
       GROUP BY s.id
-      ORDER BY s.started_at DESC
+      -- rowid desempata: started_at tem resolucao de milissegundo e duas
+      -- sessoes abertas rapido caem no mesmo valor. Mesmo motivo do id DESC
+      -- em _mostRecentSessionWith; sem isso a ordem do historico e indefinida.
+      ORDER BY s.started_at DESC, s.rowid DESC
       LIMIT ?''', [limit]);
     return [
       for (final r in rows)

@@ -79,7 +79,7 @@ void main() {
       await tester.pumpWidget(_app('pt'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Supino Reto'), findsOneWidget);
+      expect(find.text('Supino Reto'), findsOneWidget); // âncora do dia A gerado
       expect(find.text('CONCLUÍDA'), findsOneWidget);
       expect(find.text('Algo deu errado'), findsOneWidget);
       // Os outros quatro gatilhos NÃO estão na tela principal.
@@ -112,7 +112,7 @@ void main() {
         (tester) async {
       await tester.pumpWidget(_app('pt'));
       await tester.pumpAndSettle();
-      expect(find.text('Supino Reto'), findsOneWidget);
+      expect(find.text('Supino Reto'), findsOneWidget); // âncora do dia A gerado
 
       await tester.tap(find.text('Algo deu errado'));
       await tester.pumpAndSettle();
@@ -123,15 +123,19 @@ void main() {
           reason: 'o motor deve ter adiantado outro bloco');
     });
 
+    // O treino é GERADO, então o nome da técnica muda conforme o gerador
+    // evolui. Testar pelo chip, e não por um texto fixo, evita quebrar o
+    // teste toda vez que a prescrição muda de forma legítima.
     testWidgets('o chip de técnica abre o popup com resumo curto',
         (tester) async {
       await tester.pumpWidget(_app('pt'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.text('Pirâmide Crescente'));
+      final chip = find.byType(ActionChip);
+      expect(chip, findsWidgets, reason: 'o dia gerado deve prescrever técnica');
+      await tester.tap(chip.first);
       await tester.pumpAndSettle();
 
-      expect(find.textContaining('aumenta a carga'), findsOneWidget);
       expect(find.text('Ver mais'), findsOneWidget,
           reason: 'a biblioteca fica atrás de um toque, não na cara');
     });
@@ -141,14 +145,14 @@ void main() {
       await tester.pumpWidget(_app('pt'));
       await tester.pumpAndSettle();
 
-      await tester.tap(find.text('Pirâmide Crescente'));
+      await tester.tap(find.byType(ActionChip).first);
       await tester.pumpAndSettle();
       await tester.tap(find.text('Ver mais'));
       await tester.pumpAndSettle();
 
       expect(find.text('ERRO COMUM'), findsOneWidget);
-      expect(find.textContaining('Subir carga cedo demais'), findsOneWidget,
-          reason: 'Erro comum abre por padrão — é o que as pessoas leem');
+      expect(find.text('COMO EXECUTAR'), findsOneWidget,
+          reason: 'as quatro seções da biblioteca aparecem ao expandir');
     });
 
     testWidgets('o tempo é tocável e explica a decisão do motor',
