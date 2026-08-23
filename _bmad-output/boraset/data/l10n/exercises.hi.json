@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "hi",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "45 डिग्री लेग प्रेस",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "बारबेल बैक स्क्वाट",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "हिप एब्डक्शन मशीन",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "सीटेड काफ रेज",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "लैट पुलडाउन",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "सीटेड लेग कर्ल",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "फ्लैट बारबेल बेंच प्रेस",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "लेटरल रेज",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "लेग एक्सटेंशन",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "लाइंग लेग कर्ल",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "ट्राइसेप्स पुशडाउन",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "हिप एडक्शन मशीन",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "बारबेल कर्ल",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "डम्बल कर्ल",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "बैक एक्सटेंशन",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "स्कल क्रशर",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "हैक स्क्वाट",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "हिप थ्रस्ट",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "फ्लैट डम्बल प्रेस",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "स्टैंडिंग काफ रेज",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "क्लोज ग्रिप सीटेड केबल रो",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "लंज",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "इनक्लाइन डम्बल प्रेस",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "रोमानियन डेडलिफ्ट",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "काफ रेज मशीन",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "सिंगल लेग काफ रेज",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "क्लोज ग्रिप लैट पुलडाउन",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "रोप ट्राइसेप्स पुशडाउन",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "एब क्रंच मशीन",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "बल्गेरियन स्प्लिट स्क्वाट",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "प्लैंक",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "सीटेड रो मशीन",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "प्रीचर कर्ल",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "रियर डेल्ट मशीन",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "रियर डेल्ट फ्लाई",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "फ्रंट स्क्वाट",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "हॉरिजॉन्टल लेग प्रेस",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "केबल क्रंच घुटनों पर",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "स्टैंडिंग लेग कर्ल",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "चेस्ट प्रेस मशीन",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "डेडलिफ्ट",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "पेक डेक",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "ओवरहेड ट्राइसेप्स एक्सटेंशन",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "इनक्लाइन बारबेल प्रेस",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "बारबेल बेंट ओवर रो",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "केबल क्रॉसओवर",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "केबल ग्लूट किकबैक",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "हैमर कर्ल",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "लाइंग लेग रेज",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "स्ट्रेचिंग",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "बेंच डिप",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "पिस्टल स्क्वाट",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "सिंगल लेग एक्सटेंशन",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "क्वाड्रुप्ड ग्लूट किकबैक",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "हाई पुलडाउन",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "ओवरहैंड लो केबल रो",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "एब वैक्यूम",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "सिंगल आर्म केबल लेटरल रेज",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "शोल्डर मोबिलिटी",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "इनक्लाइन बेंच लेग रेज",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "केबल ग्लूट एक्सरसाइज",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "अल्टरनेटिंग डम्बल कर्ल",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "बॉडीवेट स्क्वाट",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "डम्बल शोल्डर प्रेस",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "स्मिथ मशीन हिप थ्रस्ट",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "ट्रेडमिल स्प्रिंट",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "एक्सटर्नल रोटेशन",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "डम्बल पुलओवर",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "पुश-अप",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "ओवरहैंड बारबेल रो",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "कंसंट्रेशन कर्ल",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "पैरेलल बार नी रेज",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "डम्बल फ्लाई",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "सिंगल लेग प्रेस",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "इनक्लाइन डम्बल कर्ल 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "सिंगल आर्म केबल रियर डेल्ट फ्लाई",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "स्टेबिलिटी बॉल लेग कर्ल",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "रिवर्स ग्रिप लैट पुलडाउन",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "क्लोज रोप ट्राइसेप्स पुशडाउन",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "डिक्लाइन बेंच क्रंच",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "स्मिथ मशीन स्क्वाट",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "सिंगल लेग हिप थ्रस्ट",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "रोमन चेयर ग्लूट रेज",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "सिंगल लेग लाइंग कर्ल",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "वाइड ग्रिप लैट पुलडाउन",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "अपराइट रो",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "वाइड ओवरहैंड सीटेड रो",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "सिंगल लेग रोमानियन डेडलिफ्ट",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "वी-अप",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "बॉल के साथ वी-अप",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "बैक एक्सटेंशन बेंच पर साइड बेंड",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "फ्लोर क्रंच",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "बारबेल ओवरहेड प्रेस",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "काफ एक्सटेंशन मशीन",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "केबल हिप एक्सटेंशन",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "सिंगल आर्म ओवरहेड ट्राइसेप्स एक्सटेंशन",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "रोवर सिट-अप",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "डम्बल सूमो स्क्वाट",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "सिंगल लेग सीटेड कर्ल",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "स्टेयर क्लाइंबर",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "बैक एक्सटेंशन मशीन",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "रैक पुल",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "सिंगल आर्म डम्बल रो",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "ट्राइसेप्स किकबैक",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "कोन के साथ क्रॉसओवर लेग रेज",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "स्टेबिलिटी बॉल क्रंच",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "फीट एलिवेटेड क्रंच",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "स्मिथ मशीन सूमो स्क्वाट",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "नीलिंग स्क्वाट",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "स्मिथ मशीन हिप एब्डक्शन",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "हॉरिजॉन्टल लेग प्रेस पर काफ रेज",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21s कर्ल",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "डम्बल रोमानियन डेडलिफ्ट",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "डिक्लाइन बारबेल प्रेस",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "असिस्टेड डिप मशीन",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "अंडरहैंड ट्राइसेप्स पुशडाउन",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "केबल हिप एब्डक्शन",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "अल्टरनेटिंग वी-अप",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "डिक्लाइन लेग रेज",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "कैप्टन चेयर लेग रेज",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "पार्शियल रेप्स स्क्वाट",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "सिंगल लेग हैक स्क्वाट",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "गुड मॉर्निंग",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "मिड केबल क्रॉसओवर",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "डेड बग",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "सिंगल आर्म केबल रियर डेल्ट",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "अर्नोल्ड प्रेस",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "स्टेबिलिटी बॉल पुश-अप",
+      "aliases": []
+    },
+    "frog": {
+      "name": "फ्रॉग पंप",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "ग्लूट किकबैक मशीन",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "साइड लाइंग हिप एब्डक्शन",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "वर्टिकल लेग प्रेस",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "वाइड स्टांस लेग प्रेस",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "डिक्लाइन पुलओवर",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "वाइड आर्टिकुलेटेड पुलडाउन",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "टी-बार रो",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "अंडरहैंड बारबेल रो",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "सिंगल आर्म क्लोज ग्रिप रो मशीन",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "प्री-स्ट्रेच के साथ केबल RDL",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "इनक्लाइन चेस्ट प्रेस मशीन",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "रिवर्स ग्रिप ट्राइसेप्स पुशडाउन",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "केबल स्कल क्रशर",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "माउंटेन क्लाइंबर",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "स्टेबिलिटी बॉल लेग रेज",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "बॉल पर अल्टरनेटिंग ऑब्लिक क्रंच",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "साइड लाइंग ऑब्लिक क्रंच",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "लो केबल साइड बेंड",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "एब व्हील रोलआउट",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "रशियन ट्विस्ट",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "अल्टरनेटिंग स्मिथ लंज",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "फॉरवर्ड स्टेप लंज",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "ट्रैप बार स्क्वाट",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "स्मिथ मशीन फ्रंट स्क्वाट",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "सूमो स्क्वाट इन एंड आउट",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "पुल-अप",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "हाई केबल कर्ल",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "केबल कर्ल",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "स्टेशनरी बाइक",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "लो केबल क्रॉसओवर",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "ईज़ी-बार शोल्डर प्रेस",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "शोल्डर प्रेस मशीन",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "स्मिथ मशीन शोल्डर प्रेस",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "फ्रंट रेज",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "इनक्लाइन बेंच लेटरल रेज",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "ट्रेडमिल जॉग",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "रोमन चेयर बैक एक्सटेंशन",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "नॉर्डिक हैमस्ट्रिंग कर्ल",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "सिंगल लेग स्टेबिलिटी बॉल कर्ल",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "डम्बल सूमो डेडलिफ्ट",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "सिंगल लेग डेडलिफ्ट",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "वॉल काफ रेज",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "हैक मशीन पर काफ रेज",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "आइसोमेट्रिक प्लैंक",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "लो साइड प्लैंक",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "हिप रोटेशन के साथ प्लैंक",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "रोमन सीटेड केबल रो",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "एच-बार बेंट ओवर रो",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "इनक्लाइन बेंच डम्बल रो",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "अंडरहैंड रो मशीन",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "इनक्लाइन रिवर्स कर्ल",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "ओवरहेड केबल कर्ल",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "रिवर्स कर्ल",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "सिंगल आर्म शोल्डर मोबिलिटी",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "स्टैगर्ड स्टांस RDL स्मिथ पर",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "स्मिथ मशीन रोमानियन डेडलिफ्ट",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "केबल रोमानियन डेडलिफ्ट",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "सपोर्टेड सिंगल लेग RDL",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "सिंगल आर्म चेस्ट प्रेस मशीन",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "ओवरहेड रोप ट्राइसेप्स एक्सटेंशन",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "सिंगल आर्म स्कल क्रशर",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "रोमन चेयर साइड बेंड",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "केबल फ्लाई",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "रोप स्ट्रेट आर्म पुलडाउن",
+      "aliases": []
+    }
+  }
+}

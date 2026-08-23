@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "zh-Hans",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "45度腿举",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "杠铃深蹲",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "髋外展器",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "坐姿提踵",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "高位下拉",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "坐姿腿弯举",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "杠铃平板卧推",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "哑铃侧平举",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "坐姿腿屈伸",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "俯卧腿弯举",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "绳索下压",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "髋内收器",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "杠铃弯举",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "哑铃弯举",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "背部伸展",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "仰卧臂屈伸",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "哈克深蹲",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "臀推",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "哑铃平板卧推",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "站姿提踵",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "窄握坐姿划船",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "箭步蹲",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "哑铃上斜卧推",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "罗马尼亚硬拉",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "提踵器",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "单腿提踵",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "窄握高位下拉",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "绳索V把下压",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "腹肌卷腹器",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "保加利亚分腿蹲",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "平板支撑",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "坐姿划船器",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "牧师凳弯举",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "反向蝴蝶机",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "反向飞鸟",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "前蹲",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "水平腿举",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "跪姿绳索卷腹",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "站姿腿弯举",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "坐姿推胸器",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "硬拉",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "蝴蝶机夹胸",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "颈后臂屈伸",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "杠铃上斜卧推",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "杠铃俯身划船",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "绳索交叉夹胸",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "绳索后踢臀",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "锤式弯举",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "仰卧举腿",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "拉伸",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "凳上臂屈伸",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "单腿深蹲",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "单腿伸展",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "跪姿后踢臀",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "高拉",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "正握低位绳索划船",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "腹部真空",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "单臂绳索侧平举",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "肩部灵活性训练",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "上斜举腿",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "绳索臀部训练",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "交替哑铃弯举",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "徒手深蹲",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "哑铃肩推",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "史密斯臀推",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "跑步机冲刺",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "肩外旋",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "哑铃仰卧上拉",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "俯卧撑",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "正握划船",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "集中弯举",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "双杠提膝",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "哑铃飞鸟",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "单腿腿举",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "上斜弯举45度",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "单臂绳索反向飞鸟",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "瑞士球腿弯举",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "反握高位下拉",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "窄握绳索下压",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "下斜卷腹",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "史密斯深蹲",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "单腿臀推",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "罗马椅臀部上抬",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "单腿俯卧腿弯举",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "宽握高位下拉",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "直立划船",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "宽握正手坐姿划船",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "单腿罗马尼亚硬拉",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "V字两头起",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "瑞士球V字起",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "背伸展椅侧屈",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "地面卷腹",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "杠铃肩上推举",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "小腿伸展器",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "绳索髋伸展",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "单臂颈后臂屈伸",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "划船式仰卧起坐",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "哑铃相扑深蹲",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "单腿坐姿腿弯举",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "爬楼机",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "背伸展器",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "架上硬拉",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "单臂哑铃划船",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "哑铃后踢",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "绕锥交叉举腿",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "瑞士球卷腹",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "抬腿卷腹",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "史密斯相扑深蹲",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "跪姿深蹲",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "史密斯髋外展",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "水平腿举提踵",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21响弯举",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "哑铃罗马尼亚硬拉",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "杠铃下斜卧推",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "双杠臂屈伸器",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "旋后握下压",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "绳索髋外展",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "交替V字起",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "下斜举腿",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "双杠举腿",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "深蹲加半程",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "单腿哈克深蹲",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "早安式体前屈",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "中位绳索夹胸",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "死虫式",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "单臂绳索后束",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "阿诺德推举",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "瑞士球俯卧撑",
+      "aliases": []
+    },
+    "frog": {
+      "name": "青蛙泵",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "后踢臀器",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "侧卧髋外展",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "垂直腿举",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "宽距腿举",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "下斜仰卧上拉",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "宽握杠杆下拉",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "T杠划船",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "反握杠铃划船",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "单臂窄握划船器",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "绳索硬拉加预拉伸",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "上斜推胸器",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "反握下压",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "绳索仰卧臂屈伸",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "登山者",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "瑞士球举腿",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "瑞士球交替斜卷腹",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "侧卧腹斜肌卷腹",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "低位绳索侧屈",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "健腹轮",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "俄罗斯转体",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "史密斯交替箭步蹲",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "前踏板箭步蹲",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "六角杠深蹲",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "史密斯前蹲",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "相扑深蹲开合",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "引体向上",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "高位绳索弯举",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "绳索弯举",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "动感单车",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "低位绳索夹胸",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "曲杠肩推",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "肩推器",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "史密斯机肩推",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "哑铃前平举",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "上斜侧平举",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "跑步机慢跑",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "罗马椅背部伸展",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "北欧腿弯举",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "单腿瑞士球腿弯举",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "哑铃相扑硬拉",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "单腿硬拉",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "靠墙提踵",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "哈克机提踵",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "静态平板支撑",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "低位侧平板",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "平板支撑转髋",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "罗马式坐姿划船",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "H杠俯身划船",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "上斜俯卧哑铃划船",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "反握划船器",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "上斜反握弯举",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "颈后绳索弯举",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "反握弯举",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "单侧肩部灵活性",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "史密斯前后分腿硬拉",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "史密斯罗马尼亚硬拉",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "绳索罗马尼亚硬拉",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "支撑单腿罗马尼亚硬拉",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "单臂推胸器",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "绳索颈后臂屈伸",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "单臂仰卧臂屈伸",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "罗马椅侧屈",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "绳索飞鸟",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "绳索直臂下拉",
+      "aliases": []
+    }
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "en",
+  "needs_native_review": true,
+  "units": {
+    "weight": "lb",
+    "plate_increment": 2.5
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "45-Degree Leg Press",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Barbell Back Squat",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Hip Abduction Machine",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Seated Calf Raise",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Lat Pulldown",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Seated Leg Curl",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Flat Barbell Bench Press",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Lateral Raise",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Leg Extension",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Lying Leg Curl",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Triceps Pushdown",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Hip Adduction Machine",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Barbell Curl",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Dumbbell Curl",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Back Extension",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Skull Crusher",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Hip Thrust",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Flat Dumbbell Press",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Standing Calf Raise",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Close-Grip Seated Cable Row",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Lunge",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Incline Dumbbell Press",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Romanian Deadlift",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Calf Raise Machine",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Single-Leg Calf Raise",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Close-Grip Lat Pulldown",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Rope Triceps Pushdown",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Ab Crunch Machine",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Bulgarian Split Squat",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Plank",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Seated Row Machine",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Preacher Curl",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Rear Delt Machine",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Rear Delt Fly",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Front Squat",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Horizontal Leg Press",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Cable Crunch",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Standing Single-Leg Curl",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Chest Press Machine",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Deadlift",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Pec Deck",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Overhead Triceps Extension",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Incline Barbell Bench Press",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Barbell Bent-Over Row",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Cable Crossover",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Cable Glute Kickback",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Hammer Curl",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Lying Leg Raise",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Stretching",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Bench Dip",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Pistol Squat",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Single-Leg Extension",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Quadruped Glute Kickback",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "High Pulldown",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Overhand Low Cable Row",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Stomach Vacuum",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Single-Arm Cable Lateral Raise",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Shoulder Mobility Drill",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Incline Bench Leg Raise",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Cable Glute Extension",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Alternating Dumbbell Curl",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Bodyweight Squat",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Dumbbell Shoulder Press",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Smith Machine Hip Thrust",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Treadmill Sprint",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "External Rotation",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Dumbbell Pullover",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Push-Up",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Overhand Barbell Row",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Concentration Curl",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Parallel Bar Knee Raise",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Dumbbell Fly",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Single-Leg Press",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Incline Dumbbell Curl",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Single-Arm Cable Rear Delt Fly",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Stability Ball Leg Curl",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Reverse-Grip Lat Pulldown",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Close Rope Triceps Pushdown",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Decline Bench Crunch",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Smith Machine Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Single-Leg Hip Thrust",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Roman Chair Glute Raise",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Single-Leg Lying Curl",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Wide-Grip Lat Pulldown",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Upright Row",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Wide Overhand Seated Cable Row",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Single-Leg Romanian Deadlift",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "V-Up",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Stability Ball Pass V-Up",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Side Bend on Back Extension",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Floor Crunch",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Barbell Overhead Press",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Calf Extension Machine",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Cable Hip Extension",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Single-Arm Overhead Triceps Extension",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Rower Sit-Up",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Dumbbell Sumo Squat",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Single-Leg Seated Curl",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Stair Climber",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Back Extension Machine",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Rack Pull",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Single-Arm Dumbbell Row",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Triceps Kickback",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Crossover Leg Raise with Cone",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Stability Ball Crunch",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Feet-Elevated Crunch",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Smith Machine Sumo Squat",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Kneeling Squat",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Smith Machine Hip Abduction",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Calf Raise on Horizontal Leg Press",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21s Curl",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Dumbbell Romanian Deadlift",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Decline Barbell Bench Press",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Assisted Dip Machine",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Underhand Triceps Pushdown",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Cable Hip Abduction",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Alternating V-Up",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Decline Leg Raise",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Captain's Chair Leg Raise",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Squat with Partials",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Single-Leg Hack Squat",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Mid Cable Crossover",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Single-Arm Cable Rear Delt",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Stability Ball Push-Up",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Glute Kickback Machine",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Side-Lying Hip Abduction",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Vertical Leg Press",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Wide-Stance Leg Press",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Decline Pullover",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Wide Hammer Strength Pulldown",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "T-Bar Row",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Underhand Barbell Row",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Single-Arm Close-Grip Row Machine",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Cable RDL with Pre-Stretch",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Incline Chest Press Machine",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Reverse-Grip Triceps Pushdown",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Cable Skull Crusher",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Mountain Climber",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Stability Ball Leg Raise",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Alternating Oblique Ball Crunch",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Side-Lying Oblique Crunch",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Low Cable Side Bend",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Ab Wheel Rollout",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Russian Twist",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Alternating Smith Machine Lunge",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Forward Step-Up Lunge",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Trap Bar Squat",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Smith Machine Front Squat",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Sumo Squat In and Out",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Pull-Up",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "High Cable Curl",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Cable Curl",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Stationary Bike",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Low Cable Crossover",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "EZ-Bar Shoulder Press",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Overhand Shoulder Press Machine",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Smith Machine Shoulder Press",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Front Raise",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Incline Bench Lateral Raise",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Treadmill Jog",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Roman Chair Back Extension",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Nordic Hamstring Curl",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Single-Leg Stability Ball Curl",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Dumbbell Sumo Deadlift",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Single-Leg Deadlift",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Wall Calf Raise",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Calf Raise on Hack Machine",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Isometric Plank",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Low Side Plank",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Plank with Hip Rotation",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Roman Seated Cable Row",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Bent-Over Row with H-Bar",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Chest-Supported Incline Dumbbell Row",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Underhand Row Machine",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Incline Reverse Curl",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Overhead Cable Curl",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Reverse Curl",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Single-Arm Shoulder Mobility",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Staggered-Stance RDL on Smith",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Smith Machine Romanian Deadlift",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Cable Romanian Deadlift",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Supported Single-Leg RDL",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Single-Arm Chest Press Machine",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Overhead Rope Triceps Extension",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Single-Arm Skull Crusher",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Roman Chair Side Bend",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Cable Fly",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Rope Straight-Arm Pulldown",
+      "aliases": []
+    }
+  }
+}

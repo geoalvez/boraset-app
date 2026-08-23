@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "vi",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Đạp Đùi 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Squat Với Đòn",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Máy Dạng Hông",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Nâng Bắp Chân Ngồi",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Kéo Xô Trước Ngực",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Cuốn Đùi Sau Ngồi",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Đẩy Ngực Ngang Với Đòn",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Nâng Tạ Ngang Vai",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Duỗi Đùi Máy",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Cuốn Đùi Sau Nằm",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Đẩy Tay Sau Cáp",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Máy Khép Hông",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Cuốn Tạ Đòn",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Cuốn Tạ Đơn Hai Tay",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Duỗi Lưng Dưới",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Đập Trán",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Đẩy Hông",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Đẩy Ngực Ngang Với Tạ Đơn",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Nâng Bắp Chân Đứng",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Kéo Cáp Ngồi Tay Hẹp",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Bước Chùng Chân",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Đẩy Ngực Dốc Với Tạ Đơn",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Deadlift Romania",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Nâng Bắp Chân Máy",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Nâng Bắp Chân Một Chân",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Kéo Xô Tay Hẹp",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Đẩy Tay Sau Với Dây",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Máy Gập Bụng",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Squat Bulgaria",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Plank",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Kéo Lưng Máy",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Cuốn Tạ Ghế Preacher",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Ép Ngực Ngược Máy",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Ép Ngực Ngược",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Squat Trước",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Đạp Đùi Ngang",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Gập Bụng Cáp Quỳ",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Cuốn Đùi Sau Đứng",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Đẩy Ngực Máy",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Deadlift",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Ép Ngực Máy",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Duỗi Tay Sau Trên Đầu",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Đẩy Ngực Dốc Lên Với Đòn",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Kéo Đòn Gập Người",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Kéo Cáp Chéo",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Đá Mông Với Cáp",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Cuốn Tạ Kiểu Búa",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Nâng Chân Nằm",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Giãn Cơ",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Chống Đẩy Ghế",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Squat Một Chân",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Duỗi Đùi Một Chân",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Đá Mông Bò Bốn Điểm",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Kéo Xô Cao",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Kéo Cáp Thấp Tay Úp",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Hóp Bụng Vacuum",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Nâng Ngang Vai Với Cáp",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Bài Linh Hoạt Vai",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Nâng Chân Ghế Dốc Lên",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Mông Với Cáp",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Cuốn Tạ Đơn Luân Phiên",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Squat Không Tạ",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Đẩy Vai Với Tạ Đơn",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Đẩy Hông Máy Smith",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Chạy Nước Rút Trên Máy",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Xoay Vai Ra Ngoài",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Pullover Tạ Đơn",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Chống Đẩy",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Kéo Lưng Tay Úp",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Cuốn Tạ Tập Trung",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Nâng Gối Trên Xà Kép",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Ép Ngực Tạ Đơn",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Đạp Đùi Một Chân",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Cuốn Tạ Ghế Dốc 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Ép Ngực Ngược Cáp Một Tay",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Cuốn Đùi Sau Trên Bóng",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Kéo Xô Tay Ngửa",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Đẩy Tay Sau Dây Hẹp",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Gập Bụng Ghế Dốc Xuống",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Squat Máy Smith",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Đẩy Hông Một Chân",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Mông Trên Ghế Roman",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Cuốn Đùi Sau Nằm Một Chân",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Kéo Xô Tay Rộng",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Kéo Đòn Lên Cằm",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Kéo Cáp Ngồi Tay Rộng Úp",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Deadlift Romania Một Chân",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "Gập Bụng Chữ V",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Gập Bụng Chữ V Với Bóng",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Gập Nghiêng Trên Ghế Lưng",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Gập Bụng Trên Sàn",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Đẩy Vai Với Đòn",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Duỗi Bắp Chân Máy",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Duỗi Hông Với Cáp",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Duỗi Tay Sau Trên Đầu Một Tay",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Gập Bụng Kiểu Chèo",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Squat Sumo Với Tạ Đơn",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Cuốn Đùi Sau Ngồi Một Chân",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Máy Leo Cầu Thang",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Duỗi Lưng Dưới Máy",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Rack Pull",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Kéo Tạ Đơn Một Tay",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Đá Tay Sau",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Nâng Chân Chéo Với Chóp Nón",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Gập Bụng Trên Bóng",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Gập Bụng Chân Đưa Cao",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Squat Sumo Máy Smith",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Squat Quỳ Gối",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Dạng Hông Máy Smith",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Nâng Bắp Chân Trên Máy Đạp Ngang",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "Cuốn Tạ 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Deadlift Romania Tạ Đơn",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Đẩy Ngực Dốc Xuống Với Đòn",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Xà Kép Máy",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Đẩy Tay Sau Ngửa Cổ Tay",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Dạng Hông Với Cáp",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Gập Bụng Chữ V Luân Phiên",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Nâng Chân Ghế Dốc Xuống",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Nâng Chân Trên Xà Kép",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Squat Có Nhấn Cuối",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Hack Squat Một Chân",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Kéo Cáp Chéo Tầm Giữa",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Vai Sau Cáp Một Tay",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Chống Đẩy Trên Bóng",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Đá Mông Máy",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Dạng Hông Nằm Nghiêng",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Đạp Đùi Dọc",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Đạp Đùi Chân Rộng",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Pullover Dốc Xuống",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Kéo Xô Máy Tay Rộng",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "Kéo Lưng T-Bar",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Kéo Đòn Gập Người Tay Ngửa",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Kéo Lưng Máy Một Tay Hẹp",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Deadlift Romania Cáp Có Kéo Giãn",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Đẩy Ngực Dốc Máy",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Đẩy Tay Sau Tay Ngửa",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Đập Trán Với Cáp",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Leo Núi Tại Chỗ",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Nâng Chân Trên Bóng",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Gập Chéo Luân Phiên Trên Bóng",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Gập Bụng Chéo Nằm Nghiêng",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Gập Nghiêng Với Cáp Thấp",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Con Lăn Tập Bụng",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Xoay Người Kiểu Nga",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Bước Chùng Luân Phiên Máy Smith",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Bước Chùng Với Bục Trước",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Squat Đòn Lục Giác",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Squat Trước Máy Smith",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Squat Sumo Mở Khép",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Hít Xà Đơn",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Cuốn Tạ Cáp Cao",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Cuốn Tạ Cáp",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Xe Đạp Tại Chỗ",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Kéo Cáp Chéo Tầm Thấp",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Đẩy Vai Đòn EZ",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Đẩy Vai Máy",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Đẩy Vai Máy Smith",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Nâng Tạ Trước Mặt",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Nâng Ngang Vai Trên Ghế Dốc",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Chạy Bộ Nhẹ Trên Máy",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Duỗi Lưng Trên Ghế Roman",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Gập Người Kiểu Nordic",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Cuốn Đùi Sau Trên Bóng Một Chân",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Deadlift Sumo Tạ Đơn",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Deadlift Một Chân",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Nâng Bắp Chân Tựa Tường",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Nâng Bắp Chân Máy Hack",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Plank Tĩnh",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Plank Nghiêng Thấp",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Plank Xoay Hông",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Kéo Cáp Ngồi Kiểu Roman",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Kéo Lưng Với Đòn H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Kéo Tạ Đơn Trên Ghế Dốc",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Kéo Lưng Máy Tay Ngửa",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Cuốn Tạ Ngược Ghế Dốc",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Cuốn Tạ Cáp Sau Đầu",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Cuốn Tạ Tay Úp",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Linh Hoạt Vai Một Bên",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Deadlift Romania Chân So Le Máy Smith",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Deadlift Romania Máy Smith",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Deadlift Romania Với Cáp",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Deadlift Romania Một Chân Có Tựa",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Đẩy Ngực Máy Một Tay",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Duỗi Tay Sau Trên Đầu Với Dây",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Đập Trán Một Tay",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Gập Nghiêng Trên Ghế Roman",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Ép Ngực Cáp",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Kéo Xô Tay Thẳng Với Dây",
+      "aliases": []
+    }
+  }
+}

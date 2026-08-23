@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "th",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "เลกเพรส 45 องศา",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "สควอตบาร์เบล",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "เครื่องกางสะโพก",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "ยกน่องท่านั่ง",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "แลตพูลดาวน์",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "เลกเคิร์ลท่านั่ง",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "เบนช์เพรสบาร์เบลราบ",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "ยกดัมเบลด้านข้าง",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "เลกเอ็กซ์เทนชัน",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "เลกเคิร์ลท่านอนคว่ำ",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "ไทรเซปส์พุชดาวน์",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "เครื่องหุบสะโพก",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "บาร์เบลเคิร์ล",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "ดัมเบลเคิร์ล",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "เหยียดหลังล่าง",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "สกัลครัชเชอร์",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "แฮ็คสควอต",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "ฮิปทรัสต์",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "เบนช์เพรสดัมเบลราบ",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "ยกน่องท่ายืน",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "โรว์นั่งจับแคบ",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "ลันจ์",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "เบนช์เพรสดัมเบลเอียงขึ้น",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "โรมาเนียนเดดลิฟต์",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "เครื่องยกน่อง",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "ยกน่องขาเดียว",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "แลตพูลดาวน์จับแคบ",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "ไทรเซปส์พุชดาวน์ด้วยเชือก",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "เครื่องครันช์หน้าท้อง",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "บัลแกเรียนสปลิตสควอต",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "แพลงก์",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "เครื่องโรว์นั่ง",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "พรีชเชอร์เคิร์ล",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "เครื่องรีเวิร์สฟลาย",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "รีเวิร์สฟลาย",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "ฟรอนต์สควอต",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "เลกเพรสแนวนอน",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "ครันช์เคเบิลท่าคุกเข่า",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "เลกเคิร์ลท่ายืน",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "เครื่องดันอก",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "เดดลิฟต์",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "เพคเด็ค",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "เหยียดไทรเซปส์เหนือศีรษะ",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "เบนช์เพรสบาร์เบลเอียงขึ้น",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "บาร์เบลโรว์ก้มตัว",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "เคเบิลครอสโอเวอร์",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "เตะสะโพกด้วยเคเบิล",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "แฮมเมอร์เคิร์ล",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "ยกขาท่านอน",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "ยืดเหยียด",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "ดิปบนม้านั่ง",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "สควอตขาเดียว",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "เลกเอ็กซ์เทนชันขาเดียว",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "เตะสะโพกท่าคลาน",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "พูลดาวน์สูง",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "โรว์เคเบิลต่ำจับคว่ำ",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "แขม่วหน้าท้อง",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "ยกข้างเคเบิลแขนเดียว",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "บริหารความยืดหยุ่นไหล่",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "ยกขาบนม้าเอียงขึ้น",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "บริหารสะโพกด้วยเคเบิล",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "ดัมเบลเคิร์ลสลับข้าง",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "สควอตน้ำหนักตัว",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "เพรสไหล่ด้วยดัมเบล",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "ฮิปทรัสต์เครื่องสมิธ",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "วิ่งเร็วบนลู่",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "หมุนไหล่ออกด้านนอก",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "พูลโอเวอร์ดัมเบล",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "วิดพื้น",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "โรว์จับคว่ำมือ",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "คอนเซนเทรชันเคิร์ล",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "ยกเข่าบนบาร์คู่",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "ดัมเบลฟลาย",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "เลกเพรสขาเดียว",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "เคิร์ลบนม้าเอียง 45 องศา",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "รีเวิร์สฟลายเคเบิลแขนเดียว",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "เลกเคิร์ลบนลูกบอล",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "แลตพูลดาวน์จับหงาย",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "พุชดาวน์เชือกจับแคบ",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "ครันช์บนม้าเอียงลง",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "สควอตเครื่องสมิธ",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "ฮิปทรัสต์ขาเดียว",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "ยกสะโพกบนเก้าอี้โรมัน",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "เลกเคิร์ลนอนขาเดียว",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "แลตพูลดาวน์จับกว้าง",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "โรว์ตั้งตรง",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "โรว์นั่งจับกว้างคว่ำมือ",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "โรมาเนียนเดดลิฟต์ขาเดียว",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "วีอัพ",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "วีอัพส่งลูกบอล",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "ก้มข้างบนม้าเหยียดหลัง",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "ครันช์บนพื้น",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "เพรสไหล่ด้วยบาร์เบล",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "เครื่องเหยียดน่อง",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "เหยียดสะโพกด้วยเคเบิล",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "เหยียดไทรเซปส์เหนือศีรษะแขนเดียว",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "ซิทอัพท่าพาย",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "สควอตซูโม่ดัมเบล",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "เลกเคิร์ลนั่งขาเดียว",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "เครื่องเดินขึ้นบันได",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "เครื่องเหยียดหลังล่าง",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "แร็กพูล",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "ดัมเบลโรว์แขนเดียว",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "ไทรเซปส์คิกแบ็ก",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "ยกขาไขว้รอบกรวย",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "ครันช์บนลูกบอล",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "ครันช์ยกเท้าสูง",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "สควอตซูโม่เครื่องสมิธ",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "สควอตท่าคุกเข่า",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "กางสะโพกเครื่องสมิธ",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "ยกน่องบนเลกเพรสแนวนอน",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "เคิร์ล 21 ครั้ง",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "โรมาเนียนเดดลิฟต์ดัมเบล",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "เบนช์เพรสบาร์เบลเอียงลง",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "เครื่องดิป",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "พุชดาวน์หงายข้อมือ",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "กางสะโพกด้วยเคเบิล",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "วีอัพสลับข้าง",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "ยกขาบนม้าเอียงลง",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "ยกขาบนบาร์คู่",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "สควอตย้ำช่วงล่าง",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "แฮ็คสควอตขาเดียว",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "กู๊ดมอร์นิ่ง",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "เคเบิลครอสโอเวอร์ระดับกลาง",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "เดดบัก",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "ไหล่หลังเคเบิลแขนเดียว",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "อาร์โนลด์เพรส",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "วิดพื้นบนลูกบอล",
+      "aliases": []
+    },
+    "frog": {
+      "name": "ฟรอกพัมพ์",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "เครื่องเตะสะโพก",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "กางสะโพกท่านอนตะแคง",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "เลกเพรสแนวตั้ง",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "เลกเพรสวางเท้ากว้าง",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "พูลโอเวอร์เอียงลง",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "พูลดาวน์เครื่องจับกว้าง",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "ทีบาร์โรว์",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "บาร์เบลโรว์จับหงาย",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "เครื่องโรว์แขนเดียวจับแคบ",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "โรมาเนียนเดดลิฟต์เคเบิลยืดนำ",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "เครื่องดันอกเอียงขึ้น",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "พุชดาวน์จับหงาย",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "สกัลครัชเชอร์ด้วยเคเบิล",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "เมาน์เทนไคลม์เบอร์",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "ยกขาบนลูกบอล",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "ครันช์ข้างสลับบนลูกบอล",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "ครันช์ข้างท่านอนตะแคง",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "ก้มข้างด้วยเคเบิลต่ำ",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "ล้อบริหารหน้าท้อง",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "รัสเซียนทวิสต์",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "ลันจ์สลับข้างเครื่องสมิธ",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "ลันจ์ก้าวขึ้นกล่องด้านหน้า",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "สควอตบาร์หกเหลี่ยม",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "ฟรอนต์สควอตเครื่องสมิธ",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "สควอตซูโม่เปิดปิด",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "ดึงข้อ",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "เคเบิลเคิร์ลตำแหน่งสูง",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "เคเบิลเคิร์ล",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "จักรยานอยู่กับที่",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "เคเบิลครอสโอเวอร์ระดับต่ำ",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "เพรสไหล่บาร์ EZ",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "เครื่องเพรสไหล่",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "เพรสไหล่เครื่องสมิธ",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "ยกดัมเบลด้านหน้า",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "ยกข้างบนม้าเอียง",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "วิ่งเหยาะบนลู่",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "เหยียดหลังบนเก้าอี้โรมัน",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "นอร์ดิกแฮมสตริงเคิร์ล",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "เลกเคิร์ลบนลูกบอลขาเดียว",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "เดดลิฟต์ซูโม่ดัมเบล",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "เดดลิฟต์ขาเดียว",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "ยกน่องพิงผนัง",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "ยกน่องบนเครื่องแฮ็ค",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "แพลงก์ค้าง",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "แพลงก์ข้างระดับต่ำ",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "แพลงก์บิดสะโพก",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "โรว์นั่งแบบโรมัน",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "โรว์ก้มตัวด้วยบาร์ H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "ดัมเบลโรว์บนม้าเอียง",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "เครื่องโรว์จับหงาย",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "รีเวิร์สเคิร์ลบนม้าเอียง",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "เคิร์ลเคเบิลหลังศีรษะ",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "รีเวิร์สเคิร์ล",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "ความยืดหยุ่นไหล่ข้างเดียว",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "โรมาเนียนเดดลิฟต์เท้าเหลื่อมเครื่องสมิธ",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "โรมาเนียนเดดลิฟต์เครื่องสมิธ",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "โรมาเนียนเดดลิฟต์เคเบิล",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "โรมาเนียนเดดลิฟต์ขาเดียวมีที่พยุง",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "เครื่องดันอกแขนเดียว",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "เหยียดไทรเซปส์เหนือศีรษะด้วยเชือก",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "สกัลครัชเชอร์แขนเดียว",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "ก้มข้างบนเก้าอี้โรมัน",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "เคเบิลฟลาย",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "พูลดาวน์แขนตรงด้วยเชือก",
+      "aliases": []
+    }
+  }
+}

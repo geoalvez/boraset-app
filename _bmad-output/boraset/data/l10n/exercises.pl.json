@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "pl",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Wypychanie Nogami 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Przysiad ze Sztangą",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Maszyna do Odwodzenia",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Wspięcia na Palce Siedząc",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Ściąganie Drążka do Klatki",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Uginanie Nóg Siedząc",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Wyciskanie Sztangi Leżąc",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Wznosy Bokiem",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Prostowanie Nóg",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Uginanie Nóg Leżąc",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Prostowanie Ramion na Wyciągu",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Maszyna do Przywodzenia",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Uginanie Ramion ze Sztangą",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Uginanie Ramion z Hantlami",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Wyprosty Grzbietu",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Wyciskanie Francuskie Leżąc",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Wypychanie Bioder",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Wyciskanie Hantli Leżąc",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Wspięcia na Palce Stojąc",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Wiosłowanie Wyciągiem Wąsko",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Wykrok",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Wyciskanie Hantli Skos Górny",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Martwy Ciąg Rumuński",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Wspięcia na Palce na Maszynie",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Wspięcia na Palce Jednonóż",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Ściąganie Drążka Wąsko",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Prostowanie Ramion Liną",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Maszyna do Brzucha",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Przysiad Bułgarski",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Deska",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Wiosłowanie na Maszynie",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Uginanie na Modlitewniku",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Odwrotne Rozpiętki na Maszynie",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Odwrotne Rozpiętki",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Przysiad Przedni",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Wypychanie Nogami Poziome",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Spięcia na Wyciągu w Klęku",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Uginanie Nogi Stojąc",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Wyciskanie na Maszynie",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Martwy Ciąg",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Motylek na Maszynie",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Wyciskanie Francuskie Stojąc",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Wyciskanie Sztangi Skos Górny",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Wiosłowanie Sztangą w Opadzie",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Krzyżowanie Linek",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Wymachy Pośladkowe na Wyciągu",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Uginanie Ramion Młotkowe",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Unoszenie Nóg Leżąc",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Rozciąganie",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Pompki na Ławce",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Przysiad Jednonóż",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Prostowanie Nogi Jednonóż",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Wymachy Pośladkowe w Klęku Podpartym",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Wyciąg Górny",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Wiosłowanie Wyciągiem Dolnym Nachwytem",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Próżnia Brzuszna",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Wznosy Bokiem na Wyciągu",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Mobilizacja Barków",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Unoszenie Nóg na Skosie Górnym",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Pośladek na Wyciągu",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Uginanie Ramion Naprzemienne",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Przysiad bez Obciążenia",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Wyciskanie Hantli nad Głowę",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Wypychanie Bioder na Smicie",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Sprint na Bieżni",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Rotacja Zewnętrzna",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Przenoszenie Hantla",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Pompki",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Wiosłowanie Nachwytem",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Uginanie Ramienia w Podporze",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Unoszenie Kolan na Poręczach",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Rozpiętki z Hantlami",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Wypychanie Nogami Jednonóż",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Uginanie na Skosie 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Odwrotne Rozpiętki Wyciąg Jednorącz",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Uginanie Nóg na Piłce",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Ściąganie Drążka Podchwytem",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Prostowanie Ramion Liną Wąsko",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Spięcia na Ławce Skośnej Dolnej",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Przysiad na Smicie",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Wypychanie Bioder Jednonóż",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Pośladki na Ławce Rzymskiej",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Uginanie Nogi Leżąc Jednonóż",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Ściąganie Drążka Szeroko",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Podciąganie Sztangi wzdłuż Tułowia",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Wiosłowanie Wyciągiem Nachwytem Szeroko",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Martwy Ciąg Rumuński Jednonóż",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "Scyzoryk",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Scyzoryk z Piłką",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Skłony Boczne na Ławce do Grzbietu",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Spięcia Brzucha na Podłodze",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Wyciskanie Żołnierskie",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Prostowanie Łydki na Maszynie",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Prostowanie Biodra na Wyciągu",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Wyciskanie Francuskie Jednorącz Stojąc",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Brzuszki Wioślarz",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Przysiad Sumo z Hantlem",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Uginanie Nogi Siedząc Jednonóż",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Symulator Schodów",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Wyprosty Grzbietu na Maszynie",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Martwy Ciąg z Podstawek",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Wiosłowanie Hantlem Jednorącz",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Prostowanie Ramienia w Opadzie",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Unoszenie Nóg Skrzyżne z Pachołkiem",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Spięcia na Piłce",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Spięcia z Nogami w Górze",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Przysiad Sumo na Smicie",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Przysiad z Klęku",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Odwodzenie Biodra na Smicie",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Wspięcia na Wypychaniu Poziomym",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "Uginanie 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Martwy Ciąg Rumuński z Hantlami",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Wyciskanie Sztangi Skos Dolny",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Dipy na Maszynie",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Prostowanie Ramion Supinacja",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Odwodzenie Biodra na Wyciągu",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Scyzoryk Naprzemienny",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Unoszenie Nóg na Skosie Dolnym",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Unoszenie Nóg na Poręczach",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Przysiad z Powtórzeniami Częściowymi",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Hack Squat Jednonóż",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Skłon Dzień Dobry",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Krzyżowanie Linek Środkowe",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Tylny Akton Wyciąg Jednorącz",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Pompki na Piłce",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Wymachy Pośladkowe na Maszynie",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Odwodzenie Biodra Leżąc Bokiem",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Wypychanie Nogami Pionowe",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Wypychanie Nogami Szeroko",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Przenoszenie Hantla Skos Dolny",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Ściąganie na Maszynie Szeroko",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "Wiosłowanie T-Bar",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Wiosłowanie Sztangą Podchwytem",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Wiosłowanie Jednorącz Wąsko",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Martwy Ciąg na Wyciągu z Rozciągnięciem",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Wyciskanie Skos Górny na Maszynie",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Prostowanie Ramion Podchwytem",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Wyciskanie Francuskie na Wyciągu",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Wspinaczka",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Unoszenie Nóg na Piłce",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Spięcia Skośne Naprzemienne na Piłce",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Spięcia Skośne Leżąc Bokiem",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Skłony Boczne na Wyciągu Dolnym",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Kółko do Brzucha",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Skręty Rosyjskie",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Wykrok Naprzemienny na Smicie",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Wykrok ze Stepem do Przodu",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Przysiad ze Sztangą Heksagonalną",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Przysiad Przedni na Smicie",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Przysiad Sumo Otwórz-Zamknij",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Podciąganie na Drążku",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Uginanie na Wyciągu Górnym",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Uginanie na Wyciągu",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Rower Stacjonarny",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Krzyżowanie Linek Dolne",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Wyciskanie Sztangą Łamaną",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Wyciskanie na Maszynie Barkowej",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Wyciskanie na Smicie",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Wznosy Przodem",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Wznosy Bokiem na Skosie",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Trucht na Bieżni",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Wyprosty Grzbietu na Ławce Rzymskiej",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Nordic Hamstring Curl",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Uginanie Nogi na Piłce Jednonóż",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Martwy Ciąg Sumo z Hantlami",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Martwy Ciąg Jednonóż",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Wspięcia na Palce przy Ścianie",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Wspięcia na Hack Squacie",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Deska Izometryczna",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Deska Boczna Niska",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Deska z Rotacją Bioder",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Wiosłowanie Wyciągiem Rzymskie",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Wiosłowanie Sztangą H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Wiosłowanie Hantlami na Skosie",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Wiosłowanie na Maszynie Podchwytem",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Uginanie Odwrotne na Skosie",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Uginanie za Głową na Wyciągu",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Uginanie Nachwytem",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Mobilizacja Barku Jednostronna",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Martwy Ciąg w Rozkroku na Smicie",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Martwy Ciąg Rumuński na Smicie",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Martwy Ciąg Rumuński na Wyciągu",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Martwy Ciąg Jednonóż z Podparciem",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Wyciskanie Jednorącz na Maszynie",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Wyciskanie Francuskie Liną",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Wyciskanie Francuskie Jednorącz",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Skłony Boczne na Ławce Rzymskiej",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Rozpiętki na Wyciągu",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Przyciąganie Liną Wyprostowanymi Ramionami",
+      "aliases": []
+    }
+  }
+}

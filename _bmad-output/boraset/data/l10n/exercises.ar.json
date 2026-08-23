@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "ar",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "ضغط الأرجل 45 درجة",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "سكوات بالبار",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "جهاز إبعاد الوركين",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "رفع السمانة جالسًا",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "سحب أمامي للصدر",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "ثني الرجلين جالسًا",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "بنش برس مسطح بالبار",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "رفرفة جانبية",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "تمديد الرجلين",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "ثني الرجلين مستلقيًا",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "دفع ترايسبس بالكابل",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "جهاز تقريب الوركين",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "مرجحة بايسبس بالبار",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "مرجحة بايسبس بالدمبل",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "تمديد أسفل الظهر",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "تمديد ترايسبس مستلقٍ",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "سكوات هاك",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "دفع الحوض",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "بنش برس مسطح بالدمبل",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "رفع السمانة واقفًا",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "تجديف جالس بقبضة ضيقة",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "طعن أمامي",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "بنش برس علوي بالدمبل",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "الرفعة الرومانية",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "جهاز رفع السمانة",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "رفع السمانة بساق واحدة",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "سحب أمامي بقبضة ضيقة",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "دفع ترايسبس بالحبل",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "جهاز البطن",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "سكوات بلغاري",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "تمرين البلانك",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "جهاز التجديف الجالس",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "مرجحة على مقعد سكوت",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "جهاز الكتف الخلفي",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "تفتيح عكسي للكتف الخلفي",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "سكوات أمامي",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "ضغط الأرجل الأفقي",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "طحن بالكابل على الركبتين",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "ثني الرجل واقفًا",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "جهاز ضغط الصدر",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "الرفعة الميتة",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "جهاز التفتيح (بيك ديك)",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "تمديد ترايسبس خلف الرأس",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "بنش برس علوي بالبار",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "تجديف منحني بالبار",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "كروس أوفر بالكابل",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "ركلة المؤخرة بالكابل",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "مرجحة المطرقة",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "رفع الرجلين مستلقيًا",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "تمارين الإطالة",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "غطس على المقعد",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "سكوات بساق واحدة",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "تمديد رجل واحدة",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "ركلة المؤخرة على أربع",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "سحب علوي",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "تجديف من البكرة السفلى بقبضة مكبّة",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "شفط البطن",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "رفرفة جانبية بالكابل بذراع واحدة",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "تمارين مرونة الكتف",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "رفع الرجلين على مقعد علوي",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "تمرين المؤخرة بالكابل",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "مرجحة بالدمبل بالتبادل",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "سكوات بوزن الجسم",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "ضغط كتف بالدمبل",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "دفع الحوض على جهاز سميث",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "عدو سريع على جهاز المشي",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "الدوران الخارجي للكتف",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "بول أوفر بالدمبل",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "تمرين الضغط",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "تجديف بقبضة مكبّة",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "مرجحة مركزة",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "رفع الركبتين على المتوازي",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "تفتيح بالدمبل",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "ضغط الأرجل بساق واحدة",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "مرجحة على مقعد مائل 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "تفتيح عكسي بالكابل بذراع واحدة",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "ثني الرجلين على الكرة",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "سحب أمامي بقبضة عكسية",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "دفع ترايسبس بالحبل الضيق",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "طحن على مقعد مائل سفلي",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "سكوات على جهاز سميث",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "دفع الحوض بساق واحدة",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "رفع المؤخرة على الكرسي الروماني",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "ثني رجل واحدة مستلقيًا",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "سحب أمامي بقبضة واسعة",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "تجديف عمودي",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "تجديف جالس بقبضة واسعة مكبّة",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "الرفعة الرومانية بساق واحدة",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "تمرين V",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "تمرين V بالكرة",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "ثني جانبي على مقعد الظهر",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "طحن على الأرض",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "ضغط كتف بالبار",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "جهاز تمديد السمانة",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "تمديد الورك بالكابل",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "تمديد ترايسبس خلف الرأس بذراع واحدة",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "تمرين البطن المجدّف",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "سكوات سومو بالدمبل",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "ثني رجل واحدة جالسًا",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "جهاز صعود الدرج",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "جهاز تمديد أسفل الظهر",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "الرفعة من الحامل",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "تجديف بذراع واحدة بالدمبل",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "ركلة ترايسبس للخلف",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "رفع الرجلين متقاطعًا حول مخروط",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "طحن على الكرة",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "طحن مع رفع القدمين",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "سكوات سومو على جهاز سميث",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "سكوات على الركبتين",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "إبعاد الورك على جهاز سميث",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "رفع السمانة على جهاز ضغط الأرجل الأفقي",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "مرجحة 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "الرفعة الرومانية بالدمبل",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "بنش برس سفلي بالبار",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "جهاز الغطس",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "دفع ترايسبس بقبضة مستلقية",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "إبعاد الورك بالكابل",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "تمرين V بالتبادل",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "رفع الرجلين على مقعد سفلي",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "رفع الرجلين على المتوازي",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "سكوات بتكرارات جزئية",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "سكوات هاك بساق واحدة",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "تمرين صباح الخير",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "كروس أوفر من البكرة الوسطى",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "تمرين الحشرة الميتة",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "الكتف الخلفي بالكابل بذراع واحدة",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "ضغط أرنولد",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "تمرين الضغط على الكرة",
+      "aliases": []
+    },
+    "frog": {
+      "name": "تمرين الضفدع",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "جهاز ركلة المؤخرة",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "إبعاد الورك مستلقيًا جانبًا",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "ضغط الأرجل العمودي",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "ضغط الأرجل بوقفة واسعة",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "بول أوفر على مقعد مائل سفلي",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "سحب على جهاز مفصلي بقبضة واسعة",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "تجديف ببار T",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "تجديف بالبار بقبضة مستلقية",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "تجديف بذراع واحدة بقبضة ضيقة",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "الرفعة الرومانية بالكابل مع تمديد مسبق",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "جهاز ضغط الصدر العلوي",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "دفع ترايسبس بقبضة عكسية",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "تمديد ترايسبس بالكابل مستلقٍ",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "تسلق الجبل",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "رفع الرجلين على الكرة",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "طحن جانبي بالتبادل على الكرة",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "طحن جانبي مستلقيًا",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "ثني جانبي بالكابل السفلي",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "عجلة البطن",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "اللف الروسي",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "طعن بالتبادل على جهاز سميث",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "طعن مع صعود على الدرجة",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "سكوات بالبار السداسي",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "سكوات أمامي على جهاز سميث",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "سكوات سومو بفتح وإغلاق",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "العقلة",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "مرجحة من البكرة العليا",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "مرجحة بالكابل",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "الدراجة الثابتة",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "كروس أوفر من البكرة السفلى",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "ضغط كتف ببار EZ",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "جهاز ضغط الكتف",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "ضغط كتف على جهاز سميث",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "رفرفة أمامية",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "رفرفة جانبية على مقعد مائل",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "هرولة على جهاز المشي",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "تمديد الظهر على الكرسي الروماني",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "ثني نورديك للأوتار الخلفية",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "ثني رجل واحدة على الكرة",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "الرفعة الميتة سومو بالدمبل",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "الرفعة الميتة بساق واحدة",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "رفع السمانة عند الحائط",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "رفع السمانة على جهاز الهاك",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "بلانك ثابت",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "بلانك جانبي منخفض",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "بلانك مع دوران الحوض",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "تجديف جالس روماني",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "تجديف منحني ببار H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "تجديف بالدمبل على مقعد مائل",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "جهاز التجديف بقبضة مستلقية",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "مرجحة عكسية على مقعد مائل",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "مرجحة بالكابل خلف الرأس",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "مرجحة بقبضة عكسية",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "مرونة الكتف بذراع واحدة",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "الرفعة الرومانية بوقفة متدرجة على سميث",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "الرفعة الرومانية على جهاز سميث",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "الرفعة الرومانية بالكابل",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "الرفعة الرومانية بساق واحدة مع سند",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "جهاز ضغط الصدر بذراع واحدة",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "تمديد ترايسبس خلف الرأس بالحبل",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "تمديد ترايسبس بذراع واحدة",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "ثني جانبي على الكرسي الروماني",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "تفتيح بالكابل",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "سحب بذراع مستقيمة بالحبل",
+      "aliases": []
+    }
+  }
+}

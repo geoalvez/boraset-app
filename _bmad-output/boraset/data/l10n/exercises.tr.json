@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "tr",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "45° Leg Press",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Barbell Squat",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Kalça Abdüktör Makinesi",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Oturarak Calf Raise",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Lat Çekiş",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Oturarak Leg Curl",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Düz Bench Press",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Yan Omuz Kaldırış",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Leg Extension",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Yatarak Leg Curl",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Triceps Pushdown",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Kalça Addüktör Makinesi",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Barbell Biceps Curl",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Dumbbell Biceps Curl",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Bel Ekstansiyonu",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Skull Crusher",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Hip Thrust",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Dumbbell Bench Press",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Ayakta Calf Raise",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Dar Tutuş Oturarak Kürek",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Lunge",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Eğik Dumbbell Press",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Romen Deadlift",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Calf Raise Makinesi",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Tek Bacak Calf Raise",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Dar Tutuş Lat Çekiş",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Halatla Triceps Pushdown",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Karın Makinesi",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Bulgar Split Squat",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Plank",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Kürek Makinesi",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Scott Curl",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Ters Fly Makinesi",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Ters Fly",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Front Squat",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Yatay Leg Press",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Diz Üstü Kablo Crunch",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Ayakta Leg Curl",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Göğüs Press Makinesi",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Deadlift",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Pec Deck",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Baş Üstü Triceps Extension",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Eğik Bench Press",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Barbell Öne Eğik Kürek",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Cable Crossover",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Kablo Kalça Kickback",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Çekiç Curl",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Yatarak Bacak Kaldırma",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Esneme",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Bench Dip",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Tek Bacak Squat",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Tek Bacak Leg Extension",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Dört Ayak Kalça Kickback",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Yüksek Çekiş",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Alt Kablo Düz Tutuş Kürek",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Karın Vakum",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Kablo Yan Kaldırış",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Omuz Mobilitesi",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Eğik Sehpada Bacak Kaldırma",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Kablo Kalça Çalışması",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Dönüşümlü Biceps Curl",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Vücut Ağırlığı Squat",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Dumbbell Omuz Press",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Smith Hip Thrust",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Koşu Bandında Sprint",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Dış Rotasyon",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Dumbbell Pullover",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Şınav",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Düz Tutuş Kürek",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Konsantre Curl",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Paralelde Diz Çekme",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Dumbbell Fly",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Tek Bacak Leg Press",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "45° Eğik Curl",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Tek Kol Kablo Ters Fly",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Topta Leg Curl",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Ters Tutuş Lat Çekiş",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Dar Halat Triceps Pushdown",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Ters Eğik Sehpada Crunch",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Smith Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Tek Bacak Hip Thrust",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Roma Sandalyesinde Kalça",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Tek Bacak Yatarak Leg Curl",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Geniş Tutuş Lat Çekiş",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Dik Kürek",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Geniş Düz Tutuş Oturarak Kürek",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Tek Bacak Romen Deadlift",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "V-Up",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Toplu V-Up",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Bel Sehpasında Yan Eğilme",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Yerde Crunch",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Barbell Omuz Press",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Baldır Ekstansiyon Makinesi",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Kablo Kalça Ekstansiyonu",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Tek Kol Baş Üstü Triceps",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Kürekçi Mekik",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Dumbbell Sumo Squat",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Tek Bacak Oturarak Leg Curl",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Merdiven Makinesi",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Bel Ekstansiyon Makinesi",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Rack Pull",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Tek Kol Dumbbell Kürek",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Triceps Kickback",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Koni ile Çapraz Bacak Kaldırma",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Topta Crunch",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Bacaklar Yukarıda Crunch",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Smith Sumo Squat",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Diz Üstü Squat",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Smith Kalça Abdüksiyonu",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Yatay Leg Press'te Calf Raise",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21 Curl",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Dumbbell Romen Deadlift",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Ters Eğik Bench Press",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Dip Makinesi",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Supine Tutuş Triceps",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Kablo Kalça Abdüksiyonu",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Dönüşümlü V-Up",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Ters Eğik Sehpada Bacak Kaldırma",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Paralelde Bacak Kaldırma",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Kısmi Tekrarlı Squat",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Tek Bacak Hack Squat",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Orta Kablo Crossover",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Tek Kol Kablo Arka Omuz",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Topta Şınav",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Kalça Kickback Makinesi",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Yan Yatarak Kalça Abdüksiyonu",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Dikey Leg Press",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Geniş Duruş Leg Press",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Ters Eğik Pullover",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Geniş Kollu Çekiş Makinesi",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "T-Bar Kürek",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Ters Tutuş Öne Eğik Kürek",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Tek Kol Dar Tutuş Kürek",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Ön Gerilimli Kablo Romen Deadlift",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Eğik Göğüs Press Makinesi",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Ters Tutuş Triceps Pushdown",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Kablo Skull Crusher",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Mountain Climber",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Topta Bacak Kaldırma",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Topta Dönüşümlü Oblik Crunch",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Yan Yatarak Oblik Crunch",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Alt Kabloda Yan Eğilme",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Karın Tekerleği",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Russian Twist",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Dönüşümlü Smith Lunge",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Öne Step Lunge",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Trap Bar Squat",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Smith Front Squat",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Açıl Kapan Sumo Squat",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Barfiks",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Yüksek Kablo Curl",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Kablo Biceps Curl",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Sabit Bisiklet",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Alt Kablo Crossover",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "EZ Bar Omuz Press",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Omuz Press Makinesi",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Smith Omuz Press",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Ön Omuz Kaldırış",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Eğik Sehpada Yan Kaldırış",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Koşu Bandında Hafif Koşu",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Roma Sandalyesinde Bel Ekstansiyonu",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Nordic Hamstring Curl",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Tek Bacak Topta Leg Curl",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Dumbbell Sumo Deadlift",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Tek Bacak Deadlift",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Duvarda Calf Raise",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Hack Makinesinde Calf Raise",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "İzometrik Plank",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Alçak Yan Plank",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Kalça Rotasyonlu Plank",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Roma Oturarak Kürek",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "H-Bar Kürek",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Eğik Sehpada Dumbbell Kürek",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Ters Tutuş Kürek Makinesi",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Ters Eğik Curl",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Kafa Arkası Kablo Curl",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Ters Curl",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Tek Taraflı Omuz Mobilitesi",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Adım Duruşlu Smith Romen Deadlift",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Smith Romen Deadlift",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Kablo Romen Deadlift",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Destekli Tek Bacak Romen Deadlift",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Tek Kol Göğüs Press",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Halatla Baş Üstü Triceps",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Tek Kol Skull Crusher",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Roma Sandalyesinde Yan Eğilme",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Kablo Fly",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Halatla Düz Kol Pulldown",
+      "aliases": []
+    }
+  }
+}

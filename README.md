@@ -25,11 +25,12 @@ packages/boraset_domain/lib/src/
   session.dart      SessionBlock, ExerciseSlot, SetRecord, BusyRegistry
   engine.dart       contrato do WorkoutDecisionEngine
   strategies.dart   os seis degraus da escada de adaptação
+  progression.dart  progressão de carga + matemática de anilha por país
 
 _bmad-output/boraset/data/
   catalog/exercises.core.json     193 exercícios · 13 eixos · 1.980 equivalências
   catalog/techniques.core.json     30 técnicas · categoria e frequência
-  l10n/exercises.<locale>.json     nomes e apelidos por idioma
+  l10n/exercises.<locale>.json     nomes por idioma (18 idiomas)
   l10n/techniques.<locale>.json    ajuda por idioma (18 idiomas)
   locales.json                     manifesto de cobertura de tradução
 ```
@@ -81,6 +82,12 @@ aceito(B, usuário)         preferências — não sabe de nenhum dos dois
 A UI monta a frase. Foi essa decisão que fez o motor nascer independente de idioma — nenhuma
 linha do engine precisa de tradução.
 
+**Progressão respeita o ferro que existe.** Sugerir "+2,5 kg" nos EUA é sugerir uma
+anilha que não existe na parede de lá. O arredondamento depende do país *e* do
+equipamento — barra sobe de par em par, halter pula de denominação em denominação,
+stack de máquina anda de placa em placa. Três matemáticas diferentes, e o `+100%`
+que um stack de 5 kg impõe vira aviso, não sugestão.
+
 **Identidade e idioma vivem separados.** O núcleo do catálogo não tem uma palavra traduzível;
 nomes e textos moram em pacotes por locale. Um idioma novo custa ~41 KB em vez de ~376 KB.
 
@@ -117,9 +124,15 @@ incorporado aos artefatos.
 treino) e os três avisos de segurança obrigatórios em todos eles.
 
 ```
-pt-BR  completo (resumo + texto longo)
-en es fr de it nl pl tr id vi ru ja ko zh-Hans hi ar th   resumo
+                      exercícios   técnicas (resumo)   técnicas (texto longo)
+pt-BR                     100%           100%                  100%
+en es fr de it nl pl
+tr id vi ru ja ko
+zh-Hans hi ar th          100%           100%                    0%
 ```
+
+3.281 nomes de exercício traduzidos, 193 por idioma, sem lacuna e sem colisão
+de nome dentro de um mesmo idioma.
 
 Regra do manifesto: **o app não oferece um idioma cuja cobertura de técnica não esteja em 100%.**
 Explicação faltando no meio do treino é pior que idioma faltando.
@@ -132,9 +145,9 @@ pior que deixar em branco.
 
 ## O que falta
 
-- Nomes de exercício traduzidos (hoje só pt-BR)
-- Texto longo das técnicas fora do pt-BR
-- Arredondamento de carga por unidade local (kg 1,25 vs lb 2,5) na sugestão de progressão
+- Texto longo das técnicas fora do pt-BR (o resumo curto já está em todos)
+- Revisão nativa dos 17 idiomas gerados (`needs_native_review: true`)
+- `aliases` por idioma — apelido é gíria local de academia, não tradução
 - App Flutter: telas, persistência local, sincronização
 - Ingestão automatizada de novas planilhas para o catálogo
 

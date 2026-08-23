@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "it",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Pressa 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Squat con Bilanciere",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Macchina Abduttori",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Calf Machine da Seduto",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Lat Machine Avanti",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Leg Curl da Seduto",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Panca Piana con Bilanciere",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Alzate Laterali",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Leg Extension",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Leg Curl da Sdraiato",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Push Down ai Cavi",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Macchina Adduttori",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Curl con Bilanciere",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Curl con Manubri",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Estensioni Lombari",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "French Press",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Hip Thrust",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Panca Piana con Manubri",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Calf in Piedi",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Pulley Basso Presa Stretta",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Affondo",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Panca Inclinata con Manubri",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Stacco Rumeno",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Calf Machine",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Calf Monopodalico",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Lat Machine Presa Stretta",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Push Down alla Corda",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Macchina Addominali",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Affondo Bulgaro",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Plank",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Pulley Macchina",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Curl su Panca Scott",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Macchina Deltoide Posteriore",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Alzate Posteriori",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Front Squat",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Pressa Orizzontale",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Crunch ai Cavi in Ginocchio",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Leg Curl in Piedi",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Chest Press Macchina",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Stacco da Terra",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Pectoral Machine",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Estensioni Tricipiti sopra la Testa",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Panca Inclinata con Bilanciere",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Rematore con Bilanciere",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Croci ai Cavi Incrociate",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Slancio Glutei ai Cavi",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Hammer Curl",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Sollevamento Gambe da Sdraiato",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Stretching",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Dip su Panca",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Squat Monopodalico",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Leg Extension Monopodalica",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Slancio Glutei a Quattro Appoggi",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Pulldown Alto",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Rematore al Cavo Basso Presa Prona",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Vacuum Addominale",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Alzate Laterali al Cavo Monolaterale",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Mobilità delle Spalle",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Sollevamento Gambe su Panca Inclinata",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Gluteo ai Cavi",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Curl Alternato",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Squat a Corpo Libero",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Lento con Manubri",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Hip Thrust alla Smith",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Sprint sul Tapis Roulant",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Rotazione Esterna Cuffia",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Pullover con Manubrio",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Piegamenti sulle Braccia",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Rematore Presa Prona",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Curl Concentrato",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Sollevamento Ginocchia alle Parallele",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Croci con Manubri",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Pressa Monopodalica",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Curl Inclinato 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Alzate Posteriori al Cavo Monolaterale",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Leg Curl sulla Fitball",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Lat Machine Presa Supina",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Push Down alla Corda Stretta",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Crunch su Panca Declinata",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Squat alla Smith Machine",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Hip Thrust Monopodalico",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Glutei su Panca Romana",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Leg Curl da Sdraiato Monopodalico",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Lat Machine Presa Larga",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Tirate al Mento",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Pulley Basso Presa Prona Larga",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Stacco Rumeno Monopodalico",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "V-Up",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "V-Up con Fitball",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Flessione Laterale alla Panca Lombare",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Crunch a Terra",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Lento Avanti con Bilanciere",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Estensione Polpacci Macchina",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Estensione Anca ai Cavi",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Estensioni Tricipiti Monolaterali",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Addominale Rematore",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Squat Sumo con Manubrio",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Leg Curl da Seduto Monopodalico",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Simulatore di Scale",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Estensioni Lombari Macchina",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Stacco Parziale",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Rematore con Manubrio",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Calcio d'Asino per Tricipiti",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Sollevamento Gambe Incrociato con Cono",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Crunch sulla Fitball",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Crunch con Gambe Sollevate",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Squat Sumo alla Smith",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Squat in Ginocchio",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Abduzione Anca alla Smith",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Calf alla Pressa Orizzontale",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "Curl 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Stacco Rumeno con Manubri",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Panca Declinata con Bilanciere",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Dip alla Macchina",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Push Down Presa Supina",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Abduzione Anca ai Cavi",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "V-Up Alternato",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Sollevamento Gambe su Panca Declinata",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Sollevamento Gambe alle Parallele",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Squat con Insistenza",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Hack Squat Monopodalico",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Croci ai Cavi Media Altezza",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Deltoide Posteriore al Cavo Monolaterale",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Piegamenti sulla Fitball",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Slancio Glutei alla Macchina",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Abduzione Anca da Sdraiato",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Pressa Verticale",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Pressa a Gambe Larghe",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Pullover Declinato",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Pulldown Articolato Presa Larga",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "Rematore a T",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Rematore Presa Supina",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Pulley Monolaterale Presa Stretta",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Stacco Rumeno ai Cavi con Pre-Allungamento",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Chest Press Inclinato Macchina",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Push Down Presa Inversa",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "French Press ai Cavi",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Mountain Climber",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Sollevamento Gambe sulla Fitball",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Obliqui Alternati sulla Fitball",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Crunch Obliquo di Lato",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Flessione Laterale al Cavo Basso",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Ruota per Addominali",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Russian Twist",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Affondo Alternato alla Smith",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Affondo con Step Avanti",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Squat con Barra Esagonale",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Front Squat alla Smith",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Squat Sumo Apri e Chiudi",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Trazioni alla Sbarra",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Curl al Cavo Alto",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Curl ai Cavi",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Cyclette",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Croci ai Cavi dal Basso",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Lento con Bilanciere EZ",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Lento Macchina Presa Prona",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Lento alla Smith Machine",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Alzate Frontali",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Alzate Laterali su Panca Inclinata",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Corsa Leggera sul Tapis Roulant",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Estensioni Lombari su Panca Romana",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Nordic Hamstring Curl",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Leg Curl Monopodalico sulla Fitball",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Stacco Sumo con Manubri",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Stacco Monopodalico",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Calf al Muro",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Calf all'Hack Squat",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Plank Isometrico",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Plank Laterale Basso",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Plank con Rotazione del Bacino",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Pulley Basso Romano",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Rematore con Barra H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Rematore con Manubri su Panca Inclinata",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Pulley Macchina Presa Supina",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Curl Inverso Inclinato",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Curl al Cavo dietro la Testa",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Curl Inverso",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Mobilità Spalla Monolaterale",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Stacco Rumeno Sfalsato alla Smith",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Stacco Rumeno alla Smith",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Stacco Rumeno ai Cavi",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Stacco Rumeno Monopodalico Appoggiato",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Chest Press Monolaterale",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Estensioni Tricipiti alla Corda sopra la Testa",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "French Press Monolaterale",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Obliqui su Panca Romana",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Croci ai Cavi",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Pulldown alla Corda",
+      "aliases": []
+    }
+  }
+}

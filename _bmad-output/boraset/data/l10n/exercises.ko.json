@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "ko",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "레그 프레스 45도",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "바벨 스쿼트",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "힙 어브덕션 머신",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "시티드 카프 레이즈",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "랫 풀다운",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "시티드 레그 컬",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "바벨 벤치프레스",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "사이드 레터럴 레이즈",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "레그 익스텐션",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "라잉 레그 컬",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "트라이셉스 푸시다운",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "힙 어덕션 머신",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "바벨 컬",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "덤벨 컬",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "백 익스텐션",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "스컬 크러셔",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "핵 스쿼트",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "힙 트러스트",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "덤벨 벤치프레스",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "스탠딩 카프 레이즈",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "내로우 그립 시티드 로우",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "런지",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "인클라인 덤벨 프레스",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "루마니안 데드리프트",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "카프 레이즈 머신",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "한다리 카프 레이즈",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "내로우 그립 랫 풀다운",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "로프 트라이셉스 푸시다운",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "복근 크런치 머신",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "불가리안 스플릿 스쿼트",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "플랭크",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "시티드 로우 머신",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "프리처 컬",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "리어 델트 머신",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "리어 델트 플라이",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "프론트 스쿼트",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "호리존탈 레그 프레스",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "케이블 크런치 무릎 자세",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "스탠딩 레그 컬",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "체스트 프레스 머신",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "데드리프트",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "펙덱 플라이",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "오버헤드 트라이셉스 익스텐션",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "인클라인 바벨 프레스",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "벤트오버 바벨 로우",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "케이블 크로스오버",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "케이블 글루트 킥백",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "해머 컬",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "라잉 레그 레이즈",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "스트레칭",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "벤치 딥스",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "피스톨 스쿼트",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "한다리 레그 익스텐션",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "네발 자세 글루트 킥백",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "하이 풀다운",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "오버핸드 로우 케이블 로우",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "복부 배큠",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "한팔 케이블 사이드 레이즈",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "어깨 가동성 운동",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "인클라인 벤치 레그 레이즈",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "케이블 둔근 운동",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "얼터네이트 덤벨 컬",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "맨몸 스쿼트",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "덤벨 숄더 프레스",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "스미스 힙 트러스트",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "트레드밀 스프린트",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "익스터널 로테이션",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "덤벨 풀오버",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "푸시업",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "오버핸드 로우",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "컨센트레이션 컬",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "평행봉 니 레이즈",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "덤벨 플라이",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "한다리 레그 프레스",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "인클라인 컬 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "한팔 케이블 리어 델트 플라이",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "짐볼 레그 컬",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "리버스 그립 랫 풀다운",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "내로우 로프 푸시다운",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "디클라인 벤치 크런치",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "스미스 머신 스쿼트",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "한다리 힙 트러스트",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "로만체어 글루트 레이즈",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "한다리 라잉 레그 컬",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "와이드 그립 랫 풀다운",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "업라이트 로우",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "와이드 오버핸드 시티드 로우",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "한다리 루마니안 데드리프트",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "브이업",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "짐볼 브이업",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "백 익스텐션대 사이드 벤드",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "플로어 크런치",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "바벨 숄더 프레스",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "카프 익스텐션 머신",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "케이블 힙 익스텐션",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "한팔 오버헤드 트라이셉스",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "로워 싯업",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "덤벨 스모 스쿼트",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "한다리 시티드 레그 컬",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "스테어 클라이머",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "백 익스텐션 머신",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "랙 풀",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "원암 덤벨 로우",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "트라이셉스 킥백",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "콘 이용 크로스 레그 레이즈",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "짐볼 크런치",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "다리 올린 크런치",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "스미스 스모 스쿼트",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "니링 스쿼트",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "스미스 힙 어브덕션",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "호리존탈 레그 프레스 카프 레이즈",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21 컬",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "덤벨 루마니안 데드리프트",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "디클라인 바벨 프레스",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "딥스 머신",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "수피네이티드 푸시다운",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "케이블 힙 어브덕션",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "얼터네이트 브이업",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "디클라인 레그 레이즈",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "캡틴체어 레그 레이즈",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "파셜 반복 스쿼트",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "한다리 핵 스쿼트",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "굿모닝",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "중간 높이 케이블 크로스오버",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "데드버그",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "한팔 케이블 후면 삼각근",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "아놀드 프레스",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "짐볼 푸시업",
+      "aliases": []
+    },
+    "frog": {
+      "name": "프로그 펌프",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "글루트 킥백 머신",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "사이드 라잉 힙 어브덕션",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "버티컬 레그 프레스",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "와이드 스탠스 레그 프레스",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "디클라인 풀오버",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "와이드 아티큘레이트 풀다운",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "티바 로우",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "리버스 그립 바벨 로우",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "한팔 내로우 로우 머신",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "프리스트레치 케이블 RDL",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "인클라인 체스트 프레스 머신",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "리버스 그립 푸시다운",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "케이블 스컬 크러셔",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "마운틴 클라이머",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "짐볼 레그 레이즈",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "짐볼 얼터네이트 오블리크",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "사이드 라잉 오블리크 크런치",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "로우 케이블 사이드 벤드",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "애브 휠 롤아웃",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "러시안 트위스트",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "얼터네이트 스미스 런지",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "프론트 스텝업 런지",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "트랩바 스쿼트",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "스미스 프론트 스쿼트",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "스모 스쿼트 인앤아웃",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "턱걸이",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "하이 케이블 컬",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "케이블 컬",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "실내 자전거",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "로우 케이블 크로스오버",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "EZ바 숄더 프레스",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "숄더 프레스 머신",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "스미스 머신 숄더 프레스",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "프론트 레이즈",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "인클라인 벤치 사이드 레이즈",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "트레드밀 조깅",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "로만체어 백 익스텐션",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "노르딕 햄스트링 컬",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "한다리 짐볼 레그 컬",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "덤벨 스모 데드리프트",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "한다리 데드리프트",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "벽 카프 레이즈",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "핵 머신 카프 레이즈",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "아이소메트릭 플랭크",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "로우 사이드 플랭크",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "힙 로테이션 플랭크",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "로만 시티드 로우",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "H바 벤트오버 로우",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "인클라인 벤치 덤벨 로우",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "리버스 그립 로우 머신",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "인클라인 리버스 컬",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "오버헤드 케이블 컬",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "리버스 컬",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "한쪽 어깨 가동성 운동",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "스태거드 스탠스 스미스 RDL",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "스미스 루마니안 데드리프트",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "케이블 루마니안 데드리프트",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "보조 한다리 RDL",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "한팔 체스트 프레스 머신",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "로프 오버헤드 트라이셉스",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "한팔 스컬 크러셔",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "로만체어 사이드 벤드",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "케이블 플라이",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "로프 스트레이트암 풀다운",
+      "aliases": []
+    }
+  }
+}

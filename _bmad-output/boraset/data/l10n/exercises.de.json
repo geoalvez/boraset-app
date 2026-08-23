@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "de",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Beinpresse 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Kniebeuge mit Langhantel",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Abduktionsmaschine",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Wadenheben sitzend",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Latzug zur Brust",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Beinbeuger sitzend",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Bankdrücken Flach",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Seitheben",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Beinstrecker",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Beinbeuger liegend",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Trizepsdrücken am Kabel",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Adduktionsmaschine",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Langhantel-Curl",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Kurzhantel-Curl",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Rückenstrecken",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Stirndrücken",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hackenschmidt-Kniebeuge",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Hüftstoß",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Kurzhantel-Bankdrücken",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Wadenheben stehend",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Rudern am Kabel Enggriff",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Ausfallschritt",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Schrägbankdrücken Kurzhantel",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Rumänisches Kreuzheben",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Wadenheben Maschine",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Einbeiniges Wadenheben",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Latzug Enggriff",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Trizepsdrücken mit Seil",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Bauchmaschine",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Bulgarische Kniebeuge",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Unterarmstütz",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Rudermaschine",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Scott-Curl",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Reverse Butterfly Maschine",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Reverse Flys",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Frontkniebeuge",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Horizontale Beinpresse",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Kabelcrunch kniend",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Beinbeuger stehend",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Brustpresse Maschine",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Kreuzheben",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Butterfly Maschine",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Trizepsdrücken über Kopf",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Schrägbankdrücken",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Langhantelrudern vorgebeugt",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Kabelzug Crossover",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Glute Kickback am Kabel",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Hammercurl",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Beinheben liegend",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Dehnübungen",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Bankdips",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Einbeinige Kniebeuge",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Einbeiniger Beinstrecker",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Glute Kickback Vierfüßlerstand",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Hochzug",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Rudern am unteren Kabel Obergriff",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Bauch-Vakuum",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Seitheben am Kabel einarmig",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Schultermobilisation",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Beinheben auf der Schrägbank",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Gesäßmuskel am Kabel",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Wechselcurl",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Kniebeuge ohne Gewicht",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Schulterdrücken Kurzhantel",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Hüftstoß Multipresse",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Laufband Sprint",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Außenrotation Rotatorenmanschette",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Überzüge Kurzhantel",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Liegestütz",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Rudern Obergriff",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Konzentrationscurl",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Knieheben am Barren",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Fliegende Kurzhantel",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Einbeinige Beinpresse",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Schrägbank-Curl 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Einarmiges Reverse Fly am Kabel",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Beinbeuger am Gymnastikball",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Latzug Untergriff",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Trizepsdrücken Seil eng",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Crunch auf der Negativbank",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Kniebeuge Multipresse",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Einbeiniger Hüftstoß",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Gesäßheben am römischen Stuhl",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Einbeiniger Beinbeuger liegend",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Latzug Weitgriff",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Aufrechtes Rudern",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Rudern am Kabel Obergriff Weit",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Einbeiniges rumänisches Kreuzheben",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "Klappmesser",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Klappmesser mit Gymnastikball",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Seitbeuge am Rückenstrecker",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Bodencrunch",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Schulterdrücken Langhantel",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Wadenstrecker Maschine",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Hüftstreckung am Kabel",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Einarmiges Trizepsdrücken über Kopf",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Ruderer-Crunch",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Sumo-Kniebeuge Kurzhantel",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Einbeiniger Beinbeuger sitzend",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Treppensteiger",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Rückenstrecker Maschine",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Rack Pull",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Einarmiges Kurzhantelrudern",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Trizeps-Kickback",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Überkreuz-Beinheben mit Kegel",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Crunch am Gymnastikball",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Crunch mit erhöhten Beinen",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Sumo-Kniebeuge Multipresse",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Kniender Squat",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Hüftabduktion Multipresse",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Wadenheben an der Beinpresse",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21er-Curl",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Rumänisches Kreuzheben Kurzhantel",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Negativbankdrücken",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Dip-Maschine",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Trizepsdrücken supiniert",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Hüftabduktion am Kabel",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Klappmesser wechselseitig",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Beinheben auf der Negativbank",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Beinheben am Barren",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Kniebeuge mit Teilwiederholungen",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Einbeinige Hack-Kniebeuge",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Crossover Mittlere Höhe",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Hintere Schulter Kabel einarmig",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Liegestütz auf Gymnastikball",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Glute Kickback Maschine",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Hüftabduktion Seitlage",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Vertikale Beinpresse",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Beinpresse weiter Stand",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Überzüge auf Negativbank",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Latzug Maschine Weitgriff",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "T-Bar Rudern",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Langhantelrudern Untergriff",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Einarmiges Rudern Maschine Eng",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "RDL am Kabel mit Vordehnung",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Schrägbrustpresse Maschine",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Trizepsdrücken Untergriff",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Stirndrücken am Kabel",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Bergsteiger",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Beinheben am Gymnastikball",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Wechselnder Schrägcrunch am Ball",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Seitlicher Bauchcrunch",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Seitbeuge am unteren Kabel",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Bauchroller",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Russian Twist",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Wechselnder Ausfallschritt Multipresse",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Ausfallschritt mit Step vorn",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Kniebeuge mit Trap Bar",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Frontkniebeuge Multipresse",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Sumo-Kniebeuge auf und zu",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Klimmzug",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Curl am hohen Kabel",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Kabelzug-Curl",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Ergometer",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Crossover Untere Höhe",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Schulterdrücken SZ-Stange",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Schulterpresse Maschine",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Schulterdrücken Multipresse",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Frontheben",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Seitheben auf Schrägbank",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Laufband Joggen",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Rückenstrecken am römischen Stuhl",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Nordic Hamstring Curl",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Einbeiniger Beinbeuger am Ball",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Sumo-Kreuzheben Kurzhantel",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Einbeiniges Kreuzheben",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Wadenheben an der Wand",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Wadenheben an der Hackenschmidt",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Isometrischer Unterarmstütz",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Seitstütz tief",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Unterarmstütz mit Hüftrotation",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Rudern am Kabel Römisch",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Rudern mit H-Stange",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Rudern Kurzhantel Schrägbank",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Rudermaschine Untergriff",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Umgekehrter Schrägbank-Curl",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Curl am Kabel über Kopf",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Reverse Curl",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Einarmige Schultermobilisation",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Versetztes RDL Multipresse",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Rumänisches Kreuzheben Multipresse",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Rumänisches Kreuzheben am Kabel",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Gestütztes einbeiniges RDL",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Einarmige Brustpresse",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Trizepsdrücken über Kopf mit Seil",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Einarmiges Stirndrücken",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Seitbeuge am römischen Stuhl",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Kabelzug Fliegende",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Überzüge am Kabel mit Seil",
+      "aliases": []
+    }
+  }
+}

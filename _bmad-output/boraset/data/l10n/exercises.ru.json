@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "ru",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Жим ногами 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Приседания со штангой",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Разведение ног в тренажёре",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Подъём на носки сидя",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Тяга верхнего блока к груди",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Сгибание ног сидя",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Жим лёжа со штангой",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Махи гантелями в стороны",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Разгибание ног",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Сгибание ног лёжа",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Разгибание на блоке",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Сведение ног в тренажёре",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Подъём штанги на бицепс",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Подъём гантелей на бицепс",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Гиперэкстензия",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Французский жим лёжа",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Гакк-приседания",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Ягодичный мост со штангой",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Жим гантелей лёжа",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Подъём на носки стоя",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Тяга нижнего блока узким хватом",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Выпад",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Жим гантелей на наклонной",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Румынская тяга",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Подъём на носки в тренажёре",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Подъём на носок одной ногой",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Тяга верхнего блока узким хватом",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Разгибание на блоке с канатом",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Скручивания в тренажёре",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Болгарский выпад",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Планка",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Тяга в тренажёре сидя",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Подъём на скамье Скотта",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Обратная бабочка",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Обратная разводка",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Фронтальные приседания",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Горизонтальный жим ногами",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Скручивания на блоке стоя на коленях",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Сгибание ноги стоя",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Жим от груди в тренажёре",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Становая тяга",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Бабочка (пек-дек)",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Французский жим сидя",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Жим на наклонной со штангой",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Тяга штанги в наклоне",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Кроссовер",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Отведение ноги назад на блоке",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Молотковый подъём",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Подъём ног лёжа",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Растяжка",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Отжимания от скамьи",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Приседания на одной ноге",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Разгибание одной ноги",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Отведение ноги в упоре на коленях",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Тяга верхнего блока",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Тяга нижнего блока прямым хватом",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Вакуум живота",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Махи в сторону на блоке",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Мобилизация плеч",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Подъём ног на наклонной вверх",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Ягодичные на блоке",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Попеременный подъём гантелей",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Приседания без веса",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Жим гантелей сидя",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Ягодичный мост в Смите",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Спринт на дорожке",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Внешняя ротация плеча",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Пуловер с гантелей",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Отжимания",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Тяга прямым хватом",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Концентрированный подъём",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Подъём коленей на брусьях",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Разводка гантелей",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Жим одной ногой",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Подъём на наклонной 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Обратная разводка на блоке одной рукой",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Сгибание ног на фитболе",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Тяга верхнего блока обратным хватом",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Разгибание с канатом узко",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Скручивания на наклонной вниз",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Приседания в Смите",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Ягодичный мост на одной ноге",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Ягодичные на римском стуле",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Сгибание одной ноги лёжа",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Тяга верхнего блока широким хватом",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Тяга штанги к подбородку",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Тяга нижнего блока широким прямым хватом",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Румынская тяга на одной ноге",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "Складка (V-up)",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Складка с мячом",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Боковые наклоны на гиперэкстензии",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Скручивания на полу",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Жим штанги стоя",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Разгибание голени в тренажёре",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Разгибание бедра на блоке",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Французский жим одной рукой сидя",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Скручивания «гребец»",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Сумо-приседания с гантелей",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Сгибание одной ноги сидя",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Степпер-лестница",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Гиперэкстензия в тренажёре",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Тяга с плинтов",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Тяга гантели одной рукой",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Кикбэк на трицепс",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Подъём ног крест-накрест с конусом",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Скручивания на фитболе",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Скручивания с поднятыми ногами",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Сумо-приседания в Смите",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Приседания на коленях",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Отведение бедра в Смите",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Подъём на носки в горизонтальном жиме",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "Подъём 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Румынская тяга с гантелями",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Жим на обратнонаклонной со штангой",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Отжимания на брусьях в тренажёре",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Разгибание супинированным хватом",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Отведение бедра на блоке",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Попеременная складка",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Подъём ног на наклонной вниз",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Подъём ног на брусьях",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Приседания с частичными повторами",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Гакк-приседания на одной ноге",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Наклоны со штангой",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Кроссовер со среднего блока",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Мёртвый жук",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Задняя дельта на блоке одной рукой",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Жим Арнольда",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Отжимания на фитболе",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Фрог-памп",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Отведение ноги назад в тренажёре",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Отведение бедра лёжа на боку",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Вертикальный жим ногами",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Жим ногами широкой постановкой",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Пуловер на обратнонаклонной",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Тяга в рычажном тренажёре широким хватом",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "Тяга Т-грифа",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Тяга штанги обратным хватом",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Тяга одной рукой узким хватом в тренажёре",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Румынская тяга на блоке с предрастяжением",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Наклонный жим в тренажёре",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Разгибание обратным хватом",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Французский жим на блоке",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Скалолаз",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Подъём ног на фитболе",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Косые скручивания на мяче попеременно",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Косые скручивания лёжа на боку",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Боковые наклоны на нижнем блоке",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Ролик для пресса",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Русский поворот",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Попеременные выпады в Смите",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Выпад на степ вперёд",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Приседания с трэп-грифом",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Фронтальные приседания в Смите",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Сумо-приседания с разведением",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Подтягивания",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Подъём на бицепс с верхнего блока",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Подъём на бицепс на блоке",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Велотренажёр",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Кроссовер с нижнего блока",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Жим EZ-грифа",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Жим в тренажёре для плеч",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Жим в Смите",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Подъём гантелей перед собой",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Махи в сторону на наклонной скамье",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Бег трусцой на дорожке",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Гиперэкстензия на римском стуле",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Нордическое сгибание",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Сгибание одной ноги на фитболе",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Сумо-тяга с гантелями",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Становая тяга на одной ноге",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Подъём на носки у стены",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Подъём на носки в гакк-машине",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Изометрическая планка",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Низкая боковая планка",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Планка с ротацией таза",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Римская тяга нижнего блока",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Тяга H-грифа в наклоне",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Тяга гантелей лёжа на наклонной",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Тяга в тренажёре обратным хватом",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Обратный подъём на наклонной",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Подъём на блоке из-за головы",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Обратный подъём на бицепс",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Мобилизация плеча одной рукой",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Румынская тяга в разножке в Смите",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Румынская тяга в Смите",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Румынская тяга на блоке",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Румынская тяга на одной ноге с опорой",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Жим от груди одной рукой в тренажёре",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Французский жим с канатом",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Французский жим одной рукой",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Боковые наклоны на римском стуле",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Разводка в кроссовере",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Пуловер на блоке с канатом",
+      "aliases": []
+    }
+  }
+}

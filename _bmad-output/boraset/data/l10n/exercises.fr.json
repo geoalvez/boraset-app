@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "fr",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Presse à Cuisses 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Squat Barre",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Machine Abducteurs",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Mollets Assis",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Tirage Vertical Poitrine",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Leg Curl Assis",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Développé Couché Barre",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Élévations Latérales",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Leg Extension",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Leg Curl Allongé",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Extension Triceps Poulie",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Machine Adducteurs",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Curl Barre",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Curl Haltères",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Extension Lombaire",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Barre au Front",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Hip Thrust",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Développé Couché Haltères",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Mollets Debout",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Rowing Assis Prise Serrée",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Fente",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Développé Incliné Haltères",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Soulevé de Terre Roumain",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Mollets Machine",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Mollets Unilatéraux",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Tirage Vertical Prise Serrée",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Extension Triceps Corde",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Machine à Abdominaux",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Fente Bulgare",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Planche",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Rowing Machine Assis",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Curl Pupitre",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Écarté Inversé Machine",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Écarté Inversé",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Squat Avant",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Presse à Cuisses Horizontale",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Crunch à la Poulie à Genoux",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Leg Curl Debout",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Développé Couché Machine",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Soulevé de Terre",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Pec Deck",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Extension Triceps Nuque",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Développé Incliné Barre",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Rowing Barre Buste Penché",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Cross Over Poulie",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Kickback Fessier Poulie",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Curl Marteau",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Relevé de Jambes Allongé",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Étirements",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Dips sur Banc",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Squat Unilatéral",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Leg Extension Unilatérale",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Kickback Fessier Quadrupédie",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Tirage Haut",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Rowing Poulie Basse Pronation",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Vacuum Abdominal",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Élévation Latérale Poulie Unilatérale",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Mobilité des Épaules",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Relevé de Jambes Banc Incliné",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Fessier à la Poulie",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Curl Alterné",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Squat au Poids du Corps",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Développé Épaules Haltères",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Hip Thrust Smith",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Sprint sur Tapis",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Rotation Externe",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Pull-Over Haltère",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Pompes",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Rowing Pronation",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Curl Concentré",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Relevé de Genoux aux Barres",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Écarté Couché Haltères",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Presse à Cuisses Unilatérale",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Curl Incliné 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Écarté Inversé Poulie Unilatéral",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Leg Curl sur Swiss Ball",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Tirage Vertical Supination",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Extension Triceps Corde Serrée",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Crunch Banc Décliné",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Squat Smith",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Hip Thrust Unilatéral",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Fessiers Banc Romain",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Leg Curl Allongé Unilatéral",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Tirage Vertical Prise Large",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Rowing Menton",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Rowing Assis Pronation Large",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Soulevé de Terre Roumain Unilatéral",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "Crunch en V",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Crunch en V avec Swiss Ball",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Flexion Latérale Banc Lombaire",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Crunch au Sol",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Développé Militaire Barre",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Extension Mollets Machine",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Extension de Hanche Poulie",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Extension Triceps Nuque Unilatérale",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Rameur au Sol",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Squat Sumo Haltère",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Leg Curl Assis Unilatéral",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Simulateur d'Escalier",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Extension Lombaire Machine",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Soulevé de Terre Partiel",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Rowing Unilatéral Haltère",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Kickback Triceps",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Relevé de Jambes Croisé au Cône",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Crunch sur Swiss Ball",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Crunch Jambes Surélevées",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Squat Sumo Smith",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Squat à Genoux",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Abduction Hanche Smith",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Mollets à la Presse Horizontale",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "Curl 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Soulevé de Terre Roumain Haltères",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Développé Décliné Barre",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Dips Machine",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Extension Triceps Supination",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Abduction Hanche Poulie",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Crunch en V Alterné",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Relevé de Jambes Décliné",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Relevé de Jambes aux Barres",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Squat avec Insistance",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Hack Squat Unilatéral",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Cross Over Poulie Moyenne",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Deltoïde Postérieur Poulie Unilatéral",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Développé Arnold",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Pompes sur Swiss Ball",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Kickback Fessier Machine",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Abduction Hanche Couché",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Presse à Cuisses Verticale",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Presse Pieds Écartés",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Pull-Over Décliné",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Tirage Machine Convergente Large",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "Rowing T-Bar",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Rowing Barre Supination",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Rowing Machine Unilatéral Serré",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "SDT Roumain Poulie Pré-Étirement",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Développé Incliné Machine",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Extension Triceps Prise Inversée",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Barre au Front à la Poulie",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Mountain Climber",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Relevé de Jambes Swiss Ball",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Obliques Alternés Swiss Ball",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Crunch Oblique au Sol",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Flexion Latérale Poulie Basse",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Roue Abdominale",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Russian Twist",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Fente Alternée Smith",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Fente avec Step Avant",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Squat Barre Hexagonale",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Squat Avant Smith",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Squat Sumo Ouvert-Fermé",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Traction à la Barre",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Curl Poulie Haute",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Curl à la Poulie",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Vélo d'Appartement",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Cross Over Poulie Basse",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Développé Épaules Barre EZ",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Développé Épaules Machine",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Développé Épaules Smith",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Élévations Frontales",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Élévation Latérale Banc Incliné",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Jogging sur Tapis",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Extension Lombaire Banc Romain",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Leg Curl Nordique",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Leg Curl Unilatéral Swiss Ball",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Soulevé de Terre Sumo Haltères",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Soulevé de Terre Unilatéral",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Mollets au Mur",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Mollets au Hack Squat",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Planche Isométrique",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Planche Latérale Basse",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Planche avec Rotation du Bassin",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Rowing Assis Romain",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Rowing Barre H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Rowing Haltères Banc Incliné",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Rowing Machine Supination",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Curl Inversé Incliné",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Curl Poulie derrière la Tête",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Curl Inversé",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Mobilité Épaule Unilatérale",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "SDT Roumain Fente Smith",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Soulevé de Terre Roumain Smith",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Soulevé de Terre Roumain Poulie",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "SDT Roumain Unilatéral Appuyé",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Développé Machine Unilatéral",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Extension Triceps Nuque à la Corde",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Barre au Front Unilatéral",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Obliques Banc Romain",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Écarté à la Poulie",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Pull-Over Poulie à la Corde",
+      "aliases": []
+    }
+  }
+}

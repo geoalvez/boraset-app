@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "ja",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "レッグプレス45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "バーベルスクワット",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "ヒップアブダクションマシン",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "シーテッド・カーフレイズ",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "ラットプルダウン",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "シーテッド・レッグカール",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "バーベル・ベンチプレス",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "サイドレイズ",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "レッグエクステンション",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "ライイング・レッグカール",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "トライセプス・プッシュダウン",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "ヒップアダクションマシン",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "バーベルカール",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "ダンベルカール",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "バックエクステンション",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "スカルクラッシャー",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "ハックスクワット",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "ヒップスラスト",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "ダンベル・ベンチプレス",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "スタンディング・カーフレイズ",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "ナローグリップ・シーテッドロウ",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "ランジ",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "インクライン・ダンベルプレス",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "ルーマニアンデッドリフト",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "カーフレイズマシン",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "片脚カーフレイズ",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "ナローグリップ・ラットプルダウン",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "ロープ・プッシュダウン",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "アブクランチマシン",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "ブルガリアン・スプリットスクワット",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "プランク",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "シーテッドロウマシン",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "プリーチャーカール",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "リアデルトマシン",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "リアデルトフライ",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "フロントスクワット",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "ホリゾンタル・レッグプレス",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "ケーブルクランチ（膝立ち）",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "スタンディング・レッグカール",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "チェストプレスマシン",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "デッドリフト",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "ペックデック",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "オーバーヘッド・トライセプスエクステンション",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "インクライン・バーベルプレス",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "ベントオーバー・バーベルロウ",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "ケーブルクロスオーバー",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "ケーブル・グルートキックバック",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "ハンマーカール",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "ライイング・レッグレイズ",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "ストレッチ",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "ベンチディップス",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "ピストルスクワット",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "片脚レッグエクステンション",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "四つ這いグルートキックバック",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "ハイプルダウン",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "オーバーハンド・ローケーブルロウ",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "ドローイン（腹部バキューム）",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "片手ケーブル・サイドレイズ",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "肩のモビリティ",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "インクラインベンチ・レッグレイズ",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "ケーブル・グルート",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "オルタネイト・ダンベルカール",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "自重スクワット",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "ダンベル・ショルダープレス",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "スミス・ヒップスラスト",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "トレッドミル・スプリント",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "エクスターナルローテーション",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "ダンベルプルオーバー",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "プッシュアップ",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "オーバーハンドロウ",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "コンセントレーションカール",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "パラレルバー・ニーレイズ",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "ダンベルフライ",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "片脚レッグプレス",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "インクラインカール45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "片手ケーブル・リアデルトフライ",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "バランスボール・レッグカール",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "リバースグリップ・ラットプルダウン",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "ナローロープ・プッシュダウン",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "デクラインベンチ・クランチ",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "スミスマシン・スクワット",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "片脚ヒップスラスト",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "ローマンチェア・グルートレイズ",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "片脚ライイングレッグカール",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "ワイドグリップ・ラットプルダウン",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "アップライトロウ",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "ワイド・オーバーハンドシーテッドロウ",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "片脚ルーマニアンデッドリフト",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "Vアップ",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "バランスボール・Vアップ",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "バックエクステンション台・サイドベンド",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "フロアクランチ",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "バーベル・ショルダープレス",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "カーフエクステンションマシン",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "ケーブル・ヒップエクステンション",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "片手オーバーヘッド・トライセプス",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "ローワー・シットアップ",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "ダンベル・スモウスクワット",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "片脚シーテッドレッグカール",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "ステアクライマー",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "バックエクステンションマシン",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "ラックプル",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "ワンハンド・ダンベルロウ",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "トライセプス・キックバック",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "コーンを使ったクロス・レッグレイズ",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "バランスボール・クランチ",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "脚上げクランチ",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "スミス・スモウスクワット",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "ニーリングスクワット",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "スミス・ヒップアブダクション",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "ホリゾンタルレッグプレス・カーフレイズ",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21カール",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "ダンベル・ルーマニアンデッドリフト",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "デクライン・バーベルプレス",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "ディップスマシン",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "スピネイテッド・プッシュダウン",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "ケーブル・ヒップアブダクション",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "オルタネイトVアップ",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "デクライン・レッグレイズ",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "キャプテンズチェア・レッグレイズ",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "パーシャル付きスクワット",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "片脚ハックスクワット",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "グッドモーニング",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "ミドル・ケーブルクロスオーバー",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "デッドバグ",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "片手ケーブル・リアデルト",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "アーノルドプレス",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "バランスボール・プッシュアップ",
+      "aliases": []
+    },
+    "frog": {
+      "name": "フロッグポンプ",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "グルートキックバックマシン",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "サイドライイング・ヒップアブダクション",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "バーティカル・レッグプレス",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "ワイドスタンス・レッグプレス",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "デクライン・プルオーバー",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "ワイド・アーティキュレートプルダウン",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "Tバーロウ",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "リバースグリップ・バーベルロウ",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "片手ナローグリップ・ロウマシン",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "プレストレッチ付きケーブルRDL",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "インクライン・チェストプレスマシン",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "リバースグリップ・プッシュダウン",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "ケーブル・スカルクラッシャー",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "マウンテンクライマー",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "バランスボール・レッグレイズ",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "バランスボール・オルタネイトオブリーク",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "サイドライイング・オブリーククランチ",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "ローケーブル・サイドベンド",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "アブローラー",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "ロシアンツイスト",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "オルタネイト・スミスランジ",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "フロントステップアップ・ランジ",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "トラップバー・スクワット",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "スミス・フロントスクワット",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "スモウスクワット・イン&アウト",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "懸垂",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "ハイケーブルカール",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "ケーブルカール",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "エアロバイク",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "ロー・ケーブルクロスオーバー",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "EZバー・ショルダープレス",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "ショルダープレスマシン",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "スミスマシン・ショルダープレス",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "フロントレイズ",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "インクラインベンチ・サイドレイズ",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "トレッドミル・ジョグ",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "ローマンチェア・バックエクステンション",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "ノルディックハムストリングカール",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "片脚バランスボール・レッグカール",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "ダンベル・スモウデッドリフト",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "片脚デッドリフト",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "ウォール・カーフレイズ",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "ハックマシン・カーフレイズ",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "アイソメトリック・プランク",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "ロー・サイドプランク",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "ヒップローテーション・プランク",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "ローマン・シーテッドロウ",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Hバー・ベントオーバーロウ",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "インクラインベンチ・ダンベルロウ",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "リバースグリップ・ロウマシン",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "インクライン・リバースカール",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "オーバーヘッド・ケーブルカール",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "リバースカール",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "片側の肩モビリティ",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "スタッガードスタンス・スミスRDL",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "スミス・ルーマニアンデッドリフト",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "ケーブル・ルーマニアンデッドリフト",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "補助付き片脚RDL",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "片手チェストプレスマシン",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "ロープ・オーバーヘッドトライセプス",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "片手スカルクラッシャー",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "ローマンチェア・サイドベンド",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "ケーブルフライ",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "ロープ・ストレートアームプルダウン",
+      "aliases": []
+    }
+  }
+}

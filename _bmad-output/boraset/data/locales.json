@@ -3,7 +3,9 @@
   "notes": [
     "Fonte de verdade sobre o que esta traduzido. A UI so oferece um idioma cuja",
     "cobertura de tecnicas passe do minimo -- explicacao faltando e pior que idioma faltando.",
-    "Nivel 1 = lancamento. Nivel 2 = expansao. Ordem sugerida, nao definitiva."
+    "Nivel 1 = lancamento. Nivel 2 = expansao. Ordem sugerida, nao definitiva.",
+    "units.weight vem do pacote de idioma; o motor de progressao arredonda para a anilha que existe naquele pais.",
+    "units.weight vem do pacote de idioma; o motor de progressao arredonda para a anilha que existe naquele pais."
   ],
   "tiers": {
     "1": [
@@ -48,7 +50,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "complete",
-      "needs_native_review": false
+      "needs_native_review": false,
+      "exercises": 100.0
     },
     "en": {
       "technique_summary": 100.0,
@@ -56,7 +59,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": false
+      "needs_native_review": false,
+      "exercises": 100.0
     },
     "ar": {
       "technique_summary": 100.0,
@@ -64,7 +68,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "de": {
       "technique_summary": 100.0,
@@ -72,7 +77,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "es": {
       "technique_summary": 100.0,
@@ -80,7 +86,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "fr": {
       "technique_summary": 100.0,
@@ -88,7 +95,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "hi": {
       "technique_summary": 100.0,
@@ -96,7 +104,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "id": {
       "technique_summary": 100.0,
@@ -104,7 +113,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "it": {
       "technique_summary": 100.0,
@@ -112,7 +122,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "ja": {
       "technique_summary": 100.0,
@@ -120,7 +131,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "ko": {
       "technique_summary": 100.0,
@@ -128,7 +140,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "nl": {
       "technique_summary": 100.0,
@@ -136,7 +149,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "pl": {
       "technique_summary": 100.0,
@@ -144,7 +158,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "ru": {
       "technique_summary": 100.0,
@@ -152,7 +167,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "th": {
       "technique_summary": 100.0,
@@ -160,7 +176,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "tr": {
       "technique_summary": 100.0,
@@ -168,7 +185,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "vi": {
       "technique_summary": 100.0,
@@ -176,7 +194,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     },
     "zh-Hans": {
       "technique_summary": 100.0,
@@ -184,8 +203,8 @@
       "missing": [],
       "missing_caution": [],
       "status": "summary_only",
-      "needs_native_review": true
+      "needs_native_review": true,
+      "exercises": 100.0
     }
-  },
-  "exercise_names_status": "pending: apenas pt-BR. Proximo lote."
+  }
 }

@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "nl",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Beenpers 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Squat met Barbell",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Abductiemachine",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Kuitheffen Zittend",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Lat Pulldown",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Leg Curl Zittend",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Bankdrukken Vlak",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Zijwaartse Verhoging",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Leg Extension",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Leg Curl Liggend",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Triceps Pushdown",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Adductiemachine",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Barbell Curl",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Dumbbell Curl",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Rugextensie",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Skull Crusher",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Hip Thrust",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Bankdrukken Dumbbells",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Kuitheffen Staand",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Zittend Roeien Nauwe Greep",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Lunge",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Schuin Bankdrukken Dumbbells",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Roemeens Deadlift",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Kuitheffen Machine",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Kuitheffen Eenbenig",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Lat Pulldown Nauwe Greep",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Triceps Pushdown met Touw",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Buikmachine",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Bulgaarse Split Squat",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Plank",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Roeimachine Zittend",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Preacher Curl",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Reverse Fly Machine",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Reverse Fly",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Front Squat",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Beenpers Horizontaal",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Kabel Crunch Knielend",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Leg Curl Staand",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Chest Press Machine",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Deadlift",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Pec Deck",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Triceps Extensie Boven het Hoofd",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Schuin Bankdrukken",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Voorovergebogen Roeien",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Cable Crossover",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Kabel Glute Kickback",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Hamer Curl",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Beenheffen Liggend",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Rekoefeningen",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Bench Dip",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Pistol Squat",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Leg Extension Eenbenig",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Glute Kickback Viervoetstand",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Hoge Pulldown",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Roeien Bovenhands Lage Kabel",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Buikvacuüm",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Zijwaartse Verhoging Kabel",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Schoudermobiliteit",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Beenheffen Schuine Bank",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Bilspier Kabel",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Afwisselende Dumbbell Curl",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Squat Lichaamsgewicht",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Schouderdrukken Dumbbells",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Hip Thrust Smith",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Loopband Sprint",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Externe Rotatie",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Pullover met Dumbbell",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Opdrukken",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Roeien Bovenhands",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Geconcentreerde Curl",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Knieheffen aan de Brug",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Vliegende Beweging",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Beenpers Eenbenig",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Curl op Schuine Bank 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Reverse Fly Kabel Eenarmig",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Leg Curl op Fitbal",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Lat Pulldown Onderhandse Greep",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Triceps Pushdown Touw Nauw",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Crunch Negatieve Bank",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Squat op Smith",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Hip Thrust Eenbenig",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Bilspieren Romeinse Stoel",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Leg Curl Liggend Eenbenig",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Lat Pulldown Brede Greep",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Opwaarts Roeien",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Zittend Roeien Bovenhands Breed",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Roemeens Deadlift Eenbenig",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "V-Up",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "V-Up met Fitbal",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Zijbuiging op Rugextensiebank",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Crunch op de Grond",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Militair Drukken",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Kuitextensie Machine",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Heupextensie Kabel",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Triceps Extensie Boven Hoofd Eenarmig",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Roeier Sit-Up",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Sumo Squat met Dumbbell",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Leg Curl Zittend Eenbenig",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Traploper",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Rugextensie Machine",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Rack Pull",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Eenarmig Roeien met Dumbbell",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Triceps Kickback",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Beenheffen Gekruist met Kegel",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Crunch op Fitbal",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Crunch met Benen Omhoog",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Sumo Squat Smith",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Knielende Squat",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Heupabductie Smith",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Kuitheffen Horizontale Beenpers",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "21s Curl",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Roemeens Deadlift Dumbbells",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Bankdrukken Negatief",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Dip Machine",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Triceps Pushdown Supinatie",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Heupabductie Kabel",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "V-Up Afwisselend",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Beenheffen Negatieve Bank",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Beenheffen aan de Brug",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Squat met Partials",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Hack Squat Eenbenig",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Cable Crossover Midden",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Achterste Deltoid Kabel Eenarmig",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Opdrukken op Fitbal",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Glute Kickback Machine",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Zijligging Heupabductie",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Beenpers Verticaal",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Beenpers Brede Voetstand",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Pullover Negatief",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Hammer Strength Pulldown Breed",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "T-Bar Roeien",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Voorovergebogen Roeien Onderhands",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Roeimachine Eenarmig Nauw",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Roemeens Deadlift Kabel met Voorrek",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Schuin Chest Press Machine",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Triceps Pushdown Onderhands",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Skull Crusher Kabel",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Mountain Climber",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Beenheffen op Fitbal",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Schuine Crunch Afwisselend op Bal",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Zijligging Crunch",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Zijbuiging Lage Kabel",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Buikwiel",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Russische Twist",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Afwisselende Lunge Smith",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Step-Up Lunge Voorwaarts",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Trap Bar Squat",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Front Squat Smith",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Sumo Squat In en Uit",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Optrekken",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Kabel Curl Hoog",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Kabel Curl",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Hometrainer",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Cable Crossover Laag",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Schouderdrukken EZ-Bar",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Schouderdrukken Machine",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Schouderdrukken Smith",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Voorwaartse Verhoging",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Zijwaartse Verhoging Schuine Bank",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Loopband Joggen",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Rugextensie Romeinse Stoel",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Nordic Hamstring Curl",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Leg Curl Fitbal Eenbenig",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Sumo Deadlift Dumbbells",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Deadlift Eenbenig",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Kuitheffen tegen de Muur",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Kuitheffen Hack Machine",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Isometrische Plank",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Zijplank Laag",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Plank met Heuprotatie",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Zittend Roeien Romeins",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Roeien met H-Bar",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Roeien Dumbbells Schuine Bank",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Roeimachine Onderhands",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Omgekeerde Curl Schuine Bank",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Curl achter het Hoofd Kabel",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Omgekeerde Curl",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Schoudermobiliteit Eenzijdig",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Roemeens Deadlift Verspringend Smith",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Roemeens Deadlift Smith",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Roemeens Deadlift Kabel",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Roemeens Deadlift Eenbenig Gesteund",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Chest Press Eenarmig",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Triceps Extensie Touw Boven Hoofd",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Skull Crusher Eenarmig",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Zijbuiging Romeinse Stoel",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Kabel Fly",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Straight-Arm Pulldown met Touw",
+      "aliases": []
+    }
+  }
+}

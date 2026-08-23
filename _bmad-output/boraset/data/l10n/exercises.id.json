@@ -1,0 +1,786 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "id",
+  "needs_native_review": true,
+  "units": {
+    "weight": "kg",
+    "plate_increment": 1.25
+  },
+  "notes": [
+    "aliases vazios de proposito: apelido e vocabulario local de academia, nao traducao."
+  ],
+  "names": {
+    "leg-press-45": {
+      "name": "Leg Press 45°",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Barbell Squat",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Mesin Abduktor",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Calf Raise Duduk",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Lat Pulldown",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Leg Curl Duduk",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Bench Press Datar",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Lateral Raise",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Leg Extension",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Leg Curl Berbaring",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Triceps Pushdown",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Mesin Adduktor",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Barbell Curl",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Dumbbell Curl",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Back Extension",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Skull Crusher",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Hack Squat",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Hip Thrust",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Dumbbell Press Datar",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Calf Raise Berdiri",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Seated Row Genggaman Sempit",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Lunge",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Dumbbell Press Miring",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Romanian Deadlift",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Calf Raise Mesin",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Calf Raise Satu Kaki",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Lat Pulldown Genggaman Sempit",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Triceps Pushdown Tali",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Mesin Crunch Perut",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Bulgarian Split Squat",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Plank",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Row Mesin",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Preacher Curl",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Reverse Fly Mesin",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Reverse Fly",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Front Squat",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Leg Press Horizontal",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Cable Crunch Berlutut",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Leg Curl Berdiri",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Chest Press Mesin",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Deadlift",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Pec Deck",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Triceps Extension Overhead",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Bench Press Miring",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Barbell Row Membungkuk",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Cable Crossover",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Glute Kickback Kabel",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Hammer Curl",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Leg Raise Berbaring",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Peregangan",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Dip di Bangku",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Squat Satu Kaki",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Leg Extension Satu Kaki",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Glute Kickback Merangkak",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Pulldown Atas",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Row Kabel Bawah Genggaman Úp",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Vacuum Perut",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Lateral Raise Kabel",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "Mobilitas Bahu",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Leg Raise Bangku Miring",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Glute Kabel",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Dumbbell Curl Bergantian",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Squat Tanpa Beban",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Shoulder Press Dumbbell",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Hip Thrust Smith",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Sprint Treadmill",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Rotasi Eksternal",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Pullover Dumbbell",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Push-Up",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Row Genggaman Úp",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Concentration Curl",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Knee Raise di Palang Sejajar",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Fly Dumbbell",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Leg Press Satu Kaki",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Incline Curl 45°",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Reverse Fly Kabel Satu Tangan",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Leg Curl di Bola",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Lat Pulldown Genggaman Terbalik",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Triceps Pushdown Tali Sempit",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Crunch Bangku Turun",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Squat Smith",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Hip Thrust Satu Kaki",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Glute Bangku Romawi",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Leg Curl Berbaring Satu Kaki",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Lat Pulldown Genggaman Lebar",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Upright Row",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Seated Row Genggaman Lebar",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Romanian Deadlift Satu Kaki",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "V-Up",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "V-Up dengan Bola",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Side Bend di Bangku Back Extension",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Crunch Lantai",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Overhead Press Barbell",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Ekstensi Betis Mesin",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Ekstensi Pinggul Kabel",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Triceps Extension Overhead Satu Tangan",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Sit-Up Pendayung",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Sumo Squat Dumbbell",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Leg Curl Duduk Satu Kaki",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Stair Climber",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Back Extension Mesin",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Rack Pull",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Dumbbell Row Satu Tangan",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Triceps Kickback",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Leg Raise Menyilang dengan Kerucut",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Crunch di Bola",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Crunch Kaki Diangkat",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Sumo Squat Smith",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Squat Berlutut",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Abduksi Pinggul Smith",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Calf Raise di Leg Press Horizontal",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "Curl 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Romanian Deadlift Dumbbell",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Bench Press Turun",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Dip Mesin",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Triceps Pushdown Supinasi",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Abduksi Pinggul Kabel",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "V-Up Bergantian",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Leg Raise Bangku Turun",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Leg Raise di Palang Sejajar",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Squat dengan Partial",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Hack Squat Satu Kaki",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Good Morning",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Cable Crossover Tengah",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Deltoid Belakang Kabel Satu Tangan",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Arnold Press",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Push-Up di Bola",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog Pump",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Glute Kickback Mesin",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Abduksi Pinggul Miring",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Leg Press Vertikal",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Leg Press Kaki Lebar",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Pullover Turun",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Pulldown Mesin Genggaman Lebar",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "T-Bar Row",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Barbell Row Genggaman Terbalik",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Row Mesin Satu Tangan Sempit",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Romanian Deadlift Kabel Pra-Regang",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Chest Press Miring Mesin",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Triceps Pushdown Genggaman Terbalik",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Skull Crusher Kabel",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Mountain Climber",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Leg Raise di Bola",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Crunch Oblik Bergantian di Bola",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Crunch Oblik Miring",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Side Bend Kabel Bawah",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Ab Wheel",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Russian Twist",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Lunge Bergantian Smith",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Lunge dengan Step Depan",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Squat Trap Bar",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Front Squat Smith",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Sumo Squat Buka Tutup",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Pull-Up",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Cable Curl Atas",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Cable Curl",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Sepeda Statis",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Cable Crossover Bawah",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Shoulder Press Barbell EZ",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Shoulder Press Mesin",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Shoulder Press Smith",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Front Raise",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Lateral Raise Bangku Miring",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Jogging Treadmill",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Back Extension Bangku Romawi",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Nordic Hamstring Curl",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Leg Curl Bola Satu Kaki",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Sumo Deadlift Dumbbell",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Deadlift Satu Kaki",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Calf Raise di Dinding",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Calf Raise di Hack Squat",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Plank Isometrik",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Side Plank Rendah",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Plank dengan Rotasi Pinggul",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Seated Row Romawi",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Row Barbell H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Dumbbell Row Bangku Miring",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Row Mesin Genggaman Terbalik",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Reverse Curl Miring",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Curl Kabel di Belakang Kepala",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Reverse Curl",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "Mobilitas Bahu Satu Sisi",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Romanian Deadlift Kaki Bertingkat Smith",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Romanian Deadlift Smith",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Romanian Deadlift Kabel",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Romanian Deadlift Satu Kaki Bertumpu",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Chest Press Mesin Satu Tangan",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Triceps Extension Tali Overhead",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Skull Crusher Satu Tangan",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Side Bend Bangku Romawi",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Fly Kabel",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Pulldown Tali Lengan Lurus",
+      "aliases": []
+    }
+  }
+}
