@@ -97,12 +97,12 @@ class SplitDay {
   const SplitDay(this.name, this.focus, this.slots);
 }
 
-class Split {
+class TrainingSplit {
   final String id, name;
   final int daysPerWeek;
   final List<SplitDay> days;
   final Level minLevel;
-  const Split({
+  const TrainingSplit({
     required this.id,
     required this.name,
     required this.daysPerWeek,
@@ -120,7 +120,7 @@ typedef _M = MuscleGroup;
 
 /// Corpo inteiro, 3x na semana. A divisão padrão para quem está começando:
 /// cada grupo é treinado três vezes, com pouco volume por sessão.
-final fullBody3 = Split(
+final fullBody3 = TrainingSplit(
   id: 'full-body-3',
   name: 'Full Body 3x',
   daysPerWeek: 3,
@@ -145,7 +145,7 @@ final fullBody3 = Split(
 
 /// Superior/Inferior, 4x. Mais volume por grupo que o full body, sem exigir
 /// os seis dias de um PPL.
-final upperLower4 = Split(
+final upperLower4 = TrainingSplit(
   id: 'upper-lower-4',
   name: 'Upper / Lower 4x',
   daysPerWeek: 4,
@@ -191,7 +191,7 @@ final upperLower4 = Split(
 );
 
 /// Push / Pull / Legs, 6x. Volume alto e frequência dobrada por grupo.
-final pushPullLegs6 = Split(
+final pushPullLegs6 = TrainingSplit(
   id: 'push-pull-legs-6',
   name: 'Push / Pull / Legs 6x',
   daysPerWeek: 6,
@@ -249,7 +249,7 @@ final pushPullLegs6 = Split(
 );
 
 /// ABC, 3x. Peito+tríceps / costas+bíceps / pernas — a divisão clássica.
-final abc3 = Split(
+final abc3 = TrainingSplit(
   id: 'abc-3',
   name: 'ABC 3x',
   daysPerWeek: 3,
@@ -284,7 +284,7 @@ final abc3 = Split(
 );
 
 const allSplits = <String>['full-body-3', 'upper-lower-4', 'abc-3', 'push-pull-legs-6'];
-List<Split> splitsFor(Level level) => [fullBody3, upperLower4, abc3, pushPullLegs6]
+List<TrainingSplit> splitsFor(Level level) => [fullBody3, upperLower4, abc3, pushPullLegs6]
     .where((s) => s.minLevel.index <= level.index)
     .toList();
 
@@ -293,7 +293,7 @@ List<Split> splitsFor(Level level) => [fullBody3, upperLower4, abc3, pushPullLeg
 // ---------------------------------------------------------------------------
 
 class ProgramRequest {
-  final Split split;
+  final TrainingSplit split;
   final Goal goal;
   final Level level;
   final Set<Equipment> availableEquipment;

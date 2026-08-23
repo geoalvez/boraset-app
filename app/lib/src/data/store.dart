@@ -53,6 +53,32 @@ class SessionSummary {
   Duration? get duration => finishedAt?.difference(startedAt);
 }
 
+/// O que o usuário escolheu para o próprio programa.
+class ProgramSetup {
+  final String splitId;
+  final Goal goal;
+  final Level level;
+
+  /// Vazio = "assume que a academia tem tudo". É o padrão honesto: pedir o
+  /// inventário do ferro antes do primeiro treino afugenta o usuário.
+  final Set<Equipment> equipment;
+
+  /// false na primeira abertura — a UI oferece configurar, sem obrigar.
+  final bool configured;
+
+  const ProgramSetup({
+    required this.splitId,
+    required this.goal,
+    required this.level,
+    required this.equipment,
+    this.configured = false,
+  });
+
+  TrainingSplit get split =>
+      splitsFor(Level.avancado).firstWhere((s) => s.id == splitId,
+          orElse: () => abc3);
+}
+
 class WorkoutStore {
   final Database db;
   WorkoutStore(this.db);
@@ -221,6 +247,39 @@ class WorkoutStore {
           warmup: (r['warmup'] as int) == 1,
         ),
     ];
+  }
+
+  // --- configuração do programa --------------------------------------------
+
+  /// O que o usuário escolheu: divisão, objetivo, nível e o ferro que a
+  /// academia dele tem. É o que o gerador consome.
+  Future<void> saveSetup({
+    required String splitId,
+    required Goal goal,
+    required Level level,
+    required Set<Equipment> equipment,
+  }) async {
+    await setPref('split', splitId);
+    await setPref('goal', goal.name);
+    await setPref('level', level.name);
+    await setPref('equipment', equipment.map((e) => e.name).join(','));
+  }
+
+  Future<ProgramSetup> setup() async {
+    final rows = await db.query('prefs');
+    final m = {for (final r in rows) r['key'] as String: r['value'] as String};
+    T pick<T extends Enum>(List<T> values, String? name, T fallback) =>
+        values.where((v) => v.name == name).firstOrNull ?? fallback;
+    final eq = (m['equipment'] ?? '').split(',').where((s) => s.isNotEmpty);
+    return ProgramSetup(
+      splitId: m['split'] ?? 'abc-3',
+      goal: pick(Goal.values, m['goal'], Goal.hipertrofia),
+      level: pick(Level.values, m['level'], Level.intermediario),
+      equipment: {
+        for (final e in eq) ...Equipment.values.where((v) => v.name == e),
+      },
+      configured: m.containsKey('split'),
+    );
   }
 
   // --- perfil ---------------------------------------------------------------

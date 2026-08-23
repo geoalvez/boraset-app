@@ -142,6 +142,26 @@ void main() {
     });
   });
 
+  group('objetivo muda a prescrição', () {
+    test('força usa carga alta, poucas reps e descanso longo', () {
+      final f = builder.buildDay(ProgramRequest(split: abc3, goal: Goal.forca), 0);
+      final h = builder.buildDay(ProgramRequest(split: abc3, goal: Goal.hipertrofia), 0);
+      final fa = f.allSlots.firstWhere((s) => s.priority == 1);
+      final ha = h.allSlots.firstWhere((s) => s.priority == 1);
+
+      expect((fa.reps as RepRange).max, lessThan((ha.reps as RepRange).max));
+      expect(fa.rest.nominal, greaterThan(ha.rest.nominal));
+      expect(fa.plannedSets, greaterThanOrEqualTo(ha.plannedSets));
+    });
+
+    test('resistência inverte: muitas reps e descanso curto', () {
+      final r = builder.buildDay(ProgramRequest(split: abc3, goal: Goal.resistencia), 0);
+      final anchor = r.allSlots.firstWhere((s) => s.priority == 1);
+      expect((anchor.reps as RepRange).min, greaterThanOrEqualTo(12));
+      expect(anchor.rest.nominal.inSeconds, lessThanOrEqualTo(45));
+    });
+  });
+
   group('técnicas', () {
     test('hipertrofia recebe técnica; força não', () {
       final hip = builder.buildDay(

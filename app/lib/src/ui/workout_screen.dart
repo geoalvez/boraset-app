@@ -80,23 +80,27 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   Future<void> _restore() async {
     final store = widget.store;
     if (store == null) return;
-    await store.startSession(_sessionId, _session.name, budget: _budget);
-    final profile = await store.profile();
+    final setup = await store.setup();
+    final profile = await store.profile(level: setup.level);
     final loads = <String, Map<int, double>>{};
     for (final slug in _session.allSlots.map((s) => s.exerciseSlug).toSet()) {
       final l = await store.lastLoadsFor(slug);
       if (l.isNotEmpty) loads[slug] = l;
     }
     // Rotaciona o dia e avança a semana conforme o histórico cresce: a cada
-    // 3 sessões o ciclo dá uma volta, e a cada volta a semana avança.
+    // volta completa da divisão, a semana avança e o volume acompanha a curva.
     final done = (await store.recentSessions(limit: 400)).length;
+    final n = setup.split.days.length;
+    final session = _sessionFor(widget.data,
+        dayIndex: done % n, week: (done ~/ n) + 1,
+        profile: profile, setup: setup);
     if (!mounted) return;
     setState(() {
       _profile = profile;
       _previousLoads = loads;
-      _session = _sessionFor(widget.data,
-          dayIndex: done % 3, week: (done ~/ 3) + 1, profile: profile);
+      _session = session;
     });
+    await store.startSession(_sessionId, session.name, budget: _budget);
     _recompute(const WhatNow());
   }
 
@@ -817,11 +821,13 @@ WorkoutSession _sessionFor(
   required int dayIndex,
   required int week,
   UserProfile profile = const UserProfile(),
+  ProgramSetup? setup,
 }) {
   final req = ProgramRequest(
-    split: abc3,
-    goal: Goal.hipertrofia,
-    level: profile.level,
+    split: setup?.split ?? abc3,
+    goal: setup?.goal ?? Goal.hipertrofia,
+    level: setup?.level ?? profile.level,
+    availableEquipment: setup?.equipment ?? const {},
     avoided: profile.avoided,
     week: week,
   );

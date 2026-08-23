@@ -24,8 +24,9 @@ app/                              Flutter (Android + iOS)
   lib/main.dart                   boot: catálogo + banco, locale, RTL
   lib/src/data/repository.dart    carrega catálogo + pacote de idioma
   lib/src/data/store.dart         SQLite local — histórico, cargas, perfil
-  lib/src/ui/app_shell.dart       Treino · Biblioteca · Histórico
+  lib/src/ui/app_shell.dart       Treino · Programa · Biblioteca · Histórico
   lib/src/ui/workout_screen.dart  a tela de treino
+  lib/src/ui/program_screen.dart  divisão, objetivo, nível, equipamento + prévia
   lib/src/ui/library_screen.dart  193 exercícios e 30 técnicas, buscáveis
   lib/src/ui/history_screen.dart  treinos passados + barra de calibração
   lib/src/ui/help_sheet.dart      o popup (técnica + justificativa do motor)
@@ -53,7 +54,7 @@ app/assets/data/
 
 ```bash
 cd packages/boraset_domain && dart test      # 28 testes — motor, escada, anilha
-cd app && flutter test                       # 42 testes — dados, banco, gerador e telas
+cd app && flutter test                       # 48 testes — dados, banco, gerador e telas
 cd app && flutter run                        # Android / iOS / web
 ```
 
@@ -61,7 +62,7 @@ cd app && flutter run                        # Android / iOS / web
 
 ## Decisões de arquitetura
 
-**70 testes, e cada um corresponde a uma afirmação sobre o produto.** Se a afirmação
+**76 testes, e cada um corresponde a uma afirmação sobre o produto.** Se a afirmação
 estiver errada, o teste quebra. Foi assim que apareceram um `Timer.periodic` que
 reconstruía a tela 60 vezes por minuto para não mudar nada, uma colisão de nome em
 polonês entre dois exercícios de músculos diferentes, e um `ORDER BY logged_at` sem
@@ -206,7 +207,6 @@ pior que deixar em branco.
 - Revisão nativa dos 17 idiomas gerados (`needs_native_review: true`)
 - `aliases` por idioma — apelido é gíria local de academia, não tradução
 - Sincronização com backend (o schema já tem `synced_at`, mas nada sincroniza)
-- Escolha da divisão pela interface: hoje o app assume ABC 3x e roda o ciclo sozinho
 - Tela de perfil: nível, objetivo e equipamentos da academia ainda não são editáveis
 - iOS não foi gerado (precisa de macOS); web compila mas o SQLite local não roda lá
 - Ingestão automatizada de novas planilhas para o catálogo

@@ -158,6 +158,49 @@ void main() {
     });
   });
 
+  group('configuração do programa', () {
+    test('sem configurar, vem um padrão treinável — não vazio', () async {
+      final s = await store.setup();
+      expect(s.configured, isFalse);
+      expect(s.splitId, 'abc-3');
+      expect(s.goal, Goal.hipertrofia);
+      expect(s.equipment, isEmpty,
+          reason: 'vazio significa "assume que a academia tem tudo"');
+    });
+
+    test('a escolha do usuário volta inteira', () async {
+      await store.saveSetup(
+        splitId: 'upper-lower-4',
+        goal: Goal.forca,
+        level: Level.avancado,
+        equipment: {Equipment.halter, Equipment.banco},
+      );
+      final s = await store.setup();
+      expect(s.configured, isTrue);
+      expect(s.split.id, 'upper-lower-4');
+      expect(s.goal, Goal.forca);
+      expect(s.level, Level.avancado);
+      expect(s.equipment, {Equipment.halter, Equipment.banco});
+    });
+
+    test('divisão desconhecida não quebra o app — cai no padrão', () async {
+      await store.setPref('split', 'divisao-que-nao-existe');
+      expect((await store.setup()).split.id, 'abc-3');
+    });
+
+    test('esvaziar o equipamento volta a "tem tudo"', () async {
+      await store.saveSetup(
+        splitId: 'abc-3', goal: Goal.hipertrofia,
+        level: Level.intermediario, equipment: {Equipment.halter},
+      );
+      await store.saveSetup(
+        splitId: 'abc-3', goal: Goal.hipertrofia,
+        level: Level.intermediario, equipment: {},
+      );
+      expect((await store.setup()).equipment, isEmpty);
+    });
+  });
+
   group('preferências', () {
     test('"quero trocar" vira filtro persistente do motor', () async {
       await store.avoid('agachamento-livre');

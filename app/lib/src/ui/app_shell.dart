@@ -10,6 +10,7 @@ import '../data/repository.dart';
 import '../data/store.dart';
 import 'history_screen.dart';
 import 'library_screen.dart';
+import 'program_screen.dart';
 import 'theme.dart';
 import 'workout_screen.dart';
 
@@ -25,12 +26,25 @@ class AppShell extends StatefulWidget {
 class _AppShellState extends State<AppShell> {
   int _tab = 0;
 
+  /// Muda quando o programa é reconfigurado, para a tela de treino se refazer
+  /// do zero em vez de continuar exibindo a divisão antiga.
+  int _programVersion = 0;
+
   @override
   Widget build(BuildContext context) => Scaffold(
         body: IndexedStack(
           index: _tab,
           children: [
-            WorkoutScreen(data: widget.data, store: widget.store),
+            WorkoutScreen(
+              key: ValueKey('workout-$_programVersion'),
+              data: widget.data,
+              store: widget.store,
+            ),
+            ProgramScreen(
+              data: widget.data,
+              store: widget.store,
+              onChanged: () => setState(() => _programVersion++),
+            ),
             LibraryScreen(data: widget.data),
             // key força recarregar o histórico ao voltar para a aba.
             HistoryScreen(key: ValueKey(_tab), store: widget.store),
@@ -45,6 +59,11 @@ class _AppShellState extends State<AppShell> {
               icon: Icon(Icons.fitness_center_outlined),
               selectedIcon: Icon(Icons.fitness_center),
               label: 'Treino',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.tune_outlined),
+              selectedIcon: Icon(Icons.tune),
+              label: 'Programa',
             ),
             NavigationDestination(
               icon: Icon(Icons.menu_book_outlined),
