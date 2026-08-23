@@ -20,6 +20,13 @@ Fase de modelagem de domínio. Ainda não há app Flutter; há o **núcleo de do
 e as **bases de dados** que o alimentam.
 
 ```
+app/                              Flutter (Android + iOS)
+  lib/main.dart                   shell, locale, RTL
+  lib/src/data/repository.dart    carrega catálogo + pacote de idioma
+  lib/src/ui/workout_screen.dart  a tela de treino
+  lib/src/ui/help_sheet.dart      o popup (técnica + justificativa do motor)
+  assets/data/                    FONTE ÚNICA dos dados — catálogo e idiomas
+
 packages/boraset_domain/lib/src/
   catalog.dart      eixos de movimento, score de compatibilidade, filtros
   session.dart      SessionBlock, ExerciseSlot, SetRecord, BusyRegistry
@@ -28,8 +35,8 @@ packages/boraset_domain/lib/src/
   progression.dart  progressão de carga + matemática de anilha por país
   presentation.dart o que a tela mostra: tom, aviso, e quando calar
 
-_bmad-output/boraset/data/
-  catalog/exercises.core.json     193 exercícios · 13 eixos · 1.980 equivalências
+app/assets/data/
+  catalog/exercises.core.json     193 exercícios · 14 eixos · 1.980 equivalências
   catalog/techniques.core.json     30 técnicas · categoria e frequência
   l10n/exercises.<locale>.json     nomes por idioma (18 idiomas)
   l10n/techniques.<locale>.json    ajuda por idioma (18 idiomas)
@@ -37,9 +44,22 @@ _bmad-output/boraset/data/
   locales.json                     manifesto de cobertura de tradução
 ```
 
+## Rodando
+
+```bash
+cd packages/boraset_domain && dart test      # 28 testes — motor, escada, anilha
+cd app && flutter test                       # 13 testes — dados e tela
+cd app && flutter run                        # Android / iOS / web
+```
+
 ---
 
 ## Decisões de arquitetura
+
+**41 testes, e cada um corresponde a uma afirmação sobre o produto.** Se a afirmação
+estiver errada, o teste quebra. Foi assim que apareceram um `Timer.periodic` que
+reconstruía a tela 60 vezes por minuto para não mudar nada, e uma colisão de nome em
+polonês entre dois exercícios de músculos diferentes.
 
 **O motor é uma função pura.** `Decision decide(EngineInput input)`. Sem I/O, sem relógio, sem
 Flutter. O tempo decorrido entra por injeção (`input.elapsed`) — nunca `DateTime.now()`. Isso
@@ -158,7 +178,8 @@ pior que deixar em branco.
 
 - Revisão nativa dos 17 idiomas gerados (`needs_native_review: true`)
 - `aliases` por idioma — apelido é gíria local de academia, não tradução
-- App Flutter: telas, persistência local, sincronização
+- Persistência local e sincronização (hoje a sessão vive só em memória)
+- Mais telas: biblioteca de exercícios, histórico, perfil, montagem de ficha
 - Ingestão automatizada de novas planilhas para o catálogo
 
 ## Não é

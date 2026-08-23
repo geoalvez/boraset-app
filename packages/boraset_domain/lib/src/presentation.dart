@@ -8,9 +8,9 @@
 /// no primeiro redesign.
 library;
 
-import 'catalog.dart';
 import 'engine.dart';
 import 'progression.dart';
+import 'session.dart';
 
 // ---------------------------------------------------------------------------
 // Progressão de carga

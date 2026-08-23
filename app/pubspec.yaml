@@ -1,0 +1,30 @@
+name: boraset
+description: BoraSet — copiloto de treino adaptativo em tempo real.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  boraset_domain:
+    path: ../packages/boraset_domain
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Núcleo neutro de idioma — carregado sempre.
+    - assets/data/catalog/
+    # Pacotes por idioma — só o do usuário é lido em runtime,
+    # mas todos vão no bundle (1,3 MB para os 18).
+    - assets/data/l10n/
+    - assets/data/locales.json

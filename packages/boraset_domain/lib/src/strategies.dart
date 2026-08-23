@@ -7,7 +7,6 @@ library;
 
 import 'catalog.dart';
 import 'engine.dart';
-import 'session.dart';
 
 typedef Rung = ({Adaptation adaptation, Rationale why});
 

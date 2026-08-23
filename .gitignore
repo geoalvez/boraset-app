@@ -21,3 +21,11 @@ Thumbs.db
 # Material de origem: planilhas de treino de terceiros, com dados pessoais
 # no rodapé. NUNCA versionar.
 *.pdf
+
+# Flutter
+app/build/
+app/.dart_tool/
+app/android/.gradle/
+app/android/local.properties
+app/**/GeneratedPluginRegistrant.*
+packages/**/.dart_tool/
