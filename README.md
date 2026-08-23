@@ -21,9 +21,13 @@ e as **bases de dados** que o alimentam.
 
 ```
 app/                              Flutter (Android + iOS)
-  lib/main.dart                   shell, locale, RTL
+  lib/main.dart                   boot: catálogo + banco, locale, RTL
   lib/src/data/repository.dart    carrega catálogo + pacote de idioma
+  lib/src/data/store.dart         SQLite local — histórico, cargas, perfil
+  lib/src/ui/app_shell.dart       Treino · Biblioteca · Histórico
   lib/src/ui/workout_screen.dart  a tela de treino
+  lib/src/ui/library_screen.dart  193 exercícios e 30 técnicas, buscáveis
+  lib/src/ui/history_screen.dart  treinos passados + barra de calibração
   lib/src/ui/help_sheet.dart      o popup (técnica + justificativa do motor)
   assets/data/                    FONTE ÚNICA dos dados — catálogo e idiomas
 
@@ -48,7 +52,7 @@ app/assets/data/
 
 ```bash
 cd packages/boraset_domain && dart test      # 28 testes — motor, escada, anilha
-cd app && flutter test                       # 13 testes — dados e tela
+cd app && flutter test                       # 26 testes — dados, banco e telas
 cd app && flutter run                        # Android / iOS / web
 ```
 
@@ -56,10 +60,18 @@ cd app && flutter run                        # Android / iOS / web
 
 ## Decisões de arquitetura
 
-**41 testes, e cada um corresponde a uma afirmação sobre o produto.** Se a afirmação
+**54 testes, e cada um corresponde a uma afirmação sobre o produto.** Se a afirmação
 estiver errada, o teste quebra. Foi assim que apareceram um `Timer.periodic` que
-reconstruía a tela 60 vezes por minuto para não mudar nada, e uma colisão de nome em
-polonês entre dois exercícios de músculos diferentes.
+reconstruía a tela 60 vezes por minuto para não mudar nada, uma colisão de nome em
+polonês entre dois exercícios de músculos diferentes, e um `ORDER BY logged_at` sem
+desempate — que devolvia a carga da sessão errada para quem treinasse duas vezes no
+mesmo dia.
+
+**O histórico existe para fechar o laço da estimativa.** Sem ele o app fica preso em
+"20–30 min" para sempre. Cada série cronometrada empurra a confiança de `coldStart`
+para `calibrating` (12 séries) e depois `personalized` (40) — e a tela de histórico
+mostra essa barra, para que a incerteza seja algo que se resolve treinando em vez de
+um defeito silencioso.
 
 **O motor é uma função pura.** `Decision decide(EngineInput input)`. Sem I/O, sem relógio, sem
 Flutter. O tempo decorrido entra por injeção (`input.elapsed`) — nunca `DateTime.now()`. Isso
@@ -178,8 +190,10 @@ pior que deixar em branco.
 
 - Revisão nativa dos 17 idiomas gerados (`needs_native_review: true`)
 - `aliases` por idioma — apelido é gíria local de academia, não tradução
-- Persistência local e sincronização (hoje a sessão vive só em memória)
-- Mais telas: biblioteca de exercícios, histórico, perfil, montagem de ficha
+- Sincronização com backend (o schema já tem `synced_at`, mas nada sincroniza)
+- Montagem de ficha: hoje o Treino A é fixo no código, não há como criar a sua
+- Tela de perfil: nível, objetivo e equipamentos da academia ainda não são editáveis
+- iOS não foi gerado (precisa de macOS); web compila mas o SQLite local não roda lá
 - Ingestão automatizada de novas planilhas para o catálogo
 
 ## Não é

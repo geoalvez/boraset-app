@@ -9,8 +9,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'src/data/repository.dart';
+import 'src/data/store.dart';
+import 'src/ui/app_shell.dart';
 import 'src/ui/theme.dart';
-import 'src/ui/workout_screen.dart';
 
 void main() => runApp(const BorasetApp());
 
@@ -48,17 +49,23 @@ class _Boot extends StatefulWidget {
 }
 
 class _BootState extends State<_Boot> {
-  Future<BorasetData>? _future;
+  Future<(BorasetData, WorkoutStore)>? _future;
 
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
     final l = Localizations.localeOf(context);
-    _future ??= Repository().load(l.languageCode, country: l.countryCode);
+    _future ??= _boot(l);
+  }
+
+  Future<(BorasetData, WorkoutStore)> _boot(Locale l) async {
+    final data = await Repository().load(l.languageCode, country: l.countryCode);
+    final store = await WorkoutStore.open();
+    return (data, store);
   }
 
   @override
-  Widget build(BuildContext context) => FutureBuilder<BorasetData>(
+  Widget build(BuildContext context) => FutureBuilder<(BorasetData, WorkoutStore)>(
         future: _future,
         builder: (context, snap) {
           if (snap.hasError) {
@@ -74,7 +81,8 @@ class _BootState extends State<_Boot> {
           if (!snap.hasData) {
             return const Scaffold(body: Center(child: CircularProgressIndicator()));
           }
-          return WorkoutScreen(data: snap.data!);
+          final (data, store) = snap.data!;
+          return AppShell(data: data, store: store);
         },
       );
 }

@@ -13,11 +13,16 @@ dependencies:
     sdk: flutter
   boraset_domain:
     path: ../packages/boraset_domain
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  # Permite rodar o MESMO SQL dos testes, sem emulador.
+  sqflite_common_ffi: ^2.3.4
 
 flutter:
   uses-material-design: true

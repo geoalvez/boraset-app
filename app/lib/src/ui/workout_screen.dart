@@ -14,12 +14,14 @@ import 'package:boraset_domain/boraset_domain.dart';
 import 'package:flutter/material.dart';
 
 import '../data/repository.dart';
+import '../data/store.dart';
 import 'help_sheet.dart';
 import 'theme.dart';
 
 class WorkoutScreen extends StatefulWidget {
   final BorasetData data;
-  const WorkoutScreen({super.key, required this.data});
+  final WorkoutStore? store;
+  const WorkoutScreen({super.key, required this.data, this.store});
 
   @override
   State<WorkoutScreen> createState() => _WorkoutScreenState();
@@ -44,6 +46,16 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   Duration? _budget;
   Duration? _restFrom;
 
+  /// Cargas da última vez que cada exercício foi feito, por índice de série.
+  Map<String, Map<int, double>> _previousLoads = const {};
+
+  final String _sessionId =
+      'sess-${DateTime.now().millisecondsSinceEpoch}';
+
+  /// Quando a série atual começou — vira `seconds` no banco e alimenta a
+  /// estimativa personalizada. Sem isso o app nunca sai do modo "faixa".
+  DateTime _setStartedAt = DateTime.now();
+
   Decision? _decision;
 
   @override
@@ -56,6 +68,30 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
       duration: const HistoricalDurationModel(),
     );
     _engine = e;
+    _recompute(const WhatNow());
+    _restore();
+  }
+
+  /// Carrega perfil e cargas do banco, e abre a sessão.
+  ///
+  /// É aqui que o histórico volta para dentro do motor: `observedSetSeconds`
+  /// tira a estimativa do modo "faixa", e `avoided` reaplica os "quero trocar"
+  /// de sessões passadas sem o usuário precisar repetir.
+  Future<void> _restore() async {
+    final store = widget.store;
+    if (store == null) return;
+    await store.startSession(_sessionId, _session.name, budget: _budget);
+    final profile = await store.profile();
+    final loads = <String, Map<int, double>>{};
+    for (final slug in _session.allSlots.map((s) => s.exerciseSlug).toSet()) {
+      final l = await store.lastLoadsFor(slug);
+      if (l.isNotEmpty) loads[slug] = l;
+    }
+    if (!mounted) return;
+    setState(() {
+      _profile = profile;
+      _previousLoads = loads;
+    });
     _recompute(const WhatNow());
   }
 
@@ -76,13 +112,31 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
   // --- ações ---------------------------------------------------------------
 
   void _completeSet(ExerciseSlot slot, double? load, int? reps) {
-    final updated = slot.copyWith(completed: [
-      ...slot.completed,
-      SetRecord(index: slot.completed.length, loadKg: load, reps: reps),
-    ]);
+    final seconds = DateTime.now().difference(_setStartedAt).inSeconds;
+    final index = slot.completed.length;
+    final record = SetRecord(
+      index: index,
+      loadKg: load,
+      reps: reps,
+      elapsed: Duration(seconds: seconds),
+    );
+    final updated = slot.copyWith(completed: [...slot.completed, record]);
     _replaceSlot(slot.id, updated);
     _startRest(updated.rest.nominal);
-    _recompute(SetCompleted(slot.id, updated.completed.last));
+    _setStartedAt = DateTime.now();
+    _recompute(SetCompleted(slot.id, record));
+
+    widget.store?.logSet(LoggedSet(
+      sessionId: _sessionId,
+      slotId: slot.id,
+      exerciseSlug: slot.exerciseSlug,
+      setIndex: index,
+      loadKg: load,
+      reps: reps,
+      // Descarta tempos absurdos: o app ficou em segundo plano, ou a pessoa
+      // parou para conversar. Uma série de 11 minutos envenena a média.
+      seconds: seconds > 0 && seconds < 600 ? seconds : null,
+    ));
   }
 
   void _replaceSlot(String id, ExerciseSlot next) {
@@ -117,7 +171,9 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
           preferred: _profile.preferred,
           level: _profile.level,
           observedSetSeconds: _profile.observedSetSeconds,
+          observedTransitionSeconds: _profile.observedTransitionSeconds,
         );
+        widget.store?.avoid(slot.exerciseSlug); // vale para as próximas sessões
       default:
         break;
     }
@@ -138,7 +194,9 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
         child: Padding(
           padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 16),
           child: slot == null
-              ? Center(child: Text('Treino concluído', style: text.displaySmall))
+              ? _Finished(
+                  onClose: () => widget.store?.finishSession(_sessionId),
+                  style: text.displaySmall)
               : Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -209,6 +267,7 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
     );
     if (minutes == null) return;
     setState(() => _budget = minutes == 0 ? null : Duration(minutes: minutes));
+    widget.store?.startSession(_sessionId, _session.name, budget: _budget);
     _recompute(TimeBudgetChanged(_budget ?? const Duration(hours: 2)));
   }
 
@@ -230,8 +289,12 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
     _completeSet(slot, result.$1, result.$2);
   }
 
-  double? _previousLoad(ExerciseSlot slot) =>
-      slot.completed.isEmpty ? null : slot.completed.last.loadKg;
+  /// A carga a pré-preencher: a desta série nesta sessão, ou a mesma série
+  /// da última vez. Nunca "a carga do exercício" — Pirâmide não permite.
+  double? _previousLoad(ExerciseSlot slot) {
+    if (slot.completed.isNotEmpty) return slot.completed.last.loadKg;
+    return _previousLoads[slot.exerciseSlug]?[0];
+  }
 
   Future<void> _showProblems(ExerciseSlot slot) async {
     final action = await showModalBottomSheet<WorkoutAction>(
@@ -714,6 +777,27 @@ class _LoadCueCard extends StatelessWidget {
 
   static String _fmt(double v) =>
       v == v.roundToDouble() ? v.toStringAsFixed(0) : v.toStringAsFixed(1);
+}
+
+class _Finished extends StatefulWidget {
+  final VoidCallback onClose;
+  final TextStyle? style;
+  const _Finished({required this.onClose, this.style});
+
+  @override
+  State<_Finished> createState() => _FinishedState();
+}
+
+class _FinishedState extends State<_Finished> {
+  @override
+  void initState() {
+    super.initState();
+    widget.onClose(); // carimba o fim da sessão no banco, uma vez só
+  }
+
+  @override
+  Widget build(BuildContext context) =>
+      Center(child: Text('Treino concluído', style: widget.style));
 }
 
 // --- sessão de demonstração -------------------------------------------------
