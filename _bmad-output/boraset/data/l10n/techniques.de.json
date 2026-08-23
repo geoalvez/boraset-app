@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "de",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Maximalkontraktion",
+      "aliases": [],
+      "summary": "Halte 1-2s im Punkt der stärksten Kontraktion jeder Wiederholung und spanne an, bevor du zurückgehst.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Aufsteigende Pyramide",
+      "aliases": [],
+      "summary": "Mit jedem Satz mehr Gewicht und weniger Wiederholungen. Leicht anfangen, schwer aufhören.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Konzentrisches Muskelversagen",
+      "aliases": [],
+      "summary": "Wiederhole, bis du das Gewicht nicht mehr allein bewegen kannst. Stopp, wenn die Aufwärtsphase versagt.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Ohne Wiederholungsvorgabe",
+      "aliases": [],
+      "summary": "Keine feste Wiederholungszahl. Mach so viel wie sauber möglich, im vorgegebenen Anstrengungsgrad.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop-Satz",
+      "aliases": [],
+      "summary": "Bis zum Versagen gehen, sofort 20-30% Gewicht abnehmen und ohne Pause weitermachen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-Pause mit nur einer Runde: Versagen, ~15s Pause, ein weiterer Block mit gleichem Gewicht.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Wiederholungen in Reserve",
+      "aliases": [],
+      "summary": "Höre auf, wenn noch 1-3 Wiederholungen möglich wären. Nicht bis zum Versagen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster-Satz",
+      "aliases": [],
+      "summary": "Teile den Satz in kurze Blöcke mit 10-20s Pause dazwischen, bei hoher Last.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Keine Pause zwischen den Wiederholungen und keine Pause bis zum Satzende. Durchgehende Bewegung.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Bis zum Versagen, 10-20s Pause, dann mit gleichem Gewicht weiter. 2 bis 3 Runden.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Progressive Spannung",
+      "aliases": [],
+      "summary": "Steigere die Anforderung pro Satz - Last, Spannungsdauer oder Bewegungsumfang - ohne Technikverlust.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "3/7-Methode",
+      "aliases": [],
+      "summary": "Fünf Blöcke mit 3, 4, 5, 6 und 7 Wiederholungen, ~15s Pause, durchgehend gleiches Gewicht.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Langsam Exzentrisch",
+      "aliases": [],
+      "summary": "Senke das Gewicht langsam ab (3-5s) und hebe in normalem Tempo. Die Absenkphase zählt.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip-Satz",
+      "aliases": [],
+      "summary": "Mehrere Drops hintereinander: Versagen, abnehmen, wieder Versagen, wieder abnehmen, bis nichts bleibt.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Okklusionstraining",
+      "aliases": [],
+      "summary": "Training mit teilweiser Blutflussrestriktion, leichter Last und vielen Wiederholungen.",
+      "full": null,
+      "caution": "Erfordert persönliche Anleitung durch eine Fachkraft für Manschettendruck und Dauer. Nicht mit Standardbändern improvisieren.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Supersatz",
+      "aliases": [],
+      "summary": "Zwei Übungen direkt hintereinander, ohne Pause. Die Pause kommt erst nach dem Paar.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Schnelle Wiederholungen",
+      "aliases": [],
+      "summary": "Zügiges Tempo mit Kontrolle. Der Fokus liegt auf Geschwindigkeit, nicht auf Maximallast.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Verlängerte Spannungsdauer: jede Wiederholung langsam in beiden Phasen, ohne Ausruhen im Endpunkt.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Totales Versagen",
+      "aliases": [],
+      "summary": "Bis das Gewicht sich in keine Richtung mehr bewegen lässt, nicht einmal kontrolliert absenken.",
+      "full": null,
+      "caution": "Nicht bei freien Übungen mit der Last über Körper oder Kopf ohne Spotter und Sicherheitsablagen einsetzen.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Sieben Sätze der letzten Übung einer Muskelgruppe, 30-45s Pause, für maximalen Pump.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Reine Kraft",
+      "aliases": [],
+      "summary": "Hohe Lasten und wenige Wiederholungen mit langen Pausen. Ziel ist Kraft, nicht Volumen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Atemanhalten",
+      "aliases": [],
+      "summary": "Halte die Luft in einem kurzen Abschnitt der Bewegung an, um den Bauchinnendruck zu erhöhen.",
+      "full": null,
+      "caution": "Kann Schwindel verursachen und den Blutdruck erhöhen. Bei Herz-Kreislauf-Erkrankungen, Bluthochdruck oder Schwangerschaft vorher ärztlich abklären.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Langsame Bewegung in beiden Phasen, ohne Schwung und ohne Pause, mit konstanter Spannung.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Aufwärmen",
+      "aliases": [],
+      "summary": "Leichte Sätze vor den Arbeitssätzen, um Gelenk und Bewegungsmuster vorzubereiten.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Konzentrische Explosion",
+      "aliases": [],
+      "summary": "Hebe das Gewicht mit maximaler Beschleunigungsabsicht und senke es kontrolliert ab.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Absteigende Pyramide",
+      "aliases": [],
+      "summary": "Mit jedem Satz weniger Gewicht und mehr Wiederholungen. Schwer anfangen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Pyramide",
+      "aliases": [],
+      "summary": "Last und Wiederholungen ändern sich von Satz zu Satz, statt fix zu bleiben. Auf- oder absteigend.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Satz",
+      "aliases": [],
+      "summary": "Drei Übungen direkt hintereinander, ohne Pause. Die Pause kommt erst nach allen dreien.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Progressive Überlastung",
+      "aliases": [],
+      "summary": "Steigere die Last über die Wochen, sobald du das obere Ende des Wiederholungsbereichs erreichst.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Isometrie",
+      "aliases": [],
+      "summary": "Halte die Position still, ohne zu heben oder zu senken, für die vorgegebene Zeit.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

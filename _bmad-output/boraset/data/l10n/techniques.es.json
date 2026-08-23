@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "es",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Contracción Máxima",
+      "aliases": [],
+      "summary": "Mantén 1-2s en el punto de máxima contracción de cada repetición, apretando el músculo antes de bajar.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Pirámide Ascendente",
+      "aliases": [],
+      "summary": "Subes peso y bajas repeticiones en cada serie. Empiezas ligero y terminas pesado.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Fallo Concéntrico",
+      "aliases": [],
+      "summary": "Repite hasta no poder subir el peso por ti mismo. Para cuando la fase de subida falla.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Sin Repeticiones Fijas",
+      "aliases": [],
+      "summary": "Sin número fijo de repeticiones. Haz lo que puedas con buena técnica, dentro del esfuerzo pedido.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Llega al fallo, baja el peso al instante (20-30%) y sigue sin descansar.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-pause de una sola ronda: fallas, descansas ~15s y haces un bloque más con el mismo peso.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Repeticiones en Reserva",
+      "aliases": [],
+      "summary": "Para dejando 1-3 repeticiones en el tanque. No llegues al fallo.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Divide la serie en bloques cortos con pausas de 10-20s, manteniendo la carga alta.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Sin pausa entre repeticiones y sin descanso hasta terminar la serie. Movimiento continuo.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Llega al fallo, descansa 10-20s y vuelve con el mismo peso. Repite 2 o 3 veces.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Tensión Progresiva",
+      "aliases": [],
+      "summary": "Aumenta la exigencia en cada serie -carga, tiempo bajo tensión o rango- sin perder técnica.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "Método 3/7",
+      "aliases": [],
+      "summary": "Cinco bloques de 3, 4, 5, 6 y 7 repeticiones con ~15s de descanso y el mismo peso.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Excéntrica Lenta",
+      "aliases": [],
+      "summary": "Baja el peso despacio (3-5s) y sube a ritmo normal. La bajada es lo que cuenta.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Varios drops seguidos: fallo, quitas peso, fallo otra vez, quitas otra vez, hasta agotar la carga.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Oclusión",
+      "aliases": [],
+      "summary": "Entrenamiento con restricción parcial del flujo sanguíneo, carga baja y muchas repeticiones.",
+      "full": null,
+      "caution": "Requiere orientación presencial de un profesional para definir presión y tiempo. No improvises con material genérico.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superserie",
+      "aliases": [],
+      "summary": "Dos ejercicios seguidos, sin descanso entre ellos. El descanso llega solo tras el par.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Repeticiones Rápidas",
+      "aliases": [],
+      "summary": "Ejecución a ritmo acelerado, con control. Foco en velocidad, no en carga máxima.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Tiempo bajo tensión prolongado: cada repetición es lenta en ambas fases, sin bloquear al final.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Fallo Total",
+      "aliases": [],
+      "summary": "Sigue hasta no poder mover el peso en ninguna dirección, ni controlar la bajada.",
+      "full": null,
+      "caution": "No la uses en ejercicios libres con el peso sobre el cuerpo o la cabeza sin compañero ni barras de seguridad.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Siete series del último ejercicio del grupo, 30-45s de descanso, buscando congestión máxima.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Fuerza Pura",
+      "aliases": [],
+      "summary": "Cargas altas y pocas repeticiones, con descanso largo. Foco en fuerza, no en volumen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Apnea",
+      "aliases": [],
+      "summary": "Retienes el aire en un tramo corto del movimiento para aumentar la presión intraabdominal.",
+      "full": null,
+      "caution": "Puede causar mareo y subir la presión arterial. Con condición cardiovascular, hipertensión o embarazo, consulta antes a un profesional.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Movimiento lento en ambas fases, sin impulso y sin pausa, manteniendo tensión constante.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Calentamiento",
+      "aliases": [],
+      "summary": "Series ligeras antes de las series efectivas, para preparar la articulación y el patrón.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Explosión Concéntrica",
+      "aliases": [],
+      "summary": "Sube el peso con máxima intención de velocidad y baja controlado.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Pirámide Descendente",
+      "aliases": [],
+      "summary": "Bajas peso y subes repeticiones en cada serie. Empiezas pesado.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Piramidal",
+      "aliases": [],
+      "summary": "La carga y las repeticiones varían entre series en vez de quedarse fijas. Ascendente o descendente.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Triserie",
+      "aliases": [],
+      "summary": "Tres ejercicios seguidos, sin descanso entre ellos. El descanso llega solo al final de los tres.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Carga Progresiva",
+      "aliases": [],
+      "summary": "Aumenta la carga a lo largo de las semanas cuando alcanzas el tope del rango de repeticiones.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Isometría",
+      "aliases": [],
+      "summary": "Mantén la posición quieta, sin subir ni bajar, durante el tiempo indicado.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

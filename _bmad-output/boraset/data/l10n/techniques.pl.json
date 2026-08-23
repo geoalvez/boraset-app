@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "pl",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Szczytowy Skurcz",
+      "aliases": [],
+      "summary": "Zatrzymaj się na 1-2s w punkcie największego skurczu każdego powtórzenia, napinając mięsień.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Piramida Rosnąca",
+      "aliases": [],
+      "summary": "W każdej serii większy ciężar i mniej powtórzeń. Zaczynasz lekko, kończysz ciężko.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Upadek Koncentryczny",
+      "aliases": [],
+      "summary": "Powtarzaj, aż nie zdołasz sam podnieść ciężaru. Kończysz, gdy faza unoszenia zawodzi.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Bez Ustalonych Powtórzeń",
+      "aliases": [],
+      "summary": "Brak sztywnej liczby powtórzeń. Zrób tyle, ile dasz radę technicznie, w zadanym wysiłku.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Dojdź do upadku, natychmiast zdejmij 20-30% ciężaru i kontynuuj bez przerwy.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-pause w jednej rundzie: upadek, ~15s przerwy, jeszcze jeden blok z tym samym ciężarem.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Powtórzenia w Zapasie",
+      "aliases": [],
+      "summary": "Kończ, gdy zostaje jeszcze 1-3 powtórzenia w zapasie. Nie idź do upadku.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Podziel serię na krótkie bloki z 10-20s przerwy między nimi, przy dużym ciężarze.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Bez pauzy między powtórzeniami i bez przerwy do końca serii. Ruch ciągły.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Idź do upadku, odpocznij 10-20s, wróć z tym samym ciężarem. Powtórz 2 lub 3 razy.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Progresywne Napięcie",
+      "aliases": [],
+      "summary": "Zwiększaj wymagania w każdej serii - ciężar, czas napięcia lub zakres - bez utraty techniki.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "Metoda 3/7",
+      "aliases": [],
+      "summary": "Pięć bloków po 3, 4, 5, 6 i 7 powtórzeń z ~15s przerwy, ten sam ciężar od początku do końca.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Wolna Faza Ekscentryczna",
+      "aliases": [],
+      "summary": "Opuszczaj ciężar powoli (3-5s) i unoś w normalnym tempie. Liczy się opuszczanie.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Kilka dropów pod rząd: upadek, zdejmij, znów upadek, znów zdejmij, aż zabraknie ciężaru.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Trening Okluzyjny",
+      "aliases": [],
+      "summary": "Trening z częściowym ograniczeniem przepływu krwi, mały ciężar i dużo powtórzeń.",
+      "full": null,
+      "caution": "Wymaga osobistego nadzoru specjalisty przy ustawieniu ciśnienia i czasu. Nie improwizuj zwykłymi gumami.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superseria",
+      "aliases": [],
+      "summary": "Dwa ćwiczenia pod rząd, bez przerwy między nimi. Przerwa dopiero po parze.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Szybkie Powtórzenia",
+      "aliases": [],
+      "summary": "Wykonanie w szybkim tempie, z kontrolą. Nacisk na prędkość, nie na maksymalny ciężar.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Wydłużony czas pod napięciem: każde powtórzenie wolne w obu fazach, bez blokowania na górze.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Całkowity Upadek",
+      "aliases": [],
+      "summary": "Idź, aż nie poruszysz ciężarem w żadnym kierunku, nawet nie skontrolujesz opuszczania.",
+      "full": null,
+      "caution": "Nie stosuj przy ćwiczeniach z wolnym ciężarem nad ciałem lub głową bez asekuracji i bez bolców zabezpieczających.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Siedem serii ostatniego ćwiczenia na daną partię, 30-45s przerwy, dla maksymalnej pompy.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Czysta Siła",
+      "aliases": [],
+      "summary": "Duże ciężary i mało powtórzeń, z długą przerwą. Cel to siła, nie objętość.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Wstrzymanie Oddechu",
+      "aliases": [],
+      "summary": "Wstrzymaj oddech na krótkim odcinku ruchu, by zwiększyć ciśnienie wewnątrzbrzuszne.",
+      "full": null,
+      "caution": "Może powodować zawroty głowy i podnosić ciśnienie. Przy chorobach sercowo-naczyniowych, nadciśnieniu lub w ciąży skonsultuj się wcześniej ze specjalistą.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Wolny ruch w obu fazach, bez zamachu i bez pauzy, z ciągłym napięciem.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Rozgrzewka",
+      "aliases": [],
+      "summary": "Lekkie serie przed seriami roboczymi, by przygotować staw i wzorzec ruchowy.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Eksplozja Koncentryczna",
+      "aliases": [],
+      "summary": "Unoś ciężar z maksymalnym zamiarem przyspieszenia i opuszczaj pod kontrolą.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Piramida Malejąca",
+      "aliases": [],
+      "summary": "W każdej serii mniejszy ciężar i więcej powtórzeń. Zaczynasz ciężko.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Piramida",
+      "aliases": [],
+      "summary": "Ciężar i powtórzenia zmieniają się między seriami zamiast być stałe. Rosnąca lub malejąca.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [],
+      "summary": "Trzy ćwiczenia pod rząd, bez przerwy między nimi. Przerwa dopiero po wszystkich trzech.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Progresja Obciążenia",
+      "aliases": [],
+      "summary": "Zwiększaj ciężar w kolejnych tygodniach, gdy osiągniesz górną granicę zakresu powtórzeń.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Izometria",
+      "aliases": [],
+      "summary": "Utrzymaj pozycję nieruchomo, bez unoszenia i opuszczania, przez wskazany czas.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

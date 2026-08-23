@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "fr",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Contraction Maximale",
+      "aliases": [],
+      "summary": "Tenez 1-2s au point de contraction maximale de chaque répétition, en serrant le muscle avant de redescendre.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Pyramide Croissante",
+      "aliases": [],
+      "summary": "Vous augmentez la charge et baissez les répétitions à chaque série. Léger au début, lourd à la fin.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Échec Concentrique",
+      "aliases": [],
+      "summary": "Répétez jusqu'à ne plus pouvoir soulever seul. On s'arrête quand la phase de montée échoue.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Sans Répétitions Fixes",
+      "aliases": [],
+      "summary": "Pas de nombre fixe de répétitions. Faites ce que vous pouvez proprement, dans l'effort demandé.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Atteignez l'échec, retirez 20-30% de la charge immédiatement et continuez sans repos.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-pause en une seule manche : échec, ~15s de pause, un bloc de plus avec la même charge.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Répétitions en Réserve",
+      "aliases": [],
+      "summary": "Arrêtez en gardant 1 à 3 répétitions en réserve. N'allez pas jusqu'à l'échec.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Découpez la série en blocs courts avec 10-20s de pause, en gardant une charge lourde.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Aucune pause entre les répétitions et aucun repos avant la fin de la série. Mouvement continu.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Allez à l'échec, reposez 10-20s, reprenez avec la même charge. Répétez 2 à 3 fois.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Tension Progressive",
+      "aliases": [],
+      "summary": "Augmentez l'exigence à chaque série - charge, temps sous tension ou amplitude - sans perdre la technique.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "Méthode 3/7",
+      "aliases": [],
+      "summary": "Cinq blocs de 3, 4, 5, 6 et 7 répétitions avec ~15s de repos, même charge du début à la fin.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Excentrique Lente",
+      "aliases": [],
+      "summary": "Descendez la charge lentement (3-5s) et montez à vitesse normale. C'est la descente qui compte.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Plusieurs drops enchaînés : échec, on retire, échec, on retire encore, jusqu'à épuiser la charge.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Occlusion",
+      "aliases": [],
+      "summary": "Entraînement avec restriction partielle du flux sanguin, charge légère et beaucoup de répétitions.",
+      "full": null,
+      "caution": "Nécessite l'encadrement en présentiel d'un professionnel pour régler la pression et la durée. N'improvisez pas avec du matériel générique.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superset",
+      "aliases": [],
+      "summary": "Deux exercices enchaînés, sans repos entre les deux. Le repos vient seulement après la paire.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Répétitions Rapides",
+      "aliases": [],
+      "summary": "Exécution à rythme accéléré, avec contrôle. L'accent est sur la vitesse, pas la charge maximale.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Temps sous tension prolongé : chaque répétition est lente dans les deux phases, sans verrouillage.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Échec Total",
+      "aliases": [],
+      "summary": "Allez jusqu'à ne plus pouvoir bouger la charge dans aucun sens, ni même contrôler la descente.",
+      "full": null,
+      "caution": "À ne pas utiliser sur les mouvements libres avec la charge au-dessus du corps ou de la tête sans pareur ni barres de sécurité.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Sept séries sur le dernier exercice du groupe, 30-45s de repos, pour une congestion maximale.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Force Pure",
+      "aliases": [],
+      "summary": "Charges lourdes et peu de répétitions, avec repos long. L'objectif est la force, pas le volume.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Apnée",
+      "aliases": [],
+      "summary": "Retenez votre souffle sur une portion courte du mouvement pour augmenter la pression intra-abdominale.",
+      "full": null,
+      "caution": "Peut provoquer des vertiges et élever la tension artérielle. En cas de trouble cardiovasculaire, d'hypertension ou de grossesse, consultez un professionnel.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Mouvement lent dans les deux phases, sans élan et sans pause, en gardant une tension constante.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Échauffement",
+      "aliases": [],
+      "summary": "Séries légères avant les séries efficaces, pour préparer l'articulation et le schéma moteur.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Explosion Concentrique",
+      "aliases": [],
+      "summary": "Montez la charge avec une intention maximale de vitesse et redescendez en contrôle.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Pyramide Dégressive",
+      "aliases": [],
+      "summary": "Vous baissez la charge et montez les répétitions à chaque série. Lourd au début.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Pyramidal",
+      "aliases": [],
+      "summary": "Charge et répétitions varient d'une série à l'autre au lieu d'être fixes. Croissante ou dégressive.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [],
+      "summary": "Trois exercices enchaînés, sans repos entre eux. Le repos vient seulement après les trois.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Surcharge Progressive",
+      "aliases": [],
+      "summary": "Augmentez la charge au fil des semaines dès que vous atteignez le haut de la fourchette.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Isométrie",
+      "aliases": [],
+      "summary": "Tenez la position immobile, sans monter ni descendre, pendant le temps indiqué.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

@@ -1,0 +1,782 @@
+{
+  "$schema": "boraset.exercises.l10n.v1",
+  "locale": "pt-BR",
+  "units": {
+    "weight": "kg",
+    "plate_increment_kg": 1.25
+  },
+  "names": {
+    "leg-press-45": {
+      "name": "Leg Press 45º",
+      "aliases": []
+    },
+    "agachamento-livre": {
+      "name": "Agachamento Livre",
+      "aliases": []
+    },
+    "cadeira-abdutora": {
+      "name": "Cadeira Abdutora",
+      "aliases": []
+    },
+    "panturrilha-sentado": {
+      "name": "Panturrilha Sentado",
+      "aliases": []
+    },
+    "pulley-frente": {
+      "name": "Pulley Frente",
+      "aliases": []
+    },
+    "cadeira-flexora": {
+      "name": "Cadeira Flexora (Flexora Sentado)",
+      "aliases": []
+    },
+    "supino-reto": {
+      "name": "Supino Reto",
+      "aliases": []
+    },
+    "elevacao-lateral": {
+      "name": "Elevação Lateral",
+      "aliases": []
+    },
+    "cadeira-extensora": {
+      "name": "Cadeira Extensora",
+      "aliases": []
+    },
+    "mesa-flexora": {
+      "name": "Mesa Flexora (Flexora Deitada)",
+      "aliases": []
+    },
+    "triceps-pulley": {
+      "name": "Tríceps Pulley",
+      "aliases": []
+    },
+    "cadeira-adutora": {
+      "name": "Cadeira Adutora",
+      "aliases": []
+    },
+    "rosca-direta": {
+      "name": "Rosca Direta",
+      "aliases": []
+    },
+    "rosca-simultanea": {
+      "name": "Rosca Simultânea",
+      "aliases": []
+    },
+    "extensao-lombar": {
+      "name": "Extensão Lombar",
+      "aliases": []
+    },
+    "triceps-testa": {
+      "name": "Tríceps Testa",
+      "aliases": []
+    },
+    "agachamento-hack": {
+      "name": "Agachamento Hack",
+      "aliases": []
+    },
+    "elevacao-pelvica": {
+      "name": "Elevação Pélvica (Elevação de Quadril)",
+      "aliases": []
+    },
+    "halter-press-reto": {
+      "name": "Supino Reto com Halteres",
+      "aliases": []
+    },
+    "panturrilha-em-pe": {
+      "name": "Panturrilha em Pé",
+      "aliases": []
+    },
+    "remada-baixa-triangulo": {
+      "name": "Remada Baixa Triângulo",
+      "aliases": []
+    },
+    "afundo": {
+      "name": "Afundo (Avanço / Passada)",
+      "aliases": []
+    },
+    "halter-press-inclinado": {
+      "name": "Supino Inclinado com Halteres",
+      "aliases": []
+    },
+    "stiff": {
+      "name": "Stiff",
+      "aliases": []
+    },
+    "panturrilha-maquina": {
+      "name": "Panturrilha Máquina",
+      "aliases": []
+    },
+    "panturrilha-unilateral": {
+      "name": "Panturrilha Unilateral",
+      "aliases": []
+    },
+    "pulley-frente-triangulo": {
+      "name": "Pulley Frente Triângulo",
+      "aliases": []
+    },
+    "triceps-pulley-corda": {
+      "name": "Tríceps Pulley Corda",
+      "aliases": []
+    },
+    "abdomen-maquina": {
+      "name": "Abdômen Máquina (Crunch Máquina)",
+      "aliases": []
+    },
+    "afundo-bulgaro": {
+      "name": "Agachamento Búlgaro (Afundo Búlgaro)",
+      "aliases": []
+    },
+    "prancha-ventral": {
+      "name": "Prancha Ventral",
+      "aliases": []
+    },
+    "remada-maquina": {
+      "name": "Remada Máquina",
+      "aliases": []
+    },
+    "rosca-scott": {
+      "name": "Rosca Scott (Preacher / Spider)",
+      "aliases": []
+    },
+    "crucifixo-inverso-maquina": {
+      "name": "Crucifixo Inverso Máquina (Deltoide Posterior)",
+      "aliases": []
+    },
+    "crucifixo-inverso": {
+      "name": "Crucifixo Inverso",
+      "aliases": []
+    },
+    "agachamento-frontal": {
+      "name": "Agachamento Frontal",
+      "aliases": []
+    },
+    "leg-press-horizontal": {
+      "name": "Leg Press Horizontal",
+      "aliases": []
+    },
+    "abdominal-ajoelhado": {
+      "name": "Abdominal Ajoelhado (Supra no Cabo)",
+      "aliases": []
+    },
+    "flexora-unilateral-em-pe": {
+      "name": "Flexora Unilateral em Pé",
+      "aliases": []
+    },
+    "supino-maquina": {
+      "name": "Supino Máquina",
+      "aliases": []
+    },
+    "levantamento-terra": {
+      "name": "Levantamento Terra (Deadlift)",
+      "aliases": []
+    },
+    "crucifixo-maquina": {
+      "name": "Crucifixo Máquina",
+      "aliases": []
+    },
+    "triceps-frances": {
+      "name": "Tríceps Francês (Overhead)",
+      "aliases": []
+    },
+    "supino-inclinado": {
+      "name": "Supino Inclinado",
+      "aliases": []
+    },
+    "remada-curvada": {
+      "name": "Remada Curvada",
+      "aliases": []
+    },
+    "crossover": {
+      "name": "Crossover",
+      "aliases": []
+    },
+    "gluteo-coice-na-polia": {
+      "name": "Glúteo Coice na Polia",
+      "aliases": []
+    },
+    "rosca-martelo": {
+      "name": "Rosca Martelo",
+      "aliases": []
+    },
+    "abs-infra-deitado": {
+      "name": "Abs Infra Deitado",
+      "aliases": []
+    },
+    "alongamentos": {
+      "name": "Alongamentos",
+      "aliases": []
+    },
+    "triceps-banco": {
+      "name": "Tríceps Banco (Mergulho no Banco)",
+      "aliases": []
+    },
+    "agachamento-unilateral": {
+      "name": "Agachamento Unilateral",
+      "aliases": []
+    },
+    "cadeira-extensora-unilateral": {
+      "name": "Cadeira Extensora Unilateral",
+      "aliases": []
+    },
+    "gluteo-4-apoios": {
+      "name": "Glúteo 4 Apoios",
+      "aliases": []
+    },
+    "puxada-alta": {
+      "name": "Puxada Alta (Pulldown)",
+      "aliases": []
+    },
+    "remada-pronada-polia-baixa": {
+      "name": "Remada Pronada na Polia Baixa",
+      "aliases": []
+    },
+    "abdomen-vacuum": {
+      "name": "Abdômen Vacuum",
+      "aliases": []
+    },
+    "elevacao-lateral-cabo-unilateral": {
+      "name": "Elevação Lateral no Cabo Unilateral",
+      "aliases": []
+    },
+    "rpg-ombros": {
+      "name": "RPG Ombros",
+      "aliases": []
+    },
+    "abs-infra-na-prancha": {
+      "name": "Abdominal Infra na Prancha",
+      "aliases": []
+    },
+    "gluteo-no-cabo": {
+      "name": "Glúteo no Cabo",
+      "aliases": []
+    },
+    "rosca-alternada": {
+      "name": "Rosca Alternada",
+      "aliases": []
+    },
+    "agachamento-sem-peso": {
+      "name": "Agachamento sem Peso",
+      "aliases": []
+    },
+    "desenvolvimento-halteres": {
+      "name": "Desenvolvimento com Halteres",
+      "aliases": []
+    },
+    "elevacao-pelvica-no-smith": {
+      "name": "Elevação Pélvica no Smith",
+      "aliases": []
+    },
+    "esteira-sprint": {
+      "name": "Esteira Sprint",
+      "aliases": []
+    },
+    "manguito-rotador": {
+      "name": "Manguito Rotador (Rotação Externa)",
+      "aliases": []
+    },
+    "pullover": {
+      "name": "Pullover",
+      "aliases": []
+    },
+    "flexao-de-braco": {
+      "name": "Flexão de Braço",
+      "aliases": []
+    },
+    "remada-pronada": {
+      "name": "Remada Pronada",
+      "aliases": []
+    },
+    "rosca-concentrada": {
+      "name": "Rosca Concentrada na Perna",
+      "aliases": []
+    },
+    "abdominal-na-paralela": {
+      "name": "Abdominal na Paralela",
+      "aliases": []
+    },
+    "crucifixo": {
+      "name": "Crucifixo",
+      "aliases": []
+    },
+    "leg-press-unilateral": {
+      "name": "Leg Press Unilateral",
+      "aliases": []
+    },
+    "rosca-inclinada-45": {
+      "name": "Rosca Inclinada 45º",
+      "aliases": []
+    },
+    "crucifixo-inverso-unilateral-polia": {
+      "name": "Crucifixo Inverso Unilateral na Polia",
+      "aliases": []
+    },
+    "flexora-na-bola": {
+      "name": "Flexora na Bola",
+      "aliases": []
+    },
+    "pulley-frente-supinado": {
+      "name": "Pulley Frente Supinado",
+      "aliases": []
+    },
+    "triceps-pulley-corda-fechado": {
+      "name": "Tríceps Pulley Corda Fechado",
+      "aliases": []
+    },
+    "abs-supra-banco-declinado": {
+      "name": "Abs Supra no Banco Declinado",
+      "aliases": []
+    },
+    "agachamento-no-smith": {
+      "name": "Agachamento no Smith",
+      "aliases": []
+    },
+    "elevacao-pelvica-unilateral": {
+      "name": "Elevação Pélvica Unilateral",
+      "aliases": []
+    },
+    "gluteos-banco-romano": {
+      "name": "Glúteos no Banco Romano",
+      "aliases": []
+    },
+    "mesa-flexora-unilateral": {
+      "name": "Mesa Flexora Unilateral",
+      "aliases": []
+    },
+    "pulley-frente-romana": {
+      "name": "Pulley Frente Romana",
+      "aliases": []
+    },
+    "remada-alta": {
+      "name": "Remada Alta",
+      "aliases": []
+    },
+    "remada-baixa-pronada-aberta": {
+      "name": "Remada Baixa Pronada Aberta",
+      "aliases": []
+    },
+    "stiff-unilateral": {
+      "name": "Stiff Unilateral",
+      "aliases": []
+    },
+    "abs-canivete": {
+      "name": "Abs Canivete",
+      "aliases": []
+    },
+    "abs-canivete-infra-bola": {
+      "name": "Abs Canivete Infra com Bola",
+      "aliases": []
+    },
+    "abs-obliquo-extensao-lombar": {
+      "name": "Abs Oblíquo na Extensão Lombar",
+      "aliases": []
+    },
+    "abs-supra-solo": {
+      "name": "Abs Supra Solo",
+      "aliases": []
+    },
+    "desenvolvimento-barra-frente": {
+      "name": "Desenvolvimento com Barra pela Frente",
+      "aliases": []
+    },
+    "extensao-panturrilha-maquina": {
+      "name": "Extensão de Panturrilha Máquina",
+      "aliases": []
+    },
+    "extensao-quadril-polia": {
+      "name": "Extensão de Quadril na Polia",
+      "aliases": []
+    },
+    "triceps-frances-unilateral": {
+      "name": "Tríceps Francês Unilateral",
+      "aliases": []
+    },
+    "abs-remador": {
+      "name": "Abs Remador",
+      "aliases": []
+    },
+    "agachamento-sumo-halter": {
+      "name": "Agachamento Sumô com Halter",
+      "aliases": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Cadeira Flexora Unilateral",
+      "aliases": []
+    },
+    "escada-maquina": {
+      "name": "Escada Máquina (Simulador de Escada)",
+      "aliases": []
+    },
+    "extensao-lombar-maquina": {
+      "name": "Extensão Lombar Máquina",
+      "aliases": []
+    },
+    "meio-terra": {
+      "name": "Meio Terra",
+      "aliases": []
+    },
+    "remada-unilateral": {
+      "name": "Remada Unilateral",
+      "aliases": []
+    },
+    "triceps-coice": {
+      "name": "Tríceps Coice",
+      "aliases": []
+    },
+    "abs-infra-cruzado-cone": {
+      "name": "Abs Infra Cruzado com Cone",
+      "aliases": []
+    },
+    "abs-supra-na-bola": {
+      "name": "Abs Supra na Bola Suíça",
+      "aliases": []
+    },
+    "abs-supra-pes-pro-alto": {
+      "name": "Abs Supra Pés pro Alto",
+      "aliases": []
+    },
+    "agachamento-sumo-no-smith": {
+      "name": "Agachamento Sumô no Smith",
+      "aliases": []
+    },
+    "gluteo-gueixa": {
+      "name": "Glúteo Gueixa",
+      "aliases": []
+    },
+    "gluteo-medio-unilateral-no-smith": {
+      "name": "Glúteo Médio Unilateral no Smith",
+      "aliases": []
+    },
+    "panturrilha-leg-press-horizontal": {
+      "name": "Panturrilha no Leg Press Horizontal",
+      "aliases": []
+    },
+    "rosca-21": {
+      "name": "Rosca 21",
+      "aliases": []
+    },
+    "stiff-halteres": {
+      "name": "Stiff com Halteres",
+      "aliases": []
+    },
+    "supino-declinado": {
+      "name": "Supino Declinado com Barra",
+      "aliases": []
+    },
+    "triceps-paralela-maquina": {
+      "name": "Tríceps Paralela Máquina",
+      "aliases": []
+    },
+    "triceps-supinado": {
+      "name": "Tríceps Supinado",
+      "aliases": []
+    },
+    "abducao-unilateral-polia": {
+      "name": "Abdução Unilateral na Polia Baixa",
+      "aliases": []
+    },
+    "abs-canivete-alternado": {
+      "name": "Abs Canivete Alternado",
+      "aliases": []
+    },
+    "abs-infra-declinado": {
+      "name": "Abs Infra Declinado",
+      "aliases": []
+    },
+    "abs-infra-na-paralela": {
+      "name": "Abs Infra na Paralela",
+      "aliases": []
+    },
+    "agachamento-com-insistencia": {
+      "name": "Agachamento com Insistência",
+      "aliases": []
+    },
+    "agachamento-hack-unilateral": {
+      "name": "Agachamento Hack Unilateral",
+      "aliases": []
+    },
+    "bom-dia": {
+      "name": "Bom Dia",
+      "aliases": []
+    },
+    "crossover-polia-media": {
+      "name": "Crossover na Polia Média",
+      "aliases": []
+    },
+    "dead-bug": {
+      "name": "Dead Bug",
+      "aliases": []
+    },
+    "deltoide-posterior-cabo-unilateral": {
+      "name": "Deltoide Posterior no Cabo Unilateral",
+      "aliases": []
+    },
+    "desenvolvimento-arnold": {
+      "name": "Desenvolvimento Arnold",
+      "aliases": []
+    },
+    "flexao-na-bola": {
+      "name": "Flexão na Bola",
+      "aliases": []
+    },
+    "frog": {
+      "name": "Frog",
+      "aliases": []
+    },
+    "gluteo-coice-maquina": {
+      "name": "Glúteo Coice Máquina",
+      "aliases": []
+    },
+    "gluteo-medio-solo-unilateral": {
+      "name": "Glúteo Médio Solo Unilateral",
+      "aliases": []
+    },
+    "leg-press-90": {
+      "name": "Leg Press 90º",
+      "aliases": []
+    },
+    "leg-press-pes-afastados": {
+      "name": "Leg Press com Pés Afastados",
+      "aliases": []
+    },
+    "pullover-declinado": {
+      "name": "Pullover Declinado",
+      "aliases": []
+    },
+    "puxada-articulada-aberta": {
+      "name": "Puxada Articulada Aberta",
+      "aliases": []
+    },
+    "remada-cavalinho": {
+      "name": "Remada Cavalinho",
+      "aliases": []
+    },
+    "remada-curvada-supinada": {
+      "name": "Remada Curvada Supinada",
+      "aliases": []
+    },
+    "remada-fechada-maquina-unilateral": {
+      "name": "Remada Fechada Máquina Unilateral",
+      "aliases": []
+    },
+    "stiff-polia-pre-extensao": {
+      "name": "Stiff na Polia Baixa com Pré-Extensão",
+      "aliases": []
+    },
+    "supino-inclinado-maquina": {
+      "name": "Supino Inclinado Máquina",
+      "aliases": []
+    },
+    "triceps-pulley-inverso": {
+      "name": "Tríceps Pulley Inverso",
+      "aliases": []
+    },
+    "triceps-testa-polia": {
+      "name": "Tríceps Testa na Polia com Barra Reta",
+      "aliases": []
+    },
+    "abs-escalador": {
+      "name": "Abs Escalador",
+      "aliases": []
+    },
+    "abs-infra-bola-suica": {
+      "name": "Abs Infra na Bola Suíça",
+      "aliases": []
+    },
+    "abs-obliquo-alternado-bola": {
+      "name": "Abs Oblíquo Alternado na Bola Suíça",
+      "aliases": []
+    },
+    "abs-obliquo-lado-no-chao": {
+      "name": "Abs Oblíquo de Lado no Chão",
+      "aliases": []
+    },
+    "abs-obliquo-polia-baixa": {
+      "name": "Abs Oblíquo Unilateral na Polia Baixa",
+      "aliases": []
+    },
+    "abs-rodinha": {
+      "name": "Abs Rodinha",
+      "aliases": []
+    },
+    "abs-twister": {
+      "name": "Abs Twister",
+      "aliases": []
+    },
+    "afundo-alternado-no-smith": {
+      "name": "Afundo Alternado no Smith",
+      "aliases": []
+    },
+    "afundo-step-frente": {
+      "name": "Afundo com Step na Frente",
+      "aliases": []
+    },
+    "agachamento-barra-hexagonal": {
+      "name": "Agachamento com Barra Hexagonal",
+      "aliases": []
+    },
+    "agachamento-frontal-no-smith": {
+      "name": "Agachamento Frontal no Smith",
+      "aliases": []
+    },
+    "agachamento-sumo-abre-fecha": {
+      "name": "Agachamento Sumô Abre e Fecha",
+      "aliases": []
+    },
+    "barra-fixa": {
+      "name": "Barra Fixa",
+      "aliases": []
+    },
+    "biceps-polia-alta": {
+      "name": "Bíceps na Polia Alta",
+      "aliases": []
+    },
+    "biceps-pulley": {
+      "name": "Bíceps Pulley",
+      "aliases": []
+    },
+    "bike-spinning": {
+      "name": "Bike / Spinning",
+      "aliases": []
+    },
+    "crossover-polia-baixa": {
+      "name": "Crossover na Polia Baixa",
+      "aliases": []
+    },
+    "desenvolvimento-barra-w": {
+      "name": "Desenvolvimento com Barra W",
+      "aliases": []
+    },
+    "desenvolvimento-maquina-pronada": {
+      "name": "Desenvolvimento Máquina Pronada",
+      "aliases": []
+    },
+    "desenvolvimento-no-smith": {
+      "name": "Desenvolvimento no Smith",
+      "aliases": []
+    },
+    "elevacao-frontal": {
+      "name": "Elevação Frontal",
+      "aliases": []
+    },
+    "elevacao-lateral-banco-inclinado": {
+      "name": "Elevação Lateral no Banco Inclinado",
+      "aliases": []
+    },
+    "esteira-trote": {
+      "name": "Esteira Trote",
+      "aliases": []
+    },
+    "extensao-lombar-banco-romano": {
+      "name": "Extensão Lombar no Banco Romano",
+      "aliases": []
+    },
+    "flexao-nordica": {
+      "name": "Flexão Nórdica",
+      "aliases": []
+    },
+    "flexora-unilateral-na-bola": {
+      "name": "Flexora Unilateral na Bola Suíça",
+      "aliases": []
+    },
+    "levantamento-terra-sumo-halteres": {
+      "name": "Levantamento Terra Sumô com Halteres",
+      "aliases": []
+    },
+    "levantamento-terra-unilateral": {
+      "name": "Levantamento Terra Unilateral",
+      "aliases": []
+    },
+    "panturrilha-na-parede": {
+      "name": "Panturrilha na Parede",
+      "aliases": []
+    },
+    "panturrilha-no-hack": {
+      "name": "Panturrilha no Hack",
+      "aliases": []
+    },
+    "prancha-isometrica": {
+      "name": "Prancha Isométrica",
+      "aliases": []
+    },
+    "prancha-isometrica-lateral": {
+      "name": "Prancha Isométrica Lateral Baixa",
+      "aliases": []
+    },
+    "prancha-rotacao-quadril": {
+      "name": "Prancha com Rotação de Quadril",
+      "aliases": []
+    },
+    "remada-baixa-romana": {
+      "name": "Remada Baixa Romana",
+      "aliases": []
+    },
+    "remada-curvada-barra-h": {
+      "name": "Remada Curvada com Barra H",
+      "aliases": []
+    },
+    "remada-fechada-halteres-inclinado": {
+      "name": "Remada Fechada com Halteres no Banco Inclinado",
+      "aliases": []
+    },
+    "remada-maquina-supinada": {
+      "name": "Remada Máquina Pegada Supinada",
+      "aliases": []
+    },
+    "rosca-45-inversa": {
+      "name": "Rosca 45º Inversa",
+      "aliases": []
+    },
+    "rosca-atras-da-cabeca": {
+      "name": "Rosca Atrás da Cabeça",
+      "aliases": []
+    },
+    "rosca-invertida": {
+      "name": "Rosca Invertida",
+      "aliases": []
+    },
+    "rpg-unilateral": {
+      "name": "RPG Unilateral",
+      "aliases": []
+    },
+    "stiff-anteroposterior-no-smith": {
+      "name": "Stiff Anteroposterior no Smith",
+      "aliases": []
+    },
+    "stiff-no-smith": {
+      "name": "Stiff no Smith",
+      "aliases": []
+    },
+    "stiff-polia-baixa": {
+      "name": "Stiff na Polia Baixa",
+      "aliases": []
+    },
+    "stiff-unilateral-apoiado": {
+      "name": "Stiff Unilateral Apoiado",
+      "aliases": []
+    },
+    "supino-maquina-unilateral": {
+      "name": "Supino Máquina Unilateral",
+      "aliases": []
+    },
+    "triceps-frances-corda": {
+      "name": "Tríceps Francês com Corda",
+      "aliases": []
+    },
+    "triceps-testa-unilateral": {
+      "name": "Tríceps Testa Unilateral",
+      "aliases": []
+    },
+    "abs-obliquo-banco-romano": {
+      "name": "Abs Oblíquo no Banco Romano",
+      "aliases": []
+    },
+    "crucifixo-cabo": {
+      "name": "Crucifixo no Cabo",
+      "aliases": []
+    },
+    "pulldown-corda": {
+      "name": "Pulldown com Corda",
+      "aliases": []
+    }
+  }
+}

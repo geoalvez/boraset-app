@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "ja",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "ピークコントラクション",
+      "aliases": [],
+      "summary": "各レップの最も収縮した位置で1〜2秒止め、筋肉を締めてから戻します。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "アセンディングピラミッド",
+      "aliases": [],
+      "summary": "セットごとに重量を上げ、レップ数を下げます。軽く始めて重く終わります。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "コンセントリック限界",
+      "aliases": [],
+      "summary": "自力で挙げられなくなるまで反復します。挙上動作が失敗した時点で終了です。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "レップ数指定なし",
+      "aliases": [],
+      "summary": "決まったレップ数はありません。指定された強度の中で、フォームを崩さずできるだけ行います。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "ドロップセット",
+      "aliases": [],
+      "summary": "限界まで行ったら即座に重量を20〜30%落とし、休まず続けます。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1レスト",
+      "aliases": [],
+      "summary": "1ラウンドのみのレストポーズ。限界→約15秒休憩→同じ重量でもう1ブロック。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "レップ・イン・リザーブ",
+      "aliases": [],
+      "summary": "あと1〜3回できる余力を残して終えます。限界までは追い込みません。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "クラスターセット",
+      "aliases": [],
+      "summary": "セットを短いブロックに分け、間に10〜20秒の小休止を入れて高重量を維持します。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "ノンストップ",
+      "aliases": [],
+      "summary": "レップ間で止まらず、セットが終わるまで休まない。動作を止めずに続けます。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "レストポーズ",
+      "aliases": [],
+      "summary": "限界まで行い10〜20秒休み、同じ重量で再開。これを2〜3回繰り返します。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "プログレッシブテンション",
+      "aliases": [],
+      "summary": "セットごとに負荷・時間・可動域のいずれかを上げます。フォームは崩しません。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "3/7メソッド",
+      "aliases": [],
+      "summary": "3、4、5、6、7レップの5ブロックを約15秒休憩で連続。重量は最後まで同じです。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "スローエキセントリック",
+      "aliases": [],
+      "summary": "下ろす動作をゆっくり3〜5秒かけ、挙げる動作は通常速度。下ろす局面が要点です。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "ストリップセット",
+      "aliases": [],
+      "summary": "ドロップを連続で。限界→重量を落とす→また限界→また落とす、重量が尽きるまで。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "加圧トレーニング",
+      "aliases": [],
+      "summary": "血流を部分的に制限した状態で、軽い重量と高レップで行います。",
+      "full": null,
+      "caution": "圧と時間の設定には専門家の対面指導が必要です。市販のバンドで自己流に行わないでください。",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "スーパーセット",
+      "aliases": [],
+      "summary": "2種目を休みなく連続で行います。休憩はペアを終えてからです。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "クイックレップ",
+      "aliases": [],
+      "summary": "コントロールを保ったまま速いテンポで行います。狙いは速度で、最大重量ではありません。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "総筋緊張時間を延長。各レップを上げも下げもゆっくり、トップでロックしません。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "完全限界",
+      "aliases": [],
+      "summary": "どの方向にも動かせず、下ろす動作すら支えられなくなるまで行います。",
+      "full": null,
+      "caution": "体や頭の上に重量が来るフリーウエイト種目で、補助者もセーフティバーもない状態では行わないでください。",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "各部位の最終種目を7セット、休憩30〜45秒。最大のパンプを狙います。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "純粋筋力",
+      "aliases": [],
+      "summary": "高重量・低レップ・長い休憩。狙いは筋力であり、ボリュームではありません。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "息止め",
+      "aliases": [],
+      "summary": "動作の短い区間で息を止め、腹圧を高めます。",
+      "full": null,
+      "caution": "めまいや血圧上昇を招くことがあります。心血管疾患、高血圧、妊娠中の方は事前に専門家に相談してください。",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "スロー",
+      "aliases": [],
+      "summary": "上げも下げもゆっくり、反動なし・停止なしで、緊張を保ち続けます。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "ウォームアップ",
+      "aliases": [],
+      "summary": "本番セット前の軽いセット。関節と動作パターンを準備します。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "爆発的コンセントリック",
+      "aliases": [],
+      "summary": "最大限に速く挙げる意識で行い、下ろす動作はコントロールします。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "ディセンディングピラミッド",
+      "aliases": [],
+      "summary": "セットごとに重量を下げ、レップ数を上げます。重い重量から始めます。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "ピラミッド",
+      "aliases": [],
+      "summary": "重量とレップ数がセットごとに変化します。上げていく形も下げていく形もあります。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "トライセット",
+      "aliases": [],
+      "summary": "3種目を休みなく連続。休憩は3種目すべてを終えてからです。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "漸進性過負荷",
+      "aliases": [],
+      "summary": "レップ範囲の上限に届いたら、週を追うごとに重量を上げていきます。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "アイソメトリック",
+      "aliases": [],
+      "summary": "指定された時間、上げも下げもせず姿勢を静止して保ちます。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

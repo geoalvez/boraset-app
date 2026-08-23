@@ -1,0 +1,23 @@
+# Ferramental de agente (vendorizado, ~2,6 MB cada, não é código do projeto)
+.claude/
+.agents/
+
+# Memória de sessão do party mode — contém contexto pessoal, não é artefato de projeto
+_bmad-output/party-mode/
+
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+pubspec.lock
+*.iml
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Material de origem: planilhas de treino de terceiros, com dados pessoais
+# no rodapé. NUNCA versionar.
+*.pdf

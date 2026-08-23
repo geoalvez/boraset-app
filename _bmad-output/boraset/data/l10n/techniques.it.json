@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "it",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Contrazione di Picco",
+      "aliases": [],
+      "summary": "Tieni 1-2s nel punto di massima contrazione di ogni ripetizione, stringendo prima di tornare giù.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Piramide Crescente",
+      "aliases": [],
+      "summary": "Aumenti il carico e cali le ripetizioni a ogni serie. Si inizia leggeri e si finisce pesanti.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Cedimento Concentrico",
+      "aliases": [],
+      "summary": "Ripeti finché non riesci più a sollevare da solo. Ci si ferma quando la salita cede.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Senza Ripetizioni Fisse",
+      "aliases": [],
+      "summary": "Nessun numero fisso di ripetizioni. Fai quel che riesci con buona tecnica, nello sforzo richiesto.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Arriva al cedimento, togli subito il 20-30% del carico e continua senza riposo.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-pause con un solo giro: cedimento, ~15s di pausa, un altro blocco con lo stesso carico.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Ripetizioni di Riserva",
+      "aliases": [],
+      "summary": "Fermati lasciando 1-3 ripetizioni nel serbatoio. Non andare a cedimento.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Dividi la serie in blocchi brevi con 10-20s di pausa, mantenendo il carico alto.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Nessuna pausa tra le ripetizioni e nessun riposo fino a fine serie. Movimento continuo.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Vai a cedimento, riposa 10-20s, riprendi con lo stesso carico. Ripeti 2 o 3 volte.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Tensione Progressiva",
+      "aliases": [],
+      "summary": "Aumenta la richiesta a ogni serie - carico, tempo sotto tensione o ampiezza - senza perdere tecnica.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "Metodo 3/7",
+      "aliases": [],
+      "summary": "Cinque blocchi da 3, 4, 5, 6 e 7 ripetizioni con ~15s di riposo, stesso carico dall'inizio alla fine.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Eccentrica Lenta",
+      "aliases": [],
+      "summary": "Scendi lentamente (3-5s) e sali a ritmo normale. È la discesa quella che conta.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Più drop di fila: cedimento, togli, cedimento di nuovo, togli ancora, fino a esaurire il carico.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Occlusione",
+      "aliases": [],
+      "summary": "Allenamento con restrizione parziale del flusso sanguigno, carico basso e molte ripetizioni.",
+      "full": null,
+      "caution": "Richiede la guida in presenza di un professionista per pressione e durata. Non improvvisare con materiale generico.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superserie",
+      "aliases": [],
+      "summary": "Due esercizi di fila, senza riposo tra loro. Il riposo arriva solo dopo la coppia.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Ripetizioni Veloci",
+      "aliases": [],
+      "summary": "Esecuzione a ritmo accelerato, con controllo. Focus sulla velocità, non sul carico massimo.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Tempo sotto tensione prolungato: ogni ripetizione lenta in entrambe le fasi, senza bloccare in cima.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Cedimento Totale",
+      "aliases": [],
+      "summary": "Vai fino a non riuscire più a muovere il carico in nessuna direzione, nemmeno a controllare la discesa.",
+      "full": null,
+      "caution": "Non usarla su esercizi liberi con il carico sopra il corpo o la testa senza spotter e senza fermi di sicurezza.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Sette serie sull'ultimo esercizio del gruppo, 30-45s di riposo, per la massima congestione.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Forza Pura",
+      "aliases": [],
+      "summary": "Carichi alti e poche ripetizioni, con riposo lungo. L'obiettivo è la forza, non il volume.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Apnea",
+      "aliases": [],
+      "summary": "Trattieni il respiro in un tratto breve del movimento per aumentare la pressione intra-addominale.",
+      "full": null,
+      "caution": "Può causare capogiri e alzare la pressione. Chi ha problemi cardiovascolari, ipertensione o è in gravidanza consulti prima un professionista.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Movimento lento in entrambe le fasi, senza slancio e senza pausa, con tensione costante.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Riscaldamento",
+      "aliases": [],
+      "summary": "Serie leggere prima di quelle allenanti, per preparare l'articolazione e lo schema motorio.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Esplosione Concentrica",
+      "aliases": [],
+      "summary": "Solleva il carico con la massima intenzione di velocità e scendi controllato.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Piramide Decrescente",
+      "aliases": [],
+      "summary": "Cali il carico e aumenti le ripetizioni a ogni serie. Si inizia pesanti.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Piramidale",
+      "aliases": [],
+      "summary": "Carico e ripetizioni variano tra le serie invece di restare fissi. Crescente o decrescente.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [],
+      "summary": "Tre esercizi di fila, senza riposo tra loro. Il riposo arriva solo alla fine dei tre.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Sovraccarico Progressivo",
+      "aliases": [],
+      "summary": "Aumenta il carico nelle settimane quando raggiungi il limite alto del range di ripetizioni.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Isometria",
+      "aliases": [],
+      "summary": "Tieni la posizione ferma, senza salire né scendere, per il tempo indicato.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

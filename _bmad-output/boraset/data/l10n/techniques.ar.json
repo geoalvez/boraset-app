@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "ar",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "ذروة الانقباض",
+      "aliases": [],
+      "summary": "اثبت ثانية إلى ثانيتين عند أقصى انقباض في كل تكرار، مع الضغط على العضلة قبل العودة.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "الهرم التصاعدي",
+      "aliases": [],
+      "summary": "في كل مجموعة تزيد الوزن وتقلّل التكرارات. تبدأ خفيفًا وتنتهي ثقيلًا.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "الفشل المركزي",
+      "aliases": [],
+      "summary": "كرّر حتى لا تستطيع رفع الوزن بنفسك. توقّف عندما تفشل مرحلة الرفع.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "بدون عدد محدد",
+      "aliases": [],
+      "summary": "لا يوجد عدد تكرارات ثابت. نفّذ ما تستطيع بأداء سليم ضمن الجهد المطلوب.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "الدروب سِت",
+      "aliases": [],
+      "summary": "اذهب حتى الفشل، أنقص 20-30% من الوزن فورًا، وتابع بلا راحة.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "راحة-توقف بجولة واحدة فقط: فشل، ثم ١٥ ثانية راحة، ثم كتلة أخرى بنفس الوزن.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "تكرارات احتياطية",
+      "aliases": [],
+      "summary": "توقّف وأنت قادر على أداء ١ إلى ٣ تكرارات إضافية. لا تصل إلى الفشل.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "المجموعات العنقودية",
+      "aliases": [],
+      "summary": "قسّم المجموعة إلى كتل قصيرة مع راحة ١٠-٢٠ ثانية بينها، مع إبقاء الوزن ثقيلًا.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "بلا توقف",
+      "aliases": [],
+      "summary": "لا توقّف بين التكرارات ولا راحة حتى تنتهي المجموعة. حركة متصلة.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "راحة-توقف",
+      "aliases": [],
+      "summary": "اذهب حتى الفشل، استرح ١٠-٢٠ ثانية، ثم عُد بنفس الوزن. كرّر مرتين أو ثلاثًا.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "الشد التصاعدي",
+      "aliases": [],
+      "summary": "ارفع المتطلّب كل مجموعة - وزنًا أو زمن شدّ أو مدى حركة - دون إفساد الأداء.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "طريقة ٣/٧",
+      "aliases": [],
+      "summary": "خمس كتل من ٣ و٤ و٥ و٦ و٧ تكرارات مع راحة ١٥ ثانية بينها، وبنفس الوزن طوال الوقت.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "الهبوط البطيء",
+      "aliases": [],
+      "summary": "أنزل الوزن ببطء (٣-٥ ثوانٍ) وارفعه بسرعة عادية. مرحلة النزول هي المهمة.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "السترِيب سِت",
+      "aliases": [],
+      "summary": "عدة تخفيضات متتالية: فشل، أنقص الوزن، فشل مجددًا، أنقص مجددًا، حتى ينفد الوزن.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "تقييد تدفق الدم",
+      "aliases": [],
+      "summary": "تدريب بتقييد جزئي لتدفق الدم، بأوزان خفيفة وتكرارات عالية.",
+      "full": null,
+      "caution": "يتطلب إشرافًا مباشرًا من مختص لتحديد الضغط والمدة. لا تجتهد باستخدام أربطة عادية.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "المجموعة المركّبة",
+      "aliases": [],
+      "summary": "تمرينان متتاليان بلا راحة بينهما. الراحة تأتي بعد انتهاء الاثنين.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "تكرارات سريعة",
+      "aliases": [],
+      "summary": "أداء بإيقاع سريع مع التحكّم. التركيز على السرعة لا على الوزن الأقصى.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "إطالة زمن الشدّ: كل تكرار بطيء في المرحلتين، دون تثبيت في الأعلى.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "الفشل التام",
+      "aliases": [],
+      "summary": "استمر حتى لا يتحرك الوزن في أي اتجاه، ولا تقدر حتى على التحكم في نزوله.",
+      "full": null,
+      "caution": "لا تستخدمها في تمارين الأثقال الحرة التي يكون فيها الوزن فوق الجسم أو الرأس دون مساعد ودون مصدّات أمان.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "سبع مجموعات لآخر تمرين في المجموعة العضلية، براحة ٣٠-٤٥ ثانية، لأقصى احتقان.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "القوة الخالصة",
+      "aliases": [],
+      "summary": "أوزان ثقيلة وتكرارات قليلة مع راحة طويلة. الهدف القوة لا الحجم.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "حبس النَفَس",
+      "aliases": [],
+      "summary": "احبس نفسك في جزء قصير من الحركة لرفع الضغط داخل البطن.",
+      "full": null,
+      "caution": "قد تسبب دوارًا وترفع ضغط الدم. من لديه مشكلة قلبية أو ارتفاع ضغط أو حمل عليه استشارة مختص أولًا.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "البطيء",
+      "aliases": [],
+      "summary": "حركة بطيئة في المرحلتين، بلا اندفاع وبلا توقف، مع شدّ ثابت.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "الإحماء",
+      "aliases": [],
+      "summary": "مجموعات خفيفة قبل مجموعات العمل، لتهيئة المفصل ونمط الحركة.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "الانفجار المركزي",
+      "aliases": [],
+      "summary": "ارفع الوزن بنيّة تسارع قصوى، وأنزله بتحكّم.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "الهرم التنازلي",
+      "aliases": [],
+      "summary": "في كل مجموعة تنقص الوزن وتزيد التكرارات. تبدأ ثقيلًا.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "الهرمي",
+      "aliases": [],
+      "summary": "الوزن والتكرارات يتغيّران بين المجموعات بدل أن يظلا ثابتين. تصاعدي أو تنازلي.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "المجموعة الثلاثية",
+      "aliases": [],
+      "summary": "ثلاثة تمارين متتالية بلا راحة بينها. الراحة بعد الثلاثة جميعًا.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "الزيادة التدريجية",
+      "aliases": [],
+      "summary": "ارفع الوزن عبر الأسابيع كلما بلغت الحد الأعلى من نطاق التكرارات.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "الثبات الساكن",
+      "aliases": [],
+      "summary": "اثبت في الوضع دون رفع أو خفض، طوال المدة المحددة.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

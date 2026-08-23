@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "id",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Kontraksi Puncak",
+      "aliases": [],
+      "summary": "Tahan 1-2 detik di titik kontraksi tertinggi setiap repetisi, remas otot sebelum turun.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Piramida Naik",
+      "aliases": [],
+      "summary": "Setiap set beban naik dan repetisi turun. Mulai ringan, selesai berat.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Gagal Konsentrik",
+      "aliases": [],
+      "summary": "Ulangi sampai kamu tidak sanggup mengangkat sendiri. Berhenti saat fase naik gagal.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Tanpa Repetisi Tetap",
+      "aliases": [],
+      "summary": "Tidak ada jumlah repetisi tetap. Lakukan semampunya dengan teknik baik, sesuai tingkat usaha.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Sampai gagal, langsung turunkan 20-30% beban, lalu lanjut tanpa istirahat.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-pause satu putaran saja: gagal, istirahat ~15 detik, satu blok lagi dengan beban sama.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Repetisi Cadangan",
+      "aliases": [],
+      "summary": "Berhenti saat masih tersisa 1-3 repetisi. Jangan sampai gagal.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Bagi set jadi blok pendek dengan jeda 10-20 detik, beban tetap berat.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Tanpa jeda antar repetisi dan tanpa istirahat sampai set selesai. Gerakan terus-menerus.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Sampai gagal, istirahat 10-20 detik, lanjut dengan beban sama. Ulangi 2-3 kali.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Tegangan Progresif",
+      "aliases": [],
+      "summary": "Naikkan tuntutan tiap set - beban, waktu tegangan, atau rentang gerak - tanpa merusak teknik.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "Metode 3/7",
+      "aliases": [],
+      "summary": "Lima blok berisi 3, 4, 5, 6, dan 7 repetisi dengan jeda ~15 detik, beban sama sepanjang set.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Eksentrik Lambat",
+      "aliases": [],
+      "summary": "Turunkan beban perlahan (3-5 detik) dan angkat dengan tempo normal. Fase turun yang penting.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Beberapa drop berturut-turut: gagal, kurangi beban, gagal lagi, kurangi lagi, sampai habis.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Oklusi",
+      "aliases": [],
+      "summary": "Latihan dengan pembatasan aliran darah sebagian, beban ringan dan repetisi banyak.",
+      "full": null,
+      "caution": "Butuh pendampingan langsung dari profesional untuk menentukan tekanan dan durasi. Jangan improvisasi dengan alat seadanya.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superset",
+      "aliases": [],
+      "summary": "Dua gerakan berurutan tanpa istirahat di antaranya. Istirahat baru setelah pasangan selesai.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Repetisi Cepat",
+      "aliases": [],
+      "summary": "Tempo cepat tapi terkendali. Fokus pada kecepatan, bukan beban maksimal.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Waktu di bawah tegangan diperpanjang: setiap repetisi lambat di dua fase, tanpa mengunci di atas.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Gagal Total",
+      "aliases": [],
+      "summary": "Lanjut sampai beban tidak bisa digerakkan ke arah mana pun, bahkan menahan turunnya pun tidak.",
+      "full": null,
+      "caution": "Jangan dipakai pada gerakan beban bebas dengan beban di atas badan atau kepala tanpa spotter dan pin pengaman.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Tujuh set pada gerakan terakhir kelompok otot, istirahat 30-45 detik, mengejar pump maksimal.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Kekuatan Murni",
+      "aliases": [],
+      "summary": "Beban berat dan repetisi sedikit, dengan istirahat panjang. Fokus kekuatan, bukan volume.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Tahan Napas",
+      "aliases": [],
+      "summary": "Tahan napas di bagian singkat gerakan untuk menaikkan tekanan dalam perut.",
+      "full": null,
+      "caution": "Bisa menyebabkan pusing dan menaikkan tekanan darah. Penderita gangguan kardiovaskular, hipertensi, atau yang sedang hamil harus konsultasi dulu.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Gerakan lambat di dua fase, tanpa ayunan dan tanpa jeda, tegangan dijaga tetap.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Pemanasan",
+      "aliases": [],
+      "summary": "Set ringan sebelum set utama, untuk menyiapkan sendi dan pola gerak.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Ledakan Konsentrik",
+      "aliases": [],
+      "summary": "Angkat beban dengan niat kecepatan maksimal, lalu turunkan terkendali.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Piramida Turun",
+      "aliases": [],
+      "summary": "Setiap set beban turun dan repetisi naik. Mulai dari yang berat.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Piramida",
+      "aliases": [],
+      "summary": "Beban dan repetisi berubah antar set, bukan tetap. Bisa naik atau turun.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [],
+      "summary": "Tiga gerakan berurutan tanpa istirahat. Istirahat baru setelah ketiganya selesai.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Beban Progresif",
+      "aliases": [],
+      "summary": "Naikkan beban dari minggu ke minggu begitu kamu mencapai batas atas rentang repetisi.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Isometrik",
+      "aliases": [],
+      "summary": "Tahan posisi diam, tanpa naik atau turun, selama waktu yang ditentukan.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

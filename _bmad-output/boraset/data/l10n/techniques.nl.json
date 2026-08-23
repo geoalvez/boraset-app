@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "nl",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Piekcontractie",
+      "aliases": [],
+      "summary": "Houd 1-2s vast op het punt van maximale samentrekking van elke herhaling, knijp aan voor je terugkeert.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Oplopende Piramide",
+      "aliases": [],
+      "summary": "Elke set meer gewicht en minder herhalingen. Licht beginnen, zwaar eindigen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Concentrisch Falen",
+      "aliases": [],
+      "summary": "Herhaal tot je het gewicht niet meer zelf omhoog krijgt. Stop zodra de opwaartse fase faalt.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Geen Vaste Herhalingen",
+      "aliases": [],
+      "summary": "Geen vast aantal herhalingen. Doe wat lukt met goede techniek, binnen de gevraagde inspanning.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Ga tot falen, haal direct 20-30% gewicht eraf en ga door zonder rust.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-pause met één ronde: falen, ~15s rust, nog één blok met hetzelfde gewicht.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Herhalingen in Reserve",
+      "aliases": [],
+      "summary": "Stop met nog 1-3 herhalingen in de tank. Ga niet tot falen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Splits de set in korte blokken met 10-20s pauze ertussen, met zwaar gewicht.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Geen pauze tussen de herhalingen en geen rust tot de set klaar is. Doorlopende beweging.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Ga tot falen, rust 10-20s, ga verder met hetzelfde gewicht. Herhaal 2 tot 3 keer.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Progressieve Spanning",
+      "aliases": [],
+      "summary": "Verhoog de eis per set - gewicht, spanningstijd of bereik - zonder techniek te verliezen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "3/7-Methode",
+      "aliases": [],
+      "summary": "Vijf blokken van 3, 4, 5, 6 en 7 herhalingen met ~15s rust, hetzelfde gewicht van begin tot eind.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Langzaam Excentrisch",
+      "aliases": [],
+      "summary": "Laat het gewicht langzaam zakken (3-5s) en til op normaal tempo. De zakfase telt.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Meerdere drops achter elkaar: falen, gewicht eraf, weer falen, weer eraf, tot het op is.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Occlusietraining",
+      "aliases": [],
+      "summary": "Trainen met gedeeltelijke bloedstroombeperking, licht gewicht en veel herhalingen.",
+      "full": null,
+      "caution": "Vereist begeleiding ter plaatse door een professional voor manchetdruk en duur. Improviseer niet met generieke banden.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superset",
+      "aliases": [],
+      "summary": "Twee oefeningen achter elkaar, zonder rust ertussen. Rust komt pas na het paar.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Snelle Herhalingen",
+      "aliases": [],
+      "summary": "Uitvoering in hoog tempo, met controle. Focus op snelheid, niet op maximaal gewicht.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Verlengde spanningstijd: elke herhaling langzaam in beide fases, zonder rusten bovenaan.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Volledig Falen",
+      "aliases": [],
+      "summary": "Ga door tot je het gewicht in geen enkele richting meer beweegt, ook niet gecontroleerd laat zakken.",
+      "full": null,
+      "caution": "Niet gebruiken bij vrije oefeningen met het gewicht boven lichaam of hoofd zonder spotter en veiligheidspennen.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Zeven sets van de laatste oefening van de spiergroep, 30-45s rust, voor maximale pomp.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Pure Kracht",
+      "aliases": [],
+      "summary": "Zware gewichten en weinig herhalingen, met lange rust. Doel is kracht, niet volume.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Adem Inhouden",
+      "aliases": [],
+      "summary": "Houd je adem in tijdens een kort deel van de beweging om de buikdruk te verhogen.",
+      "full": null,
+      "caution": "Kan duizeligheid veroorzaken en de bloeddruk verhogen. Bij hart- en vaatproblemen, hoge bloeddruk of zwangerschap eerst een professional raadplegen.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Langzame beweging in beide fases, zonder zwaai en zonder pauze, met constante spanning.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Warming-up",
+      "aliases": [],
+      "summary": "Lichte sets voor de werksets, om gewricht en bewegingspatroon voor te bereiden.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Concentrische Explosie",
+      "aliases": [],
+      "summary": "Til het gewicht met maximale versnellingsintentie en laat gecontroleerd zakken.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Aflopende Piramide",
+      "aliases": [],
+      "summary": "Elke set minder gewicht en meer herhalingen. Zwaar beginnen.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Piramide",
+      "aliases": [],
+      "summary": "Gewicht en herhalingen wisselen per set in plaats van vast te blijven. Op- of aflopend.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [],
+      "summary": "Drie oefeningen achter elkaar, zonder rust ertussen. Rust komt pas na alle drie.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Progressieve Overbelasting",
+      "aliases": [],
+      "summary": "Verhoog het gewicht over de weken zodra je de bovenkant van het herhalingsbereik haalt.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Isometrie",
+      "aliases": [],
+      "summary": "Houd de positie stil, zonder omhoog of omlaag te gaan, voor de aangegeven tijd.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

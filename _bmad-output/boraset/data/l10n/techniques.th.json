@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "th",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "พีคคอนแทรกชัน",
+      "aliases": [],
+      "summary": "ค้างไว้ 1-2 วินาทีที่จุดหดตัวสูงสุดของทุกครั้ง บีบกล้ามเนื้อก่อนผ่อนกลับ",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "พีระมิดขาขึ้น",
+      "aliases": [],
+      "summary": "แต่ละเซ็ตเพิ่มน้ำหนักและลดจำนวนครั้ง เริ่มเบาจบหนัก",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "หมดแรงช่วงยก",
+      "aliases": [],
+      "summary": "ทำซ้ำจนยกน้ำหนักเองไม่ไหว หยุดเมื่อจังหวะยกขึ้นล้มเหลว",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "ไม่กำหนดจำนวนครั้ง",
+      "aliases": [],
+      "summary": "ไม่มีจำนวนครั้งตายตัว ทำให้ได้มากที่สุดด้วยฟอร์มที่ดี ภายในระดับความหนักที่กำหนด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "ดรอปเซ็ต",
+      "aliases": [],
+      "summary": "ทำจนหมดแรง ลดน้ำหนักทันที 20-30% แล้วทำต่อโดยไม่พัก",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "เรสต์-พอสรอบเดียว: หมดแรง พักราว 15 วินาที แล้วทำอีกชุดด้วยน้ำหนักเดิม",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "เหลือครั้งสำรอง",
+      "aliases": [],
+      "summary": "หยุดตอนที่ยังทำได้อีก 1-3 ครั้ง อย่าดันจนหมดแรง",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "คลัสเตอร์เซ็ต",
+      "aliases": [],
+      "summary": "แบ่งเซ็ตเป็นช่วงสั้น ๆ พักระหว่างช่วง 10-20 วินาที โดยคงน้ำหนักไว้สูง",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "นอนสต็อป",
+      "aliases": [],
+      "summary": "ไม่หยุดระหว่างครั้ง และไม่พักจนกว่าจะจบเซ็ต เคลื่อนไหวต่อเนื่อง",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "เรสต์-พอส",
+      "aliases": [],
+      "summary": "ทำจนหมดแรง พัก 10-20 วินาที แล้วทำต่อด้วยน้ำหนักเดิม ทำซ้ำ 2-3 รอบ",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "แรงตึงเพิ่มขึ้น",
+      "aliases": [],
+      "summary": "เพิ่มความหนักทุกเซ็ต ไม่ว่าจะเป็นน้ำหนัก เวลาที่กล้ามเนื้อตึง หรือช่วงการเคลื่อนไหว โดยไม่เสียฟอร์ม",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "วิธี 3/7",
+      "aliases": [],
+      "summary": "ห้าช่วง จำนวน 3, 4, 5, 6 และ 7 ครั้ง พักระหว่างช่วงราว 15 วินาที ใช้น้ำหนักเดิมตลอด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "ลดน้ำหนักช้า",
+      "aliases": [],
+      "summary": "ลดน้ำหนักลงช้า ๆ 3-5 วินาที แล้วยกขึ้นด้วยจังหวะปกติ ช่วงลดลงคือหัวใจสำคัญ",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "สตริปเซ็ต",
+      "aliases": [],
+      "summary": "ลดน้ำหนักต่อเนื่องหลายครั้ง: หมดแรง ลดน้ำหนัก หมดแรงอีก ลดอีก จนน้ำหนักหมด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "จำกัดการไหลเวียนเลือด",
+      "aliases": [],
+      "summary": "ฝึกโดยจำกัดการไหลเวียนเลือดบางส่วน ใช้น้ำหนักเบาและจำนวนครั้งสูง",
+      "full": null,
+      "caution": "ต้องมีผู้เชี่ยวชาญดูแลใกล้ชิดเพื่อกำหนดแรงดันและระยะเวลา อย่าทำเองด้วยยางยืดทั่วไป",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "ซูเปอร์เซ็ต",
+      "aliases": [],
+      "summary": "ทำสองท่าติดกันโดยไม่พักระหว่างท่า พักหลังจบทั้งคู่แล้วเท่านั้น",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "ทำเร็ว",
+      "aliases": [],
+      "summary": "ทำด้วยจังหวะเร็วแต่ควบคุมได้ เน้นความเร็ว ไม่ใช่น้ำหนักสูงสุด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "ยืดเวลาที่กล้ามเนื้อรับแรง ทุกครั้งช้าทั้งขาขึ้นและขาลง ไม่ล็อกข้อที่จุดสูงสุด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "หมดแรงสิ้นเชิง",
+      "aliases": [],
+      "summary": "ทำจนขยับน้ำหนักไม่ได้ในทุกทิศทาง แม้แต่จะประคองตอนลดลงก็ไม่ไหว",
+      "full": null,
+      "caution": "อย่าใช้กับท่าฟรีเวทที่น้ำหนักอยู่เหนือลำตัวหรือศีรษะ หากไม่มีคนช่วยและไม่มีเซฟตี้บาร์",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "ทำเจ็ดเซ็ตในท่าสุดท้ายของกล้ามเนื้อมัดนั้น พัก 30-45 วินาที เพื่อให้เลือดคั่งสูงสุด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "พลังล้วน",
+      "aliases": [],
+      "summary": "น้ำหนักสูง จำนวนครั้งน้อย พักนาน เป้าหมายคือความแข็งแรง ไม่ใช่ปริมาณ",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "กลั้นหายใจ",
+      "aliases": [],
+      "summary": "กลั้นหายใจในช่วงสั้น ๆ ของการเคลื่อนไหว เพื่อเพิ่มแรงดันในช่องท้อง",
+      "full": null,
+      "caution": "อาจทำให้เวียนศีรษะและความดันโลหิตสูงขึ้น ผู้มีโรคหัวใจและหลอดเลือด ความดันสูง หรือกำลังตั้งครรภ์ ควรปรึกษาผู้เชี่ยวชาญก่อน",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "ช้า",
+      "aliases": [],
+      "summary": "เคลื่อนไหวช้าทั้งสองจังหวะ ไม่เหวี่ยงและไม่หยุดพัก คงแรงตึงไว้ตลอด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "วอร์มอัพ",
+      "aliases": [],
+      "summary": "เซ็ตเบา ๆ ก่อนเซ็ตจริง เพื่อเตรียมข้อต่อและรูปแบบการเคลื่อนไหว",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "ระเบิดช่วงยก",
+      "aliases": [],
+      "summary": "ยกน้ำหนักด้วยความตั้งใจเร่งให้เร็วที่สุด แล้วลดลงอย่างควบคุม",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "พีระมิดขาลง",
+      "aliases": [],
+      "summary": "แต่ละเซ็ตลดน้ำหนักและเพิ่มจำนวนครั้ง เริ่มจากหนัก",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "พีระมิด",
+      "aliases": [],
+      "summary": "น้ำหนักและจำนวนครั้งเปลี่ยนไปในแต่ละเซ็ตแทนที่จะคงที่ เป็นขาขึ้นหรือขาลงก็ได้",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "ไตรเซ็ต",
+      "aliases": [],
+      "summary": "ทำสามท่าติดกันโดยไม่พักระหว่างท่า พักหลังจบครบทั้งสามท่า",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "เพิ่มน้ำหนักต่อเนื่อง",
+      "aliases": [],
+      "summary": "เพิ่มน้ำหนักในสัปดาห์ถัดไปเมื่อคุณทำถึงขีดบนของช่วงจำนวนครั้งแล้ว",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "ไอโซเมตริก",
+      "aliases": [],
+      "summary": "ค้างท่าไว้นิ่ง ๆ ไม่ยกขึ้นไม่ลดลง ตามเวลาที่กำหนด",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

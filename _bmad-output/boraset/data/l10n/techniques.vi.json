@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "vi",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Co Cơ Đỉnh",
+      "aliases": [],
+      "summary": "Giữ 1-2 giây tại điểm co cơ mạnh nhất của mỗi lần lặp, siết cơ trước khi hạ xuống.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Kim Tự Tháp Tăng",
+      "aliases": [],
+      "summary": "Mỗi hiệp tăng tạ và giảm số lần. Bắt đầu nhẹ, kết thúc nặng.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Lực Kiệt Hướng Tâm",
+      "aliases": [],
+      "summary": "Lặp đến khi không tự nâng nổi tạ nữa. Dừng khi pha nâng lên thất bại.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Không Cố Định Số Lần",
+      "aliases": [],
+      "summary": "Không có số lần cố định. Làm hết mức với kỹ thuật tốt, trong mức gắng sức được giao.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Đến ngưỡng kiệt, hạ ngay 20-30% tạ và tiếp tục không nghỉ.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Rest-pause chỉ một vòng: kiệt sức, nghỉ ~15 giây, làm thêm một khối với cùng mức tạ.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Số Lần Dự Trữ",
+      "aliases": [],
+      "summary": "Dừng khi vẫn còn 1-3 lần trong khả năng. Không đẩy đến kiệt sức.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Chia hiệp thành các khối ngắn, nghỉ 10-20 giây giữa các khối, giữ tạ nặng.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Không dừng giữa các lần lặp và không nghỉ cho đến hết hiệp. Chuyển động liên tục.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Đẩy đến kiệt, nghỉ 10-20 giây, quay lại với cùng mức tạ. Lặp 2 đến 3 vòng.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Căng Cơ Tăng Dần",
+      "aliases": [],
+      "summary": "Tăng yêu cầu mỗi hiệp - tạ, thời gian căng cơ hoặc biên độ - mà không hỏng kỹ thuật.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "Phương Pháp 3/7",
+      "aliases": [],
+      "summary": "Năm khối gồm 3, 4, 5, 6 và 7 lần, nghỉ ~15 giây giữa các khối, giữ nguyên mức tạ.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Hạ Chậm",
+      "aliases": [],
+      "summary": "Hạ tạ thật chậm (3-5 giây) và nâng ở tốc độ bình thường. Pha hạ mới là phần quan trọng.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Nhiều lần giảm tạ liên tiếp: kiệt, bớt tạ, lại kiệt, lại bớt, cho đến khi hết tạ.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Hạn Chế Máu",
+      "aliases": [],
+      "summary": "Tập với hạn chế một phần lưu lượng máu, tạ nhẹ và số lần cao.",
+      "full": null,
+      "caution": "Cần có hướng dẫn trực tiếp từ chuyên gia để đặt áp lực và thời gian. Đừng tự làm với dây thông thường.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superset",
+      "aliases": [],
+      "summary": "Hai bài liên tiếp, không nghỉ giữa hai bài. Chỉ nghỉ sau khi xong cả cặp.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Lặp Nhanh",
+      "aliases": [],
+      "summary": "Thực hiện với nhịp nhanh nhưng có kiểm soát. Trọng tâm là tốc độ, không phải tạ nặng.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Kéo dài thời gian căng cơ: mỗi lần lặp đều chậm ở cả hai pha, không khóa khớp ở đỉnh.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Kiệt Sức Hoàn Toàn",
+      "aliases": [],
+      "summary": "Tiếp tục đến khi không đẩy nổi tạ theo bất kỳ hướng nào, kể cả giữ cho tạ hạ chậm.",
+      "full": null,
+      "caution": "Không dùng cho các bài tạ tự do khi tạ ở trên người hoặc trên đầu mà không có người hỗ trợ và chốt an toàn.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Bảy hiệp ở bài cuối của nhóm cơ, nghỉ 30-45 giây, nhắm tới độ căng tối đa.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Sức Mạnh Thuần",
+      "aliases": [],
+      "summary": "Tạ nặng, ít lần lặp, nghỉ dài. Mục tiêu là sức mạnh, không phải khối lượng.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Nín Thở",
+      "aliases": [],
+      "summary": "Nín thở trong một đoạn ngắn của động tác để tăng áp lực trong ổ bụng.",
+      "full": null,
+      "caution": "Có thể gây chóng mặt và tăng huyết áp. Người có bệnh tim mạch, cao huyết áp hoặc đang mang thai cần hỏi ý kiến chuyên gia trước.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "Chuyển động chậm ở cả hai pha, không lấy đà và không dừng, giữ căng cơ liên tục.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Khởi Động",
+      "aliases": [],
+      "summary": "Vài hiệp nhẹ trước các hiệp chính, để chuẩn bị khớp và mẫu chuyển động.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Bùng Nổ Hướng Tâm",
+      "aliases": [],
+      "summary": "Nâng tạ với ý định tăng tốc tối đa và hạ xuống có kiểm soát.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Kim Tự Tháp Giảm",
+      "aliases": [],
+      "summary": "Mỗi hiệp giảm tạ và tăng số lần. Bắt đầu từ mức nặng.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Kim Tự Tháp",
+      "aliases": [],
+      "summary": "Tạ và số lần thay đổi giữa các hiệp thay vì cố định. Có thể tăng hoặc giảm.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [],
+      "summary": "Ba bài liên tiếp, không nghỉ giữa các bài. Chỉ nghỉ sau khi xong cả ba.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Tăng Tải Dần",
+      "aliases": [],
+      "summary": "Tăng tạ qua từng tuần khi bạn đạt tới mốc trên của khoảng số lần lặp.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Đẳng Trường",
+      "aliases": [],
+      "summary": "Giữ nguyên tư thế, không nâng cũng không hạ, trong khoảng thời gian chỉ định.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

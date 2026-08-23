@@ -1,0 +1,191 @@
+{
+  "$schema": "boraset.locales.v1",
+  "notes": [
+    "Fonte de verdade sobre o que esta traduzido. A UI so oferece um idioma cuja",
+    "cobertura de tecnicas passe do minimo -- explicacao faltando e pior que idioma faltando.",
+    "Nivel 1 = lancamento. Nivel 2 = expansao. Ordem sugerida, nao definitiva."
+  ],
+  "tiers": {
+    "1": [
+      "pt-BR",
+      "en",
+      "es"
+    ],
+    "2": [
+      "fr",
+      "de",
+      "it",
+      "id",
+      "tr",
+      "ru",
+      "ja",
+      "ko",
+      "zh-Hans",
+      "hi",
+      "ar",
+      "pl",
+      "nl",
+      "vi",
+      "th"
+    ]
+  },
+  "rtl": [
+    "ar",
+    "he",
+    "fa",
+    "ur"
+  ],
+  "units_by_locale": {
+    "en-US": "lb",
+    "en-GB": "kg",
+    "default": "kg"
+  },
+  "min_technique_coverage_to_ship": 100,
+  "locales": {
+    "pt-BR": {
+      "technique_summary": 100.0,
+      "technique_full": 100.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "complete",
+      "needs_native_review": false
+    },
+    "en": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": false
+    },
+    "ar": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "de": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "es": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "fr": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "hi": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "id": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "it": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "ja": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "ko": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "nl": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "pl": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "ru": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "th": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "tr": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "vi": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    },
+    "zh-Hans": {
+      "technique_summary": 100.0,
+      "technique_full": 0.0,
+      "missing": [],
+      "missing_caution": [],
+      "status": "summary_only",
+      "needs_native_review": true
+    }
+  },
+  "exercise_names_status": "pending: apenas pt-BR. Proximo lote."
+}

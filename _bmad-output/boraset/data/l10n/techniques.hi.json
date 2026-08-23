@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "hi",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "पीक कॉन्ट्रैक्शन",
+      "aliases": [],
+      "summary": "हर रेप में सबसे ज़्यादा सिकुड़न वाले बिंदु पर 1-2 सेकंड रुकें और मांसपेशी को कसें।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "बढ़ता पिरामिड",
+      "aliases": [],
+      "summary": "हर सेट में वज़न बढ़ाएँ और रेप घटाएँ। हल्के से शुरू, भारी पर खत्म।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "कॉन्सेंट्रिक फेल्योर",
+      "aliases": [],
+      "summary": "जब तक खुद से वज़न उठा न सकें तब तक करें। उठाने वाला हिस्सा फेल होते ही रुक जाएँ।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "रेप तय नहीं",
+      "aliases": [],
+      "summary": "कोई तय रेप संख्या नहीं। दिए गए प्रयास के भीतर, सही तकनीक से जितना बने उतना करें।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "ड्रॉप सेट",
+      "aliases": [],
+      "summary": "फेल्योर तक जाएँ, तुरंत 20-30% वज़न घटाएँ और बिना आराम किए जारी रखें।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 रेस्ट",
+      "aliases": [],
+      "summary": "सिर्फ़ एक राउंड का रेस्ट-पॉज़: फेल्योर, ~15 सेकंड आराम, उसी वज़न से एक और ब्लॉक।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "रिज़र्व रेप्स",
+      "aliases": [],
+      "summary": "जब 1-3 रेप और बाकी हों तभी रुक जाएँ। फेल्योर तक न जाएँ।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "क्लस्टर सेट",
+      "aliases": [],
+      "summary": "सेट को छोटे हिस्सों में बाँटें, बीच में 10-20 सेकंड रुकें, वज़न भारी रखें।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "नॉन-स्टॉप",
+      "aliases": [],
+      "summary": "रेप्स के बीच रुकना नहीं और सेट पूरा होने तक आराम नहीं। लगातार गति।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "रेस्ट-पॉज़",
+      "aliases": [],
+      "summary": "फेल्योर तक जाएँ, 10-20 सेकंड रुकें, उसी वज़न से फिर शुरू करें। 2-3 बार दोहराएँ।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "बढ़ता तनाव",
+      "aliases": [],
+      "summary": "हर सेट में माँग बढ़ाएँ - वज़न, तनाव का समय या रेंज - बिना तकनीक बिगाड़े।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "3/7 विधि",
+      "aliases": [],
+      "summary": "3, 4, 5, 6 और 7 रेप्स के पाँच ब्लॉक, बीच में ~15 सेकंड आराम, वज़न पूरे समय एक ही।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "धीमी एक्सेंट्रिक",
+      "aliases": [],
+      "summary": "वज़न को धीरे (3-5 सेकंड) नीचे लाएँ और सामान्य गति से ऊपर उठाएँ। नीचे आना ही असली काम है।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "स्ट्रिप सेट",
+      "aliases": [],
+      "summary": "लगातार कई ड्रॉप: फेल्योर, वज़न घटाओ, फिर फेल्योर, फिर घटाओ, जब तक वज़न खत्म न हो।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "ब्लड फ्लो रेस्ट्रिक्शन",
+      "aliases": [],
+      "summary": "रक्त प्रवाह को आंशिक रूप से रोककर, हल्के वज़न और ज़्यादा रेप्स के साथ ट्रेनिंग।",
+      "full": null,
+      "caution": "दबाव और अवधि तय करने के लिए किसी पेशेवर के सामने मार्गदर्शन ज़रूरी है। साधारण बैंड से खुद प्रयोग न करें।",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "सुपरसेट",
+      "aliases": [],
+      "summary": "दो एक्सरसाइज़ लगातार, बीच में आराम नहीं। आराम जोड़ी पूरी होने के बाद ही।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "तेज़ रेप्स",
+      "aliases": [],
+      "summary": "नियंत्रण के साथ तेज़ गति। ध्यान गति पर है, अधिकतम वज़न पर नहीं।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "तनाव का समय बढ़ाएँ: हर रेप दोनों चरणों में धीमा, ऊपर लॉक किए बिना।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "पूर्ण फेल्योर",
+      "aliases": [],
+      "summary": "तब तक जाएँ जब वज़न किसी भी दिशा में न हिले, नीचे आना भी संभाला न जाए।",
+      "full": null,
+      "caution": "जिन फ्री-वेट व्यायामों में वज़न शरीर या सिर के ऊपर हो, वहाँ स्पॉटर और सेफ्टी पिन के बिना इसका उपयोग न करें।",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "मांसपेशी के आखिरी व्यायाम के सात सेट, 30-45 सेकंड आराम, अधिकतम पंप के लिए।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "शुद्ध शक्ति",
+      "aliases": [],
+      "summary": "भारी वज़न, कम रेप्स, लंबा आराम। लक्ष्य ताकत है, वॉल्यूम नहीं।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "साँस रोकना",
+      "aliases": [],
+      "summary": "गति के एक छोटे हिस्से में साँस रोकें ताकि पेट के अंदर का दबाव बढ़े।",
+      "full": null,
+      "caution": "चक्कर आ सकते हैं और रक्तचाप बढ़ सकता है। हृदय रोग, उच्च रक्तचाप या गर्भावस्था की स्थिति में पहले पेशेवर से सलाह लें।",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "स्लो",
+      "aliases": [],
+      "summary": "दोनों चरणों में धीमी गति, बिना झटके और बिना रुके, तनाव लगातार बनाए रखें।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "वॉर्म-अप",
+      "aliases": [],
+      "summary": "असली सेट से पहले हल्के सेट, जोड़ और मूवमेंट पैटर्न तैयार करने के लिए।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "विस्फोटक कॉन्सेंट्रिक",
+      "aliases": [],
+      "summary": "अधिकतम गति के इरादे से वज़न ऊपर उठाएँ और नियंत्रित रूप से नीचे लाएँ।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "घटता पिरामिड",
+      "aliases": [],
+      "summary": "हर सेट में वज़न घटाएँ और रेप बढ़ाएँ। शुरुआत भारी से।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "पिरामिड",
+      "aliases": [],
+      "summary": "वज़न और रेप्स सेट-दर-सेट बदलते हैं, तय नहीं रहते। बढ़ते या घटते दोनों हो सकते हैं।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "ट्राई-सेट",
+      "aliases": [],
+      "summary": "तीन एक्सरसाइज़ लगातार, बीच में आराम नहीं। आराम तीनों के बाद ही।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "प्रोग्रेसिव ओवरलोड",
+      "aliases": [],
+      "summary": "जब आप रेप रेंज की ऊपरी सीमा छू लें, तो आने वाले हफ़्तों में वज़न बढ़ाएँ।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "आइसोमेट्रिक",
+      "aliases": [],
+      "summary": "बताए गए समय तक स्थिति को स्थिर रखें, न ऊपर उठाएँ न नीचे लाएँ।",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

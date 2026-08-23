@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "ru",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Пиковое сокращение",
+      "aliases": [],
+      "summary": "Задержись на 1-2 с в точке максимального сокращения каждого повторения, сжимая мышцу.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Восходящая пирамида",
+      "aliases": [],
+      "summary": "С каждым подходом вес растёт, а повторения падают. Начинаешь легко, заканчиваешь тяжело.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Концентрический отказ",
+      "aliases": [],
+      "summary": "Повторяй, пока не сможешь поднять вес сам. Останавливайся, когда подъём срывается.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Без фиксированных повторов",
+      "aliases": [],
+      "summary": "Нет чёткого числа повторений. Делай сколько можешь с хорошей техникой в заданном усилии.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Дроп-сет",
+      "aliases": [],
+      "summary": "Дойди до отказа, сразу сбрось 20-30% веса и продолжай без отдыха.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Рест-пауза в один круг: отказ, ~15 с отдыха, ещё один блок с тем же весом.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Повторы в запасе",
+      "aliases": [],
+      "summary": "Останавливайся, когда ещё 1-3 повторения в запасе. Не доводи до отказа.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Кластер",
+      "aliases": [],
+      "summary": "Раздели подход на короткие блоки с паузами 10-20 с, сохраняя большой вес.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "Без остановки",
+      "aliases": [],
+      "summary": "Без пауз между повторениями и без отдыха до конца подхода. Непрерывное движение.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Рест-пауза",
+      "aliases": [],
+      "summary": "Дойди до отказа, отдохни 10-20 с, продолжи с тем же весом. Повтори 2-3 раза.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Прогрессирующее напряжение",
+      "aliases": [],
+      "summary": "Повышай нагрузку каждый подход - вес, время под нагрузкой или амплитуду - не теряя технику.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "Метод 3/7",
+      "aliases": [],
+      "summary": "Пять блоков по 3, 4, 5, 6 и 7 повторений с отдыхом ~15 с, вес одинаковый от начала до конца.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Медленный эксцентрик",
+      "aliases": [],
+      "summary": "Опускай вес медленно (3-5 с) и поднимай в обычном темпе. Важна именно фаза опускания.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Стрип-сет",
+      "aliases": [],
+      "summary": "Несколько дропов подряд: отказ, сбросил, снова отказ, снова сбросил, пока вес не кончится.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Окклюзионный тренинг",
+      "aliases": [],
+      "summary": "Тренировка с частичным ограничением кровотока, малый вес и много повторений.",
+      "full": null,
+      "caution": "Требует очного контроля специалиста для подбора давления и длительности. Не импровизируйте с обычными жгутами.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Суперсет",
+      "aliases": [],
+      "summary": "Два упражнения подряд, без отдыха между ними. Отдых только после пары.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Быстрые повторения",
+      "aliases": [],
+      "summary": "Ускоренный темп с контролем. Акцент на скорости, а не на максимальном весе.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Продлённое время под нагрузкой: каждое повторение медленное в обеих фазах, без блокировки.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Полный отказ",
+      "aliases": [],
+      "summary": "Иди до момента, когда вес не двигается ни в одну сторону и опускание уже не контролируется.",
+      "full": null,
+      "caution": "Не применяйте в свободных упражнениях с весом над телом или головой без страхующего и без ограничителей.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Семь подходов последнего упражнения на группу, отдых 30-45 с, ради максимального пампа.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Чистая сила",
+      "aliases": [],
+      "summary": "Большие веса и мало повторений с длинным отдыхом. Цель - сила, а не объём.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Задержка дыхания",
+      "aliases": [],
+      "summary": "Задержи дыхание на коротком участке движения, чтобы повысить внутрибрюшное давление.",
+      "full": null,
+      "caution": "Может вызвать головокружение и повысить давление. При сердечно-сосудистых заболеваниях, гипертонии или беременности сначала проконсультируйтесь со специалистом.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Медленный темп",
+      "aliases": [],
+      "summary": "Медленное движение в обеих фазах, без рывка и без пауз, с постоянным напряжением.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Разминка",
+      "aliases": [],
+      "summary": "Лёгкие подходы перед рабочими, чтобы подготовить сустав и двигательный паттерн.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Концентрический взрыв",
+      "aliases": [],
+      "summary": "Поднимай вес с максимальным намерением ускорения и опускай под контролем.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Нисходящая пирамида",
+      "aliases": [],
+      "summary": "С каждым подходом вес падает, а повторения растут. Начинаешь тяжело.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Пирамида",
+      "aliases": [],
+      "summary": "Вес и повторения меняются от подхода к подходу, а не остаются постоянными.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Трисет",
+      "aliases": [],
+      "summary": "Три упражнения подряд, без отдыха между ними. Отдых только после всех трёх.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Прогрессия нагрузки",
+      "aliases": [],
+      "summary": "Увеличивай вес по неделям, как только доходишь до верхней границы диапазона повторений.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Изометрия",
+      "aliases": [],
+      "summary": "Удерживай позицию неподвижно, не поднимая и не опуская, заданное время.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "zh-Hans",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "顶峰收缩",
+      "aliases": [],
+      "summary": "每次动作在收缩最强的位置停留1至2秒，夹紧目标肌肉后再返回。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "递增金字塔",
+      "aliases": [],
+      "summary": "每组增加重量、减少次数。从轻开始，以重结束。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "向心力竭",
+      "aliases": [],
+      "summary": "重复到自己再也推不起来为止。上举阶段失败时这组就结束。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "不限次数",
+      "aliases": [],
+      "summary": "没有固定次数。在规定的强度内，用标准动作尽可能多做。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "递减组",
+      "aliases": [],
+      "summary": "做到力竭后立刻减重20%至30%，不休息继续做。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "只做一轮的休息暂停：力竭后休息约15秒，用同样重量再做一组。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "储备次数",
+      "aliases": [],
+      "summary": "在还能再做1至3次时停下。不要做到力竭。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "集群组",
+      "aliases": [],
+      "summary": "把一组拆成几个小段，中间休息10至20秒，保持大重量。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "不停顿",
+      "aliases": [],
+      "summary": "次与次之间不停顿，整组做完前不休息。动作持续不断。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "休息暂停",
+      "aliases": [],
+      "summary": "做到力竭，休息10至20秒，用同样重量继续。重复2到3轮。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "渐进张力",
+      "aliases": [],
+      "summary": "每组提高要求——重量、张力时间或幅度——但不能牺牲动作质量。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "3/7法",
+      "aliases": [],
+      "summary": "3、4、5、6、7次共五段，每段之间休息约15秒，全程使用同一重量。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "慢速离心",
+      "aliases": [],
+      "summary": "用3至5秒缓慢下放，以正常速度举起。下放阶段才是重点。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "剥离组",
+      "aliases": [],
+      "summary": "连续多次递减：力竭、减重、再力竭、再减重，直到重量用尽。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "加压训练",
+      "aliases": [],
+      "summary": "在部分限制血流的状态下，用小重量和高次数训练。",
+      "full": null,
+      "caution": "需要专业人员现场指导来确定压力和时长。不要用普通弹力带自行尝试。",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "超级组",
+      "aliases": [],
+      "summary": "两个动作连续做完，中间不休息。休息安排在这一对之后。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "快速次数",
+      "aliases": [],
+      "summary": "在可控的前提下加快节奏。重点是速度，不是最大重量。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "延长张力时间：每次动作上下两个阶段都放慢，顶端不锁定。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "完全力竭",
+      "aliases": [],
+      "summary": "做到重量朝任何方向都推不动，连下放都控制不住为止。",
+      "full": null,
+      "caution": "不要在重量位于身体或头部上方的自由重量动作上使用，除非有保护者和安全销。",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "该肌群最后一个动作做七组，组间休息30至45秒，追求最大充血。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "纯力量",
+      "aliases": [],
+      "summary": "大重量、低次数、长休息。目标是力量，不是训练量。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "屏气",
+      "aliases": [],
+      "summary": "在动作最吃力的一小段屏住呼吸，提高腹内压。",
+      "full": null,
+      "caution": "可能引起头晕并升高血压。有心血管疾病、高血压或处于孕期的人应先咨询专业人员。",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "慢速",
+      "aliases": [],
+      "summary": "上下两个阶段都放慢，不借力不停顿，保持张力恒定。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "热身",
+      "aliases": [],
+      "summary": "正式组之前的轻重量组，用来准备关节和动作模式。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "爆发向心",
+      "aliases": [],
+      "summary": "以最快加速的意图举起重量，下放时保持控制。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "递减金字塔",
+      "aliases": [],
+      "summary": "每组降低重量、增加次数。从重的开始。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "金字塔",
+      "aliases": [],
+      "summary": "重量和次数在各组之间变化，而不是保持固定。可以递增也可以递减。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "三合组",
+      "aliases": [],
+      "summary": "三个动作连续做完，中间不休息。休息安排在三个动作全部完成之后。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "渐进超负荷",
+      "aliases": [],
+      "summary": "当你达到次数区间的上限时，在接下来的几周里增加重量。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "等长收缩",
+      "aliases": [],
+      "summary": "在规定时间内保持姿势不动，既不上举也不下放。",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "$schema": "boraset.techniques.core.v1",
+  "generated": "2026-08-23",
+  "notes": [
+    "NEUTRO DE IDIOMA. Texto vive em l10n/techniques.<locale>.json."
+  ],
+  "techniques": [
+    {
+      "slug": "contracao-de-pico",
+      "category": "execucao",
+      "occurrences": 409,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "piramide-crescente",
+      "category": "prescricao_carga",
+      "occurrences": 328,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "falha-concentrica",
+      "category": "execucao",
+      "occurrences": 327,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "no-reps",
+      "category": "prescricao_reps",
+      "occurrences": 239,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "drop-set",
+      "category": "execucao",
+      "occurrences": 214,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "1-rest",
+      "category": "execucao",
+      "occurrences": 210,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "repeticoes-de-reserva",
+      "category": "execucao",
+      "occurrences": 167,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "cluster",
+      "category": "execucao",
+      "occurrences": 87,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "no-stop",
+      "category": "execucao",
+      "occurrences": 123,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "rest-pause",
+      "category": "execucao",
+      "occurrences": 81,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "tensao-progressiva",
+      "category": "prescricao_carga",
+      "occurrences": 66,
+      "confidence": "media",
+      "has_caution": false
+    },
+    {
+      "slug": "3-a-7",
+      "category": "prescricao_reps",
+      "occurrences": 58,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "excentrica-lenta",
+      "category": "execucao",
+      "occurrences": 53,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "strip-set",
+      "category": "execucao",
+      "occurrences": 53,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "oclusao",
+      "category": "execucao",
+      "occurrences": 52,
+      "confidence": "alta",
+      "has_caution": true
+    },
+    {
+      "slug": "bi-set",
+      "category": "estrutura_sessao",
+      "occurrences": 44,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "repeticoes-rapidas",
+      "category": "execucao",
+      "occurrences": 36,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "m-tut",
+      "category": "execucao",
+      "occurrences": 40,
+      "confidence": "confirmar",
+      "has_caution": false
+    },
+    {
+      "slug": "falha-total",
+      "category": "execucao",
+      "occurrences": 21,
+      "confidence": "alta",
+      "has_caution": true
+    },
+    {
+      "slug": "fst-7",
+      "category": "estrutura_sessao",
+      "occurrences": 20,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "forca-pura",
+      "category": "prescricao_carga",
+      "occurrences": 14,
+      "confidence": "media",
+      "has_caution": false
+    },
+    {
+      "slug": "apneia",
+      "category": "execucao",
+      "occurrences": 12,
+      "confidence": "alta",
+      "has_caution": true
+    },
+    {
+      "slug": "slow",
+      "category": "execucao",
+      "occurrences": 7,
+      "confidence": "media",
+      "has_caution": false
+    },
+    {
+      "slug": "aquecimento",
+      "category": "fase_sessao",
+      "occurrences": 6,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "explosao-concentrica",
+      "category": "execucao",
+      "occurrences": 5,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "piramide-decrescente",
+      "category": "prescricao_carga",
+      "occurrences": 5,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "piramidal",
+      "category": "prescricao_carga",
+      "occurrences": 2,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "tri-set",
+      "category": "estrutura_sessao",
+      "occurrences": 2,
+      "confidence": "alta",
+      "has_caution": false
+    },
+    {
+      "slug": "carga-progressiva",
+      "category": "prescricao_carga",
+      "occurrences": 2,
+      "confidence": "media",
+      "has_caution": false
+    },
+    {
+      "slug": "isometria",
+      "category": "execucao",
+      "occurrences": 1,
+      "confidence": "alta",
+      "has_caution": false
+    }
+  ]
+}

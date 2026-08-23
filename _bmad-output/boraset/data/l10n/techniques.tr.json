@@ -1,0 +1,250 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "tr",
+  "needs_native_review": true,
+  "notes": [
+    "aliases vazios de proposito: alias e vocabulario local de academia, nao traducao. Preencher com revisor nativo."
+  ],
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Zirve Kasılma",
+      "aliases": [],
+      "summary": "Her tekrarın en çok kasıldığı noktada 1-2 saniye bekle, geri dönmeden önce kası sık.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Artan Piramit",
+      "aliases": [],
+      "summary": "Her sette ağırlığı artırır, tekrarı azaltırsın. Hafif başlar, ağır bitirirsin.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Konsantrik Tükeniş",
+      "aliases": [],
+      "summary": "Ağırlığı kendi başına kaldıramayana kadar tekrarla. Kaldırma fazı yetmediğinde dur.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "Sabit Tekrar Yok",
+      "aliases": [],
+      "summary": "Sabit tekrar sayısı yok. İstenen zorlanma içinde, tekniği bozmadan yapabildiğin kadar yap.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Tükenişe git, ağırlığın %20-30'unu anında düşür ve dinlenmeden devam et.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [],
+      "summary": "Tek turluk rest-pause: tükeniş, ~15 saniye ara, aynı ağırlıkla bir blok daha.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Yedekte Tekrar",
+      "aliases": [],
+      "summary": "Hâlâ 1-3 tekrar yapabilecekken bırak. Tükenişe gitme.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster",
+      "aliases": [],
+      "summary": "Seti kısa bloklara böl, aralarında 10-20 saniye mola ver, ağırlığı yüksek tut.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [],
+      "summary": "Tekrarlar arasında duraklama yok, set bitene kadar dinlenme yok. Kesintisiz hareket.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Tükenişe git, 10-20 saniye dinlen, aynı ağırlıkla devam et. 2-3 kez tekrarla.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Artan Gerilim",
+      "aliases": [],
+      "summary": "Her sette zorluğu artır - ağırlık, gerilim süresi ya da hareket açıklığı - tekniği bozmadan.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "3/7 Yöntemi",
+      "aliases": [],
+      "summary": "3, 4, 5, 6 ve 7 tekrarlık beş blok, aralarında ~15 saniye mola, baştan sona aynı ağırlık.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Yavaş Eksantrik",
+      "aliases": [],
+      "summary": "Ağırlığı yavaşça indir (3-5 saniye), normal hızda kaldır. Önemli olan iniş fazı.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [],
+      "summary": "Arka arkaya birkaç drop: tükeniş, ağırlık düşür, yine tükeniş, yine düşür, ağırlık bitene kadar.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Oklüzyon",
+      "aliases": [],
+      "summary": "Kan akışının kısmen kısıtlandığı, düşük ağırlık ve yüksek tekrarlı antrenman.",
+      "full": null,
+      "caution": "Basınç ve süre ayarı için uzman eşliğinde uygulanmalıdır. Sıradan bantlarla doğaçlama yapmayın.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Süper Set",
+      "aliases": [],
+      "summary": "İki hareket arka arkaya, aralarında dinlenme yok. Dinlenme çiftten sonra gelir.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Hızlı Tekrarlar",
+      "aliases": [],
+      "summary": "Kontrollü ama hızlı tempo. Odak hızda, maksimum ağırlıkta değil.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [],
+      "summary": "Uzatılmış gerilim süresi: her tekrar iki fazda da yavaş, tepede kilitlenmeden.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Tam Tükeniş",
+      "aliases": [],
+      "summary": "Ağırlığı hiçbir yöne hareket ettiremeyene, inişi bile kontrol edemeyene kadar devam et.",
+      "full": null,
+      "caution": "Ağırlığın vücudun ya da başın üzerinde olduğu serbest hareketlerde, spotter ve güvenlik pimi olmadan kullanmayın.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [],
+      "summary": "Kas grubunun son hareketinde yedi set, 30-45 saniye mola, maksimum pompa için.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Saf Kuvvet",
+      "aliases": [],
+      "summary": "Ağır yükler, az tekrar, uzun dinlenme. Hedef kuvvet, hacim değil.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Nefes Tutma",
+      "aliases": [],
+      "summary": "Hareketin kısa bir bölümünde nefesini tut, karın içi basıncı artırmak için.",
+      "full": null,
+      "caution": "Baş dönmesine ve tansiyon yükselmesine yol açabilir. Kalp-damar rahatsızlığı, hipertansiyon veya gebelik durumunda önce uzmana danışın.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [],
+      "summary": "İki fazda da yavaş hareket, savurma yok, duraklama yok, gerilim sabit.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Isınma",
+      "aliases": [],
+      "summary": "Asıl setlerden önce hafif setler; eklemi ve hareket kalıbını hazırlamak için.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Konsantrik Patlama",
+      "aliases": [],
+      "summary": "Ağırlığı maksimum hızlanma niyetiyle kaldır, kontrollü indir.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Azalan Piramit",
+      "aliases": [],
+      "summary": "Her sette ağırlığı düşürür, tekrarı artırırsın. Ağır başlarsın.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Piramit",
+      "aliases": [],
+      "summary": "Ağırlık ve tekrar setler arasında sabit kalmaz, değişir. Artan ya da azalan olabilir.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [],
+      "summary": "Üç hareket arka arkaya, aralarında dinlenme yok. Dinlenme üçünden sonra gelir.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Artan Yüklenme",
+      "aliases": [],
+      "summary": "Tekrar aralığının üst sınırına ulaştıkça haftalar içinde ağırlığı artır.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "İzometrik",
+      "aliases": [],
+      "summary": "Pozisyonu sabit tut, ne kaldır ne indir, belirtilen süre boyunca.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}

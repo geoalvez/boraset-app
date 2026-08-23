@@ -1,0 +1,294 @@
+{
+  "$schema": "boraset.techniques.l10n.v1",
+  "locale": "en",
+  "topics": {
+    "contracao-de-pico": {
+      "name": "Peak Contraction",
+      "aliases": [
+        "Squeeze"
+      ],
+      "summary": "Hold 1-2s at the point of peak contraction on every rep, squeezing before you release.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-crescente": {
+      "name": "Ascending Pyramid",
+      "aliases": [
+        "Pyramid"
+      ],
+      "summary": "Add weight and drop reps on every set. Start light, finish heavy.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-concentrica": {
+      "name": "Concentric Failure",
+      "aliases": [],
+      "summary": "Rep out until you can no longer lift the weight on your own. Stop when the lift fails.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-reps": {
+      "name": "No Reps",
+      "aliases": [
+        "Open reps"
+      ],
+      "summary": "No fixed rep target. Do what you can with good form, within the prescribed effort.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "drop-set": {
+      "name": "Drop Set",
+      "aliases": [],
+      "summary": "Reach failure, strip 20-30% of the weight immediately, and keep going with no rest.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "1-rest": {
+      "name": "1 Rest",
+      "aliases": [
+        "Single rest-pause"
+      ],
+      "summary": "Rest-pause with a single round: hit failure, rest ~15s, do one more block at the same weight.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-de-reserva": {
+      "name": "Reps in Reserve",
+      "aliases": [
+        "RIR"
+      ],
+      "summary": "Stop with 1-3 reps still in the tank. Do not go to failure.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "cluster": {
+      "name": "Cluster Set",
+      "aliases": [],
+      "summary": "Break the set into short blocks with 10-20s pauses between them, keeping the load heavy.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "no-stop": {
+      "name": "No-Stop",
+      "aliases": [
+        "Non-Stop"
+      ],
+      "summary": "No pause between reps and no rest until the set is done. Continuous movement.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "rest-pause": {
+      "name": "Rest-Pause",
+      "aliases": [],
+      "summary": "Go to failure, rest 10-20s, resume at the same weight. Repeat 2-3 times.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tensao-progressiva": {
+      "name": "Progressive Tension",
+      "aliases": [],
+      "summary": "Raise the demand each set - load, time under tension, or range - without losing form.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "3-a-7": {
+      "name": "3/7 Method",
+      "aliases": [
+        "3 to 7"
+      ],
+      "summary": "Five blocks of 3, 4, 5, 6 and 7 reps with ~15s rest between them, same weight throughout.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "excentrica-lenta": {
+      "name": "Slow Eccentric",
+      "aliases": [
+        "Slow negative"
+      ],
+      "summary": "Lower the weight slowly (3-5s) and lift at normal speed. The descent is what counts.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "strip-set": {
+      "name": "Strip Set",
+      "aliases": [
+        "Descending set"
+      ],
+      "summary": "Several drops back to back: fail, strip, fail again, strip again, until the weight runs out.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "oclusao": {
+      "name": "Blood Flow Restriction",
+      "aliases": [
+        "BFR",
+        "Occlusion"
+      ],
+      "summary": "Training with partial blood flow restriction, light load and high reps.",
+      "full": null,
+      "caution": "Requires in-person guidance from a professional to set cuff pressure and duration. Do not improvise with generic bands.",
+      "status": "summary_only"
+    },
+    "bi-set": {
+      "name": "Superset",
+      "aliases": [
+        "Bi-Set"
+      ],
+      "summary": "Two exercises back to back with no rest between them. Rest comes only after the pair.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "repeticoes-rapidas": {
+      "name": "Fast Reps",
+      "aliases": [
+        "Speed reps"
+      ],
+      "summary": "Accelerated tempo with control. Focus on speed, not maximum load.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "m-tut": {
+      "name": "M-TUT",
+      "aliases": [
+        "Max Time Under Tension"
+      ],
+      "summary": "Extended time under tension: every rep is slow in both phases, with no lockout.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "falha-total": {
+      "name": "Total Failure",
+      "aliases": [
+        "Absolute failure"
+      ],
+      "summary": "Go until you cannot move the weight in any direction, not even control the descent.",
+      "full": null,
+      "caution": "Do not use on free-weight movements with the load over your body or head without a spotter and safety pins.",
+      "status": "summary_only"
+    },
+    "fst-7": {
+      "name": "FST-7",
+      "aliases": [
+        "Fascial Stretch Training"
+      ],
+      "summary": "Seven sets of the last exercise for the muscle, 30-45s rest, chasing maximum pump.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "forca-pura": {
+      "name": "Pure Strength",
+      "aliases": [
+        "Max strength"
+      ],
+      "summary": "Heavy loads and low reps with long rest. Focus on strength, not volume.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "apneia": {
+      "name": "Breath Hold",
+      "aliases": [
+        "Apnea",
+        "Valsalva"
+      ],
+      "summary": "Hold your breath through a short stretch of the movement to raise intra-abdominal pressure.",
+      "full": null,
+      "caution": "Can cause dizziness and raise blood pressure. Anyone with a cardiovascular condition, hypertension, or who is pregnant should consult a professional first.",
+      "status": "summary_only"
+    },
+    "slow": {
+      "name": "Slow",
+      "aliases": [
+        "Slow tempo"
+      ],
+      "summary": "Slow movement in both phases, no momentum and no pause, holding constant tension.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "aquecimento": {
+      "name": "Warm-Up",
+      "aliases": [],
+      "summary": "Light sets before the working sets, to prepare the joint and the movement pattern.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "explosao-concentrica": {
+      "name": "Concentric Explosion",
+      "aliases": [
+        "Explosive concentric"
+      ],
+      "summary": "Lift with maximum intent to accelerate and lower under control.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramide-decrescente": {
+      "name": "Descending Pyramid",
+      "aliases": [
+        "Reverse pyramid"
+      ],
+      "summary": "Drop weight and add reps on every set. Start heavy.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "piramidal": {
+      "name": "Pyramid",
+      "aliases": [],
+      "summary": "Load and reps vary across sets instead of staying fixed. Can be ascending or descending.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "tri-set": {
+      "name": "Tri-Set",
+      "aliases": [
+        "Triset"
+      ],
+      "summary": "Three exercises back to back with no rest. Rest comes only after all three.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "carga-progressiva": {
+      "name": "Progressive Overload",
+      "aliases": [
+        "Progressive loading"
+      ],
+      "summary": "Increase the load across weeks as you reach the top of the rep range.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    },
+    "isometria": {
+      "name": "Isometric Hold",
+      "aliases": [
+        "Isometrics"
+      ],
+      "summary": "Hold the position still, neither lifting nor lowering, for the prescribed time.",
+      "full": null,
+      "caution": null,
+      "status": "summary_only"
+    }
+  }
+}
